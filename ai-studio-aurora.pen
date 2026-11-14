@@ -2174,7 +2174,7 @@
                               "type": "frame",
                               "id": "tE1Je",
                               "name": "Сообщение пользователя / поверхность",
-                              "width": 440,
+                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -2182,20 +2182,18 @@
                                 6,
                                 20
                               ],
-                              "layout": "vertical",
-                              "gap": 4,
+                              "gap": 8,
                               "padding": [
-                                8,
+                                4,
                                 12
                               ],
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "IRPyk",
+                                  "id": "dgKCH",
                                   "name": "Запрос",
                                   "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
@@ -2204,14 +2202,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "P6LxkO",
+                                  "id": "DxowD",
                                   "name": "Время запроса",
                                   "fill": "$aurora.muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "14:02",
                                   "lineHeight": 1.3333333333333333,
-                                  "textAlign": "right",
                                   "fontFamily": "$aurora.font",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -10234,7 +10229,7 @@
                               "type": "frame",
                               "id": "MzOqY",
                               "name": "Сообщение пользователя / поверхность",
-                              "width": 440,
+                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -10242,20 +10237,18 @@
                                 6,
                                 20
                               ],
-                              "layout": "vertical",
-                              "gap": 4,
+                              "gap": 8,
                               "padding": [
-                                8,
+                                4,
                                 12
                               ],
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "a3CGrY",
+                                  "id": "inTsp",
                                   "name": "Запрос",
                                   "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
@@ -10264,14 +10257,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "g147l",
+                                  "id": "M7GOh",
                                   "name": "Время запроса",
                                   "fill": "$aurora.muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "14:02",
                                   "lineHeight": 1.3333333333333333,
-                                  "textAlign": "right",
                                   "fontFamily": "$aurora.font",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -13048,7 +13038,7 @@
                               "type": "frame",
                               "id": "EXKJt",
                               "name": "Сообщение пользователя / поверхность",
-                              "width": 440,
+                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -13056,20 +13046,18 @@
                                 6,
                                 20
                               ],
-                              "layout": "vertical",
-                              "gap": 4,
+                              "gap": 8,
                               "padding": [
-                                8,
+                                4,
                                 12
                               ],
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "TQKIU",
+                                  "id": "yVylJ",
                                   "name": "Запрос",
                                   "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
@@ -13078,14 +13066,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "qtVm0",
+                                  "id": "hJ8IM",
                                   "name": "Время запроса",
                                   "fill": "$aurora.muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "14:02",
                                   "lineHeight": 1.3333333333333333,
-                                  "textAlign": "right",
                                   "fontFamily": "$aurora.font",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -15890,7 +15875,7 @@
                               "type": "frame",
                               "id": "sZjQl",
                               "name": "Сообщение пользователя / поверхность",
-                              "width": 440,
+                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -15898,20 +15883,18 @@
                                 6,
                                 20
                               ],
-                              "layout": "vertical",
-                              "gap": 4,
+                              "gap": 8,
                               "padding": [
-                                8,
+                                4,
                                 12
                               ],
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "gjzGD",
+                                  "id": "LtC92",
                                   "name": "Запрос",
                                   "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
@@ -15920,14 +15903,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "xMzqV",
+                                  "id": "KRKsK",
                                   "name": "Время запроса",
                                   "fill": "$aurora.muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "14:02",
                                   "lineHeight": 1.3333333333333333,
-                                  "textAlign": "right",
                                   "fontFamily": "$aurora.font",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -21750,7 +21730,7 @@
                               "type": "frame",
                               "id": "flAnm",
                               "name": "Сообщение пользователя / поверхность",
-                              "width": 440,
+                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -21758,20 +21738,18 @@
                                 6,
                                 20
                               ],
-                              "layout": "vertical",
-                              "gap": 4,
+                              "gap": 8,
                               "padding": [
-                                8,
+                                4,
                                 12
                               ],
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "h6g72K",
+                                  "id": "ObRkp",
                                   "name": "Запрос",
                                   "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
@@ -21780,14 +21758,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "UkHmi",
+                                  "id": "BugIQ",
                                   "name": "Время запроса",
                                   "fill": "$aurora.muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
                                   "content": "14:02",
                                   "lineHeight": 1.3333333333333333,
-                                  "textAlign": "right",
                                   "fontFamily": "$aurora.font",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
