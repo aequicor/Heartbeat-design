@@ -49203,7 +49203,7 @@
                                   "id": "K1adX",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 348,
+                                  "height": 342,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49307,7 +49307,7 @@
                                               "padding": 12
                                             },
                                             "TxCJd": {
-                                              "height": 24
+                                              "height": 20
                                             },
                                             "qW5nX": {
                                               "icon": "file-text"
@@ -49317,16 +49317,16 @@
                                             },
                                             "r5qJm": {
                                               "content": "Читаю контракт сессии",
-                                              "fontSize": 16,
-                                              "lineHeight": 1.5
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
                                             },
                                             "PVuWe": {
                                               "content": "Готово · session-contract.md",
-                                              "fontSize": 13,
-                                              "lineHeight": 1.3846153846153846
+                                              "fontSize": 12,
+                                              "lineHeight": 1.3333333333333333
                                             },
                                             "u3qy9": {
-                                              "height": 24
+                                              "height": 20
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-down"
@@ -50570,9 +50570,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Читаю контракт сессии",
-                          "lineHeight": 1.4285714285714286,
+                          "lineHeight": 1.5384615384615385,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 14,
+                          "fontSize": 13,
                           "fontWeight": "normal"
                         },
                         {
@@ -50726,9 +50726,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Думает...",
-                          "lineHeight": 1.4285714285714286,
+                          "lineHeight": 1.5384615384615385,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 14,
+                          "fontSize": 13,
                           "fontWeight": "normal"
                         },
                         {
@@ -70321,22 +70321,22 @@
                       "padding": 12
                     },
                     "Eymjb": {
-                      "height": 24
+                      "height": 20
                     },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
                       "content": "Думает...",
-                      "fontSize": 16,
-                      "lineHeight": 1.5
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
-                      "fontSize": 13,
-                      "lineHeight": 1.3846153846153846
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
                     },
                     "vyDlH": {
-                      "height": 24
+                      "height": 20
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70394,22 +70394,22 @@
                       "padding": 12
                     },
                     "Eymjb": {
-                      "height": 24
+                      "height": 20
                     },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
                       "content": "Думает...",
-                      "fontSize": 16,
-                      "lineHeight": 1.5
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
-                      "fontSize": 13,
-                      "lineHeight": 1.3846153846153846
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
                     },
                     "vyDlH": {
-                      "height": 24
+                      "height": 20
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70458,22 +70458,22 @@
                       "padding": 12
                     },
                     "Eymjb": {
-                      "height": 24
+                      "height": 20
                     },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
                       "content": "Размышления",
-                      "fontSize": 16,
-                      "lineHeight": 1.5
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
-                      "fontSize": 13,
-                      "lineHeight": 1.3846153846153846
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
                     },
                     "vyDlH": {
-                      "height": 24
+                      "height": 20
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70531,22 +70531,22 @@
                       "padding": 12
                     },
                     "Eymjb": {
-                      "height": 24
+                      "height": 20
                     },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
-                      "fontSize": 16,
-                      "lineHeight": 1.5
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
                       "content": "Сопоставляю состояния отмены…",
-                      "fontSize": 13,
-                      "lineHeight": 1.3846153846153846
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
                     },
                     "vyDlH": {
-                      "height": 24
+                      "height": 20
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70712,23 +70712,23 @@
                       "padding": 12
                     },
                     "Eymjb": {
-                      "height": 24
+                      "height": 20
                     },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
                       "content": "Размышления прерваны",
-                      "fontSize": 16,
-                      "lineHeight": 1.5
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
                       "content": "Сопоставляю состояния отмены…",
-                      "fontSize": 13,
-                      "lineHeight": 1.3846153846153846
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
                     },
                     "vyDlH": {
-                      "height": 24
+                      "height": 20
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
