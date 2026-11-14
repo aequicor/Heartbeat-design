@@ -31061,7 +31061,7 @@
                       "name": "Мягкая маска / читаемая область",
                       "clip": true,
                       "width": 1156,
-                      "height": 720,
+                      "height": 600,
                       "layout": "none",
                       "children": [
                         {
@@ -31085,7 +31085,7 @@
                       "type": "frame",
                       "id": "faoJc",
                       "x": 0,
-                      "y": 808,
+                      "y": 688,
                       "name": "Мягкая маска / низ 1",
                       "clip": true,
                       "width": 1156,
@@ -31098,7 +31098,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 1",
                           "x": 238,
-                          "y": -700,
+                          "y": -580,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31116,7 +31116,7 @@
                       "type": "frame",
                       "id": "kEZl7",
                       "x": 0,
-                      "y": 810,
+                      "y": 690,
                       "name": "Мягкая маска / низ 2",
                       "clip": true,
                       "width": 1156,
@@ -31129,7 +31129,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 2",
                           "x": 238,
-                          "y": -702,
+                          "y": -582,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31147,7 +31147,7 @@
                       "type": "frame",
                       "id": "j6fSqp",
                       "x": 0,
-                      "y": 812,
+                      "y": 692,
                       "name": "Мягкая маска / низ 3",
                       "clip": true,
                       "width": 1156,
@@ -31160,7 +31160,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 3",
                           "x": 238,
-                          "y": -704,
+                          "y": -584,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31178,7 +31178,7 @@
                       "type": "frame",
                       "id": "Kyeky",
                       "x": 0,
-                      "y": 814,
+                      "y": 694,
                       "name": "Мягкая маска / низ 4",
                       "clip": true,
                       "width": 1156,
@@ -31191,7 +31191,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 4",
                           "x": 238,
-                          "y": -706,
+                          "y": -586,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31209,7 +31209,7 @@
                       "type": "frame",
                       "id": "XtjAE",
                       "x": 0,
-                      "y": 816,
+                      "y": 696,
                       "name": "Мягкая маска / низ 5",
                       "clip": true,
                       "width": 1156,
@@ -31222,7 +31222,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 5",
                           "x": 238,
-                          "y": -708,
+                          "y": -588,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31240,7 +31240,7 @@
                       "type": "frame",
                       "id": "ZuXn9",
                       "x": 0,
-                      "y": 818,
+                      "y": 698,
                       "name": "Мягкая маска / низ 6",
                       "clip": true,
                       "width": 1156,
@@ -31253,7 +31253,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 6",
                           "x": 238,
-                          "y": -710,
+                          "y": -590,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31271,7 +31271,7 @@
                       "type": "frame",
                       "id": "A4b8Cj",
                       "x": 0,
-                      "y": 820,
+                      "y": 700,
                       "name": "Мягкая маска / низ 7",
                       "clip": true,
                       "width": 1156,
@@ -31284,7 +31284,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 7",
                           "x": 238,
-                          "y": -712,
+                          "y": -592,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31302,7 +31302,7 @@
                       "type": "frame",
                       "id": "MYrSe",
                       "x": 0,
-                      "y": 822,
+                      "y": 702,
                       "name": "Мягкая маска / низ 8",
                       "clip": true,
                       "width": 1156,
@@ -31315,7 +31315,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 8",
                           "x": 238,
-                          "y": -714,
+                          "y": -594,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31333,7 +31333,7 @@
                       "type": "frame",
                       "id": "W5BdU",
                       "x": 0,
-                      "y": 824,
+                      "y": 704,
                       "name": "Мягкая маска / низ 9",
                       "clip": true,
                       "width": 1156,
@@ -31346,7 +31346,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 9",
                           "x": 238,
-                          "y": -716,
+                          "y": -596,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31364,7 +31364,7 @@
                       "type": "frame",
                       "id": "E65888",
                       "x": 0,
-                      "y": 826,
+                      "y": 706,
                       "name": "Мягкая маска / низ 10",
                       "clip": true,
                       "width": 1156,
@@ -31377,7 +31377,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 10",
                           "x": 238,
-                          "y": -718,
+                          "y": -598,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31395,7 +31395,7 @@
                       "type": "frame",
                       "id": "M17Bw",
                       "x": 0,
-                      "y": 828,
+                      "y": 708,
                       "name": "Мягкая маска / низ 11",
                       "clip": true,
                       "width": 1156,
@@ -31408,7 +31408,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 11",
                           "x": 238,
-                          "y": -720,
+                          "y": -600,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31426,7 +31426,7 @@
                       "type": "frame",
                       "id": "z6Y9KE",
                       "x": 0,
-                      "y": 830,
+                      "y": 710,
                       "name": "Мягкая маска / низ 12",
                       "clip": true,
                       "width": 1156,
@@ -31439,7 +31439,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 12",
                           "x": 238,
-                          "y": -722,
+                          "y": -602,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31457,7 +31457,7 @@
                       "type": "frame",
                       "id": "x8FTt",
                       "x": 0,
-                      "y": 832,
+                      "y": 712,
                       "name": "Мягкая маска / низ 13",
                       "clip": true,
                       "width": 1156,
@@ -31470,7 +31470,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 13",
                           "x": 238,
-                          "y": -724,
+                          "y": -604,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31488,7 +31488,7 @@
                       "type": "frame",
                       "id": "JOqL8",
                       "x": 0,
-                      "y": 834,
+                      "y": 714,
                       "name": "Мягкая маска / низ 14",
                       "clip": true,
                       "width": 1156,
@@ -31501,7 +31501,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 14",
                           "x": 238,
-                          "y": -726,
+                          "y": -606,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31519,7 +31519,7 @@
                       "type": "frame",
                       "id": "C6ylE6",
                       "x": 0,
-                      "y": 836,
+                      "y": 716,
                       "name": "Мягкая маска / низ 15",
                       "clip": true,
                       "width": 1156,
@@ -31532,7 +31532,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 15",
                           "x": 238,
-                          "y": -728,
+                          "y": -608,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31550,7 +31550,7 @@
                       "type": "frame",
                       "id": "pzjmL",
                       "x": 0,
-                      "y": 838,
+                      "y": 718,
                       "name": "Мягкая маска / низ 16",
                       "clip": true,
                       "width": 1156,
@@ -31563,7 +31563,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / низ 16",
                           "x": 238,
-                          "y": -730,
+                          "y": -610,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31581,11 +31581,11 @@
                       "type": "frame",
                       "id": "l8Yu4l",
                       "x": 0,
-                      "y": 840,
+                      "y": 720,
                       "name": "Мягкая маска / нижняя глубина",
                       "clip": true,
                       "width": 1156,
-                      "height": 40,
+                      "height": 160,
                       "layout": "none",
                       "children": [
                         {
@@ -31594,7 +31594,7 @@
                           "ref": "rVBvj",
                           "name": "Сообщения / нижняя глубина",
                           "x": 238,
-                          "y": -732,
+                          "y": -612,
                           "width": 680,
                           "effect": {
                             "type": "blur",
@@ -31617,7 +31617,7 @@
                   "x": 0,
                   "y": 40,
                   "name": "Лента до нижнего края / поле поверх истории",
-                  "context": "Фон неподвижен. Лента проходит за полем ввода. Нижний запас прокрутки равен полной высоте плавающего ввода плюс 16. Кадр показывает последний ответ над полем.",
+                  "context": "Закреплённая область ответа заменяет ввод. Нижний запас истории: высота опросника плюс 16. История прокручивается независимо.",
                   "clip": true,
                   "width": 1156,
                   "height": 840,
@@ -31978,18 +31978,21 @@
                       "type": "frame",
                       "id": "mi7HU",
                       "x": 198,
-                      "y": 768,
-                      "name": "Плавающий ввод / поверх истории",
-                      "context": "Только вложения, текст и Send/Stop. Настройки выполнения и контекст перенесены наверх. Нижний запас ленты: фактическая высота ввода и вложений плюс 16.",
+                      "y": 648,
+                      "name": "Область ответа / опросник вместо ввода",
+                      "context": "Любой запрос ответа заменяет composer: разрешение, уточнение, выбор. Черновик и вложения сохранены. После подтверждения вернуть ввод. При отправке блокировать повтор; при ошибке оставить вопрос и повтор в этой области.",
                       "width": 760,
                       "layout": "vertical",
                       "children": [
                         {
                           "type": "frame",
                           "id": "CMY4e",
+                          "x": 0,
+                          "y": 0,
                           "name": "Спокойная поверхность компактного ввода",
                           "context": "Светлая поверхность с лёгким зелёным оттенком. Без постоянной цветной обводки и свечения. Клавиатурный focus-visible показывается отдельно при реализации.",
-                          "width": "fill_container",
+                          "enabled": false,
+                          "width": "fill_container(760)",
                           "height": 56,
                           "fill": "#F6F9F0F2",
                           "cornerRadius": 24,
@@ -32070,6 +32073,144 @@
                                   "type": "ref",
                                   "ref": "PtiEY",
                                   "name": "Отправить"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n0ECTK",
+                          "name": "Доверенный запрос разрешения",
+                          "context": "Закреплённый запрос приложения вместо ввода. Не часть истории и не Markdown агента. Разрешение только после явного выбора. До подтверждения остаётся на месте.",
+                          "width": "fill_container",
+                          "height": 176,
+                          "fill": "#FEFDFC",
+                          "cornerRadius": 16,
+                          "stroke": "#9A783D",
+                          "strokeWidth": 1,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#20212424",
+                            "offset": {
+                              "x": 0,
+                              "y": 5
+                            },
+                            "blur": 14
+                          },
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DXGgG",
+                              "name": "Запрос решения",
+                              "fill": "$aurora.ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Разрешить запуск проверки?",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lS7RM",
+                              "name": "Действие и цель",
+                              "fill": "$aurora.ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Субагент «Проверка контрактов» · проект Heartbeat",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 16
+                            },
+                            {
+                              "type": "text",
+                              "id": "J72tY7",
+                              "name": "Аргументы запуска",
+                              "fill": "$aurora.ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": ":features:aistudio:desktopTest",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Roboto Mono",
+                              "fontSize": 14
+                            },
+                            {
+                              "type": "text",
+                              "id": "iObJA",
+                              "name": "Область решения",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Разрешение действует только на этот запуск",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qY7oH",
+                              "name": "Действия решения",
+                              "height": 32,
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "EoywN",
+                                  "name": "Разрешить один раз",
+                                  "height": 32,
+                                  "fill": "$aurora.primary",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    12
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "MsTbv",
+                                      "name": "Разрешить один раз / подпись",
+                                      "fill": "#FFFFFF",
+                                      "content": "Разрешить один раз",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "bMicU",
+                                  "name": "Отклонить",
+                                  "height": 32,
+                                  "fill": "#F4F2F5",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    12
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "pVTXa",
+                                      "name": "Отклонить / подпись",
+                                      "fill": "$aurora.ink",
+                                      "content": "Отклонить",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -45366,133 +45507,6 @@
                               "fill": "$aurora.muted"
                             }
                           ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "n0ECTK",
-              "name": "Доверенный запрос разрешения",
-              "context": "Элемент приложения, не Markdown агента. Действие запускается только после решения. После решения кнопки становятся недоступны.",
-              "width": 680,
-              "fill": "#FEFDFC",
-              "cornerRadius": 16,
-              "stroke": "#9A783D",
-              "strokeWidth": 1,
-              "layout": "vertical",
-              "gap": 8,
-              "padding": [
-                12,
-                16
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "DXGgG",
-                  "name": "Запрос решения",
-                  "fill": "$aurora.ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Разрешить запуск проверки?",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 16,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "text",
-                  "id": "lS7RM",
-                  "name": "Действие и цель",
-                  "fill": "$aurora.ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Субагент «Проверка контрактов» · проект Heartbeat",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 16
-                },
-                {
-                  "type": "text",
-                  "id": "J72tY7",
-                  "name": "Аргументы запуска",
-                  "fill": "$aurora.ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": ":features:aistudio:desktopTest",
-                  "lineHeight": 1.5,
-                  "fontFamily": "Roboto Mono",
-                  "fontSize": 14
-                },
-                {
-                  "type": "text",
-                  "id": "iObJA",
-                  "name": "Область решения",
-                  "fill": "$aurora.muted",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Разрешение действует только на этот запуск",
-                  "lineHeight": 1.3846153846153846,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 13
-                },
-                {
-                  "type": "frame",
-                  "id": "qY7oH",
-                  "name": "Действия решения",
-                  "height": 32,
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "EoywN",
-                      "name": "Разрешить один раз",
-                      "height": 32,
-                      "fill": "$aurora.primary",
-                      "cornerRadius": 8,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "MsTbv",
-                          "name": "Разрешить один раз / подпись",
-                          "fill": "#FFFFFF",
-                          "content": "Разрешить один раз",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "bMicU",
-                      "name": "Отклонить",
-                      "height": 32,
-                      "fill": "#F4F2F5",
-                      "cornerRadius": 8,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "pVTXa",
-                          "name": "Отклонить / подпись",
-                          "fill": "$aurora.ink",
-                          "content": "Отклонить",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
                         }
                       ]
                     }
@@ -70857,8 +70871,8 @@
             {
               "type": "frame",
               "id": "wnH3R",
-              "name": "Запрос решения / не скрывать при промежуточном ответе",
-              "context": "Запрос остаётся видимым до решения, даже если пришёл промежуточный ответ. Не прятать внутри истории.",
+              "name": "Опросник / вместо поля ввода",
+              "context": "Образец содержимого нижней закреплённой области. Заменяет обычный composer. В историю активный запрос не вставляется; не скрывается при промежуточном результате или финальном сворачивании.",
               "width": 676,
               "fill": "#FEFDFC",
               "cornerRadius": 16,
@@ -72085,6 +72099,894 @@
                     },
                     "V4h3K": {
                       "content": "Сопоставляю состояния отмены с повторной отправкой."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "mS0Di",
+      "x": 3520,
+      "y": 1960,
+      "name": "20 / Опросник вместо ввода / Android",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$aurora.canvas",
+      "layout": "vertical",
+      "padding": 8,
+      "children": [
+        {
+          "type": "frame",
+          "id": "TA0tc",
+          "name": "Контур мобильного чата",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 128,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#CBB6F6",
+                "position": 0
+              },
+              {
+                "color": "#E6DBF6",
+                "position": 0.27
+              },
+              {
+                "color": "#C2E3CC",
+                "position": 0.56
+              },
+              {
+                "color": "#C6E8EB",
+                "position": 0.76
+              },
+              {
+                "color": "#F5D3E0",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": 2,
+          "children": [
+            {
+              "type": "frame",
+              "id": "I8cV7",
+              "name": "Поверхность мобильного чата",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "mesh_gradient",
+                "enabled": true,
+                "columns": 2,
+                "rows": 2,
+                "colors": [
+                  "$aurora.chat.sage",
+                  "$aurora.chat.apple",
+                  "$aurora.chat.pearlGreen",
+                  "$aurora.chat.eucalyptus"
+                ],
+                "points": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              "cornerRadius": 22,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U93FGn",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Фон Aurora / продолжение за заголовком",
+                  "context": "Тот же масштаб и фаза рисунка, что в основной области. Верхняя строка не обрывает фон. Desktop исключает вырез системных кнопок.",
+                  "clip": true,
+                  "width": 370,
+                  "height": 64,
+                  "cornerRadius": [
+                    22,
+                    22,
+                    0,
+                    0
+                  ],
+                  "layout": "none",
+                  "children": [
+                    {
+                      "id": "Oxr5v",
+                      "type": "ref",
+                      "ref": "pkCgX",
+                      "name": "Узор Aurora / верхнее продолжение",
+                      "x": 0,
+                      "y": 0,
+                      "width": 720,
+                      "height": 720
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p2zSa",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 64,
+                  "name": "Фон Aurora / проекты и рабочие заметки",
+                  "clip": true,
+                  "width": 370,
+                  "height": 760,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "id": "szkTS",
+                      "type": "ref",
+                      "ref": "pkCgX",
+                      "name": "Узор Aurora / повтор 0 0",
+                      "x": 0,
+                      "y": -64,
+                      "width": 720,
+                      "height": 720
+                    },
+                    {
+                      "id": "TViDn",
+                      "type": "ref",
+                      "ref": "pkCgX",
+                      "name": "Узор Aurora / повтор 0 720",
+                      "x": 0,
+                      "y": 656,
+                      "width": 720,
+                      "height": 720
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m65vi",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "История / маска перекрытия",
+                  "context": "История над закреплённым опросником; активный вопрос не входит в сообщения.",
+                  "clip": true,
+                  "width": 370,
+                  "height": 824,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "id": "DkYqB",
+                      "type": "ref",
+                      "ref": "rVBvj",
+                      "name": "История перед запросом ответа",
+                      "x": 16,
+                      "y": 144,
+                      "width": 338,
+                      "descendants": {
+                        "EEBqS": {
+                          "width": "fill_container"
+                        },
+                        "VBioG": {
+                          "width": 310
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P7vC6y",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 64,
+                  "name": "Мобильная лента под полем",
+                  "clip": true,
+                  "width": 370,
+                  "height": 760,
+                  "fill": "#00000000",
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sUAUh",
+                      "x": 12,
+                      "y": 8,
+                      "name": "Верхние настройки / Android",
+                      "context": "Одна строка: движок, модель, усилие; контекст закреплён справа. Цели 48. При длинных названиях или увеличенном тексте прокручивается только группа настроек; полные значения доступны в меню и доступном имени.",
+                      "width": 346,
+                      "height": 48,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mI5TE",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Движок, модель и усилие / Android",
+                          "width": 260,
+                          "height": 48,
+                          "fill": "#FEFDFC",
+                          "cornerRadius": 16,
+                          "effect": [
+                            {
+                              "type": "shadow",
+                              "shadowType": "outer",
+                              "color": "#20212424",
+                              "offset": {
+                                "x": 0,
+                                "y": 5
+                              },
+                              "blur": 14
+                            },
+                            {
+                              "type": "shadow",
+                              "shadowType": "outer",
+                              "color": "#20212424",
+                              "offset": {
+                                "x": 0,
+                                "y": 1
+                              },
+                              "blur": 3
+                            }
+                          ],
+                          "gap": 4,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fDn7f",
+                              "name": "Выбрать движок Android",
+                              "context": "Движок: Claude Code. Полное доступное имя и меню выбора.",
+                              "height": 48,
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "BV8kT",
+                                  "name": "Движок / значение Android",
+                                  "fill": "$aurora.ink",
+                                  "content": "Claude Code",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.fontTouch",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "at1DZ",
+                                  "name": "Движок / раскрыть Android",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ksbVq",
+                              "name": "Выбрать модель Android",
+                              "context": "Модель: Sonnet 4.5. Полное доступное имя и меню выбора.",
+                              "height": 48,
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cUWzJ",
+                                  "name": "Модель / значение Android",
+                                  "fill": "$aurora.ink",
+                                  "content": "Sonnet 4.5",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.fontTouch",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "q5jilB",
+                                  "name": "Модель / раскрыть Android",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "VWxDT",
+                              "name": "Выбрать усилие Android",
+                              "context": "Усилие: Среднее. Полное доступное имя и меню выбора.",
+                              "height": 48,
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Cymyl",
+                                  "name": "Усилие / значение Android",
+                                  "fill": "$aurora.ink",
+                                  "content": "Среднее",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.fontTouch",
+                                  "fontSize": 13
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "Ba40m",
+                                  "name": "Усилие / раскрыть Android",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hkiGI",
+                          "x": 268,
+                          "y": 0,
+                          "name": "Контекст Android / плавающий",
+                          "width": 78,
+                          "height": 48,
+                          "fill": "#FEFDFC",
+                          "cornerRadius": 16,
+                          "effect": [
+                            {
+                              "type": "shadow",
+                              "shadowType": "outer",
+                              "color": "#20212424",
+                              "offset": {
+                                "x": 0,
+                                "y": 5
+                              },
+                              "blur": 14
+                            },
+                            {
+                              "type": "shadow",
+                              "shadowType": "outer",
+                              "color": "#20212424",
+                              "offset": {
+                                "x": 0,
+                                "y": 1
+                              },
+                              "blur": 3
+                            }
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zwBSN",
+                              "name": "Контекст и квота / цель 48",
+                              "context": "Контекст 61%. Нажатие открывает подробности контекста и квоту за 5 часов 78%. Предупреждение о квоте должно оставаться доступным в этом же элементе.",
+                              "height": 48,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "zZQEy",
+                                  "name": "Контекст и квота",
+                                  "context": "Компактное отображение контекста и квоты внутри сенсорной цели; действие и доступное имя принадлежат внешнему контейнеру.",
+                                  "height": 32,
+                                  "fill": "#00000000",
+                                  "cornerRadius": 7,
+                                  "gap": 10,
+                                  "padding": [
+                                    4,
+                                    8
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "VpBNW",
+                                      "name": "Заполнение контекста",
+                                      "gap": 6,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "brwig",
+                                          "name": "Кольцо контекста",
+                                          "width": 14,
+                                          "height": 14,
+                                          "layout": "none",
+                                          "children": [
+                                            {
+                                              "type": "ellipse",
+                                              "id": "sSXPu",
+                                              "x": 0,
+                                              "y": 0,
+                                              "name": "Фон кольца",
+                                              "innerRadius": 0.72,
+                                              "fill": "#E2E2E5",
+                                              "width": 14,
+                                              "height": 14
+                                            },
+                                            {
+                                              "type": "ellipse",
+                                              "id": "l0yKoT",
+                                              "x": 0,
+                                              "y": 0,
+                                              "name": "Доля контекста",
+                                              "innerRadius": 0.72,
+                                              "startAngle": -90,
+                                              "sweepAngle": 219.6,
+                                              "fill": "#965900",
+                                              "width": 14,
+                                              "height": 14
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "aazH6",
+                                          "name": "Процент контекста",
+                                          "fill": "#302E39",
+                                          "content": "61%",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$aurora.fontTouch",
+                                          "fontSize": 13
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "fMx2n",
+                                      "x": 63,
+                                      "y": 8,
+                                      "name": "Разделитель метрик",
+                                      "enabled": false,
+                                      "fill": "#E2E2E5",
+                                      "width": 1,
+                                      "height": 16
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "Dov30",
+                                      "x": 74,
+                                      "y": 4,
+                                      "name": "Квота за 5 часов",
+                                      "enabled": false,
+                                      "width": 32,
+                                      "height": 24,
+                                      "layout": "vertical",
+                                      "gap": 2,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "bqkDz",
+                                          "name": "Окно квоты",
+                                          "fill": "#66646B",
+                                          "content": "5 ч",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$aurora.fontTouch",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "k4gxhT",
+                                          "name": "Шкала квоты",
+                                          "width": 32,
+                                          "height": 4,
+                                          "fill": "#E2E2E5",
+                                          "cornerRadius": 2,
+                                          "layout": "none",
+                                          "children": [
+                                            {
+                                              "type": "rectangle",
+                                              "cornerRadius": 2,
+                                              "id": "PgD4e",
+                                              "x": 0,
+                                              "y": 0,
+                                              "name": "Использованная квота",
+                                              "fill": "#965900",
+                                              "width": 24.96,
+                                              "height": 4
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VGGZc",
+                      "x": 12,
+                      "y": 532,
+                      "name": "Область ответа / опросник вместо ввода",
+                      "context": "Android: вопрос закреплён вместо composer, цели 48. Черновик сохранён. Свободный ответ открывает клавиатуру только по фокусу; варианты не требуют IME.",
+                      "width": 346,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hGMVg",
+                          "name": "Опросник Android / запрос разрешения",
+                          "context": "Закреплённый запрос приложения вместо ввода. Не часть истории и не Markdown агента. Разрешение только после явного выбора. До подтверждения остаётся на месте.",
+                          "width": "fill_container",
+                          "fill": "#FEFDFC",
+                          "cornerRadius": 16,
+                          "stroke": "#9A783D",
+                          "strokeWidth": 1,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#20212424",
+                            "offset": {
+                              "x": 0,
+                              "y": 5
+                            },
+                            "blur": 14
+                          },
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Tdunm",
+                              "name": "Запрос решения",
+                              "fill": "$aurora.ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Разрешить запуск проверки?",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "wy4bk",
+                              "name": "Действие и цель",
+                              "fill": "$aurora.ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Субагент «Проверка контрактов» · проект Heartbeat",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 16
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ow5nv",
+                              "name": "Аргументы запуска",
+                              "fill": "$aurora.ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": ":features:aistudio:desktopTest",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "Roboto Mono",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "text",
+                              "id": "b6lM9a",
+                              "name": "Область решения",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Разрешение действует только на этот запуск",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "frame",
+                              "id": "F5QMN",
+                              "name": "Действия решения",
+                              "height": 48,
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "UDuHf",
+                                  "name": "Разрешить один раз",
+                                  "height": 48,
+                                  "fill": "$aurora.primary",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    12
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "buAoH",
+                                      "name": "Разрешить один раз / подпись",
+                                      "fill": "#FFFFFF",
+                                      "content": "Разрешить один раз",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "bPPCB",
+                                  "name": "Отклонить",
+                                  "height": 48,
+                                  "fill": "#F4F2F5",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    12
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "dCmcd",
+                                      "name": "Отклонить / подпись",
+                                      "fill": "$aurora.ink",
+                                      "content": "Отклонить",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r8qc7",
+                  "layoutPosition": "absolute",
+                  "x": 12,
+                  "y": 8,
+                  "name": "Заголовок Android",
+                  "width": 346,
+                  "height": 48,
+                  "stroke": "#00000000",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SpmyZ",
+                      "name": "Открыть навигацию",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FEFDFC",
+                      "cornerRadius": 24,
+                      "stroke": "$aurora.line",
+                      "effect": [
+                        {
+                          "type": "shadow",
+                          "shadowType": "outer",
+                          "color": "#20212424",
+                          "offset": {
+                            "x": 0,
+                            "y": 5
+                          },
+                          "blur": 14
+                        },
+                        {
+                          "type": "shadow",
+                          "shadowType": "outer",
+                          "color": "#20212424",
+                          "offset": {
+                            "x": 0,
+                            "y": 1
+                          },
+                          "blur": 3
+                        }
+                      ],
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "PW3tu",
+                          "name": "Открыть навигацию / значок",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "menu",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QPEec",
+                      "name": "Название диалога Android",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": "#FEFDFC",
+                      "cornerRadius": 16,
+                      "effect": [
+                        {
+                          "type": "shadow",
+                          "shadowType": "outer",
+                          "color": "#20212424",
+                          "offset": {
+                            "x": 0,
+                            "y": 5
+                          },
+                          "blur": 14
+                        },
+                        {
+                          "type": "shadow",
+                          "shadowType": "outer",
+                          "color": "#20212424",
+                          "offset": {
+                            "x": 0,
+                            "y": 1
+                          },
+                          "blur": 3
+                        }
+                      ],
+                      "layout": "vertical",
+                      "padding": [
+                        4,
+                        8
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IX2uG",
+                          "name": "Проект Android",
+                          "fill": "$aurora.muted",
+                          "content": "Heartbeat",
+                          "lineHeight": 1.3846153846153846,
+                          "fontFamily": "$aurora.fontTouch",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "B2N1Rt",
+                          "name": "Диалог Android",
+                          "fill": "$aurora.ink",
+                          "content": "Единая модель сессий",
+                          "lineHeight": 1.4285714285714286,
+                          "fontFamily": "$aurora.fontTouch",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Yczpx",
+                      "name": "Субагенты Android",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FEFDFC",
+                      "cornerRadius": 24,
+                      "stroke": "$aurora.line",
+                      "effect": [
+                        {
+                          "type": "shadow",
+                          "shadowType": "outer",
+                          "color": "#20212424",
+                          "offset": {
+                            "x": 0,
+                            "y": 5
+                          },
+                          "blur": 14
+                        },
+                        {
+                          "type": "shadow",
+                          "shadowType": "outer",
+                          "color": "#20212424",
+                          "offset": {
+                            "x": 0,
+                            "y": 1
+                          },
+                          "blur": 3
+                        }
+                      ],
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "WwGRZ",
+                          "name": "Субагенты Android / значок",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "git-branch",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "Y1q5O",
+                  "type": "ref",
+                  "ref": "igRSG",
+                  "name": "Прокрутка / чат / покой",
+                  "layoutPosition": "absolute",
+                  "x": 354,
+                  "y": 28,
+                  "width": 12,
+                  "height": 768,
+                  "enabled": false,
+                  "context": "Последний слой поверх управления. Безопасный трек исключает скругления и вырез. {\"content\":360,\"viewport\":632,\"track\":768,\"thumb\":768,\"position\":0}",
+                  "descendants": {
+                    "aUTIt": {
+                      "y": 0,
+                      "height": 768
                     }
                   }
                 }
