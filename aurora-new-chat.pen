@@ -50547,6 +50547,28 @@
                   "children": [
                     {
                       "type": "frame",
+                      "id": "GCk46",
+                      "name": "Маркер записи действия / колонка",
+                      "context": "Декоративный маркер записи, не отдельный этап и не сигнал успешного завершения.",
+                      "width": 16,
+                      "height": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "Bx627",
+                          "name": "Вызов / полый зелёный круг",
+                          "fill": "#00000000",
+                          "width": 8,
+                          "height": 8,
+                          "stroke": "$aurora.green",
+                          "strokeWidth": 1.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "TxCJd",
                       "name": "Иконка / центр текстовой колонки",
                       "width": 16,
@@ -50644,7 +50666,7 @@
                     12,
                     12,
                     12,
-                    36
+                    60
                   ],
                   "children": [
                     {
@@ -50702,6 +50724,28 @@
                   ],
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "frame",
+                      "id": "d8A61G",
+                      "name": "Маркер записи действия / колонка",
+                      "context": "Декоративный маркер записи, не отдельный этап и не сигнал успешного завершения.",
+                      "width": 16,
+                      "height": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "bQNuh",
+                          "name": "Вызов / полый зелёный круг",
+                          "fill": "#00000000",
+                          "width": 8,
+                          "height": 8,
+                          "stroke": "$aurora.green",
+                          "strokeWidth": 1.5
+                        }
+                      ]
+                    },
                     {
                       "type": "frame",
                       "id": "Eymjb",
@@ -50801,7 +50845,7 @@
                     12,
                     12,
                     12,
-                    36
+                    60
                   ],
                   "children": [
                     {
