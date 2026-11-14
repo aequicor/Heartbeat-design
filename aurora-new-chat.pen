@@ -49292,13 +49292,10 @@
                                         {
                                           "type": "frame",
                                           "id": "dfFiL",
-                                          "name": "Результат этапа / граница после инструментов",
-                                          "context": "Один разделитель между видимым списком действий и текстом результата. При свёрнутом списке или отсутствии результата скрывается. Не разделяет отдельные вызовы или соседние этапы.",
+                                          "name": "Результат этапа / после инструментов",
+                                          "context": "Обычный текст отделён от инструментов цветовой ролью и отступом 8. Без горизонтального разделителя.",
                                           "width": "fill_container",
-                                          "stroke": "#D8DDD2",
-                                          "strokeWidth": {
-                                            "top": 1
-                                          },
+                                          "stroke": "#00000000",
                                           "layout": "vertical",
                                           "padding": [
                                             8,
@@ -50509,7 +50506,7 @@
                           "height": 16,
                           "icon": "file-text",
                           "library": "lucide",
-                          "fill": "$aurora.muted"
+                          "fill": "$aurora.primary"
                         }
                       ]
                     },
@@ -50525,7 +50522,7 @@
                           "type": "text",
                           "id": "r5qJm",
                           "name": "Название инструмента",
-                          "fill": "$aurora.ink",
+                          "fill": "$aurora.primary",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Читаю контракт сессии",
@@ -50665,7 +50662,7 @@
                           "height": 16,
                           "icon": "brain",
                           "library": "lucide",
-                          "fill": "$aurora.muted"
+                          "fill": "$aurora.primary"
                         }
                       ]
                     },
@@ -50681,7 +50678,7 @@
                           "type": "text",
                           "id": "K8nVq",
                           "name": "Thinking / title",
-                          "fill": "$aurora.ink",
+                          "fill": "$aurora.primary",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Думает...",
