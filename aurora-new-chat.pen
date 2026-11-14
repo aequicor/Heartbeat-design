@@ -106697,7 +106697,7 @@
                       "id": "Scm9T",
                       "name": "Запрос с вложениями",
                       "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
-                      "width": 520,
+                      "width": 475,
                       "fill": "#00000000",
                       "justifyContent": "end",
                       "alignItems": "end",
@@ -106788,9 +106788,9 @@
                               "layoutPosition": "absolute",
                               "x": 16,
                               "y": 226,
-                              "name": "Футер пользователя / только время / в последней строке",
+                              "name": "Футер / время в последней строке подписи",
                               "context": "Статический образец: время у правого края на базовой линии последней строки. В приложении положение вычисляется по фактической раскладке; зазор не меньше 8 dp. plans/aurora-message-space.md",
-                              "width": 488,
+                              "width": 443,
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center",
@@ -106813,7 +106813,7 @@
                           "type": "frame",
                           "id": "BM0jc",
                           "layoutPosition": "absolute",
-                          "x": 524,
+                          "x": 479,
                           "y": 220,
                           "name": "Пользователь / внешнее меню справа",
                           "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
@@ -113492,7 +113492,7 @@
                   "id": "zk8Il",
                   "name": "Агент / поверхность сообщения",
                   "clip": true,
-                  "width": "fill_container",
+                  "width": 588,
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
@@ -113696,7 +113696,7 @@
                         {
                           "type": "frame",
                           "id": "tobSD",
-                          "name": "Футер агента / только время",
+                          "name": "Футер / время справа / ширина по содержимому",
                           "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
@@ -128246,11 +128246,23 @@
                       "y": 136,
                       "width": 632,
                       "descendants": {
+                        "zk8Il": {
+                          "width": 588
+                        },
+                        "n5tpNp": {
+                          "padding": [
+                            12,
+                            16,
+                            4,
+                            16
+                          ]
+                        },
                         "tobSD": {
                           "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "name": "Футер / время справа / ширина по содержимому"
                         }
                       }
                     }
@@ -132673,12 +132685,36 @@
                           "x": -36,
                           "y": 322
                         },
+                        "zk8Il": {
+                          "width": 332
+                        },
+                        "n5tpNp": {
+                          "padding": [
+                            12,
+                            16,
+                            4,
+                            16
+                          ]
+                        },
+                        "R6sgr": {
+                          "width": 96,
+                          "height": 48
+                        },
+                        "XIBhi": {
+                          "width": 48,
+                          "height": 48
+                        },
+                        "RyB58": {
+                          "width": 48,
+                          "height": 48
+                        },
                         "tobSD": {
                           "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
                           "alignItems": "center",
-                          "enabled": true
+                          "enabled": true,
+                          "name": "Футер / время справа / ширина по содержимому"
                         }
                       }
                     }
@@ -136433,7 +136469,7 @@
                   "name": "Сообщение / image",
                   "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
                   "reusable": true,
-                  "width": "fill_container",
+                  "width": 203,
                   "fill": "#00000000",
                   "justifyContent": "end",
                   "alignItems": "end",
@@ -136449,6 +136485,8 @@
                       "gap": 4,
                       "padding": [
                         12,
+                        16,
+                        4,
                         16
                       ],
                       "children": [
@@ -136485,12 +136523,9 @@
                         {
                           "type": "frame",
                           "id": "XIEil",
-                          "layoutPosition": "absolute",
-                          "x": 16,
-                          "y": 74,
-                          "name": "Футер пользователя / только время / в последней строке",
+                          "name": "Футер / время справа / ширина по содержимому",
                           "context": "Статический образец: время у правого края на базовой линии последней строки. В приложении положение вычисляется по фактической раскладке; зазор не меньше 8 dp. plans/aurora-message-space.md",
-                          "width": 392,
+                          "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
                           "alignItems": "center",
@@ -136513,8 +136548,8 @@
                       "type": "frame",
                       "id": "dUKSP",
                       "layoutPosition": "absolute",
-                      "x": 428,
-                      "y": 68,
+                      "x": 207,
+                      "y": 80,
                       "name": "Пользователь / внешнее меню справа",
                       "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
                       "width": 32,
@@ -136677,7 +136712,7 @@
                   "name": "Сообщение / document",
                   "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
                   "reusable": true,
-                  "width": "fill_container",
+                  "width": 333,
                   "fill": "#00000000",
                   "justifyContent": "end",
                   "alignItems": "end",
@@ -136693,6 +136728,8 @@
                       "gap": 4,
                       "padding": [
                         12,
+                        16,
+                        4,
                         16
                       ],
                       "children": [
@@ -136737,12 +136774,9 @@
                         {
                           "type": "frame",
                           "id": "T8eyy",
-                          "layoutPosition": "absolute",
-                          "x": 16,
-                          "y": 74,
-                          "name": "Футер пользователя / только время / в последней строке",
+                          "name": "Футер / время справа / ширина по содержимому",
                           "context": "Статический образец: время у правого края на базовой линии последней строки. В приложении положение вычисляется по фактической раскладке; зазор не меньше 8 dp. plans/aurora-message-space.md",
-                          "width": 392,
+                          "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
                           "alignItems": "center",
@@ -136765,8 +136799,8 @@
                       "type": "frame",
                       "id": "BtlQg",
                       "layoutPosition": "absolute",
-                      "x": 428,
-                      "y": 68,
+                      "x": 337,
+                      "y": 80,
                       "name": "Пользователь / внешнее меню справа",
                       "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
                       "width": 32,
@@ -136929,7 +136963,7 @@
                   "name": "Сообщение / long",
                   "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
                   "reusable": true,
-                  "width": "fill_container",
+                  "width": 410,
                   "fill": "#00000000",
                   "justifyContent": "end",
                   "alignItems": "end",
@@ -136991,7 +137025,7 @@
                         {
                           "type": "frame",
                           "id": "m5fk0h",
-                          "name": "Футер пользователя / только время",
+                          "name": "Футер / время справа / ширина по содержимому",
                           "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
@@ -137015,7 +137049,7 @@
                       "type": "frame",
                       "id": "axMWm",
                       "layoutPosition": "absolute",
-                      "x": 428,
+                      "x": 414,
                       "y": 80,
                       "name": "Пользователь / внешнее меню справа",
                       "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
@@ -137166,7 +137200,7 @@
               "id": "EtNSo",
               "name": "Сообщение / loading",
               "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
-              "width": "fill_container",
+              "width": 299,
               "fill": "#00000000",
               "justifyContent": "end",
               "alignItems": "end",
@@ -137182,6 +137216,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "children": [
@@ -137292,12 +137328,9 @@
                     {
                       "type": "frame",
                       "id": "IWzYJ",
-                      "layoutPosition": "absolute",
-                      "x": 16,
-                      "y": 74,
-                      "name": "Футер пользователя / только время / в последней строке",
+                      "name": "Футер / время справа / ширина по содержимому",
                       "context": "Статический образец: время у правого края на базовой линии последней строки. В приложении положение вычисляется по фактической раскладке; зазор не меньше 8 dp. plans/aurora-message-space.md",
-                      "width": 392,
+                      "width": "fill_container",
                       "height": 16,
                       "justifyContent": "end",
                       "alignItems": "center",
@@ -137320,8 +137353,8 @@
                   "type": "frame",
                   "id": "cgc0m",
                   "layoutPosition": "absolute",
-                  "x": 428,
-                  "y": 68,
+                  "x": 303,
+                  "y": 80,
                   "name": "Пользователь / внешнее меню справа",
                   "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
                   "width": 32,
@@ -137460,7 +137493,7 @@
               "id": "W0T21",
               "name": "Сообщение / error",
               "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
-              "width": "fill_container",
+              "width": 299,
               "fill": "#00000000",
               "justifyContent": "end",
               "alignItems": "end",
@@ -137476,6 +137509,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "children": [
@@ -137529,12 +137564,9 @@
                     {
                       "type": "frame",
                       "id": "WYWKF",
-                      "layoutPosition": "absolute",
-                      "x": 16,
-                      "y": 74,
-                      "name": "Футер пользователя / только время / в последней строке",
+                      "name": "Футер / время справа / ширина по содержимому",
                       "context": "Статический образец: время у правого края на базовой линии последней строки. В приложении положение вычисляется по фактической раскладке; зазор не меньше 8 dp. plans/aurora-message-space.md",
-                      "width": 392,
+                      "width": "fill_container",
                       "height": 16,
                       "justifyContent": "end",
                       "alignItems": "center",
@@ -137557,8 +137589,8 @@
                   "type": "frame",
                   "id": "KiQbP",
                   "layoutPosition": "absolute",
-                  "x": 428,
-                  "y": 68,
+                  "x": 303,
+                  "y": 80,
                   "name": "Пользователь / внешнее меню справа",
                   "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
                   "width": 32,
@@ -137697,7 +137729,7 @@
               "id": "DK2zT",
               "name": "Сообщение / unavailable",
               "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
-              "width": "fill_container",
+              "width": 299,
               "fill": "#00000000",
               "justifyContent": "end",
               "alignItems": "end",
@@ -137713,6 +137745,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "children": [
@@ -137766,12 +137800,9 @@
                     {
                       "type": "frame",
                       "id": "ooGaJ",
-                      "layoutPosition": "absolute",
-                      "x": 16,
-                      "y": 74,
-                      "name": "Футер пользователя / только время / в последней строке",
+                      "name": "Футер / время справа / ширина по содержимому",
                       "context": "Статический образец: время у правого края на базовой линии последней строки. В приложении положение вычисляется по фактической раскладке; зазор не меньше 8 dp. plans/aurora-message-space.md",
-                      "width": 392,
+                      "width": "fill_container",
                       "height": 16,
                       "justifyContent": "end",
                       "alignItems": "center",
@@ -137794,8 +137825,8 @@
                   "type": "frame",
                   "id": "ksyZr",
                   "layoutPosition": "absolute",
-                  "x": 428,
-                  "y": 68,
+                  "x": 303,
+                  "y": 80,
                   "name": "Пользователь / внешнее меню справа",
                   "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
                   "width": 32,
@@ -139090,27 +139121,29 @@
                   "id": "qaCU6",
                   "type": "ref",
                   "ref": "vA4c5",
-                  "width": 360,
+                  "width": 203,
                   "descendants": {
                     "W9RWt": {
                       "padding": [
                         12,
+                        16,
+                        4,
                         16
                       ]
                     },
                     "XIEil": {
-                      "layoutPosition": "absolute",
                       "x": 16,
-                      "y": 74,
-                      "width": 328,
+                      "y": 96,
+                      "width": "fill_container",
                       "height": 16,
                       "justifyContent": "end",
                       "alignItems": "center",
-                      "enabled": true
+                      "enabled": true,
+                      "name": "Футер / время справа / ширина по содержимому"
                     },
                     "dUKSP": {
-                      "x": 364,
-                      "y": 68
+                      "x": 207,
+                      "y": 80
                     }
                   }
                 }
@@ -139128,27 +139161,29 @@
                   "id": "X3VM6",
                   "type": "ref",
                   "ref": "BnTY3",
-                  "width": 400,
+                  "width": 333,
                   "descendants": {
                     "Od8kc": {
                       "padding": [
                         12,
+                        16,
+                        4,
                         16
                       ]
                     },
                     "T8eyy": {
-                      "layoutPosition": "absolute",
                       "x": 16,
-                      "y": 74,
-                      "width": 368,
+                      "y": 96,
+                      "width": "fill_container",
                       "height": 16,
                       "justifyContent": "end",
                       "alignItems": "center",
-                      "enabled": true
+                      "enabled": true,
+                      "name": "Футер / время справа / ширина по содержимому"
                     },
                     "BtlQg": {
-                      "x": 404,
-                      "y": 68
+                      "x": 337,
+                      "y": 80
                     }
                   }
                 }
@@ -139159,7 +139194,7 @@
               "id": "UbnbK",
               "name": "Ответ с созданным документом",
               "context": "Меню агента снаружи слева, исключено из расчёта ширины и высоты сообщения. Не резервировать полосу и не сужать текст, код, таблицы или вложения. Hover/focus не меняет геометрию.",
-              "width": 632,
+              "width": 554,
               "fill": "#00000000",
               "alignItems": "end",
               "children": [
@@ -139321,7 +139356,7 @@
                     {
                       "type": "frame",
                       "id": "V7L1tY",
-                      "name": "Футер агента / только время",
+                      "name": "Футер / время справа / ширина по содержимому",
                       "width": "fill_container",
                       "height": 16,
                       "justifyContent": "end",
@@ -139410,32 +139445,35 @@
           "width": 338,
           "layout": "vertical",
           "gap": 16,
+          "alignItems": "end",
           "children": [
             {
               "id": "XYZAZ",
               "type": "ref",
               "ref": "vA4c5",
-              "width": "fill_container",
+              "width": 203,
               "descendants": {
                 "W9RWt": {
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ]
                 },
                 "XIEil": {
-                  "layoutPosition": "absolute",
                   "x": 16,
-                  "y": 74,
-                  "width": 306,
+                  "y": 96,
+                  "width": "fill_container",
                   "height": 16,
                   "justifyContent": "end",
                   "alignItems": "center",
-                  "enabled": true
+                  "enabled": true,
+                  "name": "Футер / время справа / ширина по содержимому"
                 },
                 "dUKSP": {
-                  "x": 342,
-                  "y": 52,
+                  "x": 207,
+                  "y": 64,
                   "width": 48,
                   "height": 52
                 },
@@ -139450,7 +139488,7 @@
               "id": "H0hZQ",
               "type": "ref",
               "ref": "M2Pqy",
-              "width": "fill_container",
+              "width": 307,
               "descendants": {
                 "Uq6WR": {
                   "padding": [
@@ -139462,14 +139500,15 @@
                   "layoutPosition": "absolute",
                   "x": 16,
                   "y": 108,
-                  "width": 306,
+                  "width": 275,
                   "height": 16,
                   "justifyContent": "end",
                   "alignItems": "center",
-                  "enabled": true
+                  "enabled": true,
+                  "name": "Футер / время в последней строке подписи"
                 },
                 "axMWm": {
-                  "x": 342,
+                  "x": 311,
                   "y": 86,
                   "width": 48,
                   "height": 52
@@ -141739,49 +141778,71 @@
                       "y": 112,
                       "width": 680,
                       "descendants": {
+                        "qaCU6": {
+                          "width": 203
+                        },
                         "qaCU6/W9RWt": {
                           "padding": [
                             12,
+                            16,
+                            4,
                             16
                           ]
                         },
                         "qaCU6/XIEil": {
-                          "layoutPosition": "absolute",
                           "x": 16,
-                          "y": 74,
-                          "width": 328,
+                          "y": 96,
+                          "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "name": "Футер / время справа / ширина по содержимому"
                         },
                         "qaCU6/dUKSP": {
-                          "x": 364,
-                          "y": 68
+                          "x": 207,
+                          "y": 80
+                        },
+                        "X3VM6": {
+                          "width": 333
                         },
                         "X3VM6/Od8kc": {
                           "padding": [
                             12,
+                            16,
+                            4,
                             16
                           ]
                         },
                         "X3VM6/T8eyy": {
-                          "layoutPosition": "absolute",
                           "x": 16,
-                          "y": 74,
-                          "width": 368,
+                          "y": 96,
+                          "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "name": "Футер / время справа / ширина по содержимому"
                         },
                         "X3VM6/BtlQg": {
-                          "x": 404,
-                          "y": 68
+                          "x": 337,
+                          "y": 80
+                        },
+                        "UbnbK": {
+                          "width": 554
+                        },
+                        "q9TpB6": {
+                          "padding": [
+                            12,
+                            16,
+                            4,
+                            16
+                          ]
                         },
                         "V7L1tY": {
                           "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "name": "Футер / время справа / ширина по содержимому"
                         }
                       }
                     }
@@ -143007,25 +143068,34 @@
                       "x": 16,
                       "y": 136,
                       "width": 338,
+                      "alignItems": "end",
                       "descendants": {
+                        "XYZAZ": {
+                          "width": 203
+                        },
                         "XYZAZ/W9RWt": {
                           "padding": [
                             12,
+                            16,
+                            4,
                             16
                           ]
                         },
                         "XYZAZ/XIEil": {
-                          "layoutPosition": "absolute",
                           "x": 16,
-                          "y": 74,
-                          "width": 306,
+                          "y": 96,
+                          "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "name": "Футер / время справа / ширина по содержимому"
                         },
                         "XYZAZ/dUKSP": {
-                          "x": 342,
-                          "y": 52
+                          "x": 207,
+                          "y": 64
+                        },
+                        "H0hZQ": {
+                          "width": 307
                         },
                         "H0hZQ/Uq6WR": {
                           "padding": [
@@ -143037,13 +143107,14 @@
                           "layoutPosition": "absolute",
                           "x": 16,
                           "y": 108,
-                          "width": 306,
+                          "width": 275,
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "name": "Футер / время в последней строке подписи"
                         },
                         "H0hZQ/axMWm": {
-                          "x": 342,
+                          "x": 311,
                           "y": 86
                         }
                       }
@@ -167804,25 +167875,28 @@
                   "type": "ref",
                   "ref": "BnTY3",
                   "name": "Документ / время рядом с подписью",
-                  "width": 424,
+                  "width": 333,
                   "descendants": {
                     "Od8kc": {
                       "padding": [
                         12,
+                        16,
+                        4,
                         16
                       ]
                     },
                     "T8eyy": {
-                      "layoutPosition": "absolute",
                       "x": 16,
-                      "y": 74,
-                      "width": 392,
+                      "y": 96,
+                      "width": "fill_container",
                       "height": 16,
-                      "justifyContent": "end"
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "name": "Футер / время справа / ширина по содержимому"
                     },
                     "BtlQg": {
-                      "x": 428,
-                      "y": 68
+                      "x": 337,
+                      "y": 80
                     }
                   }
                 }
@@ -167854,12 +167928,26 @@
                   "type": "ref",
                   "ref": "M2Pqy",
                   "name": "Документ / время под длинной подписью",
-                  "width": 424,
+                  "width": 410,
                   "descendants": {
+                    "Uq6WR": {
+                      "padding": [
+                        12,
+                        16,
+                        4,
+                        16
+                      ]
+                    },
                     "m5fk0h": {
                       "width": "fill_container",
                       "height": 16,
-                      "justifyContent": "end"
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "name": "Футер / время справа / ширина по содержимому"
+                    },
+                    "axMWm": {
+                      "x": 414,
+                      "y": 80
                     }
                   }
                 }
@@ -167900,8 +167988,16 @@
                   "type": "ref",
                   "ref": "BnTY3",
                   "name": "Документ / без подписи",
-                  "width": 424,
+                  "width": 224,
                   "descendants": {
+                    "Od8kc": {
+                      "padding": [
+                        12,
+                        16,
+                        4,
+                        16
+                      ]
+                    },
                     "AIgzK": {
                       "enabled": false,
                       "width": 392
@@ -167910,11 +168006,13 @@
                       "width": "fill_container",
                       "height": 16,
                       "justifyContent": "end",
-                      "enabled": true
+                      "enabled": true,
+                      "alignItems": "center",
+                      "name": "Футер / время справа / ширина по содержимому"
                     },
                     "BtlQg": {
-                      "x": 428,
-                      "y": 56
+                      "x": 228,
+                      "y": 48
                     }
                   }
                 }
@@ -167946,7 +168044,7 @@
                   "type": "ref",
                   "ref": "M2Pqy",
                   "name": "Android / подпись и время",
-                  "width": 338,
+                  "width": 307,
                   "descendants": {
                     "Uq6WR": {
                       "padding": [
@@ -167958,14 +168056,16 @@
                       "layoutPosition": "absolute",
                       "x": 16,
                       "y": 108,
-                      "width": 306,
+                      "width": 275,
                       "height": 16,
-                      "justifyContent": "end"
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "name": "Футер / время в последней строке подписи"
                     },
                     "axMWm": {
                       "width": 48,
                       "height": 52,
-                      "x": 342,
+                      "x": 311,
                       "y": 86
                     },
                     "nA44g": {
@@ -173301,595 +173401,6 @@
           "fontSize": 13
         }
       ]
-    },
-    {
-      "type": "frame",
-      "id": "h3bOIp",
-      "x": 27528,
-      "y": -840,
-      "name": "Heartbeat / Поиск направления / Начало",
-      "width": 2200,
-      "height": 180,
-      "fill": "#66557E",
-      "layout": "none",
-      "children": [
-        {
-          "type": "text",
-          "id": "ywl0L",
-          "x": 40,
-          "y": 32,
-          "name": "Тема",
-          "fill": "#FFFFFF",
-          "textGrowth": "fixed-width",
-          "width": 2100,
-          "content": "Heartbeat: четыре разные конструкции",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 52
-        },
-        {
-          "type": "text",
-          "id": "Sn85T",
-          "x": 40,
-          "y": 108,
-          "name": "Формат",
-          "fill": "#EEE7F5",
-          "textGrowth": "fixed-width",
-          "width": 2100,
-          "content": "Реальные референсы → принцип → предложение для Heartbeat. Это выбор направления, не готовые логотипы.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "D5wlt",
-      "x": 27528,
-      "y": -600,
-      "name": "Heartbeat / Направление A / Монограмма H",
-      "clip": true,
-      "width": 1040,
-      "height": 1080,
-      "fill": "#F8F8F5",
-      "layout": "none",
-      "children": [
-        {
-          "type": "text",
-          "id": "D3AtP",
-          "x": 40,
-          "y": 32,
-          "name": "Направление",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "A / Монограмма H",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 44
-        },
-        {
-          "type": "text",
-          "id": "qBQsw",
-          "x": 40,
-          "y": 96,
-          "name": "Автор референса",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Референс: MIT Media Lab / Pentagram",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "rectangle",
-          "id": "RkUvy",
-          "x": 40,
-          "y": 152,
-          "name": "Оригинальный референс / MIT Media Lab / Pentagram",
-          "fill": {
-            "type": "image",
-            "enabled": true,
-            "url": "https://dam-prod.media.mit.edu/thumb/2026/08/21/ml7x7grid.png.1400x1400.png",
-            "mode": "contain"
-          },
-          "width": 960,
-          "height": 420
-        },
-        {
-          "type": "text",
-          "id": "PonIS",
-          "x": 40,
-          "y": 604,
-          "name": "Что изучаем",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Компактный знак, собранный из букв на сетке.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "IMpP6",
-          "x": 40,
-          "y": 684,
-          "name": "Предложение Heartbeat",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Для Heartbeat: H из двух смещённых вертикалей и короткого соединения. Узнаваемая иконка сама по себе.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "ofeyl",
-          "x": 40,
-          "y": 820,
-          "name": "Риск",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Риск: обычная H или медицинский крест.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "text",
-          "id": "hogDW",
-          "x": 40,
-          "y": 900,
-          "name": "Источник",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "https://www-prod.media.mit.edu/posts/MLBrandPortal/",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 22
-        },
-        {
-          "type": "text",
-          "id": "o97UC0",
-          "x": 40,
-          "y": 996,
-          "name": "Атрибуция",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Изображение — работа указанного автора. Предложение для Heartbeat — наша интерпретация.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 20
-        }
-      ]
-    },
-    {
-      "type": "browser",
-      "id": "l1zXwX",
-      "x": 29928,
-      "y": -600,
-      "name": "Источник / MIT Media Lab / Pentagram",
-      "width": 1000,
-      "height": 1080,
-      "url": "www-prod.media.mit.edu/posts/MLBrandPortal/"
-    },
-    {
-      "type": "frame",
-      "id": "U0oCM",
-      "x": 28688,
-      "y": -600,
-      "name": "Heartbeat / Направление B / Два собеседника",
-      "clip": true,
-      "width": 1040,
-      "height": 1080,
-      "fill": "#F8F8F5",
-      "layout": "none",
-      "children": [
-        {
-          "type": "text",
-          "id": "KBFRA",
-          "x": 40,
-          "y": 32,
-          "name": "Направление",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "B / Два собеседника",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 44
-        },
-        {
-          "type": "text",
-          "id": "X0u6EY",
-          "x": 40,
-          "y": 96,
-          "name": "Автор референса",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Референс: Mastercard / Pentagram",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "rectangle",
-          "id": "BojC2",
-          "x": 40,
-          "y": 152,
-          "name": "Оригинальный референс / Mastercard / Pentagram",
-          "fill": {
-            "type": "image",
-            "enabled": true,
-            "url": "https://pentagram-production.imgix.net/ffa9e111-1039-44b4-bd9b-e3dcae4e551d/lh_mastercard_01.jpg?auto=compress%2Cformat&fit=crop&fit=min&fm=jpg&h=548&q=80&rect=0%2C127%2C3000%2C1872&s=c2a92a0675e5c75ea1976e53fa1c15a7&w=880",
-            "mode": "contain"
-          },
-          "width": 960,
-          "height": 420
-        },
-        {
-          "type": "text",
-          "id": "IFK2k",
-          "x": 40,
-          "y": 604,
-          "name": "Что изучаем",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Отношение двух форм несёт смысл и цвет.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "leTKx",
-          "x": 40,
-          "y": 684,
-          "name": "Предложение Heartbeat",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Для Heartbeat: две встречные скобы — человек и агент. Фиолетовый и зелёный становятся частями конструкции.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "wJJry",
-          "x": 40,
-          "y": 820,
-          "name": "Риск",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Риск: generic чат или знак финтеха.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "text",
-          "id": "u60WYi",
-          "x": 40,
-          "y": 900,
-          "name": "Источник",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "https://www.pentagram.com/work/mastercard/story",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 22
-        },
-        {
-          "type": "text",
-          "id": "hrXpQ",
-          "x": 40,
-          "y": 996,
-          "name": "Атрибуция",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Изображение — работа указанного автора. Предложение для Heartbeat — наша интерпретация.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 20
-        }
-      ]
-    },
-    {
-      "type": "browser",
-      "id": "QCVNI",
-      "x": 31048,
-      "y": -600,
-      "name": "Источник / Mastercard / Pentagram",
-      "width": 1000,
-      "height": 1080,
-      "url": "www.pentagram.com/work/mastercard/story"
-    },
-    {
-      "type": "frame",
-      "id": "LuHdN",
-      "x": 27528,
-      "y": 560,
-      "name": "Heartbeat / Направление C / Резонанс",
-      "clip": true,
-      "width": 1040,
-      "height": 1080,
-      "fill": "#F8F8F5",
-      "layout": "none",
-      "children": [
-        {
-          "type": "text",
-          "id": "vsgh6",
-          "x": 40,
-          "y": 32,
-          "name": "Направление",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "C / Резонанс",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 44
-        },
-        {
-          "type": "text",
-          "id": "IqSJJ",
-          "x": 40,
-          "y": 96,
-          "name": "Автор референса",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Референс: Sonos / Bruce Mau Design",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "rectangle",
-          "id": "u2dZq",
-          "x": 40,
-          "y": 152,
-          "name": "Оригинальный референс / Sonos / Bruce Mau Design",
-          "fill": {
-            "type": "image",
-            "enabled": true,
-            "url": "https://www.brucemaudesign.com/wp-content/uploads/2023/02/SONOS_logo-beam-1009x1024.jpg",
-            "mode": "contain"
-          },
-          "width": 960,
-          "height": 420
-        },
-        {
-          "type": "text",
-          "id": "D4c6Y",
-          "x": 40,
-          "y": 604,
-          "name": "Что изучаем",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Ритм читается через повтор и сдвиг геометрии.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "GIXCP",
-          "x": 40,
-          "y": 684,
-          "name": "Предложение Heartbeat",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Для Heartbeat: три смещённые дуги с общим разрывом. Самостоятельная иконка; крупная графика может двигаться.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "PEbpO",
-          "x": 40,
-          "y": 820,
-          "name": "Риск",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Риск: Wi-Fi, отпечаток или загрузчик.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "text",
-          "id": "Scy8s",
-          "x": 40,
-          "y": 900,
-          "name": "Источник",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "https://www.brucemaudesign.com/work/sonos",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 22
-        },
-        {
-          "type": "text",
-          "id": "j5pOII",
-          "x": 40,
-          "y": 996,
-          "name": "Атрибуция",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Изображение — работа указанного автора. Предложение для Heartbeat — наша интерпретация.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 20
-        }
-      ]
-    },
-    {
-      "type": "browser",
-      "id": "LNN8F",
-      "x": 29928,
-      "y": 560,
-      "name": "Источник / Sonos / Bruce Mau Design",
-      "width": 1000,
-      "height": 1080,
-      "url": "www.brucemaudesign.com/work/sonos"
-    },
-    {
-      "type": "frame",
-      "id": "ubTfz",
-      "x": 28688,
-      "y": 560,
-      "name": "Heartbeat / Направление D / Ритм в буквах",
-      "clip": true,
-      "width": 1040,
-      "height": 1080,
-      "fill": "#F8F8F5",
-      "layout": "none",
-      "children": [
-        {
-          "type": "text",
-          "id": "dlKPg",
-          "x": 40,
-          "y": 32,
-          "name": "Направление",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "D / Ритм в буквах",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 44
-        },
-        {
-          "type": "text",
-          "id": "psiMX",
-          "x": 40,
-          "y": 96,
-          "name": "Автор референса",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Референс: San Francisco Symphony / COLLINS",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "rectangle",
-          "id": "Lavdk",
-          "x": 40,
-          "y": 152,
-          "name": "Оригинальный референс / San Francisco Symphony / COLLINS",
-          "fill": {
-            "type": "image",
-            "enabled": true,
-            "url": "https://image.mux.com/8cCPUkeK9xW3w5XGmpxHAFMRaDJfq1zRW3eiedq8BMA/thumbnail.webp?height=900&time=0&width=1600",
-            "mode": "contain"
-          },
-          "width": 960,
-          "height": 420
-        },
-        {
-          "type": "text",
-          "id": "ij18U",
-          "x": 40,
-          "y": 604,
-          "name": "Что изучаем",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Ритм встроен в сами буквы.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "E6Qsze",
-          "x": 40,
-          "y": 684,
-          "name": "Предложение Heartbeat",
-          "fill": "#302E39",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Для Heartbeat: компактный блок heart/beat с общей вертикалью и разной плотностью. Для иконки — HB-лигатура.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 28
-        },
-        {
-          "type": "text",
-          "id": "V4MIlx",
-          "x": 40,
-          "y": 820,
-          "name": "Риск",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Риск: потерять читаемость или стать афишей.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 24
-        },
-        {
-          "type": "text",
-          "id": "nIr33",
-          "x": 40,
-          "y": 900,
-          "name": "Источник",
-          "fill": "#66557E",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "https://wearecollins.com/case-studies/san-francisco-symphony/",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 22
-        },
-        {
-          "type": "text",
-          "id": "vbKjp",
-          "x": 40,
-          "y": 996,
-          "name": "Атрибуция",
-          "fill": "#5A5663",
-          "textGrowth": "fixed-width",
-          "width": 960,
-          "content": "Изображение — работа указанного автора. Предложение для Heartbeat — наша интерпретация.",
-          "lineHeight": 1.3,
-          "fontFamily": "Roboto",
-          "fontSize": 20
-        }
-      ]
-    },
-    {
-      "type": "browser",
-      "id": "jpIes",
-      "x": 31048,
-      "y": 560,
-      "name": "Источник / San Francisco Symphony / COLLINS",
-      "width": 1000,
-      "height": 1080,
-      "url": "wearecollins.com/case-studies/san-francisco-symphony/"
     }
   ],
   "variables": {
