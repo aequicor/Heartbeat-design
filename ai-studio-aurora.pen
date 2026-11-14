@@ -603,7 +603,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -689,12 +691,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -760,7 +756,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -847,7 +845,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -878,7 +876,7 @@
                           "name": "Фон выбранной сессии",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "$aurora.lavender",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -1038,7 +1036,7 @@
                       "type": "path",
                       "id": "qCbDb",
                       "layoutPosition": "absolute",
-                      "x": 20,
+                      "x": 8,
                       "y": 0,
                       "name": "Связь субсессий с родительской сессией",
                       "context": "Вертикальная линия объединяет субсессии с родительской сессией. Только нижний закруглённый конец направлен к последней субсессии; промежуточных горизонтальных ветвей нет.",
@@ -1070,7 +1068,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -1156,12 +1154,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -1229,7 +1221,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -1314,7 +1306,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -1402,12 +1394,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -1475,7 +1461,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -1559,12 +1545,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -1632,7 +1612,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -1713,7 +1693,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -1803,7 +1783,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -1839,7 +1821,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -3170,13 +3154,13 @@
           "type": "frame",
           "id": "lqtOB",
           "layoutPosition": "absolute",
-          "x": 28,
+          "x": 16,
           "y": 8,
           "name": "Windows / Название окна",
           "context": "Кардиограмма и название относятся к приложению и остаются в боковой панели. Название текущего диалога находится только в заголовке чата.",
           "width": 204,
           "height": 36,
-          "gap": 8,
+          "gap": 10,
           "alignItems": "center",
           "children": [
             {
@@ -3269,7 +3253,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -3355,12 +3341,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -3426,7 +3406,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -3513,7 +3495,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -3678,7 +3660,7 @@
                       "type": "path",
                       "id": "yVQOC",
                       "layoutPosition": "absolute",
-                      "x": 20,
+                      "x": 8,
                       "y": 0,
                       "name": "Связь субсессий с родительской сессией",
                       "context": "Вертикальная линия объединяет субсессии с родительской сессией. Только нижний закруглённый конец направлен к последней субсессии; промежуточных горизонтальных ветвей нет.",
@@ -3710,7 +3692,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -3796,12 +3778,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -3869,7 +3845,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -3954,7 +3930,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -4042,12 +4018,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -4115,7 +4085,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -4199,12 +4169,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -4272,7 +4236,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -4353,7 +4317,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -4443,7 +4407,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -4479,7 +4445,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -5940,13 +5908,13 @@
           "type": "frame",
           "id": "o5Ttp",
           "layoutPosition": "absolute",
-          "x": 28,
+          "x": 16,
           "y": 8,
           "name": "Windows / Название окна",
           "context": "Кардиограмма и название относятся к приложению и остаются в боковой панели. Название текущего диалога находится только в заголовке чата.",
           "width": 204,
           "height": 36,
-          "gap": 8,
+          "gap": 10,
           "alignItems": "center",
           "children": [
             {
@@ -6039,7 +6007,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -6125,12 +6095,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -6196,7 +6160,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -6283,7 +6249,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -6314,7 +6280,7 @@
                           "name": "Фон выбранной сессии",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "$aurora.lavender",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -6474,7 +6440,7 @@
                       "type": "path",
                       "id": "VSv5b",
                       "layoutPosition": "absolute",
-                      "x": 20,
+                      "x": 8,
                       "y": 0,
                       "name": "Связь субсессий с родительской сессией",
                       "context": "Вертикальная линия объединяет субсессии с родительской сессией. Только нижний закруглённый конец направлен к последней субсессии; промежуточных горизонтальных ветвей нет.",
@@ -6506,7 +6472,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -6592,12 +6558,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -6665,7 +6625,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -6750,7 +6710,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -6838,12 +6798,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -6911,7 +6865,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -6995,12 +6949,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -7068,7 +7016,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -7149,7 +7097,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -7239,7 +7187,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -7275,7 +7225,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -8605,13 +8557,13 @@
           "type": "frame",
           "id": "ETCx8",
           "layoutPosition": "absolute",
-          "x": 28,
+          "x": 16,
           "y": 8,
           "name": "Windows / Название окна",
           "context": "Кардиограмма и название относятся к приложению и остаются в боковой панели. Название текущего диалога находится только в заголовке чата.",
           "width": 204,
           "height": 36,
-          "gap": 8,
+          "gap": 10,
           "alignItems": "center",
           "children": [
             {
@@ -8704,7 +8656,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -8790,12 +8744,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -8861,7 +8809,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -8951,7 +8901,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -8982,7 +8932,7 @@
                           "name": "Фон выбранной сессии",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "$aurora.lavender",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -9146,7 +9096,7 @@
                       "type": "path",
                       "id": "CI9wP",
                       "layoutPosition": "absolute",
-                      "x": 20,
+                      "x": 8,
                       "y": 0,
                       "name": "Связь субсессий с родительской сессией",
                       "context": "Вертикальная линия объединяет субсессии с родительской сессией. Только нижний закруглённый конец направлен к последней субсессии; промежуточных горизонтальных ветвей нет.",
@@ -9178,7 +9128,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -9264,12 +9214,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -9337,7 +9281,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -9422,7 +9366,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -9510,12 +9454,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -9583,7 +9521,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -9667,12 +9605,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -9740,7 +9672,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -9821,7 +9753,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -9911,7 +9843,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -9947,7 +9881,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -11424,13 +11360,13 @@
           "type": "frame",
           "id": "Y27yR",
           "layoutPosition": "absolute",
-          "x": 28,
+          "x": 16,
           "y": 8,
           "name": "Windows / Название окна",
           "context": "Кардиограмма и название относятся к приложению и остаются в боковой панели. Название текущего диалога находится только в заголовке чата.",
           "width": 204,
           "height": 36,
-          "gap": 8,
+          "gap": 10,
           "alignItems": "center",
           "children": [
             {
@@ -11523,7 +11459,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -11609,12 +11547,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -11680,7 +11612,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -11774,7 +11708,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -11805,7 +11739,7 @@
                           "name": "Фон выбранной сессии",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "$aurora.lavender",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -11973,7 +11907,7 @@
                       "type": "path",
                       "id": "Cxd9d",
                       "layoutPosition": "absolute",
-                      "x": 20,
+                      "x": 8,
                       "y": 0,
                       "name": "Связь субсессий с родительской сессией",
                       "context": "Вертикальная линия объединяет субсессии с родительской сессией. Только нижний закруглённый конец направлен к последней субсессии; промежуточных горизонтальных ветвей нет.",
@@ -12005,7 +11939,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -12091,12 +12025,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -12164,7 +12092,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -12249,7 +12177,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -12337,12 +12265,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -12410,7 +12332,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -12494,12 +12416,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -12567,7 +12483,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -12648,7 +12564,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -12738,7 +12654,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -12774,7 +12692,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -14285,13 +14205,13 @@
           "type": "frame",
           "id": "p2juh",
           "layoutPosition": "absolute",
-          "x": 28,
+          "x": 16,
           "y": 8,
           "name": "Windows / Название окна",
           "context": "Кардиограмма и название относятся к приложению и остаются в боковой панели. Название текущего диалога находится только в заголовке чата.",
           "width": 204,
           "height": 36,
-          "gap": 8,
+          "gap": 10,
           "alignItems": "center",
           "children": [
             {
@@ -14384,7 +14304,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -14470,12 +14392,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -14541,7 +14457,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -14635,7 +14553,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -14666,7 +14584,7 @@
                           "name": "Фон выбранной сессии",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "$aurora.lavender",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -14834,7 +14752,7 @@
                       "type": "path",
                       "id": "anQxb",
                       "layoutPosition": "absolute",
-                      "x": 20,
+                      "x": 8,
                       "y": 0,
                       "name": "Связь субсессий с родительской сессией",
                       "context": "Вертикальная линия объединяет субсессии с родительской сессией. Только нижний закруглённый конец направлен к последней субсессии; промежуточных горизонтальных ветвей нет.",
@@ -14866,7 +14784,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -14952,12 +14870,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -15025,7 +14937,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -15110,7 +15022,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -15198,12 +15110,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -15271,7 +15177,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -15355,12 +15261,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -15428,7 +15328,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -15509,7 +15409,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -15599,7 +15499,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -15635,7 +15537,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -17115,13 +17019,13 @@
           "type": "frame",
           "id": "TSyTz",
           "layoutPosition": "absolute",
-          "x": 28,
+          "x": 16,
           "y": 8,
           "name": "Windows / Название окна",
           "context": "Кардиограмма и название относятся к приложению и остаются в боковой панели. Название текущего диалога находится только в заголовке чата.",
           "width": 204,
           "height": 36,
-          "gap": 8,
+          "gap": 10,
           "alignItems": "center",
           "children": [
             {
@@ -19510,7 +19414,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -19663,7 +19567,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -19694,7 +19598,7 @@
                           "name": "Фон наведения",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "#F1EFF4",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -19826,7 +19730,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -19857,7 +19761,7 @@
                           "name": "Фон выбранной сессии",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "$aurora.lavender",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -20277,7 +20181,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -20363,12 +20269,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -20434,7 +20334,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -20521,7 +20423,7 @@
                     0,
                     0,
                     0,
-                    40
+                    28
                   ],
                   "children": [
                     {
@@ -20552,7 +20454,7 @@
                           "name": "Фон выбранной сессии",
                           "context": "Видимый фон 28 внутри цели высотой 32. В реализации ширина следует за шириной строки.",
                           "fill": "$aurora.lavender",
-                          "width": 200,
+                          "width": 212,
                           "height": 28
                         },
                         {
@@ -20712,7 +20614,7 @@
                       "type": "path",
                       "id": "BHcuP",
                       "layoutPosition": "absolute",
-                      "x": 20,
+                      "x": 8,
                       "y": 0,
                       "name": "Связь субсессий с родительской сессией",
                       "context": "Вертикальная линия объединяет субсессии с родительской сессией. Только нижний закруглённый конец направлен к последней субсессии; промежуточных горизонтальных ветвей нет.",
@@ -20744,7 +20646,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -20830,12 +20732,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -20903,7 +20799,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -20988,7 +20884,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -21076,12 +20972,6 @@
                       "width": "fill_container",
                       "height": 32,
                       "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        12
-                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -21149,7 +21039,7 @@
                         0,
                         12,
                         0,
-                        38
+                        26
                       ],
                       "alignItems": "center",
                       "children": [
@@ -21233,12 +21123,6 @@
                   "width": "fill_container",
                   "height": 32,
                   "gap": 8,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    12
-                  ],
                   "alignItems": "center",
                   "children": [
                     {
@@ -21306,7 +21190,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -21387,7 +21271,7 @@
                     0,
                     12,
                     0,
-                    38
+                    26
                   ],
                   "alignItems": "center",
                   "children": [
@@ -21477,7 +21361,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -21513,7 +21399,9 @@
                   "gap": 8,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -24651,13 +24539,13 @@
               "type": "frame",
               "id": "eEuNm",
               "layoutPosition": "absolute",
-              "x": 28,
+              "x": 16,
               "y": 8,
               "name": "Windows / Название окна",
               "context": "Кардиограмма и название относятся к приложению и остаются в боковой панели. Название текущего диалога находится только в заголовке чата.",
               "width": 204,
               "height": 36,
-              "gap": 8,
+              "gap": 10,
               "alignItems": "center",
               "children": [
                 {
@@ -24814,7 +24702,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
@@ -25204,7 +25094,9 @@
                   "gap": 10,
                   "padding": [
                     0,
-                    12
+                    12,
+                    0,
+                    0
                   ],
                   "alignItems": "center",
                   "children": [
