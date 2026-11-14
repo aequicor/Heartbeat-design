@@ -47112,44 +47112,8 @@
                               "id": "P6YuUw",
                               "name": "Связанный этап / Проверка отмены запроса",
                               "width": "fill_container",
-                              "gap": 12,
+                              "layout": "vertical",
                               "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "o8eHzC",
-                                  "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 176,
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "rectangle",
-                                      "id": "Qw1Rn",
-                                      "name": "Связь с предыдущим этапом",
-                                      "fill": "#00000000",
-                                      "width": 1,
-                                      "height": 5
-                                    },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "IrOpM",
-                                      "name": "Текущий этап / фиолетовый круг",
-                                      "fill": "$aurora.primary",
-                                      "width": 10,
-                                      "height": 10,
-                                      "stroke": "#00000000"
-                                    },
-                                    {
-                                      "type": "rectangle",
-                                      "id": "N4msT",
-                                      "name": "Связь со следующим этапом",
-                                      "fill": "#00000000",
-                                      "width": 1,
-                                      "height": "fill_container"
-                                    }
-                                  ]
-                                },
                                 {
                                   "type": "frame",
                                   "id": "atRSF",
@@ -47160,24 +47124,71 @@
                                   "gap": 4,
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "btJSa",
-                                      "name": "Текущий этап / описание действия",
-                                      "fill": "$aurora.muted",
-                                      "textGrowth": "fixed-width",
+                                      "type": "frame",
+                                      "id": "ZeWgh",
+                                      "name": "Текущий этап / индикатор и описание",
+                                      "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                       "width": "fill_container",
-                                      "content": "Проверяю отмену запроса",
-                                      "lineHeight": 1.5384615384615385,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
+                                      "gap": 12,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "o8eHzC",
+                                          "name": "Линия и маркер этапа",
+                                          "width": 16,
+                                          "height": 20,
+                                          "layout": "vertical",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "rectangle",
+                                              "id": "Qw1Rn",
+                                              "name": "Связь с предыдущим этапом",
+                                              "fill": "#00000000",
+                                              "width": 1,
+                                              "height": 5
+                                            },
+                                            {
+                                              "type": "ellipse",
+                                              "id": "IrOpM",
+                                              "name": "Текущий этап / полый фиолетовый индикатор",
+                                              "fill": "$aurora.pearl",
+                                              "width": 10,
+                                              "height": 10,
+                                              "stroke": "$aurora.primary",
+                                              "strokeWidth": 2
+                                            },
+                                            {
+                                              "type": "rectangle",
+                                              "id": "N4msT",
+                                              "name": "Связь со следующим этапом",
+                                              "fill": "#00000000",
+                                              "width": 1,
+                                              "height": "fill_container"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "btJSa",
+                                          "name": "Текущий этап / описание действия",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Проверяю отмену запроса",
+                                          "lineHeight": 1.5384615384615385,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
                                     },
                                     {
                                       "id": "C1g4x",
                                       "type": "ref",
                                       "ref": "Tqpcs",
                                       "name": "Инструмент / Читаю контракт сессии / свёрнут",
-                                      "width": 572,
+                                      "width": "fill_container",
                                       "descendants": {
                                         "AI54L": {
                                           "padding": [
@@ -47578,44 +47589,8 @@
                               "id": "Tz1u2",
                               "name": "Связанный этап / Текущая проверка",
                               "width": "fill_container",
-                              "gap": 12,
+                              "layout": "vertical",
                               "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "yw1HO",
-                                  "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 72,
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "rectangle",
-                                      "id": "ZWBD3",
-                                      "name": "Связь с предыдущим этапом",
-                                      "fill": "#D2DDD0",
-                                      "width": 1,
-                                      "height": 5
-                                    },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "pDefj",
-                                      "name": "Текущий этап / фиолетовый круг",
-                                      "fill": "$aurora.primary",
-                                      "width": 10,
-                                      "height": 10,
-                                      "stroke": "$aurora.primary"
-                                    },
-                                    {
-                                      "type": "rectangle",
-                                      "id": "bXcNj",
-                                      "name": "Связь со следующим этапом",
-                                      "fill": "#00000000",
-                                      "width": 1,
-                                      "height": "fill_container"
-                                    }
-                                  ]
-                                },
                                 {
                                   "type": "frame",
                                   "id": "Aur7I",
@@ -47636,24 +47611,71 @@
                                       "gap": 4,
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "fR6kV",
-                                          "name": "Текущий этап / описание действия",
-                                          "fill": "$aurora.muted",
-                                          "textGrowth": "fixed-width",
+                                          "type": "frame",
+                                          "id": "akk0U",
+                                          "name": "Текущий этап / индикатор и описание",
+                                          "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "content": "Проверяю повторную отправку",
-                                          "lineHeight": 1.5384615384615385,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "gap": 12,
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "yw1HO",
+                                              "name": "Линия и маркер этапа",
+                                              "width": 16,
+                                              "height": 20,
+                                              "layout": "vertical",
+                                              "alignItems": "center",
+                                              "children": [
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "ZWBD3",
+                                                  "name": "Связь с предыдущим этапом",
+                                                  "fill": "#D2DDD0",
+                                                  "width": 1,
+                                                  "height": 5
+                                                },
+                                                {
+                                                  "type": "ellipse",
+                                                  "id": "pDefj",
+                                                  "name": "Текущий этап / полый фиолетовый индикатор",
+                                                  "fill": "$aurora.pearl",
+                                                  "width": 10,
+                                                  "height": 10,
+                                                  "stroke": "$aurora.primary",
+                                                  "strokeWidth": 2
+                                                },
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "bXcNj",
+                                                  "name": "Связь со следующим этапом",
+                                                  "fill": "#00000000",
+                                                  "width": 1,
+                                                  "height": "fill_container"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "fR6kV",
+                                              "name": "Текущий этап / описание действия",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Проверяю повторную отправку",
+                                              "lineHeight": 1.5384615384615385,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
                                         },
                                         {
                                           "id": "GIzxm",
                                           "type": "ref",
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Проверяю переходы состояния / свёрнут",
-                                          "width": 572,
+                                          "width": "fill_container",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -48128,44 +48150,8 @@
                               "id": "EDxNl",
                               "name": "Связанный этап / Завершение проверки",
                               "width": "fill_container",
-                              "gap": 12,
+                              "layout": "vertical",
                               "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "NIbIv",
-                                  "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 72,
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "rectangle",
-                                      "id": "rqALL",
-                                      "name": "Связь с предыдущим этапом",
-                                      "fill": "#D2DDD0",
-                                      "width": 1,
-                                      "height": 5
-                                    },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "nkOVE",
-                                      "name": "Текущий этап / фиолетовый круг",
-                                      "fill": "$aurora.primary",
-                                      "width": 10,
-                                      "height": 10,
-                                      "stroke": "$aurora.primary"
-                                    },
-                                    {
-                                      "type": "rectangle",
-                                      "id": "GLz9C",
-                                      "name": "Связь со следующим этапом",
-                                      "fill": "#00000000",
-                                      "width": 1,
-                                      "height": "fill_container"
-                                    }
-                                  ]
-                                },
                                 {
                                   "type": "frame",
                                   "id": "YLlA3",
@@ -48186,24 +48172,71 @@
                                       "gap": 4,
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "Dndm1",
-                                          "name": "Текущий этап / описание действия",
-                                          "fill": "$aurora.muted",
-                                          "textGrowth": "fixed-width",
+                                          "type": "frame",
+                                          "id": "p0MhYV",
+                                          "name": "Текущий этап / индикатор и описание",
+                                          "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "content": "Проверяю сценарий отмены",
-                                          "lineHeight": 1.5384615384615385,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "gap": 12,
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "NIbIv",
+                                              "name": "Линия и маркер этапа",
+                                              "width": 16,
+                                              "height": 20,
+                                              "layout": "vertical",
+                                              "alignItems": "center",
+                                              "children": [
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "rqALL",
+                                                  "name": "Связь с предыдущим этапом",
+                                                  "fill": "#D2DDD0",
+                                                  "width": 1,
+                                                  "height": 5
+                                                },
+                                                {
+                                                  "type": "ellipse",
+                                                  "id": "nkOVE",
+                                                  "name": "Текущий этап / полый фиолетовый индикатор",
+                                                  "fill": "$aurora.pearl",
+                                                  "width": 10,
+                                                  "height": 10,
+                                                  "stroke": "$aurora.primary",
+                                                  "strokeWidth": 2
+                                                },
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "GLz9C",
+                                                  "name": "Связь со следующим этапом",
+                                                  "fill": "#00000000",
+                                                  "width": 1,
+                                                  "height": "fill_container"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "Dndm1",
+                                              "name": "Текущий этап / описание действия",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Проверяю сценарий отмены",
+                                              "lineHeight": 1.5384615384615385,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
                                         },
                                         {
                                           "id": "qUq6p",
                                           "type": "ref",
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Проверяю сценарий отмены / свёрнут",
-                                          "width": 572,
+                                          "width": "fill_container",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -49330,44 +49363,8 @@
                               "id": "DNnf9",
                               "name": "Связанный этап / Текущая проверка",
                               "width": "fill_container",
-                              "gap": 12,
+                              "layout": "vertical",
                               "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "lOXx3",
-                                  "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 72,
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "rectangle",
-                                      "id": "ei5Wh",
-                                      "name": "Связь с предыдущим этапом",
-                                      "fill": "#D2DDD0",
-                                      "width": 1,
-                                      "height": 5
-                                    },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "k1xOK",
-                                      "name": "Текущий этап / фиолетовый круг",
-                                      "fill": "$aurora.primary",
-                                      "width": 10,
-                                      "height": 10,
-                                      "stroke": "$aurora.primary"
-                                    },
-                                    {
-                                      "type": "rectangle",
-                                      "id": "wYlsj",
-                                      "name": "Связь со следующим этапом",
-                                      "fill": "#00000000",
-                                      "width": 1,
-                                      "height": "fill_container"
-                                    }
-                                  ]
-                                },
                                 {
                                   "type": "frame",
                                   "id": "e66lJr",
@@ -49388,24 +49385,71 @@
                                       "gap": 4,
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "tE3vJ",
-                                          "name": "Текущий этап / описание действия",
-                                          "fill": "$aurora.muted",
-                                          "textGrowth": "fixed-width",
+                                          "type": "frame",
+                                          "id": "x3dCn",
+                                          "name": "Текущий этап / индикатор и описание",
+                                          "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "content": "Проверяю повторную отправку",
-                                          "lineHeight": 1.5384615384615385,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "gap": 12,
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "lOXx3",
+                                              "name": "Линия и маркер этапа",
+                                              "width": 16,
+                                              "height": 20,
+                                              "layout": "vertical",
+                                              "alignItems": "center",
+                                              "children": [
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "ei5Wh",
+                                                  "name": "Связь с предыдущим этапом",
+                                                  "fill": "#D2DDD0",
+                                                  "width": 1,
+                                                  "height": 5
+                                                },
+                                                {
+                                                  "type": "ellipse",
+                                                  "id": "k1xOK",
+                                                  "name": "Текущий этап / полый фиолетовый индикатор",
+                                                  "fill": "$aurora.pearl",
+                                                  "width": 10,
+                                                  "height": 10,
+                                                  "stroke": "$aurora.primary",
+                                                  "strokeWidth": 2
+                                                },
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "wYlsj",
+                                                  "name": "Связь со следующим этапом",
+                                                  "fill": "#00000000",
+                                                  "width": 1,
+                                                  "height": "fill_container"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "tE3vJ",
+                                              "name": "Текущий этап / описание действия",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Проверяю повторную отправку",
+                                              "lineHeight": 1.5384615384615385,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
                                         },
                                         {
                                           "id": "QlmfI",
                                           "type": "ref",
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Проверяю переходы состояния / свёрнут",
-                                          "width": 572,
+                                          "width": "fill_container",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -49761,44 +49805,8 @@
                               "id": "kec4w",
                               "name": "Связанный этап / Проверка вложений",
                               "width": "fill_container",
-                              "gap": 12,
+                              "layout": "vertical",
                               "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "fYCgC",
-                                  "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 124,
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "rectangle",
-                                      "id": "MujKU",
-                                      "name": "Связь с предыдущим этапом",
-                                      "fill": "#D2DDD0",
-                                      "width": 1,
-                                      "height": 5
-                                    },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "QwVRT",
-                                      "name": "Текущий этап / фиолетовый круг",
-                                      "fill": "$aurora.primary",
-                                      "width": 10,
-                                      "height": 10,
-                                      "stroke": "$aurora.primary"
-                                    },
-                                    {
-                                      "type": "rectangle",
-                                      "id": "YY7p0",
-                                      "name": "Связь со следующим этапом",
-                                      "fill": "#00000000",
-                                      "width": 1,
-                                      "height": "fill_container"
-                                    }
-                                  ]
-                                },
                                 {
                                   "type": "frame",
                                   "id": "F4NTO6",
@@ -49819,24 +49827,71 @@
                                       "gap": 4,
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "EJEkY",
-                                          "name": "Текущий этап / описание действия",
-                                          "fill": "$aurora.muted",
-                                          "textGrowth": "fixed-width",
+                                          "type": "frame",
+                                          "id": "D7POct",
+                                          "name": "Текущий этап / индикатор и описание",
+                                          "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "content": "Проверяю сохранение вложений",
-                                          "lineHeight": 1.5384615384615385,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "gap": 12,
+                                          "children": [
+                                            {
+                                              "type": "frame",
+                                              "id": "fYCgC",
+                                              "name": "Линия и маркер этапа",
+                                              "width": 16,
+                                              "height": 20,
+                                              "layout": "vertical",
+                                              "alignItems": "center",
+                                              "children": [
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "MujKU",
+                                                  "name": "Связь с предыдущим этапом",
+                                                  "fill": "#D2DDD0",
+                                                  "width": 1,
+                                                  "height": 5
+                                                },
+                                                {
+                                                  "type": "ellipse",
+                                                  "id": "QwVRT",
+                                                  "name": "Текущий этап / полый фиолетовый индикатор",
+                                                  "fill": "$aurora.pearl",
+                                                  "width": 10,
+                                                  "height": 10,
+                                                  "stroke": "$aurora.primary",
+                                                  "strokeWidth": 2
+                                                },
+                                                {
+                                                  "type": "rectangle",
+                                                  "id": "YY7p0",
+                                                  "name": "Связь со следующим этапом",
+                                                  "fill": "#00000000",
+                                                  "width": 1,
+                                                  "height": "fill_container"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "EJEkY",
+                                              "name": "Текущий этап / описание действия",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Проверяю сохранение вложений",
+                                              "lineHeight": 1.5384615384615385,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
                                         },
                                         {
                                           "id": "dvfVk",
                                           "type": "ref",
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Читаю обработчик отмены / свёрнут",
-                                          "width": 278,
+                                          "width": "fill_container",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -49875,7 +49930,7 @@
                                           "type": "ref",
                                           "ref": "ZLjM3",
                                           "name": "Thinking / Android / свёрнут",
-                                          "width": 278,
+                                          "width": "fill_container",
                                           "descendants": {
                                             "XpIWN": {
                                               "padding": [
