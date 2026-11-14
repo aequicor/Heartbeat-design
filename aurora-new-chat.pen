@@ -83937,7 +83937,7 @@
               "name": "Фон Aurora / длинная развёртка",
               "clip": true,
               "width": 808,
-              "height": 4304,
+              "height": 4240,
               "layout": "none",
               "children": [
                 {
@@ -86181,11 +86181,13 @@
                               "type": "frame",
                               "id": "HjvB9",
                               "name": "Artifact / cancel-request.patch",
+                              "context": "Файл слева, ImageButton открыть и скачать справа. Кнопки не переходят под имя. Имя переносится при узкой ширине; действия сохраняют цели 32 desktop / 48 Android.",
                               "width": "fill_container",
                               "fill": "#00000000",
                               "stroke": "#00000000",
                               "strokeWidth": 1,
-                              "layout": "vertical",
+                              "gap": 8,
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "id": "L5tMEa",
@@ -86209,63 +86211,54 @@
                                 {
                                   "type": "frame",
                                   "id": "ajZ0s",
-                                  "name": "Действия с файлом",
-                                  "width": "fill_container",
+                                  "name": "ImageButton / действия файла справа",
+                                  "width": 64,
                                   "height": 32,
-                                  "gap": 8,
-                                  "padding": [
-                                    0,
-                                    0,
-                                    0,
-                                    56
-                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "frame",
                                       "id": "w3SiJ",
-                                      "name": "Цель / Открыть результат",
-                                      "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                                      "width": "fill_container",
+                                      "name": "ImageButton / Посмотреть изменения",
+                                      "context": "Посмотреть изменения. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                                      "width": 32,
                                       "height": 32,
+                                      "cornerRadius": 8,
+                                      "justifyContent": "center",
                                       "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "hWXn5",
-                                          "name": "Открыть результат",
-                                          "fill": "$aurora.primary",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Посмотреть изменения",
-                                          "lineHeight": 1.54,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "type": "icon",
+                                          "id": "jXENy",
+                                          "name": "Посмотреть изменения",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "external-link",
+                                          "library": "lucide",
+                                          "fill": "$aurora.primary"
                                         }
                                       ]
                                     },
                                     {
                                       "type": "frame",
                                       "id": "U0pcKh",
-                                      "name": "Цель / Скачать файл",
-                                      "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                                      "width": 80,
+                                      "name": "ImageButton / Скачать файл",
+                                      "context": "Скачать файл. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                                      "width": 32,
                                       "height": 32,
+                                      "cornerRadius": 8,
+                                      "justifyContent": "center",
                                       "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "cx8t2",
+                                          "type": "icon",
+                                          "id": "HWIJD",
                                           "name": "Скачать файл",
-                                          "fill": "$aurora.primary",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Скачать",
-                                          "lineHeight": 1.54,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "download",
+                                          "library": "lucide",
+                                          "fill": "$aurora.primary"
                                         }
                                       ]
                                     }
@@ -86277,11 +86270,13 @@
                               "type": "frame",
                               "id": "anegA",
                               "name": "Artifact / cancellation-notes.md",
+                              "context": "Файл слева, ImageButton открыть и скачать справа. Кнопки не переходят под имя. Имя переносится при узкой ширине; действия сохраняют цели 32 desktop / 48 Android.",
                               "width": "fill_container",
                               "fill": "#00000000",
                               "stroke": "#00000000",
                               "strokeWidth": 1,
-                              "layout": "vertical",
+                              "gap": 8,
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "id": "jf64Z",
@@ -86305,63 +86300,54 @@
                                 {
                                   "type": "frame",
                                   "id": "g4Rf3",
-                                  "name": "Действия с файлом",
-                                  "width": "fill_container",
+                                  "name": "ImageButton / действия файла справа",
+                                  "width": 64,
                                   "height": 32,
-                                  "gap": 8,
-                                  "padding": [
-                                    0,
-                                    0,
-                                    0,
-                                    56
-                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "frame",
                                       "id": "yjv95",
-                                      "name": "Цель / Открыть результат",
-                                      "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                                      "width": "fill_container",
+                                      "name": "ImageButton / Открыть документ",
+                                      "context": "Открыть документ. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                                      "width": 32,
                                       "height": 32,
+                                      "cornerRadius": 8,
+                                      "justifyContent": "center",
                                       "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "VvjW8",
-                                          "name": "Открыть результат",
-                                          "fill": "$aurora.primary",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Открыть документ",
-                                          "lineHeight": 1.54,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "type": "icon",
+                                          "id": "NO96b",
+                                          "name": "Открыть документ",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "external-link",
+                                          "library": "lucide",
+                                          "fill": "$aurora.primary"
                                         }
                                       ]
                                     },
                                     {
                                       "type": "frame",
                                       "id": "G0Gl4",
-                                      "name": "Цель / Скачать файл",
-                                      "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                                      "width": 80,
+                                      "name": "ImageButton / Скачать файл",
+                                      "context": "Скачать файл. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                                      "width": 32,
                                       "height": 32,
+                                      "cornerRadius": 8,
+                                      "justifyContent": "center",
                                       "alignItems": "center",
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "RNC7l",
+                                          "type": "icon",
+                                          "id": "KSjxj",
                                           "name": "Скачать файл",
-                                          "fill": "$aurora.primary",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Скачать",
-                                          "lineHeight": 1.54,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "download",
+                                          "library": "lucide",
+                                          "fill": "$aurora.primary"
                                         }
                                       ]
                                     }
@@ -89848,11 +89834,13 @@
                           "type": "frame",
                           "id": "Ji4Ce",
                           "name": "Artifact / cancellation-notes.md",
+                          "context": "Файл слева, ImageButton открыть и скачать справа. Кнопки не переходят под имя. Имя переносится при узкой ширине; действия сохраняют цели 32 desktop / 48 Android.",
                           "width": "fill_container",
                           "fill": "#00000000",
                           "stroke": "#00000000",
                           "strokeWidth": 1,
-                          "layout": "vertical",
+                          "gap": 8,
+                          "alignItems": "center",
                           "children": [
                             {
                               "id": "bqeRR",
@@ -89876,63 +89864,54 @@
                             {
                               "type": "frame",
                               "id": "R6sgr",
-                              "name": "Действия с файлом",
-                              "width": "fill_container",
+                              "name": "ImageButton / действия файла справа",
+                              "width": 64,
                               "height": 32,
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                0,
-                                0,
-                                56
-                              ],
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "XIBhi",
-                                  "name": "Цель / Открыть результат",
-                                  "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                                  "width": "fill_container",
+                                  "name": "ImageButton / Открыть документ",
+                                  "context": "Открыть документ. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                                  "width": 32,
                                   "height": 32,
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "S3lLK",
-                                      "name": "Открыть результат",
-                                      "fill": "$aurora.primary",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Открыть документ",
-                                      "lineHeight": 1.54,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
+                                      "type": "icon",
+                                      "id": "AYtpA",
+                                      "name": "Открыть документ",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "external-link",
+                                      "library": "lucide",
+                                      "fill": "$aurora.primary"
                                     }
                                   ]
                                 },
                                 {
                                   "type": "frame",
                                   "id": "RyB58",
-                                  "name": "Цель / Скачать файл",
-                                  "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                                  "width": 80,
+                                  "name": "ImageButton / Скачать файл",
+                                  "context": "Скачать файл. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                                  "width": 32,
                                   "height": 32,
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "qWU21",
+                                      "type": "icon",
+                                      "id": "ROj16",
                                       "name": "Скачать файл",
-                                      "fill": "$aurora.primary",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Скачать",
-                                      "lineHeight": 1.54,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "download",
+                                      "library": "lucide",
+                                      "fill": "$aurora.primary"
                                     }
                                   ]
                                 }
@@ -108674,6 +108653,18 @@
                           "height": 64,
                           "alignItems": "center"
                         },
+                        "R6sgr": {
+                          "width": 96,
+                          "height": 48
+                        },
+                        "XIBhi": {
+                          "width": 48,
+                          "height": 48
+                        },
+                        "RyB58": {
+                          "width": 48,
+                          "height": 48
+                        },
                         "OKap4": {
                           "width": 48,
                           "height": 48
@@ -114584,11 +114575,13 @@
                       "type": "frame",
                       "id": "SaV16",
                       "name": "Artifact / cancellation-notes.md",
+                      "context": "Файл слева, ImageButton открыть и скачать справа. Кнопки не переходят под имя. Имя переносится при узкой ширине; действия сохраняют цели 32 desktop / 48 Android.",
                       "width": "fill_container",
                       "fill": "#00000000",
                       "stroke": "#00000000",
                       "strokeWidth": 1,
-                      "layout": "vertical",
+                      "gap": 8,
+                      "alignItems": "center",
                       "children": [
                         {
                           "id": "uNUSg",
@@ -114612,63 +114605,54 @@
                         {
                           "type": "frame",
                           "id": "vVAhK",
-                          "name": "Действия с файлом",
-                          "width": "fill_container",
+                          "name": "ImageButton / действия файла справа",
+                          "width": 64,
                           "height": 32,
-                          "gap": 8,
-                          "padding": [
-                            0,
-                            0,
-                            0,
-                            56
-                          ],
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
                               "id": "Q81hVp",
-                              "name": "Цель / Открыть результат",
-                              "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                              "width": "fill_container",
+                              "name": "ImageButton / Открыть документ",
+                              "context": "Открыть документ. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                              "width": 32,
                               "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "text",
-                                  "id": "dNyoX",
-                                  "name": "Открыть результат",
-                                  "fill": "$aurora.primary",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Открыть документ",
-                                  "lineHeight": 1.54,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
+                                  "type": "icon",
+                                  "id": "U4x3B",
+                                  "name": "Открыть документ",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "external-link",
+                                  "library": "lucide",
+                                  "fill": "$aurora.primary"
                                 }
                               ]
                             },
                             {
                               "type": "frame",
                               "id": "sbCqV",
-                              "name": "Цель / Скачать файл",
-                              "context": "Кликабельная область действия файла. Desktop 32; Android 48. Название действия в доступном имени.",
-                              "width": 80,
+                              "name": "ImageButton / Скачать файл",
+                              "context": "Скачать файл. Подсказка при наведении и фокусе; доступное имя. Действие относится к этому файлу. Цель 32 desktop / 48 Android; не активирует одновременно строку файла.",
+                              "width": 32,
                               "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "text",
-                                  "id": "IA9lO",
+                                  "type": "icon",
+                                  "id": "DVdJ6",
                                   "name": "Скачать файл",
-                                  "fill": "$aurora.primary",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Скачать",
-                                  "lineHeight": 1.54,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "download",
+                                  "library": "lucide",
+                                  "fill": "$aurora.primary"
                                 }
                               ]
                             }
