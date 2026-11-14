@@ -41406,103 +41406,17 @@
                   "fontSize": 16
                 },
                 {
-                  "type": "frame",
-                  "id": "IOlcS",
-                  "name": "Документ результата / обычная ширина",
+                  "type": "text",
+                  "id": "kWSyx",
+                  "name": "Рекомендация в тексте ответа",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 8,
-                  "stroke": "$aurora.line",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    8,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "m9FCA",
-                      "name": "Документ",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "file-text",
-                      "library": "lucide",
-                      "fill": "$aurora.primary"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Pymju",
-                      "name": "Описание результата",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "Q12MX",
-                          "name": "Имя результата",
-                          "fill": "$aurora.ink",
-                          "content": "Проверка контрактов сессий",
-                          "lineHeight": 1.4285714285714286,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 14,
-                          "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "zXnzx",
-                          "name": "Состав результата",
-                          "fill": "$aurora.muted",
-                          "content": "3 наблюдения · 1 рекомендация",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "imOJp",
-                      "name": "Открыть документ",
-                      "context": "Доступное имя: Открыть документ «Проверка контрактов сессий». Открывает результат проверки. Клавиатурный фокус обозначается отдельным контуром.",
-                      "height": 32,
-                      "fill": "#00000000",
-                      "cornerRadius": 6,
-                      "stroke": "#00000000",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "BQr1l",
-                          "name": "Открыть документ / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "arrow-up-right",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "TzUlZ",
-                          "name": "Открыть документ / подпись",
-                          "fill": "$aurora.ink",
-                          "content": "Открыть",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "500"
-                        }
-                      ]
-                    }
-                  ]
+                  "content": "Дождитесь статуса «Остановлено», затем отправьте запрос снова.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -44480,103 +44394,17 @@
                   "fontSize": 16
                 },
                 {
-                  "type": "frame",
-                  "id": "mIcOM",
-                  "name": "Документ результата / обычная ширина",
+                  "type": "text",
+                  "id": "w11LgS",
+                  "name": "Рекомендация в тексте ответа",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 8,
-                  "stroke": "$aurora.line",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    8,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "H7hmgi",
-                      "name": "Документ",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "file-text",
-                      "library": "lucide",
-                      "fill": "$aurora.primary"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "hXCIx",
-                      "name": "Описание результата",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "W7vxm",
-                          "name": "Имя результата",
-                          "fill": "$aurora.ink",
-                          "content": "Проверка контрактов сессий",
-                          "lineHeight": 1.4285714285714286,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 14,
-                          "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "medeU",
-                          "name": "Состав результата",
-                          "fill": "$aurora.muted",
-                          "content": "3 наблюдения · 1 рекомендация",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Iwo6o",
-                      "name": "Открыть документ",
-                      "context": "Доступное имя: Открыть документ «Проверка контрактов сессий». Открывает результат проверки. Клавиатурный фокус обозначается отдельным контуром.",
-                      "height": 32,
-                      "fill": "#00000000",
-                      "cornerRadius": 6,
-                      "stroke": "#00000000",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "M8DV7z",
-                          "name": "Открыть документ / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "arrow-up-right",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "eFc8s",
-                          "name": "Открыть документ / подпись",
-                          "fill": "$aurora.ink",
-                          "content": "Открыть",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "500"
-                        }
-                      ]
-                    }
-                  ]
+                  "content": "Дождитесь статуса «Остановлено», затем отправьте запрос снова.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -45067,103 +44895,17 @@
                   "fontSize": 16
                 },
                 {
-                  "type": "frame",
-                  "id": "J5JVwS",
-                  "name": "Документ результата / обычная ширина",
+                  "type": "text",
+                  "id": "Rem5y",
+                  "name": "Рекомендация в тексте ответа",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 8,
-                  "stroke": "$aurora.line",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    8,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "qcvVu",
-                      "name": "Документ",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "file-text",
-                      "library": "lucide",
-                      "fill": "$aurora.primary"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "thHE7",
-                      "name": "Описание результата",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "RTcpP",
-                          "name": "Имя результата",
-                          "fill": "$aurora.ink",
-                          "content": "Проверка контрактов сессий",
-                          "lineHeight": 1.4285714285714286,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 14,
-                          "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "OsIO6",
-                          "name": "Состав результата",
-                          "fill": "$aurora.muted",
-                          "content": "3 наблюдения · 1 рекомендация",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "iTrIp",
-                      "name": "Открыть документ",
-                      "context": "Доступное имя: Открыть документ «Проверка контрактов сессий». Открывает результат проверки. Клавиатурный фокус обозначается отдельным контуром.",
-                      "height": 32,
-                      "fill": "#00000000",
-                      "cornerRadius": 6,
-                      "stroke": "#00000000",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "nQ5lL",
-                          "name": "Открыть документ / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "arrow-up-right",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "q0Xl0",
-                          "name": "Открыть документ / подпись",
-                          "fill": "$aurora.ink",
-                          "content": "Открыть",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "500"
-                        }
-                      ]
-                    }
-                  ]
+                  "content": "Дождитесь статуса «Остановлено», затем отправьте запрос снова.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -45457,103 +45199,17 @@
                   "fontSize": 16
                 },
                 {
-                  "type": "frame",
-                  "id": "Somww",
-                  "name": "Документ результата / обычная ширина",
+                  "type": "text",
+                  "id": "wzEXo",
+                  "name": "Рекомендация в тексте ответа",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 8,
-                  "stroke": "$aurora.line",
-                  "strokeWidth": 1,
-                  "gap": 8,
-                  "padding": [
-                    8,
-                    12
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "qQfJu",
-                      "name": "Документ",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "file-text",
-                      "library": "lucide",
-                      "fill": "$aurora.primary"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "K95Yw4",
-                      "name": "Описание результата",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "MeUXB",
-                          "name": "Имя результата",
-                          "fill": "$aurora.ink",
-                          "content": "Проверка контрактов сессий",
-                          "lineHeight": 1.4285714285714286,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 14,
-                          "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "C8yaT",
-                          "name": "Состав результата",
-                          "fill": "$aurora.muted",
-                          "content": "3 наблюдения · 1 рекомендация",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "LzdUt",
-                      "name": "Открыть документ",
-                      "context": "Доступное имя: Открыть документ «Проверка контрактов сессий». Открывает результат проверки. Клавиатурный фокус обозначается отдельным контуром.",
-                      "height": 32,
-                      "fill": "#00000000",
-                      "cornerRadius": 6,
-                      "stroke": "#00000000",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        12
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "hVwQz",
-                          "name": "Открыть документ / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "arrow-up-right",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "jM7yQ",
-                          "name": "Открыть документ / подпись",
-                          "fill": "$aurora.ink",
-                          "content": "Открыть",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "500"
-                        }
-                      ]
-                    }
-                  ]
+                  "content": "Дождитесь статуса «Остановлено», затем отправьте запрос снова.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
