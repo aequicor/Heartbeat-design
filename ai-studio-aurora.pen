@@ -597,15 +597,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -639,9 +639,11 @@
                   "context": "Кнопка поиска диалогов. Подсказка при наведении и фокусе: «Поиск диалогов · Ctrl K». Доступное имя: «Поиск диалогов». Сочетание Ctrl K сохраняется.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -2372,7 +2374,7 @@
                               "type": "frame",
                               "id": "tE1Je",
                               "name": "Сообщение пользователя / поверхность",
-                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
+                              "context": "Текст сообщения и нижняя строка со временем и действиями. В реализации длинный текст переносится в пределах доступной ширины. На desktop цели действий 32 × 32.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -2380,12 +2382,14 @@
                                 6,
                                 20
                               ],
-                              "gap": 8,
+                              "layout": "vertical",
                               "padding": [
                                 4,
+                                12,
+                                0,
                                 12
                               ],
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
@@ -2399,15 +2403,80 @@
                                   "fontWeight": "normal"
                                 },
                                 {
-                                  "type": "text",
-                                  "id": "DxowD",
-                                  "name": "Время запроса",
-                                  "fill": "$aurora.muted",
-                                  "content": "14:02",
-                                  "lineHeight": 1.3333333333333333,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
+                                  "type": "frame",
+                                  "id": "o3Nu01",
+                                  "name": "Нижняя строка сообщения",
+                                  "gap": 8,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "DxowD",
+                                      "name": "Время запроса",
+                                      "fill": "$aurora.muted",
+                                      "content": "14:02",
+                                      "lineHeight": 1.3333333333333333,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "CUmHv",
+                                      "name": "Действия сообщения",
+                                      "context": "Кнопки сообщения доступны для навигации и имеют отдельные доступные имена.",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "r1sFb",
+                                          "name": "Копировать сообщение",
+                                          "context": "Доступное имя: «Копировать сообщение». Копирует текст сообщения в буфер обмена.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "N5ToTP",
+                                              "name": "Значок · Копировать сообщение",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "copy",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "z8f0Qr",
+                                          "name": "Дополнительные действия",
+                                          "context": "Доступное имя: «Дополнительные действия». Открывает контекстное меню действий над сообщением. Список команд зависит от состояния сообщения.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "lX1Gd",
+                                              "name": "Значок · Дополнительные действия",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "ellipsis",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -3440,15 +3509,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -3482,9 +3551,11 @@
                   "context": "Кнопка поиска диалогов. Подсказка при наведении и фокусе: «Поиск диалогов · Ctrl K». Доступное имя: «Поиск диалогов». Сочетание Ctrl K сохраняется.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -6406,15 +6477,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -6448,9 +6519,11 @@
                   "context": "Кнопка поиска диалогов. Подсказка при наведении и фокусе: «Поиск диалогов · Ctrl K». Доступное имя: «Поиск диалогов». Сочетание Ctrl K сохраняется.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -9254,15 +9327,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -9296,9 +9369,11 @@
                   "context": "Кнопка поиска диалогов. Подсказка при наведении и фокусе: «Поиск диалогов · Ctrl K». Доступное имя: «Поиск диалогов». Сочетание Ctrl K сохраняется.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -11037,7 +11112,7 @@
                               "type": "frame",
                               "id": "MzOqY",
                               "name": "Сообщение пользователя / поверхность",
-                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
+                              "context": "Текст сообщения и нижняя строка со временем и действиями. В реализации длинный текст переносится в пределах доступной ширины. На desktop цели действий 32 × 32.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -11045,12 +11120,14 @@
                                 6,
                                 20
                               ],
-                              "gap": 8,
+                              "layout": "vertical",
                               "padding": [
                                 4,
+                                12,
+                                0,
                                 12
                               ],
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
@@ -11064,15 +11141,80 @@
                                   "fontWeight": "normal"
                                 },
                                 {
-                                  "type": "text",
-                                  "id": "M7GOh",
-                                  "name": "Время запроса",
-                                  "fill": "$aurora.muted",
-                                  "content": "14:02",
-                                  "lineHeight": 1.3333333333333333,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
+                                  "type": "frame",
+                                  "id": "jDQLD",
+                                  "name": "Нижняя строка сообщения",
+                                  "gap": 8,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "M7GOh",
+                                      "name": "Время запроса",
+                                      "fill": "$aurora.muted",
+                                      "content": "14:02",
+                                      "lineHeight": 1.3333333333333333,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "LuEcc",
+                                      "name": "Действия сообщения",
+                                      "context": "Кнопки сообщения доступны для навигации и имеют отдельные доступные имена.",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "f10qu",
+                                          "name": "Копировать сообщение",
+                                          "context": "Доступное имя: «Копировать сообщение». Копирует текст сообщения в буфер обмена.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "oVLfg",
+                                              "name": "Значок · Копировать сообщение",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "copy",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "o5brhI",
+                                          "name": "Дополнительные действия",
+                                          "context": "Доступное имя: «Дополнительные действия». Открывает контекстное меню действий над сообщением. Список команд зависит от состояния сообщения.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "iC6n4",
+                                              "name": "Значок · Дополнительные действия",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "ellipsis",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -12251,15 +12393,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -12293,9 +12435,11 @@
                   "context": "Кнопка поиска диалогов. Подсказка при наведении и фокусе: «Поиск диалогов · Ctrl K». Доступное имя: «Поиск диалогов». Сочетание Ctrl K сохраняется.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -14045,7 +14189,7 @@
                               "type": "frame",
                               "id": "EXKJt",
                               "name": "Сообщение пользователя / поверхность",
-                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
+                              "context": "Текст сообщения и нижняя строка со временем и действиями. В реализации длинный текст переносится в пределах доступной ширины. На desktop цели действий 32 × 32.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -14053,12 +14197,14 @@
                                 6,
                                 20
                               ],
-                              "gap": 8,
+                              "layout": "vertical",
                               "padding": [
                                 4,
+                                12,
+                                0,
                                 12
                               ],
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
@@ -14072,15 +14218,80 @@
                                   "fontWeight": "normal"
                                 },
                                 {
-                                  "type": "text",
-                                  "id": "hJ8IM",
-                                  "name": "Время запроса",
-                                  "fill": "$aurora.muted",
-                                  "content": "14:02",
-                                  "lineHeight": 1.3333333333333333,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
+                                  "type": "frame",
+                                  "id": "doQb0",
+                                  "name": "Нижняя строка сообщения",
+                                  "gap": 8,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "hJ8IM",
+                                      "name": "Время запроса",
+                                      "fill": "$aurora.muted",
+                                      "content": "14:02",
+                                      "lineHeight": 1.3333333333333333,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "xHjyx",
+                                      "name": "Действия сообщения",
+                                      "context": "Кнопки сообщения доступны для навигации и имеют отдельные доступные имена.",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "ukNCd",
+                                          "name": "Копировать сообщение",
+                                          "context": "Доступное имя: «Копировать сообщение». Копирует текст сообщения в буфер обмена.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "rO0e1",
+                                              "name": "Значок · Копировать сообщение",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "copy",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "eamyj",
+                                          "name": "Дополнительные действия",
+                                          "context": "Доступное имя: «Дополнительные действия». Открывает контекстное меню действий над сообщением. Список команд зависит от состояния сообщения.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "kV8Tw",
+                                              "name": "Значок · Дополнительные действия",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "ellipsis",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -15290,15 +15501,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -15332,9 +15543,11 @@
                   "context": "Кнопка поиска диалогов. Подсказка при наведении и фокусе: «Поиск диалогов · Ctrl K». Доступное имя: «Поиск диалогов». Сочетание Ctrl K сохраняется.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -17081,7 +17294,7 @@
                               "type": "frame",
                               "id": "sZjQl",
                               "name": "Сообщение пользователя / поверхность",
-                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
+                              "context": "Текст сообщения и нижняя строка со временем и действиями. В реализации длинный текст переносится в пределах доступной ширины. На desktop цели действий 32 × 32.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -17089,12 +17302,14 @@
                                 6,
                                 20
                               ],
-                              "gap": 8,
+                              "layout": "vertical",
                               "padding": [
                                 4,
+                                12,
+                                0,
                                 12
                               ],
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
@@ -17108,15 +17323,80 @@
                                   "fontWeight": "normal"
                                 },
                                 {
-                                  "type": "text",
-                                  "id": "KRKsK",
-                                  "name": "Время запроса",
-                                  "fill": "$aurora.muted",
-                                  "content": "14:02",
-                                  "lineHeight": 1.3333333333333333,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
+                                  "type": "frame",
+                                  "id": "V93vQ6",
+                                  "name": "Нижняя строка сообщения",
+                                  "gap": 8,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "KRKsK",
+                                      "name": "Время запроса",
+                                      "fill": "$aurora.muted",
+                                      "content": "14:02",
+                                      "lineHeight": 1.3333333333333333,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "HdqZX",
+                                      "name": "Действия сообщения",
+                                      "context": "Кнопки сообщения доступны для навигации и имеют отдельные доступные имена.",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "kBiTf",
+                                          "name": "Копировать сообщение",
+                                          "context": "Доступное имя: «Копировать сообщение». Копирует текст сообщения в буфер обмена.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "beZpK",
+                                              "name": "Значок · Копировать сообщение",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "copy",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "uZ5wT",
+                                          "name": "Дополнительные действия",
+                                          "context": "Доступное имя: «Дополнительные действия». Открывает контекстное меню действий над сообщением. Список команд зависит от состояния сообщения.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "r7Wl8T",
+                                              "name": "Значок · Дополнительные действия",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "ellipsis",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -18498,6 +18778,7 @@
                           "type": "frame",
                           "id": "sjuL8",
                           "name": "Яблочное сообщение",
+                          "context": "Текст сообщения и нижняя строка со временем и действиями. В реализации длинный текст переносится в пределах доступной ширины. На Android цели действий 48 × 48.",
                           "width": 294,
                           "fill": "#EAF1DF",
                           "cornerRadius": [
@@ -18507,11 +18788,13 @@
                             20
                           ],
                           "layout": "vertical",
-                          "gap": 8,
                           "padding": [
                             8,
+                            12,
+                            4,
                             12
                           ],
+                          "alignItems": "end",
                           "children": [
                             {
                               "type": "text",
@@ -18525,6 +18808,82 @@
                               "fontFamily": "$aurora.font",
                               "fontSize": 16,
                               "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "R2cWoz",
+                              "name": "Нижняя строка сообщения",
+                              "gap": 8,
+                              "justifyContent": "end",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ClX2I",
+                                  "name": "Время запроса Android",
+                                  "fill": "$aurora.muted",
+                                  "content": "14:02",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "l8E3V",
+                                  "name": "Действия сообщения",
+                                  "context": "Кнопки сообщения доступны для навигации и имеют отдельные доступные имена.",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "y920Mm",
+                                      "name": "Копировать сообщение",
+                                      "context": "Доступное имя: «Копировать сообщение». Копирует текст сообщения в буфер обмена.",
+                                      "width": 48,
+                                      "height": 48,
+                                      "cornerRadius": 6,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "oMwA9",
+                                          "name": "Значок · Копировать сообщение",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "copy",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "RkHoM",
+                                      "name": "Дополнительные действия",
+                                      "context": "Доступное имя: «Дополнительные действия». Открывает контекстное меню действий над сообщением. Список команд зависит от состояния сообщения.",
+                                      "width": 48,
+                                      "height": 48,
+                                      "cornerRadius": 6,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "FPmJ5",
+                                          "name": "Значок · Дополнительные действия",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "ellipsis",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         }
@@ -21348,15 +21707,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -21390,9 +21749,11 @@
                   "context": "Подсказка при наведении и фокусе: «Поиск диалогов · ⌘K». Доступное имя: «Поиск диалогов». На macOS используется Command+K.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -23121,7 +23482,7 @@
                               "type": "frame",
                               "id": "flAnm",
                               "name": "Сообщение пользователя / поверхность",
-                              "context": "Короткое сообщение справа. Ширина по тексту и времени. В реализации текст переносится при достижении доступной ширины, время переходит на следующую строку, если места в конце текста не хватает.",
+                              "context": "Текст сообщения и нижняя строка со временем и действиями. В реализации длинный текст переносится в пределах доступной ширины. На desktop цели действий 32 × 32.",
                               "fill": "#EAF1DF",
                               "cornerRadius": [
                                 20,
@@ -23129,12 +23490,14 @@
                                 6,
                                 20
                               ],
-                              "gap": 8,
+                              "layout": "vertical",
                               "padding": [
                                 4,
+                                12,
+                                0,
                                 12
                               ],
-                              "alignItems": "center",
+                              "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
@@ -23148,15 +23511,80 @@
                                   "fontWeight": "normal"
                                 },
                                 {
-                                  "type": "text",
-                                  "id": "BugIQ",
-                                  "name": "Время запроса",
-                                  "fill": "$aurora.muted",
-                                  "content": "14:02",
-                                  "lineHeight": 1.3333333333333333,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
+                                  "type": "frame",
+                                  "id": "BxVdp",
+                                  "name": "Нижняя строка сообщения",
+                                  "gap": 8,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "BugIQ",
+                                      "name": "Время запроса",
+                                      "fill": "$aurora.muted",
+                                      "content": "14:02",
+                                      "lineHeight": 1.3333333333333333,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "KiT1c",
+                                      "name": "Действия сообщения",
+                                      "context": "Кнопки сообщения доступны для навигации и имеют отдельные доступные имена.",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "M87aA",
+                                          "name": "Копировать сообщение",
+                                          "context": "Доступное имя: «Копировать сообщение». Копирует текст сообщения в буфер обмена.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "XVcgJ",
+                                              "name": "Значок · Копировать сообщение",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "copy",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "GFBEI",
+                                          "name": "Дополнительные действия",
+                                          "context": "Доступное имя: «Дополнительные действия». Открывает контекстное меню действий над сообщением. Список команд зависит от состояния сообщения.",
+                                          "width": 32,
+                                          "height": 32,
+                                          "cornerRadius": 6,
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "Z7M1X",
+                                              "name": "Значок · Дополнительные действия",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "ellipsis",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -26066,15 +26494,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -26108,9 +26536,11 @@
                   "context": "Кнопка поиска диалогов. Подсказка при наведении и фокусе: «Поиск диалогов · Ctrl K». Доступное имя: «Поиск диалогов». Сочетание Ctrl K сохраняется.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
@@ -26462,15 +26892,15 @@
                   "name": "Новый диалог",
                   "width": "fill_container",
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "gap": 10,
                   "padding": [
                     0,
-                    12,
-                    0,
-                    0
+                    8
                   ],
                   "alignItems": "center",
                   "children": [
@@ -26504,9 +26934,11 @@
                   "context": "Подсказка при наведении и фокусе: «Поиск диалогов · ⌘K». Доступное имя: «Поиск диалогов». На macOS используется Command+K.",
                   "width": 32,
                   "height": 32,
-                  "fill": "#00000000",
-                  "cornerRadius": 6,
-                  "stroke": "#00000000",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
