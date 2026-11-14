@@ -47659,152 +47659,60 @@
                           ]
                         },
                         {
-                          "type": "frame",
-                          "id": "A4qxu",
-                          "name": "Читаю контракт сессии",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 4,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "viO4q",
-                              "name": "Действие",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "s8E2Nd",
-                                  "name": "file-text",
-                                  "width": 16,
-                                  "height": 16,
-                                  "icon": "file-text",
-                                  "library": "lucide",
-                                  "fill": "$aurora.muted"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "fCaiA",
-                                  "name": "Текст / Читаю контракт сессии",
-                                  "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Читаю контракт сессии",
-                                  "lineHeight": 1.5,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 16,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                          "id": "C1g4x",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Читаю контракт сессии / свёрнут",
+                          "width": 600,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "file-text"
                             },
-                            {
-                              "type": "text",
-                              "id": "emPC9",
-                              "name": "Подпись / Готово · session-contract.md",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Готово · session-contract.md",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                            "r5qJm": {
+                              "content": "Читаю контракт сессии"
                             },
-                            {
-                              "type": "frame",
-                              "id": "b6Ir9",
-                              "name": "Результат инструмента / свёрнуто",
-                              "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
-                              "width": "fill_container",
-                              "height": 32,
-                              "cornerRadius": 8,
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "c6uAdA",
-                                  "name": "Раскрыть или свернуть",
-                                  "width": 16,
-                                  "height": 16,
-                                  "icon": "chevron-right",
-                                  "library": "lucide",
-                                  "fill": "$aurora.muted"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "qMgyH",
-                                  "name": "Подпись / Действия этапа · 3",
-                                  "fill": "$aurora.muted",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Результат инструмента",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                            "PVuWe": {
+                              "content": "Готово · session-contract.md"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-right"
+                            },
+                            "nKJvQ": {
+                              "enabled": false,
+                              "width": 600
                             }
-                          ]
+                          }
                         },
                         {
-                          "type": "frame",
-                          "id": "vTqCv",
-                          "name": "Ищу обработчик остановки",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 4,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "oYo13",
-                              "name": "Действие",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "PnaQ3",
-                                  "name": "search",
-                                  "width": 16,
-                                  "height": 16,
-                                  "icon": "search",
-                                  "library": "lucide",
-                                  "fill": "$aurora.muted"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "D3FawJ",
-                                  "name": "Текст / Ищу обработчик остановки",
-                                  "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Ищу обработчик остановки",
-                                  "lineHeight": 1.5,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 16,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                          "id": "Y7ZB8F",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Ищу обработчик остановки / свёрнут",
+                          "width": 600,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "search"
                             },
-                            {
-                              "type": "text",
-                              "id": "nGek3",
-                              "name": "Подпись / Выполняется",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Выполняется",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                            "r5qJm": {
+                              "content": "Ищу обработчик остановки"
+                            },
+                            "PVuWe": {
+                              "content": "Выполняется"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-right"
+                            },
+                            "nKJvQ": {
+                              "enabled": false,
+                              "width": 600
+                            },
+                            "F03pZ": {
+                              "content": "Выполнение продолжается"
+                            },
+                            "T8ILCl": {
+                              "content": "Результат пока не получен"
                             }
-                          ]
+                          }
                         },
                         {
                           "type": "frame",
@@ -48130,60 +48038,35 @@
                           ]
                         },
                         {
-                          "type": "frame",
-                          "id": "L41Vul",
-                          "name": "Проверяю переходы состояния",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 4,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "IBfkj",
-                              "name": "Действие",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "G3Yhw",
-                                  "name": "search",
-                                  "width": 16,
-                                  "height": 16,
-                                  "icon": "search",
-                                  "library": "lucide",
-                                  "fill": "$aurora.muted"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "ynL4O",
-                                  "name": "Текст / Проверяю переходы состояния",
-                                  "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Проверяю переходы состояния",
-                                  "lineHeight": 1.5,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 16,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                          "id": "GIzxm",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Проверяю переходы состояния / свёрнут",
+                          "width": 600,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "search"
                             },
-                            {
-                              "type": "text",
-                              "id": "IUvNV",
-                              "name": "Подпись / Выполняется",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Выполняется",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                            "r5qJm": {
+                              "content": "Проверяю переходы состояния"
+                            },
+                            "PVuWe": {
+                              "content": "Выполняется"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-right"
+                            },
+                            "nKJvQ": {
+                              "enabled": false,
+                              "width": 600
+                            },
+                            "F03pZ": {
+                              "content": "Выполнение продолжается"
+                            },
+                            "T8ILCl": {
+                              "content": "Результат пока не получен"
                             }
-                          ]
+                          }
                         }
                       ]
                     }
@@ -48534,60 +48417,35 @@
                           ]
                         },
                         {
-                          "type": "frame",
-                          "id": "a2E5i",
-                          "name": "Проверяю сценарий отмены",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 4,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "Hw7yV",
-                              "name": "Действие",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "W0wUcd",
-                                  "name": "list-checks",
-                                  "width": 16,
-                                  "height": 16,
-                                  "icon": "list-checks",
-                                  "library": "lucide",
-                                  "fill": "$aurora.muted"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "KGk3X",
-                                  "name": "Текст / Проверяю сценарий отмены",
-                                  "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Проверяю сценарий отмены",
-                                  "lineHeight": 1.5,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 16,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                          "id": "qUq6p",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Проверяю сценарий отмены / свёрнут",
+                          "width": 600,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "list-checks"
                             },
-                            {
-                              "type": "text",
-                              "id": "Y82xA3",
-                              "name": "Подпись / Выполняется",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Выполняется",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                            "r5qJm": {
+                              "content": "Проверяю сценарий отмены"
+                            },
+                            "PVuWe": {
+                              "content": "Выполняется"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-right"
+                            },
+                            "nKJvQ": {
+                              "enabled": false,
+                              "width": 600
+                            },
+                            "F03pZ": {
+                              "content": "Выполнение продолжается"
+                            },
+                            "T8ILCl": {
+                              "content": "Результат пока не получен"
                             }
-                          ]
+                          }
                         }
                       ]
                     }
@@ -49336,105 +49194,54 @@
                           ]
                         },
                         {
-                          "type": "text",
-                          "id": "iaV1h",
-                          "name": "Подпись / Читаю контракт сессии",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Читаю контракт сессии",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "P1SR5L",
-                          "name": "Результат инструмента / развёрнуто",
-                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
-                          "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "yLrsn",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-down",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                          "id": "Epzjz",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Читаю контракт сессии / раскрыт",
+                          "width": 600,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "file-text"
                             },
-                            {
-                              "type": "text",
-                              "id": "XqqSX",
-                              "name": "Подпись / Результат инструмента",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Результат инструмента",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "MeWFE",
-                          "name": "Параметры и результат чтения",
-                          "width": "fill_container",
-                          "fill": "#F0F2EB",
-                          "cornerRadius": 8,
-                          "layout": "vertical",
-                          "gap": 8,
-                          "padding": 12,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "rCsoI",
-                              "name": "Подпись / Файл: session-contract.md",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Файл: session-contract.md",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                            "r5qJm": {
+                              "content": "Читаю контракт сессии"
                             },
-                            {
-                              "type": "text",
-                              "id": "I3mddr",
-                              "name": "Текст / Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
-                              "fill": "$aurora.ink",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                            "PVuWe": {
+                              "content": "Готово · session-contract.md"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-down"
+                            },
+                            "nKJvQ": {
+                              "enabled": true,
+                              "width": "fill_container"
                             }
-                          ]
+                          }
                         },
                         {
-                          "type": "text",
-                          "id": "t1aZY",
-                          "name": "Подпись / Ищу обработчик остановки · Готово",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ищу обработчик остановки · Готово",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "id": "J0LFS",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Ищу обработчик остановки / свёрнут",
+                          "width": 600,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "search"
+                            },
+                            "r5qJm": {
+                              "content": "Ищу обработчик остановки"
+                            },
+                            "PVuWe": {
+                              "content": "Готово"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-right"
+                            },
+                            "nKJvQ": {
+                              "enabled": false,
+                              "width": 600
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -49515,60 +49322,35 @@
                           ]
                         },
                         {
-                          "type": "frame",
-                          "id": "CO6Nf",
-                          "name": "Проверяю переходы состояния",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 4,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "PnhPw",
-                              "name": "Действие",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "qTmNJ",
-                                  "name": "search",
-                                  "width": 16,
-                                  "height": 16,
-                                  "icon": "search",
-                                  "library": "lucide",
-                                  "fill": "$aurora.muted"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "Y5v7h",
-                                  "name": "Текст / Проверяю переходы состояния",
-                                  "fill": "$aurora.ink",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Проверяю переходы состояния",
-                                  "lineHeight": 1.5,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 16,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                          "id": "QlmfI",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Проверяю переходы состояния / свёрнут",
+                          "width": 600,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "search"
                             },
-                            {
-                              "type": "text",
-                              "id": "FxtoL",
-                              "name": "Подпись / Выполняется",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Выполняется",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                            "r5qJm": {
+                              "content": "Проверяю переходы состояния"
+                            },
+                            "PVuWe": {
+                              "content": "Выполняется"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-right"
+                            },
+                            "nKJvQ": {
+                              "enabled": false,
+                              "width": 600
+                            },
+                            "F03pZ": {
+                              "content": "Выполнение продолжается"
+                            },
+                            "T8ILCl": {
+                              "content": "Результат пока не получен"
                             }
-                          ]
+                          }
                         }
                       ]
                     }
@@ -49834,30 +49616,35 @@
                           "fontWeight": "normal"
                         },
                         {
-                          "type": "text",
-                          "id": "y8Wh6",
-                          "name": "Подпись / Читаю обработчик отмены",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Читаю обработчик отмены",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "mRJek",
-                          "name": "Подпись / Выполняется",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Выполняется",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "id": "dvfVk",
+                          "type": "ref",
+                          "ref": "Tqpcs",
+                          "name": "Инструмент / Читаю обработчик отмены / свёрнут",
+                          "width": 306,
+                          "descendants": {
+                            "qW5nX": {
+                              "icon": "file-text"
+                            },
+                            "r5qJm": {
+                              "content": "Читаю обработчик отмены"
+                            },
+                            "PVuWe": {
+                              "content": "Выполняется"
+                            },
+                            "EfkZb": {
+                              "icon": "chevron-right"
+                            },
+                            "nKJvQ": {
+                              "enabled": false,
+                              "width": 600
+                            },
+                            "F03pZ": {
+                              "content": "Выполнение продолжается"
+                            },
+                            "T8ILCl": {
+                              "content": "Результат пока не получен"
+                            }
+                          }
                         }
                       ]
                     }
@@ -50430,6 +50217,138 @@
                       "lineHeight": 1.3846153846153846,
                       "fontFamily": "$aurora.font",
                       "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Tqpcs",
+              "name": "Инструмент / единый блок",
+              "context": "Одна цель раскрытия: весь заголовок, включая иконку, имя, статус и файл. Нажатие или Enter/Space переключает подробности. Выделение текста вывода не переключает. Финал сбрасывает раскрытие один раз.",
+              "reusable": true,
+              "clip": true,
+              "width": 600,
+              "fill": "#F0F2EB",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AI54L",
+                  "name": "Инструмент / кликабельный заголовок",
+                  "context": "Единый focusable button с expanded/collapsed. Доступное имя содержит название и статус. Минимальная цель 48; высота растёт по тексту.",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qW5nX",
+                      "name": "Тип инструмента",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "file-text",
+                      "library": "lucide",
+                      "fill": "$aurora.muted"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SOoKK",
+                      "name": "Название и статус",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r5qJm",
+                          "name": "Название инструмента",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Читаю контракт сессии",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PVuWe",
+                          "name": "Статус и файл",
+                          "fill": "$aurora.muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Готово · session-contract.md",
+                          "lineHeight": 1.3846153846153846,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "EfkZb",
+                      "name": "Состояние раскрытия",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$aurora.muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nKJvQ",
+                  "x": 16,
+                  "y": 118,
+                  "name": "Подробности инструмента / внутри блока",
+                  "enabled": false,
+                  "width": 600,
+                  "fill": "#00000000",
+                  "stroke": "#D8DDD2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    12,
+                    12,
+                    12,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F03pZ",
+                      "name": "Подпись / Файл: session-contract.md",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Файл: session-contract.md",
+                      "lineHeight": 1.3846153846153846,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T8ILCl",
+                      "name": "Текст / Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
                       "fontWeight": "normal"
                     }
                   ]
