@@ -70246,10 +70246,7 @@
               "strokeWidth": 1,
               "layout": "vertical",
               "gap": 8,
-              "padding": [
-                12,
-                16
-              ],
+              "padding": 8,
               "children": [
                 {
                   "type": "frame",
@@ -71221,10 +71218,7 @@
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "layout": "vertical",
-                  "padding": [
-                    8,
-                    16
-                  ],
+                  "padding": 8,
                   "children": [
                     {
                       "id": "VyQE7",
