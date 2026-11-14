@@ -47276,7 +47276,7 @@
                                   "id": "o8eHzC",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 90,
+                                  "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47286,7 +47286,7 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#00000000",
                                       "width": 1,
-                                      "height": 20
+                                      "height": 12
                                     },
                                     {
                                       "type": "ellipse",
@@ -47362,7 +47362,7 @@
                                   "id": "AWLM5",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 90,
+                                  "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47372,7 +47372,7 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 20
+                                      "height": 12
                                     },
                                     {
                                       "type": "ellipse",
@@ -47454,7 +47454,7 @@
                                   "id": "olASA",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 70,
+                                  "height": 48,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47464,7 +47464,7 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 19
+                                      "height": 11
                                     },
                                     {
                                       "type": "ellipse",
@@ -47825,7 +47825,7 @@
                                   "id": "yw1HO",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 96,
+                                  "height": 74,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -48377,7 +48377,7 @@
                                   "id": "NIbIv",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 96,
+                                  "height": 74,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49388,7 +49388,7 @@
                                   "id": "K1adX",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 392,
+                                  "height": 348,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49486,15 +49486,32 @@
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Читаю контракт сессии / раскрыт",
                                           "width": 572,
+                                          "fill": "#F0F2EB",
                                           "descendants": {
+                                            "AI54L": {
+                                              "padding": 12
+                                            },
+                                            "TxCJd": {
+                                              "height": 24
+                                            },
                                             "qW5nX": {
                                               "icon": "file-text"
                                             },
+                                            "SOoKK": {
+                                              "gap": 4
+                                            },
                                             "r5qJm": {
-                                              "content": "Читаю контракт сессии"
+                                              "content": "Читаю контракт сессии",
+                                              "fontSize": 16,
+                                              "lineHeight": 1.5
                                             },
                                             "PVuWe": {
-                                              "content": "Готово · session-contract.md"
+                                              "content": "Готово · session-contract.md",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.3846153846153846
+                                            },
+                                            "u3qy9": {
+                                              "height": 24
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-down"
@@ -49573,7 +49590,7 @@
                                   "id": "lOXx3",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 96,
+                                  "height": 74,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -50006,7 +50023,7 @@
                                   "id": "fYCgC",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 192,
+                                  "height": 130,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -50708,7 +50725,7 @@
               "reusable": true,
               "clip": true,
               "width": 600,
-              "fill": "#F0F2EB",
+              "fill": "#00000000",
               "cornerRadius": 8,
               "layout": "vertical",
               "children": [
@@ -50716,17 +50733,20 @@
                   "type": "frame",
                   "id": "AI54L",
                   "name": "Инструмент / кликабельный заголовок",
-                  "context": "Единый focusable button с expanded/collapsed. Доступное имя содержит название и статус. Минимальная цель 48; высота растёт по тексту.",
+                  "context": "Одна цель раскрытия высотой от 48. Свёрнуто: прозрачный фон; hover/press — лёгкая подложка; focus-visible — контур. Длинный текст переносится и увеличивает высоту.",
                   "width": "fill_container",
                   "gap": 8,
-                  "padding": 12,
+                  "padding": [
+                    6,
+                    8
+                  ],
                   "children": [
                     {
                       "type": "frame",
                       "id": "TxCJd",
                       "name": "Колонка иконки / первая строка",
                       "width": 16,
-                      "height": 24,
+                      "height": 20,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -50749,7 +50769,6 @@
                       "context": "Название и subtitle находятся в одной текстовой колонке. Левый край обеих строк совпадает; subtitle не начинается под иконкой.",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 4,
                       "children": [
                         {
                           "type": "text",
@@ -50759,9 +50778,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Читаю контракт сессии",
-                          "lineHeight": 1.5,
+                          "lineHeight": 1.4285714285714286,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 16,
+                          "fontSize": 14,
                           "fontWeight": "normal"
                         },
                         {
@@ -50772,9 +50791,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Готово · session-contract.md",
-                          "lineHeight": 1.3846153846153846,
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         }
                       ]
@@ -50784,7 +50803,7 @@
                       "id": "u3qy9",
                       "name": "Шеврон / первая строка",
                       "width": 16,
-                      "height": 24,
+                      "height": 20,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -50862,7 +50881,7 @@
               "reusable": true,
               "clip": true,
               "width": 600,
-              "fill": "#F0F2EB",
+              "fill": "#00000000",
               "cornerRadius": 8,
               "layout": "vertical",
               "children": [
@@ -50870,17 +50889,20 @@
                   "type": "frame",
                   "id": "XpIWN",
                   "name": "Инструмент / кликабельный заголовок",
-                  "context": "Единый focusable button с expanded/collapsed. Доступное имя содержит название и статус. Минимальная цель 48; высота растёт по тексту.",
+                  "context": "Одна цель раскрытия высотой от 48. Свёрнуто: прозрачный фон; hover/press — лёгкая подложка; focus-visible — контур. Длинный текст переносится и увеличивает высоту.",
                   "width": "fill_container",
                   "gap": 8,
-                  "padding": 12,
+                  "padding": [
+                    6,
+                    8
+                  ],
                   "children": [
                     {
                       "type": "frame",
                       "id": "Eymjb",
                       "name": "Колонка иконки / первая строка",
                       "width": 16,
-                      "height": 24,
+                      "height": 20,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -50903,7 +50925,6 @@
                       "context": "Название и subtitle находятся в одной текстовой колонке. Левый край обеих строк совпадает; subtitle не начинается под иконкой.",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 4,
                       "children": [
                         {
                           "type": "text",
@@ -50913,9 +50934,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Думает...",
-                          "lineHeight": 1.5,
+                          "lineHeight": 1.4285714285714286,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 16,
+                          "fontSize": 14,
                           "fontWeight": "normal"
                         },
                         {
@@ -50926,9 +50947,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "Сопоставляю состояния отмены с повторной отправкой…",
-                          "lineHeight": 1.3846153846153846,
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         }
                       ]
@@ -50938,7 +50959,7 @@
                       "id": "vyDlH",
                       "name": "Шеврон / первая строка",
                       "width": 16,
-                      "height": 24,
+                      "height": 20,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -70528,9 +70549,28 @@
                   "ref": "ZLjM3",
                   "name": "2. Нажатие · весь полученный текст",
                   "width": 676,
+                  "fill": "#F0F2EB",
                   "descendants": {
+                    "XpIWN": {
+                      "padding": 12
+                    },
+                    "Eymjb": {
+                      "height": 24
+                    },
+                    "fYrhr": {
+                      "gap": 4
+                    },
                     "K8nVq": {
-                      "content": "Думает..."
+                      "content": "Думает...",
+                      "fontSize": 16,
+                      "lineHeight": 1.5
+                    },
+                    "xr6pN": {
+                      "fontSize": 13,
+                      "lineHeight": 1.3846153846153846
+                    },
+                    "vyDlH": {
+                      "height": 24
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70582,9 +70622,28 @@
                   "ref": "ZLjM3",
                   "name": "3. Пришёл следующий фрагмент · блок вырос",
                   "width": 676,
+                  "fill": "#F0F2EB",
                   "descendants": {
+                    "XpIWN": {
+                      "padding": 12
+                    },
+                    "Eymjb": {
+                      "height": 24
+                    },
+                    "fYrhr": {
+                      "gap": 4
+                    },
                     "K8nVq": {
-                      "content": "Думает..."
+                      "content": "Думает...",
+                      "fontSize": 16,
+                      "lineHeight": 1.5
+                    },
+                    "xr6pN": {
+                      "fontSize": 13,
+                      "lineHeight": 1.3846153846153846
+                    },
+                    "vyDlH": {
+                      "height": 24
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70627,9 +70686,28 @@
                   "ref": "ZLjM3",
                   "name": "4. Завершён · текст сохранён",
                   "width": 676,
+                  "fill": "#F0F2EB",
                   "descendants": {
+                    "XpIWN": {
+                      "padding": 12
+                    },
+                    "Eymjb": {
+                      "height": 24
+                    },
+                    "fYrhr": {
+                      "gap": 4
+                    },
                     "K8nVq": {
-                      "content": "Размышления"
+                      "content": "Размышления",
+                      "fontSize": 16,
+                      "lineHeight": 1.5
+                    },
+                    "xr6pN": {
+                      "fontSize": 13,
+                      "lineHeight": 1.3846153846153846
+                    },
+                    "vyDlH": {
+                      "height": 24
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70681,9 +70759,28 @@
                   "ref": "ZLjM3",
                   "name": "Thinking / Android / раскрытый",
                   "width": 338,
+                  "fill": "#F0F2EB",
                   "descendants": {
+                    "XpIWN": {
+                      "padding": 12
+                    },
+                    "Eymjb": {
+                      "height": 24
+                    },
+                    "fYrhr": {
+                      "gap": 4
+                    },
+                    "K8nVq": {
+                      "fontSize": 16,
+                      "lineHeight": 1.5
+                    },
                     "xr6pN": {
-                      "content": "Сопоставляю состояния отмены…"
+                      "content": "Сопоставляю состояния отмены…",
+                      "fontSize": 13,
+                      "lineHeight": 1.3846153846153846
+                    },
+                    "vyDlH": {
+                      "height": 24
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -70843,12 +70940,29 @@
                   "ref": "ZLjM3",
                   "name": "Поток прерван / полученный текст сохранён",
                   "width": 676,
+                  "fill": "#F0F2EB",
                   "descendants": {
+                    "XpIWN": {
+                      "padding": 12
+                    },
+                    "Eymjb": {
+                      "height": 24
+                    },
+                    "fYrhr": {
+                      "gap": 4
+                    },
                     "K8nVq": {
-                      "content": "Размышления прерваны"
+                      "content": "Размышления прерваны",
+                      "fontSize": 16,
+                      "lineHeight": 1.5
                     },
                     "xr6pN": {
-                      "content": "Сопоставляю состояния отмены…"
+                      "content": "Сопоставляю состояния отмены…",
+                      "fontSize": 13,
+                      "lineHeight": 1.3846153846153846
+                    },
+                    "vyDlH": {
+                      "height": 24
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
