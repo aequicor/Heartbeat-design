@@ -48528,7 +48528,8 @@
                                                 8
                                               ],
                                               "gap": 8,
-                                              "alignItems": "center"
+                                              "alignItems": "center",
+                                              "context": "Desktop без title: цель от 32, поля 6/8, иконка и шеврон центрируются по subtitle; перенос увеличивает высоту. Android сохраняет цель от 48."
                                             },
                                             "GCk46": {
                                               "enabled": false
@@ -48538,7 +48539,7 @@
                                               "enabled": false
                                             },
                                             "TxCJd": {
-                                              "height": 36,
+                                              "height": 20,
                                               "width": 24,
                                               "alignItems": "center",
                                               "justifyContent": "center"
@@ -48550,7 +48551,8 @@
                                               "height": 16
                                             },
                                             "SOoKK": {
-                                              "gap": 0
+                                              "gap": 0,
+                                              "context": "Title отсутствует; subtitle 13/20 переносится. Desktop: минимум шапки 32 без лишнего резерва высоты."
                                             },
                                             "r5qJm": {
                                               "content": "Проверяю сценарий отмены",
@@ -48566,7 +48568,7 @@
                                               "lineHeight": 1.5384615384615385
                                             },
                                             "u3qy9": {
-                                              "height": 36,
+                                              "height": 20,
                                               "width": 16,
                                               "alignItems": "center",
                                               "justifyContent": "center"
@@ -71067,13 +71069,14 @@
                         8
                       ],
                       "gap": 8,
-                      "alignItems": "center"
+                      "alignItems": "center",
+                      "context": "Desktop без title: цель от 32, поля 6/8, иконка и шеврон центрируются по subtitle; перенос увеличивает высоту. Android сохраняет цель от 48."
                     },
                     "GCk46": {
                       "enabled": false
                     },
                     "TxCJd": {
-                      "height": 36,
+                      "height": 20,
                       "width": 24,
                       "alignItems": "center",
                       "justifyContent": "center"
@@ -71085,7 +71088,8 @@
                       "height": 16
                     },
                     "SOoKK": {
-                      "gap": 0
+                      "gap": 0,
+                      "context": "Title отсутствует; subtitle 13/20 переносится. Desktop: минимум шапки 32 без лишнего резерва высоты."
                     },
                     "r5qJm": {
                       "enabled": false,
@@ -71099,7 +71103,7 @@
                       "fill": "$aurora.ink"
                     },
                     "u3qy9": {
-                      "height": 36,
+                      "height": 20,
                       "width": 16,
                       "alignItems": "center",
                       "justifyContent": "center"
