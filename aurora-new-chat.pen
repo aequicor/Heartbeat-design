@@ -44469,6 +44469,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "alignItems": "end",
@@ -44528,8 +44530,9 @@
                                   "width": 16,
                                   "height": 16,
                                   "icon": "info",
-                                  "library": "lucide",
-                                  "fill": "$aurora.error"
+                                  "library": "Material Symbols Rounded",
+                                  "weight": 300,
+                                  "fill": "$aurora.muted"
                                 }
                               ]
                             }
@@ -83415,7 +83418,7 @@
               "name": "Фон Aurora / длинная развёртка",
               "clip": true,
               "width": 808,
-              "height": 4416,
+              "height": 4296,
               "layout": "none",
               "children": [
                 {
@@ -83581,7 +83584,7 @@
                       "type": "frame",
                       "id": "Scm9T",
                       "name": "Запрос с вложениями",
-                      "context": "TG-компоновка: файлы компактными строками, ниже подпись и время в общем облачке. Поля 12/16, gap 8. Имя/размер справа от миниатюры 64.",
+                      "context": "Компактные строки вложений: колонка 48, круг документа 40, gap до текста 8, между файлами 4. Отдельная группа без padding. До подписи 8. Поля общего облачка 12/16.",
                       "width": 520,
                       "fill": "#E4EDCF",
                       "cornerRadius": 16,
@@ -83593,36 +83596,46 @@
                       ],
                       "children": [
                         {
-                          "id": "Y2PRYR",
-                          "type": "ref",
-                          "ref": "Ujizf",
-                          "name": "Вложение / cancellation.png",
-                          "width": "fill_container"
-                        },
-                        {
-                          "id": "HfDMG",
-                          "type": "ref",
-                          "ref": "soqsP",
-                          "name": "Вложение / session-contract.md",
-                          "width": "fill_container"
-                        },
-                        {
-                          "id": "Q0veKl",
-                          "type": "ref",
-                          "ref": "soqsP",
-                          "name": "Вложение / session.log",
+                          "type": "frame",
+                          "id": "leGCf",
+                          "name": "Вложения / компактная группа",
                           "width": "fill_container",
-                          "descendants": {
-                            "R6J7KM": {
-                              "icon": "file"
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "id": "Y2PRYR",
+                              "type": "ref",
+                              "ref": "Ujizf",
+                              "name": "Вложение / cancellation.png",
+                              "width": "fill_container"
                             },
-                            "XYLLg": {
-                              "content": "session.log"
+                            {
+                              "id": "HfDMG",
+                              "type": "ref",
+                              "ref": "soqsP",
+                              "name": "Вложение / session-contract.md",
+                              "width": "fill_container"
                             },
-                            "UN9hz": {
-                              "content": "24 КБ"
+                            {
+                              "id": "Q0veKl",
+                              "type": "ref",
+                              "ref": "soqsP",
+                              "name": "Вложение / session.log",
+                              "width": "fill_container",
+                              "descendants": {
+                                "R6J7KM": {
+                                  "icon": "file"
+                                },
+                                "XYLLg": {
+                                  "content": "session.log"
+                                },
+                                "UN9hz": {
+                                  "content": "24 КБ"
+                                }
+                              }
                             }
-                          }
+                          ]
                         },
                         {
                           "type": "text",
@@ -85579,7 +85592,7 @@
                                 0,
                                 0,
                                 0,
-                                76
+                                56
                               ],
                               "alignItems": "center",
                               "children": [
@@ -85675,7 +85688,7 @@
                                 0,
                                 0,
                                 0,
-                                76
+                                56
                               ],
                               "alignItems": "center",
                               "children": [
@@ -88260,37 +88273,37 @@
                           "type": "frame",
                           "id": "pHRiE",
                           "name": "Загрузка / отмена и прогресс",
-                          "width": 64,
-                          "height": 64,
+                          "width": 48,
+                          "height": 48,
                           "layout": "none",
                           "children": [
                             {
                               "type": "ellipse",
                               "id": "gaM0T",
-                              "x": 8,
-                              "y": 8,
+                              "x": 4,
+                              "y": 4,
                               "name": "Фон действия отмены",
                               "fill": "#E3ECDE",
-                              "width": 48,
-                              "height": 48
+                              "width": 40,
+                              "height": 40
                             },
                             {
                               "type": "ellipse",
                               "id": "cowjm",
-                              "x": 4,
-                              "y": 4,
+                              "x": 2,
+                              "y": 2,
                               "name": "Трек загрузки",
                               "fill": "#00000000",
-                              "width": 56,
-                              "height": 56,
+                              "width": 44,
+                              "height": 44,
                               "stroke": "#D3DECD",
                               "strokeWidth": 2
                             },
                             {
                               "type": "path",
                               "id": "cKH5D",
-                              "x": 4,
-                              "y": 4,
+                              "x": 2,
+                              "y": 2,
                               "name": "Прогресс загрузки 64%",
                               "geometry": "M28 0a28 28 0 1 1-21.57 45.85",
                               "viewBox": [
@@ -88300,8 +88313,8 @@
                                 56
                               ],
                               "fill": "#00000000",
-                              "width": 56,
-                              "height": 56,
+                              "width": 44,
+                              "height": 44,
                               "stroke": "$aurora.green",
                               "strokeWidth": 2,
                               "strokeLinecap": "round"
@@ -88309,8 +88322,8 @@
                             {
                               "type": "icon",
                               "id": "c1pPo",
-                              "x": 22,
-                              "y": 22,
+                              "x": 14,
+                              "y": 14,
                               "name": "Отменить загрузку файла",
                               "width": 20,
                               "height": 20,
@@ -89070,7 +89083,7 @@
                             0,
                             0,
                             0,
-                            76
+                            56
                           ],
                           "alignItems": "center",
                           "children": [
@@ -111366,18 +111379,18 @@
               "type": "frame",
               "id": "soqsP",
               "name": "Attachment / документ",
-              "context": "Компактный файл в сообщении. Вся строка открывает файл; меню позволяет скачать и копировать имя. Без вложенной карточки.",
+              "context": "Компактная строка файла. Колонка 48, круг 40, пиктограмма 20, gap до текста 8. Вся строка — цель открытия от 48 по высоте; длинное имя увеличивает высоту. Без вложенной карточки.",
               "reusable": true,
               "width": "fill_container",
-              "gap": 12,
+              "gap": 8,
               "alignItems": "center",
               "children": [
                 {
                   "type": "frame",
                   "id": "U9M37",
                   "name": "Область значка файла",
-                  "width": 64,
-                  "height": 64,
+                  "width": 48,
+                  "height": 48,
                   "layout": "vertical",
                   "justifyContent": "center",
                   "alignItems": "center",
@@ -111386,10 +111399,10 @@
                       "type": "frame",
                       "id": "r3HIr5",
                       "name": "Круг документа",
-                      "width": 48,
-                      "height": 48,
+                      "width": 40,
+                      "height": 40,
                       "fill": "$aurora.green",
-                      "cornerRadius": 24,
+                      "cornerRadius": 20,
                       "layout": "vertical",
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -111414,7 +111427,7 @@
                   "name": "Имя и метаданные файла",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 4,
+                  "gap": 2,
                   "children": [
                     {
                       "type": "text",
@@ -111450,10 +111463,10 @@
               "type": "frame",
               "id": "Ujizf",
               "name": "Attachment / изображение как файл",
-              "context": "Файл изображения с миниатюрой. Нажатие открывает просмотр; имя и размер справа.",
+              "context": "Миниатюра 48, gap до имени 8. Имя и размер справа, gap 2. Вся строка открывает просмотр, цель от 48.",
               "reusable": true,
               "width": "fill_container",
-              "gap": 12,
+              "gap": 8,
               "alignItems": "center",
               "children": [
                 {
@@ -111467,8 +111480,8 @@
                     "url": "assets/aurora-chat/cancellation-example.png",
                     "mode": "cover"
                   },
-                  "width": 64,
-                  "height": 64
+                  "width": 48,
+                  "height": 48
                 },
                 {
                   "type": "frame",
@@ -111476,7 +111489,7 @@
                   "name": "Имя и метаданные изображения",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 4,
+                  "gap": 2,
                   "children": [
                     {
                       "type": "text",
@@ -111790,37 +111803,37 @@
                       "type": "frame",
                       "id": "l62XQ",
                       "name": "Загрузка / отмена и прогресс",
-                      "width": 64,
-                      "height": 64,
+                      "width": 48,
+                      "height": 48,
                       "layout": "none",
                       "children": [
                         {
                           "type": "ellipse",
                           "id": "duVVz",
-                          "x": 8,
-                          "y": 8,
+                          "x": 4,
+                          "y": 4,
                           "name": "Фон действия отмены",
                           "fill": "#E3ECDE",
-                          "width": 48,
-                          "height": 48
+                          "width": 40,
+                          "height": 40
                         },
                         {
                           "type": "ellipse",
                           "id": "J38DA",
-                          "x": 4,
-                          "y": 4,
+                          "x": 2,
+                          "y": 2,
                           "name": "Трек загрузки",
                           "fill": "#00000000",
-                          "width": 56,
-                          "height": 56,
+                          "width": 44,
+                          "height": 44,
                           "stroke": "#D3DECD",
                           "strokeWidth": 2
                         },
                         {
                           "type": "path",
                           "id": "E6CeaH",
-                          "x": 4,
-                          "y": 4,
+                          "x": 2,
+                          "y": 2,
                           "name": "Прогресс загрузки 64%",
                           "geometry": "M28 0a28 28 0 1 1-21.57 45.85",
                           "viewBox": [
@@ -111830,8 +111843,8 @@
                             56
                           ],
                           "fill": "#00000000",
-                          "width": 56,
-                          "height": 56,
+                          "width": 44,
+                          "height": 44,
                           "stroke": "$aurora.green",
                           "strokeWidth": 2,
                           "strokeLinecap": "round"
@@ -111839,8 +111852,8 @@
                         {
                           "type": "icon",
                           "id": "j5noa",
-                          "x": 22,
-                          "y": 22,
+                          "x": 14,
+                          "y": 14,
                           "name": "Отменить загрузку файла",
                           "width": 20,
                           "height": 20,
@@ -113270,7 +113283,7 @@
                         0,
                         0,
                         0,
-                        76
+                        56
                       ],
                       "alignItems": "center",
                       "children": [
@@ -127839,6 +127852,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "alignItems": "end",
@@ -127898,8 +127913,9 @@
                                   "width": 16,
                                   "height": 16,
                                   "icon": "info",
-                                  "library": "lucide",
-                                  "fill": "$aurora.error"
+                                  "library": "Material Symbols Rounded",
+                                  "weight": 300,
+                                  "fill": "$aurora.muted"
                                 }
                               ]
                             }
@@ -128085,6 +128101,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "alignItems": "end",
@@ -128147,8 +128165,9 @@
                                   "width": 16,
                                   "height": 16,
                                   "icon": "info",
-                                  "library": "lucide",
-                                  "fill": "$aurora.error"
+                                  "library": "Material Symbols Rounded",
+                                  "weight": 300,
+                                  "fill": "$aurora.muted"
                                 }
                               ]
                             }
@@ -128297,6 +128316,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "alignItems": "end",
@@ -128359,8 +128380,9 @@
                                   "width": 16,
                                   "height": 16,
                                   "icon": "info",
-                                  "library": "lucide",
-                                  "fill": "$aurora.error"
+                                  "library": "Material Symbols Rounded",
+                                  "weight": 300,
+                                  "fill": "$aurora.muted"
                                 }
                               ]
                             }
@@ -128532,6 +128554,8 @@
                   "gap": 4,
                   "padding": [
                     12,
+                    16,
+                    4,
                     16
                   ],
                   "alignItems": "end",
@@ -128591,8 +128615,9 @@
                                   "width": 16,
                                   "height": 16,
                                   "icon": "info",
-                                  "library": "lucide",
-                                  "fill": "$aurora.error"
+                                  "library": "Material Symbols Rounded",
+                                  "weight": 300,
+                                  "fill": "$aurora.muted"
                                 }
                               ]
                             },
