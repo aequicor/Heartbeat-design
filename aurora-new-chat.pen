@@ -49162,7 +49162,7 @@
                                   "id": "ZxVOn",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 58,
+                                  "height": 32,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49197,9 +49197,9 @@
                                   "type": "frame",
                                   "id": "oAN9s",
                                   "name": "Содержимое этапа",
+                                  "context": "Последний этап без отдельного футера завершения. Завершение передаётся маркером и финальным ответом.",
                                   "width": "fill_container",
                                   "layout": "vertical",
-                                  "gap": 8,
                                   "children": [
                                     {
                                       "type": "frame",
@@ -49236,19 +49236,6 @@
                                           "fontWeight": "normal"
                                         }
                                       ]
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "c733Yt",
-                                      "name": "Подпись / Проверка сценария завершена",
-                                      "fill": "$aurora.muted",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Проверка сценария завершена",
-                                      "lineHeight": 1.3846153846153846,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
