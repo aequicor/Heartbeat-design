@@ -3600,7 +3600,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "ly2gF": {
                               "x": 394,
@@ -3615,6 +3616,9 @@
                                 12,
                                 16
                               ]
+                            },
+                            "Qiz6c": {
+                              "enabled": true
                             },
                             "qHnB2": {
                               "width": 466
@@ -3634,7 +3638,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "U7Flfy": {
                               "x": 470,
@@ -3659,7 +3664,8 @@
                               "width": "fill_container",
                               "height": 16,
                               "justifyContent": "end",
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "JXp4G": {
                               "width": 361
@@ -3679,7 +3685,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "bNkaI": {
                               "x": 365,
@@ -3694,6 +3701,9 @@
                                 12,
                                 16
                               ]
+                            },
+                            "LPkQ2": {
+                              "enabled": true
                             },
                             "AdeNd": {
                               "width": 391
@@ -3713,7 +3723,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "WogZv": {
                               "x": 395,
@@ -3728,6 +3739,9 @@
                                 12,
                                 16
                               ]
+                            },
+                            "nekt7": {
+                              "enabled": true
                             },
                             "X9eT4": {
                               "width": 325
@@ -3747,7 +3761,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "YCgNK": {
                               "x": 329,
@@ -3762,6 +3777,9 @@
                                 12,
                                 16
                               ]
+                            },
+                            "yVbH2": {
+                              "enabled": true
                             },
                             "H39wA": {
                               "width": 320
@@ -3781,7 +3799,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "J8xccS": {
                               "x": 324,
@@ -3796,6 +3815,9 @@
                                 12,
                                 16
                               ]
+                            },
+                            "P1XrRJ": {
+                              "enabled": true
                             }
                           }
                         }
@@ -15150,7 +15172,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "ybDGN": {
                               "x": 177,
@@ -15165,6 +15188,9 @@
                                 16
                               ]
                             },
+                            "aFR7k": {
+                              "enabled": true
+                            },
                             "rsxfU": {
                               "x": 524,
                               "y": 84
@@ -15177,13 +15203,18 @@
                               "width": "fill_container",
                               "height": 16,
                               "justifyContent": "end",
-                              "alignItems": "center"
+                              "alignItems": "center",
+                              "enabled": true
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
                               "justifyContent": "end",
-                              "alignItems": "center"
+                              "alignItems": "center",
+                              "enabled": true
                             }
                           }
                         }
@@ -15259,6 +15290,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -15341,6 +15375,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -15421,6 +15458,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -15503,6 +15543,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -15583,6 +15626,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -15665,6 +15711,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -15745,6 +15794,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -15827,6 +15879,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -15907,6 +15962,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -15989,6 +16047,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -16069,6 +16130,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -16151,6 +16215,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -16231,6 +16298,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -16313,6 +16383,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -16393,6 +16466,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -16475,6 +16551,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -16556,6 +16635,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -16633,6 +16715,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -16715,6 +16800,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -16795,6 +16883,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -16877,6 +16968,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -16957,6 +17051,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -17039,6 +17136,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -17119,6 +17219,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -17201,6 +17304,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -17281,6 +17387,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -17363,6 +17472,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -17443,6 +17555,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -17525,6 +17640,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -17605,6 +17723,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -17687,6 +17808,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -17767,6 +17891,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -17849,6 +17976,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -17930,6 +18060,9 @@
                               "justifyContent": "end",
                               "alignItems": "center"
                             },
+                            "pe1Wv": {
+                              "width": 612
+                            },
                             "txLfA": {
                               "width": "fill_container",
                               "height": 16,
@@ -18010,6 +18143,9 @@
                               "height": 16,
                               "justifyContent": "end",
                               "alignItems": "center"
+                            },
+                            "pe1Wv": {
+                              "width": 612
                             },
                             "txLfA": {
                               "width": "fill_container",
@@ -19118,7 +19254,8 @@
                               "width": 306,
                               "height": 16,
                               "justifyContent": "end",
-                              "alignItems": "center"
+                              "alignItems": "center",
+                              "enabled": true
                             },
                             "Hqba0": {
                               "x": 342,
@@ -19133,6 +19270,9 @@
                                 12,
                                 16
                               ]
+                            },
+                            "IlmVy": {
+                              "enabled": true
                             }
                           }
                         }
@@ -29562,6 +29702,9 @@
                                 12,
                                 16
                               ]
+                            },
+                            "pEWbm": {
+                              "enabled": true
                             }
                           }
                         }
@@ -38686,7 +38829,8 @@
                               "width": "fill_container",
                               "height": 16,
                               "justifyContent": "end",
-                              "alignItems": "center"
+                              "alignItems": "center",
+                              "enabled": true
                             }
                           }
                         }
@@ -43543,7 +43687,8 @@
                               "alignItems": "center",
                               "x": 16,
                               "y": 40,
-                              "name": "Футер / время справа / ширина по содержимому"
+                              "name": "Футер / время справа / ширина по содержимому",
+                              "enabled": true
                             },
                             "fLtQX": {
                               "x": 317,
@@ -59232,7 +59377,7 @@
                   "id": "pe1Wv",
                   "name": "Ответ агента / короткое дополнение",
                   "context": "Меню агента снаружи слева, исключено из расчёта ширины и высоты сообщения. Не резервировать полосу и не сужать текст, код, таблицы или вложения. Hover/focus не меняет геометрию.",
-                  "width": 632,
+                  "width": 612,
                   "fill": "#00000000",
                   "stroke": "#DFE2D8",
                   "alignItems": "end",
@@ -62459,6 +62604,9 @@
                 "MBTwW": {
                   "x": -36,
                   "y": 1206
+                },
+                "pe1Wv": {
+                  "width": 612
                 }
               }
             },
@@ -62472,6 +62620,22 @@
                 "M1HD0": {
                   "width": 288
                 },
+                "M8fRrM": {
+                  "padding": [
+                    12,
+                    16
+                  ]
+                },
+                "Z2JrAn": {
+                  "layoutPosition": "absolute",
+                  "x": 16,
+                  "y": 42,
+                  "width": 256,
+                  "height": 16,
+                  "justifyContent": "end",
+                  "alignItems": "center",
+                  "enabled": true
+                },
                 "Hqba0": {
                   "x": 292,
                   "y": 20
@@ -62481,7 +62645,23 @@
                 },
                 "kXiOw": {
                   "x": -52,
-                  "y": 128
+                  "y": 140
+                },
+                "AcJi8": {
+                  "padding": [
+                    12,
+                    16,
+                    4,
+                    16
+                  ]
+                },
+                "IlmVy": {
+                  "width": "fill_container",
+                  "height": 16,
+                  "justifyContent": "end",
+                  "alignItems": "center",
+                  "name": "Футер / время справа / ширина по содержимому",
+                  "enabled": true
                 }
               }
             },
@@ -62495,16 +62675,63 @@
                 "M1HD0": {
                   "width": 288
                 },
+                "M8fRrM": {
+                  "padding": [
+                    12,
+                    16
+                  ]
+                },
+                "dzBQN": {
+                  "fontSize": 32
+                },
+                "Z2JrAn": {
+                  "layoutPosition": "absolute",
+                  "x": 16,
+                  "y": 216,
+                  "width": 256,
+                  "height": 32,
+                  "justifyContent": "end",
+                  "alignItems": "center",
+                  "enabled": true
+                },
+                "i3KZvl": {
+                  "fontSize": 24
+                },
                 "Hqba0": {
                   "x": 292,
-                  "y": 20
+                  "y": 212
                 },
                 "o45vm": {
                   "width": 288
                 },
                 "kXiOw": {
                   "x": -52,
-                  "y": 128
+                  "y": 636
+                },
+                "AcJi8": {
+                  "padding": [
+                    12,
+                    16,
+                    4,
+                    16
+                  ]
+                },
+                "FLu7D": {
+                  "fontSize": 32
+                },
+                "G8KRv": {
+                  "fontSize": 32
+                },
+                "IlmVy": {
+                  "width": "fill_container",
+                  "height": 32,
+                  "justifyContent": "end",
+                  "alignItems": "center",
+                  "name": "Футер / время справа / ширина по содержимому",
+                  "enabled": true
+                },
+                "yBALs": {
+                  "fontSize": 24
                 }
               }
             },
@@ -67243,8 +67470,6 @@
                           "gap": 4,
                           "padding": [
                             12,
-                            16,
-                            4,
                             16
                           ],
                           "alignItems": "end",
@@ -67264,10 +67489,10 @@
                             {
                               "type": "frame",
                               "id": "D2nc9z",
-                              "x": 233,
-                              "y": 40,
-                              "name": "Футер пользователя / только время",
-                              "enabled": false,
+                              "layoutPosition": "absolute",
+                              "x": 16,
+                              "y": 42,
+                              "name": "Футер / время в последней строке",
                               "width": 306,
                               "height": 16,
                               "justifyContent": "end",
@@ -67292,7 +67517,7 @@
                           "id": "w2YAJ",
                           "layoutPosition": "absolute",
                           "x": 342,
-                          "y": 12,
+                          "y": 20,
                           "name": "Пользователь / внешнее меню справа",
                           "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
                           "width": 48,
@@ -67888,8 +68113,6 @@
                           "gap": 4,
                           "padding": [
                             12,
-                            16,
-                            4,
                             16
                           ],
                           "alignItems": "end",
@@ -67909,10 +68132,10 @@
                             {
                               "type": "frame",
                               "id": "Y2ys1",
-                              "x": 233,
-                              "y": 40,
-                              "name": "Футер пользователя / только время",
-                              "enabled": false,
+                              "layoutPosition": "absolute",
+                              "x": 16,
+                              "y": 42,
+                              "name": "Футер / время в последней строке",
                               "width": 306,
                               "height": 16,
                               "justifyContent": "end",
@@ -67937,7 +68160,7 @@
                           "id": "geWU8",
                           "layoutPosition": "absolute",
                           "x": 342,
-                          "y": 12,
+                          "y": 20,
                           "name": "Пользователь / внешнее меню справа",
                           "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
                           "width": 48,
@@ -96590,7 +96813,30 @@
                       "name": "Ход работы / содержимое Android",
                       "x": 16,
                       "y": 136,
-                      "width": 338
+                      "width": 338,
+                      "descendants": {
+                        "y1AgWC": {
+                          "padding": [
+                            12,
+                            16
+                          ]
+                        },
+                        "D2nc9z": {
+                          "enabled": true,
+                          "layoutPosition": "absolute",
+                          "x": 16,
+                          "y": 42,
+                          "width": 306,
+                          "height": 16,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "name": "Футер / время в последней строке"
+                        },
+                        "w2YAJ": {
+                          "x": 342,
+                          "y": 20
+                        }
+                      }
                     }
                   ]
                 },
@@ -97440,6 +97686,27 @@
                       "y": 136,
                       "width": 338,
                       "descendants": {
+                        "VsRdz": {
+                          "padding": [
+                            12,
+                            16
+                          ]
+                        },
+                        "Y2ys1": {
+                          "enabled": true,
+                          "layoutPosition": "absolute",
+                          "x": 16,
+                          "y": 42,
+                          "width": 306,
+                          "height": 16,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "name": "Футер / время в последней строке"
+                        },
+                        "geWU8": {
+                          "x": 342,
+                          "y": 20
+                        },
                         "jA8Q2": {
                           "x": -52,
                           "y": 140
@@ -100226,7 +100493,8 @@
                           "width": 306,
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "enabled": true
                         },
                         "VBioG": {
                           "width": 310
@@ -100245,7 +100513,8 @@
                           "height": 16,
                           "justifyContent": "end",
                           "alignItems": "center",
-                          "name": "Футер / время справа / ширина по содержимому"
+                          "name": "Футер / время справа / ширина по содержимому",
+                          "enabled": true
                         },
                         "fLtQX": {
                           "x": 314,
@@ -114396,7 +114665,8 @@
                           "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "enabled": true
                         }
                       }
                     }
@@ -127130,7 +127400,8 @@
                           "width": "fill_container",
                           "height": 16,
                           "justifyContent": "end",
-                          "alignItems": "center"
+                          "alignItems": "center",
+                          "enabled": true
                         }
                       }
                     }
@@ -129782,6 +130053,9 @@
                       "x": 586,
                       "y": 432,
                       "descendants": {
+                        "FFi6v": {
+                          "enabled": true
+                        },
                         "xPxZW": {
                           "x": 524,
                           "y": 136
@@ -133543,7 +133817,8 @@
                       "width": 328,
                       "height": 16,
                       "justifyContent": "end",
-                      "alignItems": "center"
+                      "alignItems": "center",
+                      "enabled": true
                     },
                     "dUKSP": {
                       "x": 364,
@@ -133580,7 +133855,8 @@
                       "width": 368,
                       "height": 16,
                       "justifyContent": "end",
-                      "alignItems": "center"
+                      "alignItems": "center",
+                      "enabled": true
                     },
                     "BtlQg": {
                       "x": 404,
@@ -133866,7 +134142,8 @@
                   "width": 306,
                   "height": 16,
                   "justifyContent": "end",
-                  "alignItems": "center"
+                  "alignItems": "center",
+                  "enabled": true
                 },
                 "dUKSP": {
                   "x": 342,
@@ -133900,7 +134177,8 @@
                   "width": 306,
                   "height": 16,
                   "justifyContent": "end",
-                  "alignItems": "center"
+                  "alignItems": "center",
+                  "enabled": true
                 },
                 "axMWm": {
                   "x": 342,
@@ -142358,7 +142636,12 @@
                   "type": "ref",
                   "ref": "NrTfr",
                   "name": "После отправки набора / сообщение и обычный ввод",
-                  "width": "fill_container"
+                  "width": "fill_container",
+                  "descendants": {
+                    "v2Viti": {
+                      "enabled": true
+                    }
+                  }
                 }
               ]
             },
@@ -142390,6 +142673,9 @@
                   "name": "Ответ в истории / сообщение с ошибкой",
                   "width": "fill_container",
                   "descendants": {
+                    "FFi6v": {
+                      "enabled": true
+                    },
                     "xPxZW": {
                       "x": 768,
                       "y": 136
@@ -161891,7 +162177,8 @@
                     "T8eyy": {
                       "width": "fill_container",
                       "height": 16,
-                      "justifyContent": "end"
+                      "justifyContent": "end",
+                      "enabled": true
                     },
                     "BtlQg": {
                       "x": 428,
@@ -162965,6 +163252,3611 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QUKhy",
+      "x": 23048,
+      "y": 0,
+      "name": "Heartbeat / Невозможное сердце / Остановленный поиск",
+      "clip": true,
+      "width": 1280,
+      "height": 1160,
+      "fill": "#F5F4F1",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "iwIU3",
+          "x": 64,
+          "y": 156,
+          "name": "Невозможное сердце / объёмный мастер",
+          "clip": true,
+          "width": 520,
+          "height": 480,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "guu59",
+              "x": 0.6452,
+              "y": 0,
+              "geometry": "M0 0l117.22762 0 24.13977 0 245.39299 0 3.71298 0 15.79938 0 112.43692 0 0 111.55352 0 41.38918 0 327.05733-255.41892 0-7.84648 0-255.44426 0 0-327.29442 0-38.54362 0-114.16199z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 56.69890299465351,
+                "size": {
+                  "height": 0.4295325855475023
+                },
+                "colors": [
+                  {
+                    "color": "#a6c5d7",
+                    "position": 0
+                  },
+                  {
+                    "color": "#f4f6f3",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.4796494523146902,
+                  "y": 0.4070580216133517
+                }
+              },
+              "width": 518.7096,
+              "height": 480
+            },
+            {
+              "type": "path",
+              "id": "Q8YBJ",
+              "x": 245.3363,
+              "y": 0,
+              "geometry": "M145.78223 0l15.79937 0 112.43689 0 0 111.55352 0 41.38918 0 327.05733-255.41888 0c9.7233-2.44434 14.79385-5.97024 22.02997-12.83969 4.54376-4.31113 9.29016-8.48044 13.75287-12.91061-0.73193-0.33942-1.20557 0.52688-1.935 1.18798-3.69278 3.33591-18.62848 18.06775-22.09076 19.27597l-0.43311-0.29635c-0.12918-0.65097 0.23807-1.71231 0.05066-2.11759-1.45129-3.1409-4.43488-12.50531-7.76797-13.4248-0.36475-0.53699-0.61041-0.85867-1.1752-1.18796-1.71976-0.99545-3.20395-2.16824-4.40702-3.76401-1.12201-1.49191-5.91653-10.59039-5.68606-12.01138 0.06079-0.36981 0.04306-0.14944 0.06332-0.58514l0.04306-0.90427c-2.61154-4.49097-4.87051-12.35843-6.89064-17.40665-0.50554-1.26394 0.02557-6.75039-0.39966-8.55642-1.39861-5.93729-3.38353-12.29764-3.75407-18.36917 0.12842-3.29035 0.30977-6.335 0.25201-9.93183 0.45868-3.83999 0.92395-7.63693 1.09797-11.50735 0.04304-0.95743 0.02025-2.01117 0.07066-2.95093 0.0428-0.79279-0.05649-2.538 0.11168-3.21179 0.72159-2.90277 2.29114-5.83853 3.01146-8.75653 1.1053-4.48084 1.70937-9.14661 2.9998-13.59449 0.63953-2.19867 2.31293-4.79242 3.36908-6.85934 0.51163-0.95746 0.6636-2.33542 1.31705-3.20166 1.6463-2.18851-0.01773-3.75897 2.89242-5.07358l-0.46097-0.25076c1.89957-0.74725 15.21683-13.53626 17.47858-15.77796 1.1423-2.12262 14.21387-15.22827 16.63013-17.43194 3.51041-3.50061 7.3425-7.84213 10.74649-11.54282 6.39523-6.87961 12.68158-13.85794 18.86151-20.93512l3.78647-4.46563c12.58783-15.07174 22.12622-26.85669 32.29525-44.01333 2.84681-3.51402 5.81269-11.95719 8.46198-15.98718 0.65598-1.66365 1.32968-3.32124 2.01859-4.97198 3.24954-8.59745 4.62991-17.78887 4.04736-26.96157 0.62051-1.07119 0.23047-3.07757 0.08609-4.38357-0.9979-8.4252-3.65982-16.56799-7.82874-23.9567-1.30691-2.29031-6.19009-8.50016-6.46615-9.90521-1.1828-1.62669-4.29306-4.76936-5.81018-6.61185-4.83249-5.87246-11.01496-13.90734-14.35565-20.70358-0.2305-1.48001-2.65436-6.1516-3.43699-7.90721-0.9498-2.16088-1.83881-4.34761-2.66952-6.55762-1.32715-3.513-1.96289-5.77799-2.76325-9.36521-0.61548-2.77183-1.05365-4.98566-1.37277-7.79702-1.4082-12.42528 0.10385-25.13706 5.83805-36.37285 9.2319-18.26546 28.4049-30.14383 48.16299-33.81746 2.43652-0.45311 5.08578-0.44272 7.41083-1.28587z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -114.68111318426996,
+                "size": {
+                  "height": 0.42045235903408396
+                },
+                "colors": [
+                  {
+                    "color": "#dad8c6",
+                    "position": 0
+                  },
+                  {
+                    "color": "#e3d7d9",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.36970383686982955,
+                  "y": 0.6623007494487807
+                }
+              },
+              "width": 274.0185,
+              "height": 480
+            },
+            {
+              "type": "path",
+              "id": "uUky1",
+              "x": 329.2143,
+              "y": 0,
+              "geometry": "M61.90424 0l15.79937 0 112.43689 0 0 111.55352 0 41.38918c-1.21826 7.59793-1.95526 14.7141-3.60663 22.34546-6.32428 29.26251-20.85473 62.24802-38.53344 86.63735 0.04056-1.42356 14.45953-22.16082 15.89816-27.02185l-0.41537-0.02913c-1.53489-1.30831-2.94053-8.8662-3.99671-11.155-2.07684-4.73998-5.41757-10.98378-10.28808-13.37338-0.57239-0.28092-8.20868-5.04216-6.94989-4.86004-3.13556-0.45315-3.97645-3.74881-6.00773-4.79013-2.16803-1.11096-6.58264-1.50027-8.87225-2.54539-8.21374-2.76601-17.5242-9.13063-25.68219-11.32344-8.84949-2.37847-18.28653-3.65357-26.98407-7.53232-1.71216-0.83133-8.82159-2.20268-9.88538-2.9494-6.83847-4.79874-11.62027-10.87535-18.40811-0.9357-1.75012 2.56287-1.9021 13.31715-3.70034 16.80179-0.32166 0.62614-1.19547 3.11227-1.32972 3.89319l-0.31659-0.47899c3.24954-8.59745 4.62991-17.78887 4.04737-26.96157 0.62051-1.07119 0.23047-3.07757 0.08609-4.38357-0.99789-8.4252-3.65982-16.56799-7.82874-23.9567-1.30691-2.29031-6.19009-8.50016-6.46615-9.90521-1.1828-1.62669-4.29306-4.76936-5.81018-6.61185-4.83249-5.87246-11.01495-13.90734-14.35566-20.70358-0.2305-1.48001-2.65436-6.1516-3.43698-7.90721-0.9498-2.16088-1.83881-4.34761-2.66952-6.55763-1.32715-3.513-1.96289-5.77799-2.76325-9.3652-0.61548-2.77183-1.05365-4.98566-1.37277-7.79702-1.4082-12.42528 0.10385-25.13706 5.83804-36.37285 9.2319-18.26546 28.40491-30.14383 48.163-33.81746 2.43652-0.45311 5.08578-0.44272 7.41083-1.28587z",
+              "fill": "#eeede8",
+              "width": 190.1405,
+              "height": 261.9255
+            },
+            {
+              "type": "path",
+              "id": "IKTvN",
+              "x": 360.115,
+              "y": 68.4959,
+              "geometry": "M146.62161 0c4.95151 9.88902 8.21369 20.94548 10.53369 31.72332 0.56733 2.64342 1.43103 9.31326 2.08448 11.33433l0 41.38918c-1.21827 7.59793-1.95526 14.7141-3.60663 22.34546-6.32428 29.26252-20.85474 62.24802-38.53345 86.63734 0.04056-1.42356 14.45953-22.1608 15.89816-27.02185l-0.41537-0.02912c-1.53488-1.30832-2.94052-8.86621-3.99671-11.155-2.07684-4.73999-5.41757-10.98379-10.28808-13.37338-0.57239-0.28091-8.20868-5.04217-6.94989-4.86005-3.13556-0.45315-3.97644-3.74881-6.00772-4.79013-2.16803-1.11096-6.58264-1.50027-8.87226-2.54538-8.21375-2.76601-17.5242-9.13063-25.68218-11.32344-8.84949-2.37847-18.28653-3.65357-26.98408-7.53232-1.71216-0.83133-8.8216-2.20268-9.88537-2.9494-6.83847-4.79874-11.62027-10.87535-18.40811-0.9357-1.75012 2.56286-1.9021 13.31715-3.70035 16.80178-0.32165 0.62615-1.19547 3.11228-1.32971 3.89319l-0.31659-0.47899c3.24954-8.59744 4.62991-17.78886 4.04736-26.96156 0.62051-1.0712 0.23047-3.07757 0.08609-4.38357-0.99789-8.4252-3.65982-16.56799-7.82873-23.9567-1.30692-2.29031-6.19009-8.50017-6.46616-9.90521 2.96838 2.66519 5.79495 5.65894 8.79883 8.38797 6.37244 5.75594 13.37549 10.77275 20.87753 14.95447 22.14142 12.1925 47.32214 14.3154 71.51758 7.29751 18.62088-5.40083 34.76471-16.65613 44.17898-33.89484 8.44169-15.45626 9.22934-32.47688 4.65015-49.18366-0.927-3.38305-2.38837-5.99481-3.30777-9.15547l-0.09369-0.32878z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 141.97660156066655,
+                "size": {
+                  "height": 0.8917300644673158
+                },
+                "colors": [
+                  {
+                    "color": "#a49a9a",
+                    "position": 0
+                  },
+                  {
+                    "color": "#c1b9b5",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.6280778433388607,
+                  "y": 0.34128072418595157
+                }
+              },
+              "width": 159.2398,
+              "height": 193.4296
+            },
+            {
+              "type": "path",
+              "id": "u2KGa",
+              "x": 406.9179,
+              "y": 0,
+              "geometry": "M0 0l112.43689 0 0 111.55352c-0.65344-2.02106-1.51715-8.69091-2.08447-11.33433-2.32001-10.77784-5.58219-21.8343-10.53369-31.72332-0.01776-0.08612-0.07092-0.43085-0.10132-0.49418-15.8779-33.31783-48.73541-57.5443-84.58667-65.1821-5.99506-1.27722-9.18124-1.36965-14.86225-2.64631-0.08865-0.05776-0.17728-0.11552-0.26849-0.17328z",
+              "fill": "#fefefe",
+              "width": 112.4369,
+              "height": 111.5535
+            },
+            {
+              "type": "path",
+              "id": "EYDwC",
+              "x": 345.1269,
+              "y": 16.608,
+              "geometry": "M121.4097 27.29367c7.7857 6.86235 14.2063 15.1338 18.9223 24.3797 27.71341 54.81727-29.02042 88.88638-76.63635 72.95799-23.98016-8.0212-44.59686-27.18271-55.9715-49.60593-6.92963-13.65682-10.38684-31.35476-5.29092-46.14079 11.85333-33.18867 53.90479-32.82807 81.3118-23.27752 11.14413 3.13449 23.98019 10.6154 33.13107 17.66418 0.84845 0.65275 4.0448 3.30123 4.5336 4.02237z",
+              "fill": "#ccc6c7",
+              "width": 147.636,
+              "height": 128.5646
+            },
+            {
+              "type": "path",
+              "id": "XJFcT",
+              "x": 345.1269,
+              "y": 16.608,
+              "geometry": "M121.4097 27.29367c7.7857 6.86235 14.2063 15.1338 18.9223 24.3797 27.71341 54.81727-29.02042 88.88638-76.63635 72.95799-23.98016-8.0212-44.59686-27.18271-55.9715-49.60593-6.92963-13.65682-10.38684-31.35476-5.29092-46.14079 11.85333-33.18867 53.90479-32.82807 81.3118-23.27752l-0.37485 0.22123c-7.97821-2.25762-20.67496-6.2609-29.28635-4.70602-1.83118 0.33078-10.07279 4.29903-11.45312 5.7583l0.00503 0.50391c0.52683 0.45026 0.86874 0.80977 1.51209 1.0734-1.49435 0.92046-2.98868 0.80217-4.09296 1.85513-1.22333 1.16745-3.32043 2.7721-4.35635 4.07202-6.1394 7.71217-12.18005 16.86206-13.48694 26.81389-0.2381 1.82324 0.39255 7.03359 0.45334 8.94776 0.37485 11.69048 2.23645 21.61597 9.52066 31.14833 1.65134 2.15988 3.07983 4.78227 5.14657 7.07386 5.81268 6.43554 14.36835 13.57399 22.57196 16.52137 2.55557 0.91821 5.32135 1.85845 7.77307 2.688 3.92072 1.28548 7.89459 2.40051 11.91156 3.34277 3.81183 0.86274 9.71313 0.25938 13.62882 1.35692 0.4483 0.12514 3.10516-0.19833 3.72568-0.27456 9.32565-1.14415 18.9172-2.44661 27.29812-6.99104 6.27365-3.49906 12.01792-10.80671 14.27716-17.69035 0.69904-2.05703 1.63871-3.64395 2.23642-6.02697 0.84089-3.2987 0.76996-6.99331 0.67121-10.39637-0.02533-0.94429-0.37485-3.65053-0.46097-4.63105-0.10638-1.19353 1.73239-8.19445 1.62347-8.50626-1.33221-3.75464-3.518-7.5721-5.46823-11.05267-2.96332-4.98693-6.78018-9.7036-10.6401-13.99269-1.05869-1.1786-4.81226-4.10951-5.07062-5.42236z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -40.562463727734816,
+                "size": {
+                  "height": 0.811688226563628
+                },
+                "colors": [
+                  {
+                    "color": "#958e96",
+                    "position": 0
+                  },
+                  {
+                    "color": "#b4adb2",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.47553551937145216,
+                  "y": 0.5069566896921048
+                }
+              },
+              "width": 147.636,
+              "height": 128.5646
+            },
+            {
+              "type": "path",
+              "id": "XxiUe",
+              "x": 263.9359,
+              "y": 152.9427,
+              "geometry": "M255.41888 0l0 327.05731-255.41888 0c9.7233-2.44433 14.79385-5.97021 22.02997-12.83966 4.54376-4.31116 9.29016-8.48047 13.75287-12.91064 0.92447-0.62055 7.26398-6.84919 8.41388-7.96369 7.25885-6.99859 14.45444-14.06311 21.58416-21.19348 21.46771-21.24156 42.66944-42.75163 63.60526-64.51753 22.89365-23.46808 44.65259-48.01523 65.2009-73.56287 4.14361-5.17486 8.18588-10.42828 12.12939-15.75512 1.66403-2.21637 5.30109-6.95307 6.56238-9.33152 17.67871-24.38932 32.20917-57.37483 38.53345-86.63734 1.65136-7.63136 2.38836-14.74753 3.60662-22.34546z",
+              "fill": "#fefefe",
+              "width": 255.4189,
+              "height": 327.0573
+            },
+            {
+              "type": "path",
+              "id": "W5jlzE",
+              "x": 277.476,
+              "y": 200.5977,
+              "geometry": "M90.78183 0c-0.84851 6.16681-10.18933 23.58991-13.84665 29.56065-16.97711 27.71182-40.67361 51.59531-64.43091 73.52588-2.25418 2.07706-10.10068 10.18006-12.50427 11.28949 1.1423-2.12262 14.21387-15.22827 16.63013-17.43194 3.51041-3.50061 7.3425-7.84213 10.74649-11.54282 6.39523-6.87961 12.68158-13.85794 18.86151-20.93512l3.78647-4.46564c12.58783-15.07173 22.12622-26.85669 32.29525-44.01332 2.8468-3.51402 5.81268-11.9572 8.46198-15.98718z",
+              "fill": "#eeede8",
+              "width": 90.7818,
+              "height": 114.376
+            },
+            {
+              "type": "path",
+              "id": "yD6nZ",
+              "x": 0.6452,
+              "y": 0,
+              "geometry": "M0 0l117.22762 0 24.13977 0c0.90139 0.5444 2.35318 0.58083 3.42048 0.74418 14.25185 2.18136 33.28505 6.80339 45.67481 14.4663 4.25935 1.87367 9.52852 5.3872 13.41757 7.94936 23.87887 15.73182 39.94444 36.49112 55.66199 59.94628-0.03547 0.23151-9.14249 13.53321-10.24019 15.10999l-22.81945 32.46902c-1.17088 1.63151-7.51823 10.64917-8.25984 11.30596-4.92064 7.30437-10.42915 14.39038-15.58761 21.53264-1.32794 1.83868-6.42588 8.43457-7.17861 10.20588l0.29454 0.13273c-4.97483 5.48719-9.35145 12.35816-13.75389 18.37324-7.44784 10.16916-15.04486 20.22789-22.78854 30.17339l-30.51015 41.11737c-7.19557 9.85077-13.76733 20.31198-22.50181 28.85067-9.63083 9.41507-22.03301 11.6973-33.52542 4.05783-3.12669-1.57299-5.85068-4.37191-8.45537-6.77572 0.09776 0.4382 0.19071 0.87894 0.27886 1.31967-4.2206-5.94235-8.83453-11.19577-13.22963-16.95578-6.65762-8.75903-12.81375-17.88791-18.43876-27.34225-1.33957-2.25994-4.82111-7.91785-5.6592-10.06583-1.37504-1.79031-3.0783-6.01405-4.15761-8.16228-8.36658-16.65233-15.16471-35.88525-19.11303-54.15059-0.943-4.4973-1.75994-9.02044-2.44987-13.56361-0.2977-1.86603-0.8998-6.4211-1.44666-8.03284l0-38.54362 0-114.16199z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 38.387695182456405,
+                "size": {
+                  "height": 0.7542165349547613
+                },
+                "colors": [
+                  {
+                    "color": "#ded1d3",
+                    "position": 0
+                  },
+                  {
+                    "color": "#f9fbf7",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.42683805347695464,
+                  "y": 0.38552681051474835
+                }
+              },
+              "width": 259.5422,
+              "height": 301.0201
+            },
+            {
+              "type": "path",
+              "id": "XhJ65",
+              "x": 17.8147,
+              "y": 15.2105,
+              "geometry": "M9.99761 221.40445c-0.16792-2.16113-10.24776-20.27069-9.99286-22.55544l0.37885-0.2391c1.62966 0.39032 5.56276 3.36378 6.82734 4.59152 1.20395 1.16872 2.82745 5.17919 4.21262 6.1516 5.27119 3.70019 10.19057 7.83072 15.8789 10.89563 4.3295 2.29919 10.5915 5.63942 14.19005 8.88949l0.43513-0.47873 0.32267 0.02001c0.46198 0.57472 0.54252 0.72597 1.13544 1.18341 0.26341-0.0266 0.52758-0.04889 0.79174-0.06712 1.54093-0.09879 1.67542 0.10841 2.8134 1.14465l0.43943-0.29459c0.12106 0.06435 0.24213 0.12868 0.3632 0.19303 2.0176 1.64997 5.68377 1.45619 7.615 2.75283 2.30456 1.87188 4.61899 0.32802 6.68776 2.85138 0.13778 0.1682 6.92938-0.53421 8.81908 0.75483 1.60476 1.09501 10.64823-0.93923 12.81374-1.10793 0.88799-0.06914 1.98518-3.26274 2.93167-3.61559 4.97359-1.53523 9.76203-3.37594 14.32885-5.89601 2.23187-1.23153 3.46356-3.87294 5.95224-4.49933 1.85247-2.28729 4.86341-4.22857 6.20603-5.98493 3.58993-4.6964 6.01404-12.37362 6.53908-18.21113 0.24466-2.72016-0.07319-5.92742 0.00962-8.68585 0.00861-1.30778 0.34522-5.67387 0.15197-6.52876-0.85074-4.25516-2.20528-8.53336-3.20647-12.72874-0.53188-2.22826 0.59898-6.78257-0.20592-9.34644l-0.19502 0.65123c-0.07523-0.65224-0.11601-1.30803-0.12233-1.96458-0.06688-5.67692 0.78516-9.97994 1.86816-15.42992 0.34952-3.82353 1.53966-9.38342 4.26316-12.40755 2.3937-2.65835 3.25534-6.82435 5.36665-9.0121 0.44553 0.25203 0.22313 0.22037 0.65195 0.16794-0.24874-0.43593-0.18845-0.20441-0.192-0.6915 2.08372-1.96281 2.96713-2.56109 5.26739-4.17842 1.65111-1.41289 3.01703-3.07326 4.91533-4.1784 6.68041-3.88888 13.46492-7.10957 20.4014-10.35432 6.78807-3.17559 16.49512-8.69268 21.78227-13.96433 4.9295-4.915 10.3448-12.26571 14.15256-18.14375 1.9606-3.27109 2.58342-10.37585 4.10914-14.02157 0.48174-1.15175 0.10032-4.11407 0.26595-5.4568 0.10335-2.93497 0.79605-6.13919 0.60684-9.06377-0.34393-5.319-0.92799-10.76897-1.53332-16.07025-0.30014-2.62898 0.17755-3.35189-1.37732-5.76329-0.58911-0.9139-0.70993-4.2012-1.01158-5.59992-5.72506-4.98947-15.81102-11.25014-22.50004-14.75616l0.13776-0.35568c4.25935 1.87367 9.52852 5.3872 13.41757 7.94936 23.87888 15.73182 39.94445 36.49112 55.66201 59.94628-0.03547 0.23151-9.14251 13.53321-10.24021 15.10999l-22.81944 32.46903c-1.17088 1.6315-7.51823 10.64917-8.25984 11.30595-4.92064 7.30437-10.42916 14.39038-15.58762 21.53264-1.32794 1.83868-6.42587 8.43457-7.1786 10.20588l0.29454 0.13273c-4.97484 5.48719-9.35146 12.35817-13.75389 18.37324-7.44785 10.16916-15.04486 20.22789-22.78855 30.17339l-30.51014 41.11737c-7.19557 9.85077-13.76733 20.31198-22.50181 28.85067-9.63083 9.41507-22.033 11.6973-33.52542 4.05784-3.12669-1.573-5.85068-4.37192-8.45536-6.77573 0.09776 0.4382 0.19071 0.87894 0.27885 1.31967-4.2206-5.94235-8.83453-11.19577-13.22963-16.95578-6.65762-8.75903-12.81375-17.88791-18.43877-27.34225-1.33957-2.25994-4.82111-7.91785-5.6592-10.06583z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 52.85065546349237,
+                "size": {
+                  "height": 0.45672464312086924
+                },
+                "colors": [
+                  {
+                    "color": "#b5abb2",
+                    "position": 0
+                  },
+                  {
+                    "color": "#f4e5e5",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.5164152930200618,
+                  "y": 0.5153289225585597
+                }
+              },
+              "width": 242.3727,
+              "height": 285.8097
+            },
+            {
+              "type": "path",
+              "id": "aRBzn",
+              "x": 141.9285,
+              "y": 154.8961,
+              "geometry": "M0.16083 12.48007c5.79521-24.49443 38.64235-7.17897 49.53576 3.35646 0.76564 0.74089 3.73911 3.27717 4.47666 2.99703l0.29454 0.13272c-4.97484 5.4872-9.35146 12.35817-13.75389 18.37324-7.44785 10.16916-15.04486 20.22789-22.78855 30.17339-7.96123-14.93497-19.41792-37.47548-17.76452-55.03284z",
+              "fill": "#fefefe",
+              "width": 54.4678,
+              "height": 67.5129
+            },
+            {
+              "type": "path",
+              "id": "G1MsSd",
+              "x": 141.821,
+              "y": 125.5418,
+              "geometry": "M37.04375 0.04339c2.11867-0.10512 5.74963-0.05598 7.77205 0.56561 8.15651 0.7485 20.74155 7.31855 27.02177 12.54308 0.74262 0.6178 4.10233 3.51349 4.80188 3.36962 0.49338-0.10132 0.05444-0.07979 0.4075-0.07245-4.92064 7.30437-10.42915 14.39038-15.58761 21.53264-1.32794 1.83868-6.42587 8.43457-7.17861 10.20589-0.73755 0.28015-3.71101-2.25613-4.47665-2.99703-10.89342-10.53543-43.74055-27.85089-49.53577-3.35646-0.21655-0.38274-0.24771-0.46733-0.25732-0.90883-0.46933-21.91055 14.13788-40.71186 37.03276-40.88207z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 8.108502104695294,
+                "size": {
+                  "height": 1.0324882230904815
+                },
+                "colors": [
+                  {
+                    "color": "#726d7c",
+                    "position": 0
+                  },
+                  {
+                    "color": "#aaa2ad",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.48047424957413387,
+                  "y": 0.5251866553943707
+                }
+              },
+              "width": 77.047,
+              "height": 48.2093
+            },
+            {
+              "type": "path",
+              "id": "IjG95",
+              "x": 178.8647,
+              "y": 125.5418,
+              "geometry": "M0 0.04339c2.11867-0.10512 5.74963-0.05598 7.77205 0.56561-2.55125 0.11323-5.54346 0.87135-7.77205-0.56561z",
+              "fill": "#ccc6c7",
+              "width": 7.772,
+              "height": 0.9097
+            },
+            {
+              "type": "path",
+              "id": "T40Kd",
+              "x": 0.6452,
+              "y": 0,
+              "geometry": "M0 0l117.22762 0c-0.81174 0.48522-7.81635 1.37073-9.46037 1.63906-6.26403 1.02687-12.44093 2.52865-18.47726 4.49235-39.10306 12.85303-69.87222 43.36963-83.04932 82.36793-2.04399 6.08803-3.45155 11.12891-4.52002 17.49581-0.22065 1.31487-1.16012 7.36844-1.72065 8.16684l0-114.16199z",
+              "fill": "#fefefe",
+              "width": 117.2276,
+              "height": 114.162
+            },
+            {
+              "type": "path",
+              "id": "N20gtc",
+              "x": 0.6452,
+              "y": 152.7056,
+              "geometry": "M0 0c0.54686 1.61174 1.14896 6.16681 1.44666 8.03284 0.68993 4.54317 1.50687 9.06632 2.44987 13.56361 3.94832 18.26534 10.74646 37.49826 19.11303 54.15059 1.07931 2.14822 2.78257 6.37196 4.15761 8.16228 0.83809 2.14798 4.31963 7.80589 5.6592 10.06582 5.62501 9.45435 11.78114 18.58322 18.43876 27.34226 4.3951 5.76001 9.00903 11.01343 13.22963 16.95578 1.01183 1.71991 4.71245 6.0589 6.10294 7.75601 6.06445 7.28738 12.25249 14.47345 18.56135 21.55313 32.97352 36.52561 67.09718 72 102.31902 106.36495l19.51366 19.25323c2.15741 2.13525 7.66971 7.89276 9.63667 9.36188 0.28517 0.04815 0.66054 0.12408 0.93964 0.14441 1.87501 2.05676 4.09903 4.52893 6.23212 6.30206 1.53916 1.84906 4.51237 4.4884 6.3661 6.13739 7.81863 6.9657 11.09654 9.63287 21.278 12.14819l-255.44426 0 0-327.29443z",
+              "fill": "#fefefe",
+              "width": 255.4443,
+              "height": 327.2944
+            },
+            {
+              "type": "path",
+              "id": "a5yAZ",
+              "x": 193.7405,
+              "y": 96.2918,
+              "geometry": "M142.66534 0c1.00296 2.02537 2.34534 5.00491 3.54334 6.81143 3.3407 6.79624 9.52316 14.83112 14.35565 20.70359 1.51712 1.84249 4.62738 4.98515 5.81018 6.61184 0.27606 1.40504 5.15924 7.6149 6.46616 9.90521 4.16891 7.3887 6.83084 15.53149 7.82873 23.9567 0.14438 1.306 0.53443 3.31238-0.08609 4.38357 0.58255 9.1727-0.79782 18.36412-4.04736 26.96157-0.6889 1.65074-1.36261 3.30833-2.01859 4.97198-2.64929 4.02999-5.61517 12.47316-8.46197 15.98719-10.16904 17.15663-19.70743 28.94158-32.29526 44.01332l-3.78647 4.46563c-6.17993 7.07718-12.46627 14.05552-18.86151 20.93512-3.40399 3.70069-7.23608 8.04221-10.74649 11.54282-2.41626 2.20367-15.48782 15.30933-16.63012 17.43195-2.26175 2.24169-15.57901 15.0307-17.47858 15.77795l0.46097 0.25076c-2.91016 1.31461-1.24612 2.88507-2.89243 5.07358-0.65344 0.86624-0.80542 2.2442-1.31705 3.20166-1.05615 2.06693-2.72955 4.66068-3.36908 6.85934-1.29044 4.44788-1.8945 9.11365-2.9998 13.59449-0.72032 2.918-2.28987 5.85376-3.01146 8.75653-0.16817 0.6738-0.06888 2.419-0.11168 3.21179-0.05041 0.93976-0.02762 1.9935-0.07066 2.95093-0.17401 3.87042-0.63928 7.66736-1.09796 11.50735 0.05775 3.59683-0.1236 6.64148-0.25201 9.93183 0.37054 6.07153 2.35547 12.43188 3.75407 18.36917 0.42523 1.80603-0.10588 7.29248 0.39966 8.55642 2.02013 5.04822 4.2791 12.91568 6.89064 17.40665l-0.04306 0.90427c-0.02026 0.4357-0.00253 0.21533-0.06333 0.58514-0.23047 1.42099 4.56406 10.51947 5.68607 12.01138 1.20306 1.59577 2.68726 2.76856 4.40701 3.76401 0.56479 0.32929 0.81045 0.65097 1.1752 1.18796 3.3331 0.91949 6.31668 10.2839 7.76798 13.4248 0.18741 0.40528-0.17984 1.46662-0.05066 2.11759l0.4331 0.29636c3.46228-1.20823 18.39798-15.94007 22.09076-19.27598 0.72943-0.6611 1.20307-1.5274 1.935-1.18798-4.46271 4.43017-9.2091 8.59948-13.75287 12.91061-7.23611 6.86945-12.30667 10.39536-22.02997 12.83969l-7.84649 0c-10.18146-2.51529-13.45936-5.18249-21.278-12.14819-1.85373-1.64896-4.82694-4.28833-6.36611-6.13739-2.13309-1.7731-4.3571-4.2453-6.23211-6.30207-2.07179-3.29037-6.18247-7.97888-8.79476-11.8569-9.35628-13.72116-15.56357-29.33951-18.17714-45.74057-9.3175-57.11117 26.5573-102.43884 57.67481-145.80653-2.70778-6.18454-5.97783-15.58316-8.14841-22.08887-1.28157 2.20546-2.78705 5.3466-3.98936 7.67366-4.62178 0.07193-9.24431 0.10562-13.86687 0.10132-2.55403 0.00532-5.97629-0.09169-8.46397 0.15475l51.86845-68.19114c18.08646-23.59523 42.57318-55.49686 66.0899-73.36629z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 72.81233237976905,
+                "size": {
+                  "height": 0.6282441054093152
+                },
+                "colors": [
+                  {
+                    "color": "#72768f",
+                    "position": 0
+                  },
+                  {
+                    "color": "#a5b1c3",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.4394626416044761,
+                  "y": 0.4611643702839765
+                }
+              },
+              "width": 180.9235,
+              "height": 383.7082
+            },
+            {
+              "type": "path",
+              "id": "t7q0Hl",
+              "x": 199.052,
+              "y": 300.8853,
+              "geometry": "M29.39336 160.82916c0.03976-0.49142-0.04964-0.76751-0.36472-1.17029-3.55524-4.55935-7.7039-9.08828-10.81363-13.95669-16.65747-26.06943-22.37595-58.33456-15.13527-88.42639 4.42145-18.3768 11.78949-34.06607 21.66803-50.10742 0.82339-1.33743 3.83081-6.51486 4.83048-7.16837 10.07027 10.35229 20.53337 20.31451 31.36726 29.86639l0.46097 0.25077c-2.91016 1.31461-1.24612 2.88507-2.89243 5.07357-0.65344 0.86624-0.80542 2.2442-1.31704 3.20166-1.05615 2.06692-2.72955 4.66067-3.36908 6.85935-1.29044 4.44788-1.8945 9.11365-2.99981 13.59448-0.72032 2.918-2.28987 5.85376-3.01145 8.75653-0.16817 0.6738-0.06888 2.41901-0.11168 3.21179-0.05042 0.93976-0.02762 1.9935-0.07067 2.95093-0.17401 3.87042-0.63928 7.66736-1.09796 11.50736 0.05775 3.59683-0.1236 6.64148-0.25201 9.93182 0.37054 6.07153 2.35547 12.43189 3.75407 18.36917 0.42523 1.80603-0.10588 7.29248 0.39966 8.55643 2.02013 5.04822 4.2791 12.91568 6.89064 17.40665l-0.04306 0.90426c-0.02026 0.4357-0.00253 0.21533-0.06332 0.58515-0.23047 1.42099 4.56406 10.51947 5.68606 12.01138 1.20306 1.59576 2.68726 2.76855 4.40701 3.76401 0.56479 0.32928 0.81046 0.65097 1.17521 1.18795 3.3331 0.9195 6.31668 10.28391 7.76797 13.42481 0.18741 0.40527-0.17984 1.46661-0.05066 2.11758l0.43311 0.29636c3.46228-1.20822 18.39798-15.94006 22.09076-19.27597 0.72943-0.6611 1.20306-1.52741 1.93499-1.18799-4.4627 4.43018-9.2091 8.59949-13.75286 12.91061-7.23611 6.86945-12.30667 10.39536-22.02997 12.8397l-7.8465 0c-10.18146-2.51529-13.45937-5.1825-21.278-12.1482-1.85373-1.64895-4.82693-4.28833-6.3661-6.13739z",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -100.67331110019671,
+                "size": {
+                  "height": 1.0219385723420435
+                },
+                "colors": [
+                  {
+                    "color": "#938b92",
+                    "position": 0
+                  },
+                  {
+                    "color": "#d5c5c3",
+                    "position": 1
+                  }
+                ],
+                "center": {
+                  "x": 0.4734912532557496,
+                  "y": 0.5096233002626183
+                }
+              },
+              "width": 100.6668,
+              "height": 179.1147
+            },
+            {
+              "type": "path",
+              "id": "yqtrs",
+              "x": 268.5734,
+              "y": 183.378,
+              "geometry": "M64.71967 0c8.70257 11.46655 17.43298 22.0957 26.50283 33.20689-10.16904 17.15663-19.70743 28.94159-32.29525 44.01332l-3.78647 4.46564c-6.17993 7.07718-12.46628 14.05551-18.86151 20.93512-3.40399 3.70069-7.23608 8.04221-10.74649 11.54282-3.14316-4.96469-6.92206-9.96732-10.43753-14.70652-4.9566-6.7048-9.9892-13.35388-15.09525-19.94723 2.50998-1.70468 7.64896-10.54405 10.03732-12.94785 3.00388-3.02109 12.80566-18.37146 15.52332-20.06373l-0.04813-0.1796c1.31198-2.1077 3.68012-3.99503 4.80719-6.73443l0.15198 0.05697c0.85608-0.73152 3.63449-4.22171 4.45004-5.22578 3.3002-4.06722 6.64597-8.09871 9.95883-12.15578 6.26352-7.66785 13.4895-14.71181 19.83912-22.25984z",
+              "fill": "#8987a4",
+              "width": 91.2225,
+              "height": 114.1638
+            },
+            {
+              "type": "path",
+              "id": "yuiJ4",
+              "x": 268.5734,
+              "y": 229.8764,
+              "geometry": "M0 33.01158c2.50998-1.70468 7.64896-10.54405 10.03732-12.94784 3.00388-3.02109 12.80566-18.37146 15.52332-20.06374 5.68604 6.38007 11.26065 12.85918 16.72131 19.43405 4.31326 5.15283 8.8064 10.42143 12.85883 15.75334-6.17993 7.07718-12.46628 14.05551-18.86151 20.93512-3.40399 3.70068-7.23608 8.04221-10.74649 11.54282-3.14316-4.96469-6.92206-9.96732-10.43754-14.70651-4.9566-6.7048-9.9892-13.35388-15.09524-19.94724z",
+              "fill": "#68687e",
+              "width": 55.1408,
+              "height": 67.6653
+            },
+            {
+              "type": "path",
+              "id": "vCp26",
+              "x": 294.0859,
+              "y": 222.9624,
+              "geometry": "M4.80719 0l0.15198 0.05698c7.40073 10.79025 16.67062 21.01439 24.12454 31.83908 1.27396 1.85161 2.89999 4.00719 4.33102 5.73973l-3.78647 4.46564c-4.05243-5.33191-8.54556-10.60051-12.85882-15.75335-5.46066-6.57487-11.03528-13.05398-16.72131-19.43405l-0.04813-0.17959c1.31198-2.1077 3.68011-3.99503 4.80719-6.73444z",
+              "fill": "#4e5064",
+              "width": 33.4147,
+              "height": 42.1014
+            },
+            {
+              "type": "path",
+              "id": "D6UPx",
+              "x": 228.6302,
+              "y": 254.0935,
+              "geometry": "M0 46.79176c3.0816-5.56747 10.93166-16.43652 14.77411-21.83935 5.30943-7.46219 12.38876-18.01962 18.13307-24.95241 2.53781 2.88509 4.62228 6.02345 7.03601 8.79451 5.10605 6.59335 10.13864 13.24243 15.09525 19.94724 3.51547 4.7392 7.29437 9.74182 10.43753 14.70651-2.41626 2.20368-15.48782 15.30933-16.63013 17.43194-2.26175 2.2417-15.57901 15.0307-17.47858 15.77796-10.83389-9.55188-21.297-19.5141-31.36726-29.8664z",
+              "fill": "#fefefe",
+              "width": 65.476,
+              "height": 76.6582
+            },
+            {
+              "type": "path",
+              "id": "NrzF2",
+              "x": 326.1811,
+              "y": 155.6769,
+              "geometry": "M0 18.36781c0.49133-0.79182 2.15537-2.28198 2.94052-2.95372 7.41589-6.22607 15.67273-12.92226 25.42133-14.89064 10.36911-2.09427 17.69641 2.10263 19.78088 12.46379 0.58255 9.1727-0.79782 18.36412-4.04736 26.96157-0.6889 1.65074-1.36261 3.30833-2.01859 4.97198-2.64929 4.02998-5.61517 12.47316-8.46197 15.98718-9.06986-11.11119-17.80026-21.74034-26.50284-33.20689-2.38586-3.09911-4.75653-6.21011-7.11197-9.33327z",
+              "fill": "#fefefe",
+              "width": 48.2727,
+              "height": 60.908
+            },
+            {
+              "type": "path",
+              "id": "qnPSz",
+              "x": 291.8748,
+              "y": 174.0447,
+              "geometry": "M34.30627 0c2.35544 3.12315 4.7261 6.23416 7.11197 9.33327-6.34961 7.54803-13.57559 14.59199-19.83911 22.25984-3.31287 4.05707-6.65863 8.08856-9.95883 12.15578-0.81555 1.00407-3.59396 4.49426-4.45004 5.22578l-0.15198-0.05698c-1.25372-1.65024-5.77722-7.75928-7.01828-8.90318 11.79001-14.9912 21.26254-26.20445 34.30627-40.01451z",
+              "fill": "#68687e",
+              "width": 41.4182,
+              "height": 48.9747
+            },
+            {
+              "type": "path",
+              "id": "D6lkF",
+              "x": 261.5374,
+              "y": 214.0592,
+              "geometry": "M30.33743 0c1.24106 1.14391 5.76456 7.25294 7.01828 8.90318-1.12708 2.73941-3.49521 4.62674-4.80719 6.73444l0.04813 0.17959c-2.71765 1.69228-12.51944 17.04265-15.52332 20.06374-2.38837 2.40379-7.52734 11.24316-10.03732 12.94785-2.41373-2.77106-4.4982-5.90942-7.03601-8.79451 0.49896-1.7475 22.11862-29.45503 24.8768-33.01514 1.74255-2.38481 3.62183-4.70375 5.46063-7.01915z",
+              "fill": "#4e5064",
+              "width": 37.3557,
+              "height": 48.8288
+            },
+            {
+              "type": "path",
+              "id": "SkVJy",
+              "x": 286.4142,
+              "y": 214.0592,
+              "geometry": "M5.46063 0c1.24106 1.14391 5.76456 7.25294 7.01828 8.90318-1.12707 2.73941-3.49521 4.62674-4.80719 6.73444-2.26682-2.16368-5.53409-6.13919-7.67172-8.61847 1.74255-2.38481 3.62183-4.70375 5.46063-7.01915z",
+              "fill": "#37384c",
+              "width": 12.4789,
+              "height": 15.6376
+            },
+            {
+              "type": "path",
+              "id": "tmvmJ",
+              "x": 142.0125,
+              "y": 0,
+              "geometry": "M0 0l245.39301 0-0.41285 0.06653c-5.22003 0.81381-10.8529 0.7476-16.5896 1.67112-17.07843 2.78677-33.46539 8.81909-48.27444 17.77094-2.31747 1.39385-7.14746 4.44617-9.2218 6.16976-1.26892 0.57195-4.55896 3.36583-5.78736 4.29645-13.7453 10.42601-25.93548 24.55422-36.27423 38.29159-2.43652 3.27768-4.81476 6.59639-7.1373 9.95436-0.79022 1.1249-2.63916 3.90307-3.52056 4.88537-15.71756-23.45516-31.78313-44.21446-55.66201-59.94628-3.88905-2.56216-9.15822-6.07569-13.41757-7.94936-12.38976-7.6629-31.42296-12.28494-45.6748-14.4663-1.06731-0.16336-2.51909-0.19978-3.42049-0.74418z",
+              "fill": "#fefefe",
+              "width": 245.393,
+              "height": 83.1061
+            },
+            {
+              "type": "path",
+              "id": "pAYqC",
+              "x": 73.0809,
+              "y": 13.4289,
+              "geometry": "M239.82597 12.24942c0.88648-0.04331 17.22023-11.02166 21.82485-12.24942-10.29064 5.73376-17.04299 10.01683-25.90764 17.90355-5.88614 5.1493-11.50635 10.59647-16.83527 16.32-26.59399 29.03962-46.8731 65.88818-70.45411 97.5626-13.29802 17.86209-26.15458 36.15704-39.47159 54.02496l-36.53256 48.36855c-5.40517 7.2043-10.76677 14.4689-16.39431 21.75879-10.54034 13.6528-23.47515 39.52719-44.63105 33.56201-2.4892-0.70413-9.74683-3.94129-11.42429-5.61814 0.01014-0.56991-0.03342-0.35968 0.23555-0.8764 11.49241 7.63947 23.89459 5.35724 33.52541-4.05783 8.73448-8.5387 15.30624-18.99991 22.50181-28.85068l30.51015-41.11737c7.74368-9.94549 15.3407-20.00423 22.78854-30.17338 4.40244-6.01508 8.77906-12.88605 13.75389-18.37325l-0.29454-0.13272c0.75273-1.77132 5.85067-8.3672 7.17861-10.20589 5.15846-7.14225 10.66697-14.22827 15.58761-21.53264 0.74161-0.65679 7.08896-9.67446 8.25985-11.30596l22.81944-32.46902c1.0977-1.57678 10.20474-14.87848 10.2402-15.11 0.88141-0.9823 2.73035-3.76047 3.52057-4.88536 2.32254-3.35797 4.70078-6.67668 7.1373-9.95436 10.33874-13.73737 22.52893-27.86559 36.27423-38.29159 1.22839-0.93062 4.51843-3.7245 5.78735-4.29645z",
+              "fill": "#eeede8",
+              "width": 261.6508,
+              "height": 290.3789
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "RaFw6",
+          "x": 56,
+          "y": 40,
+          "name": "Бренд",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 400,
+          "content": "Heartbeat",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 24
+        },
+        {
+          "type": "text",
+          "id": "aJ9Sp",
+          "x": 904,
+          "y": 48,
+          "name": "Номер исследования",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 320,
+          "content": "03 / Исследование формы",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "bwe8A",
+          "x": 704,
+          "y": 180,
+          "name": "Название",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 520,
+          "content": "Невозможное\nсердце",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 46
+        },
+        {
+          "type": "text",
+          "id": "EVx1J",
+          "x": 704,
+          "y": 320,
+          "name": "Принцип",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 500,
+          "content": "Поверхность выворачивается.\nВнешнее становится внутренним.",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 20
+        },
+        {
+          "type": "text",
+          "id": "rKHyA",
+          "x": 704,
+          "y": 412,
+          "name": "Описание конструкции",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 520,
+          "content": "Выпуклое плечо · вогнутая чаша\nОдин непрерывный перламутровый изгиб",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 16
+        },
+        {
+          "type": "text",
+          "id": "R6jPoG",
+          "x": 704,
+          "y": 564,
+          "name": "Ограничение движения",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Поиск остановлен — форма слишком сложная",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "rectangle",
+          "id": "cjoPE",
+          "x": 56,
+          "y": 680,
+          "name": "Разделитель масштабов",
+          "fill": "#D5D1D8",
+          "width": 1168,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "dBwql",
+          "x": 56,
+          "y": 708,
+          "name": "Заголовок масштаба",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 850,
+          "content": "Одна форма в разных масштабах",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 20
+        },
+        {
+          "type": "frame",
+          "id": "KbstS",
+          "x": 64,
+          "y": 804,
+          "name": "Невозможное сердце / 24",
+          "width": 24,
+          "height": 24,
+          "layout": "none"
+        },
+        {
+          "type": "text",
+          "id": "QtJ8Y",
+          "x": 64,
+          "y": 892,
+          "name": "Подпись 24",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "24 px",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "frame",
+          "id": "mUH39",
+          "x": 184,
+          "y": 802,
+          "name": "Невозможное сердце / 28",
+          "width": 28,
+          "height": 28,
+          "layout": "none"
+        },
+        {
+          "type": "text",
+          "id": "nUXVI",
+          "x": 184,
+          "y": 892,
+          "name": "Подпись 28",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "28 px",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "frame",
+          "id": "WvYo3",
+          "x": 320,
+          "y": 792,
+          "name": "Невозможное сердце / 48",
+          "width": 48,
+          "height": 48,
+          "layout": "none"
+        },
+        {
+          "type": "text",
+          "id": "T0n2Vi",
+          "x": 320,
+          "y": 892,
+          "name": "Подпись 48",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "48 px",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "frame",
+          "id": "IXWPf",
+          "x": 496,
+          "y": 768,
+          "name": "Невозможное сердце / 96",
+          "width": 96,
+          "height": 96,
+          "layout": "none"
+        },
+        {
+          "type": "text",
+          "id": "l7IOF",
+          "x": 496,
+          "y": 892,
+          "name": "Подпись 96",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "96 px",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "frame",
+          "id": "Gsi5k",
+          "x": 744,
+          "y": 768,
+          "name": "Heartbeat / пример в заголовке",
+          "width": 480,
+          "height": 96,
+          "fill": "#FEFDFC",
+          "cornerRadius": 16,
+          "gap": 16,
+          "padding": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ebHi1",
+              "name": "Знак в заголовке / 32",
+              "width": 32,
+              "height": 32,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "vBSZ4",
+              "name": "Название приложения",
+              "fill": "#302D38",
+              "content": "Heartbeat",
+              "fontFamily": "Roboto",
+              "fontSize": 24
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "jWucD",
+          "x": 744,
+          "y": 892,
+          "name": "Платформенное применение",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Desktop: знак рядом с названием\nAndroid: знак 28, цели действий 48",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "rectangle",
+          "id": "AIr0W",
+          "x": 56,
+          "y": 960,
+          "name": "Разделитель состояний",
+          "fill": "#D5D1D8",
+          "width": 1168,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "Gu2ed",
+          "x": 56,
+          "y": 992,
+          "name": "Состояние Новый диалог",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Новый диалог",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "id": "E60xPk",
+          "x": 56,
+          "y": 1024,
+          "name": "Пояснение Новый диалог",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Задача → работа → результат",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "text",
+          "id": "H1Y2iE",
+          "x": 352,
+          "y": 992,
+          "name": "Состояние Загрузка",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Загрузка",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "id": "Ksng4",
+          "x": 352,
+          "y": 1024,
+          "name": "Пояснение Загрузка",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Загружаем историю",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "text",
+          "id": "YccEU",
+          "x": 648,
+          "y": 992,
+          "name": "Состояние Работа агента",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Работа агента",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "id": "cuUxU",
+          "x": 648,
+          "y": 1024,
+          "name": "Пояснение Работа агента",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Проверяю план · Остановить",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "text",
+          "id": "Bna0M",
+          "x": 944,
+          "y": 992,
+          "name": "Состояние Ошибка отправки",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Ошибка отправки",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "id": "Jgvxh",
+          "x": 944,
+          "y": 1024,
+          "name": "Пояснение Ошибка отправки",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 272,
+          "content": "Текст сохранён · Повторить",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "text",
+          "id": "azA9U",
+          "x": 56,
+          "y": 1100,
+          "name": "Аннотация статусов",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 1168,
+          "content": "Состояния обозначаются текстом. В покое и при уменьшенном движении знак статичен.",
+          "lineHeight": 1.25,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Moqat",
+      "x": 24448,
+      "y": 0,
+      "name": "Heartbeat / Мягкое сердце с заворотом / 04",
+      "clip": true,
+      "width": 1200,
+      "height": 1120,
+      "fill": "#F8F8F5",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "GqNbt",
+          "x": 80,
+          "y": 208,
+          "name": "Сердце с заворотом / мастер",
+          "reusable": true,
+          "width": 400,
+          "height": 356.13534561641154,
+          "layout": "none",
+          "children": [
+            {
+              "type": "path",
+              "id": "pYn76",
+              "x": 0,
+              "y": 0,
+              "name": "Молочное перламутровое сердце",
+              "geometry": "M206.13467 1.53064c3.03518-0.42484 5.31447-1.19699 8.56057-1.39408 45.34571-2.75124 81.56642 36.48632 85.20509 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26757 12.15001-0.06836 4.83425-2.10742 15.32491-3.31836 20.09783-9.3125 36.67695-33.95703 67.62718-60.56642 93.58668-0.98242 0.95716-3.50586 3.47888-4.47265 4.20551l-1.72071 1.46301c-2.9707 3.02179-7.34961 6.65106-10.58789 9.41693-10.5039 9.04971-21.60351 17.38449-33.22265 24.94965-11.99805 7.73709-27.96094 17.50754-42.72403 14.23965-25.79238-5.71148-70.11914-44.07062-88.53887-63.37129-11.63261-12.18867-22.55859-25.26804-31.61406-39.50186-14.74297-23.17214-24.32012-49.53873-23.30078-77.26892 0.21797-5.92949 0.77383-11.74919 2.07305-17.5513 5.29571-23.65169 18.4873-44.17202 39.13555-57.21761 16.53515-10.65688 36.65292-14.2373 55.84922-9.93963 22.78183 5.17237 40.88574 22.67405 52.96367 41.92414 1.11523-1.44505 2.51172-3.85115 3.63086-5.44602 9.00193-12.83483 20.25-23.86226 34.31446-31.0108 2.166-1.10167 6.1953-3.10303 8.52733-3.55835 1.27735-0.45825 2.54492-0.81668 3.84375-1.19582 1.93557-0.59634 3.71877-0.85477 5.72264-1.0667z",
+              "viewBox": [
+                0,
+                0,
+                300.3156,
+                267.3825
+              ],
+              "fill": [
+                {
+                  "type": "gradient",
+                  "gradientType": "angular",
+                  "enabled": true,
+                  "rotation": 30,
+                  "size": {
+                    "width": 1,
+                    "height": 1
+                  },
+                  "colors": [
+                    {
+                      "color": "#D0BDEB",
+                      "position": 0
+                    },
+                    {
+                      "color": "#D8E9BD",
+                      "position": 0.27
+                    },
+                    {
+                      "color": "#DCECF2",
+                      "position": 0.52
+                    },
+                    {
+                      "color": "#F8E2EA",
+                      "position": 0.77
+                    },
+                    {
+                      "color": "#D0BDEB",
+                      "position": 1
+                    }
+                  ],
+                  "center": {
+                    "x": 0.48,
+                    "y": 0.46
+                  }
+                },
+                {
+                  "type": "gradient",
+                  "gradientType": "radial",
+                  "enabled": true,
+                  "rotation": 0,
+                  "size": {
+                    "width": 1.3,
+                    "height": 1.3
+                  },
+                  "colors": [
+                    {
+                      "color": "#FFFFFFF5",
+                      "position": 0
+                    },
+                    {
+                      "color": "#FFFFFFBB",
+                      "position": 0.32
+                    },
+                    {
+                      "color": "#FFFFFF35",
+                      "position": 0.66
+                    },
+                    {
+                      "color": "#74648835",
+                      "position": 1
+                    }
+                  ],
+                  "center": {
+                    "x": 0.3,
+                    "y": 0.21
+                  }
+                },
+                {
+                  "type": "gradient",
+                  "gradientType": "radial",
+                  "enabled": true,
+                  "rotation": 0,
+                  "size": {
+                    "width": 0.85,
+                    "height": 0.85
+                  },
+                  "colors": [
+                    {
+                      "color": "#FFF9F970",
+                      "position": 0
+                    },
+                    {
+                      "color": "#FFFFFF00",
+                      "position": 1
+                    }
+                  ],
+                  "center": {
+                    "x": 0.74,
+                    "y": 0.3
+                  }
+                }
+              ],
+              "width": 400,
+              "height": 356.13534561641154,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "inner",
+                "color": "#66557E24",
+                "offset": {
+                  "x": -1.5,
+                  "y": -3
+                },
+                "blur": 14
+              }
+            },
+            {
+              "type": "path",
+              "id": "mGaqF",
+              "x": 293.21220742445615,
+              "y": 12.91268252465073,
+              "name": "Тонкая кромка заворота",
+              "geometry": "M5.72264 1.53064c3.03517-0.42484 5.31447-1.19699 8.56056-1.39408 45.3457-2.75124 81.56641 36.48632 85.20508 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26758 12.15001-0.26953-0.80946-0.38867-2.85146-0.53516-3.8621-0.28516-2.02382-0.73633-4.02127-1.3457-5.97205-0.55273-0.89618-1.24805-2.41176-1.83594-3.42671-2.09961-3.62203-4.38477-6.25703-7.83789-8.60376-6.58203-4.7065-14.82227-6.52933-22.8086-6.57875-3.10742-0.01933-6.20898 0.22542-9.3164 0.22737-8.06836 0.00528-15.625-1.97481-22.08985-6.97371-22.02148-17.02644-7.85742-42.38845-22.98046-57.4901-1.34766-1.00928-2.36914-1.5896-3.93946-2.19357-2.33398-0.72351-4.30469-0.92685-6.72461-0.80066l0.03125-0.14338-0.3457-0.36078c1.93556-0.59634 3.71877-0.85477 5.72264-1.0667z",
+              "viewBox": [
+                0,
+                0,
+                99.9035,
+                98.7755
+              ],
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 138,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#B9B8D1",
+                    "position": 0
+                  },
+                  {
+                    "color": "#F7F4F6",
+                    "position": 0.54
+                  },
+                  {
+                    "color": "#D9E5ED",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 95.80657148679587,
+              "height": 94.72482947938768
+            },
+            {
+              "type": "path",
+              "id": "ngygD",
+              "x": 298.7001301297702,
+              "y": 12.91268252465073,
+              "name": "Светлая наружная сторона сгиба",
+              "geometry": "M0 1.53064c3.03517-0.42484 5.31447-1.19699 8.56056-1.39408 45.3457-2.75124 81.56641 36.48632 85.20508 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684-2.45898-15.44739-13.3457-30.51231-24.51367-40.95042-16.39063-15.31807-46.10742-43.9591-69.22463-44.14447z",
+              "viewBox": [
+                0,
+                0,
+                94.0728,
+                86.6255
+              ],
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 140,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FBF7F8",
+                    "position": 0
+                  },
+                  {
+                    "color": "#E4E5EC",
+                    "position": 0.62
+                  },
+                  {
+                    "color": "#BFC6D9",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 90.21498183910526,
+              "height": 83.0730871123578
+            },
+            {
+              "type": "path",
+              "id": "g6UMU0",
+              "x": 293.21220742445615,
+              "y": 14.380514365554102,
+              "name": "Мягкая тень под краем",
+              "geometry": "M5.72264 0c23.1172 0.18537 52.834 28.82641 69.22463 44.14447 11.16797 10.43811 22.05469 25.50303 24.51367 40.95042 0.98437 5.57906-0.02344 7.66382 0.26758 12.15001-0.26953-0.80946-0.38867-2.85146-0.53516-3.8621-0.28516-2.02382-0.73633-4.02127-1.3457-5.97205 0.33398-1.96622-3.70898-10.21643-5.26954-11.83533-5.68359-12.72174-50.73438-49.54226-63.05078-60.47533-5.05664-4.48812-16.32422-13.48743-23.2207-13.92439-2.40039-0.15216-3.57422 0.05938-5.96094 0.25178l-0.3457-0.36078c1.93556-0.59634 3.71877-0.85477 5.72264-1.0667z",
+              "viewBox": [
+                0,
+                0,
+                99.9035,
+                97.2449
+              ],
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -40,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#979AB8",
+                    "position": 0
+                  },
+                  {
+                    "color": "#C0CCDC",
+                    "position": 0.55
+                  },
+                  {
+                    "color": "#EFF2F5",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 95.80657148679587,
+              "height": 93.25699763848432
+            },
+            {
+              "type": "path",
+              "id": "pHdGg",
+              "x": 303.7404916694304,
+              "y": 18.656080470012203,
+              "name": "Прохладная перламутровая изнанка",
+              "geometry": "M0 0.10672c2.31641-1.0456 5.82422 5.89548 6.63086 7.57222 1.36328 2.82761 1.80469 5.9994 2.85937 8.82975 0.7793 3.69234 2.33594 14.56546 3.82422 17.07117 3.82422 10.82349 14.32227 21.34833 25.81836 23.6003 1.36133 0.41782 5.66797 1.31693 7.13672 1.24936l0.06445-0.42309c0.67578-0.29086 2.24609-0.06838 3.05079-0.04923 12.11914 0.28947 22.85547 3.75055 31.19726 12.97176l0.15235-0.30277 0.60546 0.57388 0.25977-0.08301c1.56055 1.6189 5.60352 9.86911 5.26953 11.83533-0.55273-0.89618-1.24805-2.41176-1.83594-3.42671-2.09961-3.62203-4.38477-6.25705-7.83789-8.60376-6.58203-4.7065-14.82227-6.52934-22.80859-6.57875-3.10742-0.01935-6.20898 0.2254-9.31641 0.22736-8.06836 0.00528-15.625-1.9748-22.08984-6.97371-22.02148-17.02644-7.85742-42.38845-22.98047-57.4901z",
+              "viewBox": [
+                0,
+                0,
+                86.8886,
+                82.9524
+              ],
+              "fill": [
+                {
+                  "type": "gradient",
+                  "gradientType": "linear",
+                  "enabled": true,
+                  "rotation": 135,
+                  "size": {
+                    "height": 1
+                  },
+                  "colors": [
+                    {
+                      "color": "#AEB8CF",
+                      "position": 0
+                    },
+                    {
+                      "color": "#D3E2EB",
+                      "position": 0.55
+                    },
+                    {
+                      "color": "#F1F4F3",
+                      "position": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "gradient",
+                  "gradientType": "radial",
+                  "enabled": true,
+                  "rotation": 0,
+                  "size": {
+                    "width": 1.2,
+                    "height": 1.2
+                  },
+                  "colors": [
+                    {
+                      "color": "#FFFFFF88",
+                      "position": 0
+                    },
+                    {
+                      "color": "#FFFFFF00",
+                      "position": 1
+                    }
+                  ],
+                  "center": {
+                    "x": 0.3,
+                    "y": 0.65
+                  }
+                }
+              ],
+              "width": 83.3253976816389,
+              "height": 79.55061675117776
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "glciP",
+          "x": 48,
+          "y": 40,
+          "name": "Название бренда",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 500,
+          "content": "Heartbeat",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 24
+        },
+        {
+          "type": "text",
+          "id": "r3lwp",
+          "x": 792,
+          "y": 48,
+          "name": "Номер варианта",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 360,
+          "content": "04 / Жемчужина, рождённая пульсом",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "w1ruEK",
+          "x": 600,
+          "y": 200,
+          "name": "Заголовок",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 552,
+          "content": "Всё начинается\nс первого удара",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 32
+        },
+        {
+          "type": "text",
+          "id": "pv8LT",
+          "x": 600,
+          "y": 308,
+          "name": "Пояснение формы",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 552,
+          "content": "Импульс — ядро.\nОпыт и память — слои перламутра.\nСердце — форма, которую они обретают.",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 16
+        },
+        {
+          "type": "frame",
+          "id": "zf0nn",
+          "x": 608,
+          "y": 452,
+          "name": "Знак / 24",
+          "width": 24,
+          "height": 24,
+          "layout": "none",
+          "children": [
+            {
+              "id": "Y1K1i",
+              "type": "ref",
+              "ref": "GqNbt",
+              "name": "Heartbeat / Мягкое сердце / 24",
+              "x": 0,
+              "y": 1.3159396315076535,
+              "width": 24,
+              "height": 21.368120736984693,
+              "descendants": {
+                "pYn76": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 24,
+                  "height": 21.368120736984693,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#66557E24",
+                    "offset": {
+                      "x": -0.09,
+                      "y": -0.18
+                    },
+                    "blur": 0.84
+                  }
+                },
+                "mGaqF": {
+                  "x": 17.59273244546737,
+                  "y": 0.7747609514790438,
+                  "width": 5.748394289207752,
+                  "height": 5.683489768763261
+                },
+                "ngygD": {
+                  "x": 17.92200780778621,
+                  "y": 0.7747609514790438,
+                  "width": 5.412898910346316,
+                  "height": 4.984385226741468
+                },
+                "g6UMU0": {
+                  "x": 17.59273244546737,
+                  "y": 0.8628308619332461,
+                  "width": 5.748394289207752,
+                  "height": 5.595419858309059
+                },
+                "pHdGg": {
+                  "x": 18.224429500165822,
+                  "y": 1.119364828200732,
+                  "width": 4.999523860898334,
+                  "height": 4.773037005070665
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Yfvoa",
+          "x": 608,
+          "y": 540,
+          "name": "Подпись размера 24",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "24 px",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "frame",
+          "id": "KeyfL",
+          "x": 720,
+          "y": 450,
+          "name": "Знак / 28",
+          "width": 28,
+          "height": 28,
+          "layout": "none",
+          "children": [
+            {
+              "id": "L7dfBq",
+              "type": "ref",
+              "ref": "GqNbt",
+              "name": "Heartbeat / Мягкое сердце / 28",
+              "x": 0,
+              "y": 1.5352629034255951,
+              "width": 28,
+              "height": 24.92947419314881,
+              "descendants": {
+                "pYn76": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 28.000000000000004,
+                  "height": 24.92947419314881,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#66557E24",
+                    "offset": {
+                      "x": -0.10500000000000001,
+                      "y": -0.21000000000000002
+                    },
+                    "blur": 0.9800000000000001
+                  }
+                },
+                "mGaqF": {
+                  "x": 20.524854519711933,
+                  "y": 0.9038877767255512,
+                  "width": 6.706460004075712,
+                  "height": 6.630738063557138
+                },
+                "ngygD": {
+                  "x": 20.909009109083915,
+                  "y": 0.9038877767255512,
+                  "width": 6.315048728737369,
+                  "height": 5.8151160978650465
+                },
+                "g6UMU0": {
+                  "x": 20.524854519711933,
+                  "y": 1.0066360055887873,
+                  "width": 6.706460004075712,
+                  "height": 6.527989834693903
+                },
+                "pHdGg": {
+                  "x": 21.261834416860133,
+                  "y": 1.3059256329008544,
+                  "width": 5.8327778377147235,
+                  "height": 5.5685431725824435
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "q26ob",
+          "x": 720,
+          "y": 540,
+          "name": "Подпись размера 28",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "28 px",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "frame",
+          "id": "l1Er53",
+          "x": 832,
+          "y": 440,
+          "name": "Знак / 48",
+          "width": 48,
+          "height": 48,
+          "layout": "none",
+          "children": [
+            {
+              "id": "ScY1N",
+              "type": "ref",
+              "ref": "GqNbt",
+              "name": "Heartbeat / Мягкое сердце / 48",
+              "x": 0,
+              "y": 2.631879263015307,
+              "width": 48,
+              "height": 42.736241473969386,
+              "descendants": {
+                "pYn76": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 48,
+                  "height": 42.736241473969386,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#66557E24",
+                    "offset": {
+                      "x": -0.18,
+                      "y": -0.36
+                    },
+                    "blur": 1.68
+                  }
+                },
+                "mGaqF": {
+                  "x": 35.18546489093474,
+                  "y": 1.5495219029580876,
+                  "width": 11.496788578415504,
+                  "height": 11.366979537526522
+                },
+                "ngygD": {
+                  "x": 35.84401561557242,
+                  "y": 1.5495219029580876,
+                  "width": 10.825797820692632,
+                  "height": 9.968770453482936
+                },
+                "g6UMU0": {
+                  "x": 35.18546489093474,
+                  "y": 1.7256617238664922,
+                  "width": 11.496788578415504,
+                  "height": 11.190839716618118
+                },
+                "pHdGg": {
+                  "x": 36.448859000331645,
+                  "y": 2.238729656401464,
+                  "width": 9.999047721796668,
+                  "height": 9.54607401014133
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Dv8Xf",
+          "x": 832,
+          "y": 540,
+          "name": "Подпись размера 48",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "48 px",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "frame",
+          "id": "aX1kj",
+          "x": 992,
+          "y": 416,
+          "name": "Знак / 96",
+          "width": 96,
+          "height": 96,
+          "layout": "none",
+          "children": [
+            {
+              "id": "j3byi",
+              "type": "ref",
+              "ref": "GqNbt",
+              "name": "Heartbeat / Мягкое сердце / 96",
+              "x": 0,
+              "y": 5.263758526030614,
+              "width": 96,
+              "height": 85.47248294793877,
+              "descendants": {
+                "pYn76": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 96,
+                  "height": 85.47248294793877,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#66557E24",
+                    "offset": {
+                      "x": -0.36,
+                      "y": -0.72
+                    },
+                    "blur": 3.36
+                  }
+                },
+                "mGaqF": {
+                  "x": 70.37092978186948,
+                  "y": 3.099043805916175,
+                  "width": 22.99357715683101,
+                  "height": 22.733959075053043
+                },
+                "ngygD": {
+                  "x": 71.68803123114483,
+                  "y": 3.099043805916175,
+                  "width": 21.651595641385263,
+                  "height": 19.93754090696587
+                },
+                "g6UMU0": {
+                  "x": 70.37092978186948,
+                  "y": 3.4513234477329844,
+                  "width": 22.99357715683101,
+                  "height": 22.381679433236236
+                },
+                "pHdGg": {
+                  "x": 72.89771800066329,
+                  "y": 4.477459312802928,
+                  "width": 19.998095443593336,
+                  "height": 19.09214802028266
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "ZHlGQ",
+          "x": 992,
+          "y": 540,
+          "name": "Подпись размера 96",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 100,
+          "content": "96 px",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "rectangle",
+          "id": "hxZiV",
+          "x": 48,
+          "y": 624,
+          "name": "Разделитель применения",
+          "fill": "#DCD8DF",
+          "width": 1104,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "qpzXz",
+          "x": 48,
+          "y": 656,
+          "name": "Подпись desktop",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 640,
+          "content": "Desktop / новый диалог",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "yDUDD",
+          "x": 824,
+          "y": 656,
+          "name": "Подпись Android",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 328,
+          "content": "Android / работа агента",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "frame",
+          "id": "PyJLH",
+          "x": 48,
+          "y": 696,
+          "name": "Мягкое сердце / Desktop",
+          "clip": true,
+          "width": 728,
+          "height": 252,
+          "fill": "#FEFDFC",
+          "cornerRadius": 16,
+          "stroke": "#DDD8E1",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sb4La",
+              "x": 20,
+              "y": 16,
+              "name": "Знак в заголовке desktop",
+              "width": 28,
+              "height": 28,
+              "layout": "none",
+              "children": [
+                {
+                  "id": "KsYzb",
+                  "type": "ref",
+                  "ref": "GqNbt",
+                  "name": "Heartbeat / Мягкое сердце / 28",
+                  "x": 0,
+                  "y": 1.5352629034255951,
+                  "width": 28,
+                  "height": 24.92947419314881,
+                  "descendants": {
+                    "pYn76": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 28.000000000000004,
+                      "height": 24.92947419314881,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "inner",
+                        "color": "#66557E24",
+                        "offset": {
+                          "x": -0.10500000000000001,
+                          "y": -0.21000000000000002
+                        },
+                        "blur": 0.9800000000000001
+                      }
+                    },
+                    "mGaqF": {
+                      "x": 20.524854519711933,
+                      "y": 0.9038877767255512,
+                      "width": 6.706460004075712,
+                      "height": 6.630738063557138
+                    },
+                    "ngygD": {
+                      "x": 20.909009109083915,
+                      "y": 0.9038877767255512,
+                      "width": 6.315048728737369,
+                      "height": 5.8151160978650465
+                    },
+                    "g6UMU0": {
+                      "x": 20.524854519711933,
+                      "y": 1.0066360055887873,
+                      "width": 6.706460004075712,
+                      "height": 6.527989834693903
+                    },
+                    "pHdGg": {
+                      "x": 21.261834416860133,
+                      "y": 1.3059256329008544,
+                      "width": 5.8327778377147235,
+                      "height": 5.5685431725824435
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "GxnUq",
+              "x": 60,
+              "y": 20,
+              "name": "Название приложения",
+              "fill": "#302B36",
+              "textGrowth": "fixed-width",
+              "width": 260,
+              "content": "Heartbeat",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 16
+            },
+            {
+              "type": "text",
+              "id": "g6DUFj",
+              "x": 64,
+              "y": 92,
+              "name": "Название пустого диалога",
+              "fill": "#302B36",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Новый диалог",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 24
+            },
+            {
+              "type": "text",
+              "id": "av9xU",
+              "x": 64,
+              "y": 130,
+              "name": "Подсказка задачи",
+              "fill": "#68616F",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "С чего начнём работу?",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "LwAXd",
+              "x": 24,
+              "y": 184,
+              "name": "Поле задачи",
+              "width": 680,
+              "height": 48,
+              "fill": "#F8F7F9",
+              "cornerRadius": 12,
+              "stroke": "#AAA0B4",
+              "strokeWidth": 1,
+              "padding": [
+                12,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "E6ctPU",
+                  "name": "Подсказка ввода",
+                  "fill": "#68616F",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Опишите задачу",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Roboto",
+                  "fontSize": 14
+                },
+                {
+                  "type": "icon",
+                  "id": "o539f5",
+                  "name": "Отправить задачу",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "arrow-up",
+                  "library": "lucide",
+                  "fill": "#66557E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EawVZ",
+          "x": 824,
+          "y": 696,
+          "name": "Мягкое сердце / Android",
+          "clip": true,
+          "width": 328,
+          "height": 252,
+          "fill": "#FEFDFC",
+          "cornerRadius": 16,
+          "stroke": "#DDD8E1",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bSEPT",
+              "x": 20,
+              "y": 16,
+              "name": "Знак в заголовке Android",
+              "width": 28,
+              "height": 28,
+              "layout": "none",
+              "children": [
+                {
+                  "id": "XqdSs",
+                  "type": "ref",
+                  "ref": "GqNbt",
+                  "name": "Heartbeat / Мягкое сердце / 28",
+                  "x": 0,
+                  "y": 1.5352629034255951,
+                  "width": 28,
+                  "height": 24.92947419314881,
+                  "descendants": {
+                    "pYn76": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 28.000000000000004,
+                      "height": 24.92947419314881,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "inner",
+                        "color": "#66557E24",
+                        "offset": {
+                          "x": -0.10500000000000001,
+                          "y": -0.21000000000000002
+                        },
+                        "blur": 0.9800000000000001
+                      }
+                    },
+                    "mGaqF": {
+                      "x": 20.524854519711933,
+                      "y": 0.9038877767255512,
+                      "width": 6.706460004075712,
+                      "height": 6.630738063557138
+                    },
+                    "ngygD": {
+                      "x": 20.909009109083915,
+                      "y": 0.9038877767255512,
+                      "width": 6.315048728737369,
+                      "height": 5.8151160978650465
+                    },
+                    "g6UMU0": {
+                      "x": 20.524854519711933,
+                      "y": 1.0066360055887873,
+                      "width": 6.706460004075712,
+                      "height": 6.527989834693903
+                    },
+                    "pHdGg": {
+                      "x": 21.261834416860133,
+                      "y": 1.3059256329008544,
+                      "width": 5.8327778377147235,
+                      "height": 5.5685431725824435
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "c5I4Yy",
+              "x": 60,
+              "y": 20,
+              "name": "Название приложения",
+              "fill": "#302B36",
+              "textGrowth": "fixed-width",
+              "width": 230,
+              "content": "Heartbeat",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 16
+            },
+            {
+              "type": "text",
+              "id": "bw5d6",
+              "x": 24,
+              "y": 80,
+              "name": "Пример задачи",
+              "fill": "#302B36",
+              "textGrowth": "fixed-width",
+              "width": 280,
+              "content": "Проверь план проекта",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 16
+            },
+            {
+              "type": "text",
+              "id": "RvWOl",
+              "x": 24,
+              "y": 120,
+              "name": "Текущее действие",
+              "fill": "#68616F",
+              "textGrowth": "fixed-width",
+              "width": 280,
+              "content": "Сопоставляю задачи и сроки",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "a8iba",
+              "x": 24,
+              "y": 176,
+              "name": "Остановка / сенсорная цель 48",
+              "width": 280,
+              "height": 48,
+              "fill": "#F2EFF5",
+              "cornerRadius": 10,
+              "gap": 10,
+              "padding": [
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "j7vEDp",
+                  "name": "Значок остановки",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "square",
+                  "library": "lucide",
+                  "fill": "#66557E"
+                },
+                {
+                  "type": "text",
+                  "id": "xyLcN",
+                  "name": "Подпись остановки",
+                  "fill": "#66557E",
+                  "textGrowth": "fixed-width",
+                  "width": 210,
+                  "content": "Остановить",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Roboto",
+                  "fontSize": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "kCufx",
+          "x": 48,
+          "y": 992,
+          "name": "Состояние Загрузка истории",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 336,
+          "content": "Загрузка истории",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "shcyx",
+          "x": 48,
+          "y": 1020,
+          "name": "Текст Загрузка истории",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 336,
+          "content": "Знак статичен · Загружаем историю",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "text",
+          "id": "HMNRh",
+          "x": 432,
+          "y": 992,
+          "name": "Состояние Ошибка отправки",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 336,
+          "content": "Ошибка отправки",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "pGg3h",
+          "x": 432,
+          "y": 1020,
+          "name": "Текст Ошибка отправки",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 336,
+          "content": "Текст сохранён · Повторить",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "text",
+          "id": "zB8Na",
+          "x": 816,
+          "y": 992,
+          "name": "Состояние Готово",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 336,
+          "content": "Готово",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "OAIM5",
+          "x": 816,
+          "y": 1020,
+          "name": "Текст Готово",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 336,
+          "content": "Результат доступен в диалоге",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        },
+        {
+          "type": "text",
+          "id": "piiUz",
+          "x": 48,
+          "y": 1080,
+          "name": "Доступность и сценарий",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 1104,
+          "content": "Новый диалог → задача → работа → результат. При уменьшенном движении знак остаётся статичным.",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oPcYY",
+      "x": 25768,
+      "y": 0,
+      "name": "Heartbeat / Рождение из первого импульса / 05",
+      "clip": true,
+      "width": 1600,
+      "height": 880,
+      "fill": "#F8F8F5",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "BewaK",
+          "x": 48,
+          "y": 36,
+          "name": "Название бренда",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Heartbeat",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 22
+        },
+        {
+          "type": "text",
+          "id": "aRR48",
+          "x": 1160,
+          "y": 44,
+          "name": "Тип показа",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 392,
+          "content": "05 / Ключевые кадры рождения",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "GNhbv",
+          "x": 48,
+          "y": 100,
+          "name": "Главная мысль",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 1400,
+          "content": "Всё начинается с первого удара",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 40
+        },
+        {
+          "type": "text",
+          "id": "hlIJ8",
+          "x": 48,
+          "y": 164,
+          "name": "Метафора",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 1504,
+          "content": "Импульс становится ядром. Вокруг него нарастает перламутр — и обретает форму сердца.",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 18
+        },
+        {
+          "type": "frame",
+          "id": "w5LtBF",
+          "x": 48,
+          "y": 232,
+          "name": "Рождение сердца / шесть ключевых кадров",
+          "width": 1504,
+          "height": 344,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mRiY6",
+              "x": 0,
+              "y": 0,
+              "name": "Кадр 1 / Первый импульс",
+              "width": 224,
+              "height": 224,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "p4AT6",
+                  "x": 90,
+                  "y": 90,
+                  "name": "Единственный первый удар",
+                  "width": 44,
+                  "height": 44,
+                  "icon": "activity",
+                  "library": "lucide",
+                  "fill": "#66557E"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sEFMb",
+              "x": 0,
+              "y": 244,
+              "name": "Заголовок кадра 1",
+              "fill": "#302D38",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "1 / Первый импульс",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 17
+            },
+            {
+              "type": "text",
+              "id": "bCHpc",
+              "x": 0,
+              "y": 280,
+              "name": "Описание кадра 1",
+              "fill": "#6B6573",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "Один короткий удар\nзапускает рождение",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            },
+            {
+              "type": "icon",
+              "id": "B9oAi",
+              "x": 230,
+              "y": 104,
+              "name": "Следующий этап 1",
+              "width": 16,
+              "height": 16,
+              "icon": "arrow-right",
+              "library": "lucide",
+              "fill": "#A9A2AF"
+            },
+            {
+              "type": "frame",
+              "id": "hb9PA",
+              "x": 252,
+              "y": 0,
+              "name": "Кадр 2 / Ядро",
+              "width": 224,
+              "height": 224,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "E7BNm",
+                  "x": 97,
+                  "y": 97,
+                  "name": "Появление ядра",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "radial",
+                    "enabled": true,
+                    "rotation": 0,
+                    "size": {
+                      "width": 1,
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#DDD2E8A0",
+                        "position": 0
+                      },
+                      {
+                        "color": "#DDD2E800",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "width": 30,
+                  "height": 30
+                },
+                {
+                  "type": "ellipse",
+                  "id": "K73c4",
+                  "x": 106,
+                  "y": 106,
+                  "name": "Первый импульс / ядро",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "radial",
+                    "enabled": true,
+                    "rotation": 0,
+                    "size": {
+                      "width": 1,
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F8F2FF",
+                        "position": 0
+                      },
+                      {
+                        "color": "#9A87AE",
+                        "position": 0.6
+                      },
+                      {
+                        "color": "#66557E",
+                        "position": 1
+                      }
+                    ],
+                    "center": {
+                      "x": 0.35,
+                      "y": 0.3
+                    }
+                  },
+                  "width": 12,
+                  "height": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "uDRnN",
+              "x": 252,
+              "y": 244,
+              "name": "Заголовок кадра 2",
+              "fill": "#302D38",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "2 / Ядро",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 17
+            },
+            {
+              "type": "text",
+              "id": "Z6cLW",
+              "x": 252,
+              "y": 280,
+              "name": "Описание кадра 2",
+              "fill": "#6B6573",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "Свет собирается\nв маленькой точке",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            },
+            {
+              "type": "icon",
+              "id": "B0OBQ",
+              "x": 482,
+              "y": 104,
+              "name": "Следующий этап 2",
+              "width": 16,
+              "height": 16,
+              "icon": "arrow-right",
+              "library": "lucide",
+              "fill": "#A9A2AF"
+            },
+            {
+              "type": "frame",
+              "id": "KGw2i",
+              "x": 504,
+              "y": 0,
+              "name": "Кадр 3 / Первый слой",
+              "width": 224,
+              "height": 224,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "L2fHiJ",
+                  "x": 80,
+                  "y": 80,
+                  "name": "Первый тонкий слой",
+                  "opacity": 0.7,
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "angular",
+                      "enabled": true,
+                      "rotation": 30,
+                      "size": {
+                        "width": 1,
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#D0BDEB",
+                          "position": 0
+                        },
+                        {
+                          "color": "#D8E9BD",
+                          "position": 0.27
+                        },
+                        {
+                          "color": "#DCECF2",
+                          "position": 0.52
+                        },
+                        {
+                          "color": "#F8E2EA",
+                          "position": 0.77
+                        },
+                        {
+                          "color": "#D0BDEB",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.48,
+                        "y": 0.46
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 1.3,
+                        "height": 1.3
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFFFFFF5",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFFBB",
+                          "position": 0.32
+                        },
+                        {
+                          "color": "#FFFFFF35",
+                          "position": 0.66
+                        },
+                        {
+                          "color": "#74648835",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.3,
+                        "y": 0.21
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 0.85,
+                        "height": 0.85
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFF9F970",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFF00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.74,
+                        "y": 0.3
+                      }
+                    }
+                  ],
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "type": "ellipse",
+                  "id": "Lc32D",
+                  "x": 92,
+                  "y": 92,
+                  "name": "Внутренняя оболочка",
+                  "fill": "#FCF9FF99",
+                  "width": 40,
+                  "height": 40
+                },
+                {
+                  "type": "ellipse",
+                  "id": "iLHma",
+                  "x": 108,
+                  "y": 108,
+                  "name": "Первый импульс / ядро",
+                  "opacity": 0.8,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "radial",
+                    "enabled": true,
+                    "rotation": 0,
+                    "size": {
+                      "width": 1,
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F8F2FF",
+                        "position": 0
+                      },
+                      {
+                        "color": "#9A87AE",
+                        "position": 0.6
+                      },
+                      {
+                        "color": "#66557E",
+                        "position": 1
+                      }
+                    ],
+                    "center": {
+                      "x": 0.35,
+                      "y": 0.3
+                    }
+                  },
+                  "width": 8,
+                  "height": 8
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "unsW4",
+              "x": 504,
+              "y": 244,
+              "name": "Заголовок кадра 3",
+              "fill": "#302D38",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "3 / Первый слой",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 17
+            },
+            {
+              "type": "text",
+              "id": "c17bzm",
+              "x": 504,
+              "y": 280,
+              "name": "Описание кадра 3",
+              "fill": "#6B6573",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "Вокруг ядра появляется\nтонкая оболочка",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            },
+            {
+              "type": "icon",
+              "id": "MSDGh",
+              "x": 734,
+              "y": 104,
+              "name": "Следующий этап 3",
+              "width": 16,
+              "height": 16,
+              "icon": "arrow-right",
+              "library": "lucide",
+              "fill": "#A9A2AF"
+            },
+            {
+              "type": "frame",
+              "id": "jpk3o",
+              "x": 756,
+              "y": 0,
+              "name": "Кадр 4 / Слой за слоем",
+              "width": 224,
+              "height": 224,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "kSNzV",
+                  "x": 55,
+                  "y": 61.25062,
+                  "name": "Перламутровый слой 114",
+                  "opacity": 0.6,
+                  "geometry": "M206.13467 1.53064c3.03518-0.42484 5.31447-1.19699 8.56057-1.39408 45.34571-2.75124 81.56642 36.48632 85.20509 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26757 12.15001-0.06836 4.83425-2.10742 15.32491-3.31836 20.09783-9.3125 36.67695-33.95703 67.62718-60.56642 93.58668-0.98242 0.95716-3.50586 3.47888-4.47265 4.20551l-1.72071 1.46301c-2.9707 3.02179-7.34961 6.65106-10.58789 9.41693-10.5039 9.04971-21.60351 17.38449-33.22265 24.94965-11.99805 7.73709-27.96094 17.50754-42.72403 14.23965-25.79238-5.71148-70.11914-44.07062-88.53887-63.37129-11.63261-12.18867-22.55859-25.26804-31.61406-39.50186-14.74297-23.17214-24.32012-49.53873-23.30078-77.26892 0.21797-5.92949 0.77383-11.74919 2.07305-17.5513 5.29571-23.65169 18.4873-44.17202 39.13555-57.21761 16.53515-10.65688 36.65292-14.2373 55.84922-9.93963 22.78183 5.17237 40.88574 22.67405 52.96367 41.92414 1.11523-1.44505 2.51172-3.85115 3.63086-5.44602 9.00193-12.83483 20.25-23.86226 34.31446-31.0108 2.166-1.10167 6.1953-3.10303 8.52733-3.55835 1.27735-0.45825 2.54492-0.81668 3.84375-1.19582 1.93557-0.59634 3.71877-0.85477 5.72264-1.0667z",
+                  "viewBox": [
+                    0,
+                    0,
+                    300.3156,
+                    267.3825
+                  ],
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "angular",
+                      "enabled": true,
+                      "rotation": 30,
+                      "size": {
+                        "width": 1,
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#D0BDEB",
+                          "position": 0
+                        },
+                        {
+                          "color": "#D8E9BD",
+                          "position": 0.27
+                        },
+                        {
+                          "color": "#DCECF2",
+                          "position": 0.52
+                        },
+                        {
+                          "color": "#F8E2EA",
+                          "position": 0.77
+                        },
+                        {
+                          "color": "#D0BDEB",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.48,
+                        "y": 0.46
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 1.3,
+                        "height": 1.3
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFFFFFF5",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFFBB",
+                          "position": 0.32
+                        },
+                        {
+                          "color": "#FFFFFF35",
+                          "position": 0.66
+                        },
+                        {
+                          "color": "#74648835",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.3,
+                        "y": 0.21
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 0.85,
+                        "height": 0.85
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFF9F970",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFF00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.74,
+                        "y": 0.3
+                      }
+                    }
+                  ],
+                  "width": 114,
+                  "height": 101.49876,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#89769A20",
+                    "offset": {
+                      "x": 0,
+                      "y": -1.14
+                    },
+                    "blur": 8.142857142857142
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "uGwPB",
+                  "x": 69,
+                  "y": 73.71538,
+                  "name": "Перламутровый слой 86",
+                  "opacity": 0.65,
+                  "geometry": "M206.13467 1.53064c3.03518-0.42484 5.31447-1.19699 8.56057-1.39408 45.34571-2.75124 81.56642 36.48632 85.20509 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26757 12.15001-0.06836 4.83425-2.10742 15.32491-3.31836 20.09783-9.3125 36.67695-33.95703 67.62718-60.56642 93.58668-0.98242 0.95716-3.50586 3.47888-4.47265 4.20551l-1.72071 1.46301c-2.9707 3.02179-7.34961 6.65106-10.58789 9.41693-10.5039 9.04971-21.60351 17.38449-33.22265 24.94965-11.99805 7.73709-27.96094 17.50754-42.72403 14.23965-25.79238-5.71148-70.11914-44.07062-88.53887-63.37129-11.63261-12.18867-22.55859-25.26804-31.61406-39.50186-14.74297-23.17214-24.32012-49.53873-23.30078-77.26892 0.21797-5.92949 0.77383-11.74919 2.07305-17.5513 5.29571-23.65169 18.4873-44.17202 39.13555-57.21761 16.53515-10.65688 36.65292-14.2373 55.84922-9.93963 22.78183 5.17237 40.88574 22.67405 52.96367 41.92414 1.11523-1.44505 2.51172-3.85115 3.63086-5.44602 9.00193-12.83483 20.25-23.86226 34.31446-31.0108 2.166-1.10167 6.1953-3.10303 8.52733-3.55835 1.27735-0.45825 2.54492-0.81668 3.84375-1.19582 1.93557-0.59634 3.71877-0.85477 5.72264-1.0667z",
+                  "viewBox": [
+                    0,
+                    0,
+                    300.3156,
+                    267.3825
+                  ],
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "angular",
+                      "enabled": true,
+                      "rotation": 30,
+                      "size": {
+                        "width": 1,
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#D0BDEB",
+                          "position": 0
+                        },
+                        {
+                          "color": "#D8E9BD",
+                          "position": 0.27
+                        },
+                        {
+                          "color": "#DCECF2",
+                          "position": 0.52
+                        },
+                        {
+                          "color": "#F8E2EA",
+                          "position": 0.77
+                        },
+                        {
+                          "color": "#D0BDEB",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.48,
+                        "y": 0.46
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 1.3,
+                        "height": 1.3
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFFFFFF5",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFFBB",
+                          "position": 0.32
+                        },
+                        {
+                          "color": "#FFFFFF35",
+                          "position": 0.66
+                        },
+                        {
+                          "color": "#74648835",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.3,
+                        "y": 0.21
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 0.85,
+                        "height": 0.85
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFF9F970",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFF00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.74,
+                        "y": 0.3
+                      }
+                    }
+                  ],
+                  "width": 86,
+                  "height": 76.56924000000001,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#89769A20",
+                    "offset": {
+                      "x": 0,
+                      "y": -0.86
+                    },
+                    "blur": 6.142857142857143
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "u0tbdP",
+                  "x": 83,
+                  "y": 86.18014,
+                  "name": "Перламутровый слой 58",
+                  "opacity": 0.8,
+                  "geometry": "M206.13467 1.53064c3.03518-0.42484 5.31447-1.19699 8.56057-1.39408 45.34571-2.75124 81.56642 36.48632 85.20509 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26757 12.15001-0.06836 4.83425-2.10742 15.32491-3.31836 20.09783-9.3125 36.67695-33.95703 67.62718-60.56642 93.58668-0.98242 0.95716-3.50586 3.47888-4.47265 4.20551l-1.72071 1.46301c-2.9707 3.02179-7.34961 6.65106-10.58789 9.41693-10.5039 9.04971-21.60351 17.38449-33.22265 24.94965-11.99805 7.73709-27.96094 17.50754-42.72403 14.23965-25.79238-5.71148-70.11914-44.07062-88.53887-63.37129-11.63261-12.18867-22.55859-25.26804-31.61406-39.50186-14.74297-23.17214-24.32012-49.53873-23.30078-77.26892 0.21797-5.92949 0.77383-11.74919 2.07305-17.5513 5.29571-23.65169 18.4873-44.17202 39.13555-57.21761 16.53515-10.65688 36.65292-14.2373 55.84922-9.93963 22.78183 5.17237 40.88574 22.67405 52.96367 41.92414 1.11523-1.44505 2.51172-3.85115 3.63086-5.44602 9.00193-12.83483 20.25-23.86226 34.31446-31.0108 2.166-1.10167 6.1953-3.10303 8.52733-3.55835 1.27735-0.45825 2.54492-0.81668 3.84375-1.19582 1.93557-0.59634 3.71877-0.85477 5.72264-1.0667z",
+                  "viewBox": [
+                    0,
+                    0,
+                    300.3156,
+                    267.3825
+                  ],
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "angular",
+                      "enabled": true,
+                      "rotation": 30,
+                      "size": {
+                        "width": 1,
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#D0BDEB",
+                          "position": 0
+                        },
+                        {
+                          "color": "#D8E9BD",
+                          "position": 0.27
+                        },
+                        {
+                          "color": "#DCECF2",
+                          "position": 0.52
+                        },
+                        {
+                          "color": "#F8E2EA",
+                          "position": 0.77
+                        },
+                        {
+                          "color": "#D0BDEB",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.48,
+                        "y": 0.46
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 1.3,
+                        "height": 1.3
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFFFFFF5",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFFBB",
+                          "position": 0.32
+                        },
+                        {
+                          "color": "#FFFFFF35",
+                          "position": 0.66
+                        },
+                        {
+                          "color": "#74648835",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.3,
+                        "y": 0.21
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 0.85,
+                        "height": 0.85
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFF9F970",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFF00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.74,
+                        "y": 0.3
+                      }
+                    }
+                  ],
+                  "width": 58,
+                  "height": 51.639720000000004,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#89769A20",
+                    "offset": {
+                      "x": 0,
+                      "y": -0.58
+                    },
+                    "blur": 4.142857142857143
+                  }
+                },
+                {
+                  "type": "ellipse",
+                  "id": "hh7YX",
+                  "x": 109,
+                  "y": 109,
+                  "name": "Первый импульс / ядро",
+                  "opacity": 0.45,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "radial",
+                    "enabled": true,
+                    "rotation": 0,
+                    "size": {
+                      "width": 1,
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F8F2FF",
+                        "position": 0
+                      },
+                      {
+                        "color": "#9A87AE",
+                        "position": 0.6
+                      },
+                      {
+                        "color": "#66557E",
+                        "position": 1
+                      }
+                    ],
+                    "center": {
+                      "x": 0.35,
+                      "y": 0.3
+                    }
+                  },
+                  "width": 6,
+                  "height": 6
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Cb9Ef",
+              "x": 756,
+              "y": 244,
+              "name": "Заголовок кадра 4",
+              "fill": "#302D38",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "4 / Слой за слоем",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 17
+            },
+            {
+              "type": "text",
+              "id": "jwbAA",
+              "x": 756,
+              "y": 280,
+              "name": "Описание кадра 4",
+              "fill": "#6B6573",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "Новые слои растут наружу\nи формируют два плеча",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            },
+            {
+              "type": "icon",
+              "id": "k86bD",
+              "x": 986,
+              "y": 104,
+              "name": "Следующий этап 4",
+              "width": 16,
+              "height": 16,
+              "icon": "arrow-right",
+              "library": "lucide",
+              "fill": "#A9A2AF"
+            },
+            {
+              "type": "frame",
+              "id": "a36lBX",
+              "x": 1008,
+              "y": 0,
+              "name": "Кадр 5 / Сердце обретает объём",
+              "width": 224,
+              "height": 224,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "v7TxW",
+                  "x": 33,
+                  "y": 41.66314,
+                  "name": "Перламутровый слой 158",
+                  "opacity": 0.85,
+                  "geometry": "M206.13467 1.53064c3.03518-0.42484 5.31447-1.19699 8.56057-1.39408 45.34571-2.75124 81.56642 36.48632 85.20509 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26757 12.15001-0.06836 4.83425-2.10742 15.32491-3.31836 20.09783-9.3125 36.67695-33.95703 67.62718-60.56642 93.58668-0.98242 0.95716-3.50586 3.47888-4.47265 4.20551l-1.72071 1.46301c-2.9707 3.02179-7.34961 6.65106-10.58789 9.41693-10.5039 9.04971-21.60351 17.38449-33.22265 24.94965-11.99805 7.73709-27.96094 17.50754-42.72403 14.23965-25.79238-5.71148-70.11914-44.07062-88.53887-63.37129-11.63261-12.18867-22.55859-25.26804-31.61406-39.50186-14.74297-23.17214-24.32012-49.53873-23.30078-77.26892 0.21797-5.92949 0.77383-11.74919 2.07305-17.5513 5.29571-23.65169 18.4873-44.17202 39.13555-57.21761 16.53515-10.65688 36.65292-14.2373 55.84922-9.93963 22.78183 5.17237 40.88574 22.67405 52.96367 41.92414 1.11523-1.44505 2.51172-3.85115 3.63086-5.44602 9.00193-12.83483 20.25-23.86226 34.31446-31.0108 2.166-1.10167 6.1953-3.10303 8.52733-3.55835 1.27735-0.45825 2.54492-0.81668 3.84375-1.19582 1.93557-0.59634 3.71877-0.85477 5.72264-1.0667z",
+                  "viewBox": [
+                    0,
+                    0,
+                    300.3156,
+                    267.3825
+                  ],
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "angular",
+                      "enabled": true,
+                      "rotation": 30,
+                      "size": {
+                        "width": 1,
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#D0BDEB",
+                          "position": 0
+                        },
+                        {
+                          "color": "#D8E9BD",
+                          "position": 0.27
+                        },
+                        {
+                          "color": "#DCECF2",
+                          "position": 0.52
+                        },
+                        {
+                          "color": "#F8E2EA",
+                          "position": 0.77
+                        },
+                        {
+                          "color": "#D0BDEB",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.48,
+                        "y": 0.46
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 1.3,
+                        "height": 1.3
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFFFFFF5",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFFBB",
+                          "position": 0.32
+                        },
+                        {
+                          "color": "#FFFFFF35",
+                          "position": 0.66
+                        },
+                        {
+                          "color": "#74648835",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.3,
+                        "y": 0.21
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 0.85,
+                        "height": 0.85
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFF9F970",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFF00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.74,
+                        "y": 0.3
+                      }
+                    }
+                  ],
+                  "width": 158,
+                  "height": 140.67372,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#89769A20",
+                    "offset": {
+                      "x": 0,
+                      "y": -1.58
+                    },
+                    "blur": 11.285714285714286
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "HXWHl",
+                  "x": 47,
+                  "y": 54.1279,
+                  "name": "Перламутровый слой 130",
+                  "opacity": 0.32,
+                  "geometry": "M206.13467 1.53064c3.03518-0.42484 5.31447-1.19699 8.56057-1.39408 45.34571-2.75124 81.56642 36.48632 85.20509 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26757 12.15001-0.06836 4.83425-2.10742 15.32491-3.31836 20.09783-9.3125 36.67695-33.95703 67.62718-60.56642 93.58668-0.98242 0.95716-3.50586 3.47888-4.47265 4.20551l-1.72071 1.46301c-2.9707 3.02179-7.34961 6.65106-10.58789 9.41693-10.5039 9.04971-21.60351 17.38449-33.22265 24.94965-11.99805 7.73709-27.96094 17.50754-42.72403 14.23965-25.79238-5.71148-70.11914-44.07062-88.53887-63.37129-11.63261-12.18867-22.55859-25.26804-31.61406-39.50186-14.74297-23.17214-24.32012-49.53873-23.30078-77.26892 0.21797-5.92949 0.77383-11.74919 2.07305-17.5513 5.29571-23.65169 18.4873-44.17202 39.13555-57.21761 16.53515-10.65688 36.65292-14.2373 55.84922-9.93963 22.78183 5.17237 40.88574 22.67405 52.96367 41.92414 1.11523-1.44505 2.51172-3.85115 3.63086-5.44602 9.00193-12.83483 20.25-23.86226 34.31446-31.0108 2.166-1.10167 6.1953-3.10303 8.52733-3.55835 1.27735-0.45825 2.54492-0.81668 3.84375-1.19582 1.93557-0.59634 3.71877-0.85477 5.72264-1.0667z",
+                  "viewBox": [
+                    0,
+                    0,
+                    300.3156,
+                    267.3825
+                  ],
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "angular",
+                      "enabled": true,
+                      "rotation": 30,
+                      "size": {
+                        "width": 1,
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#D0BDEB",
+                          "position": 0
+                        },
+                        {
+                          "color": "#D8E9BD",
+                          "position": 0.27
+                        },
+                        {
+                          "color": "#DCECF2",
+                          "position": 0.52
+                        },
+                        {
+                          "color": "#F8E2EA",
+                          "position": 0.77
+                        },
+                        {
+                          "color": "#D0BDEB",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.48,
+                        "y": 0.46
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 1.3,
+                        "height": 1.3
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFFFFFF5",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFFBB",
+                          "position": 0.32
+                        },
+                        {
+                          "color": "#FFFFFF35",
+                          "position": 0.66
+                        },
+                        {
+                          "color": "#74648835",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.3,
+                        "y": 0.21
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 0.85,
+                        "height": 0.85
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFF9F970",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFF00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.74,
+                        "y": 0.3
+                      }
+                    }
+                  ],
+                  "width": 130,
+                  "height": 115.7442,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#89769A20",
+                    "offset": {
+                      "x": 0,
+                      "y": -1.3
+                    },
+                    "blur": 9.285714285714286
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "ITsUE",
+                  "x": 62,
+                  "y": 67.483,
+                  "name": "Перламутровый слой 100",
+                  "opacity": 0.18,
+                  "geometry": "M206.13467 1.53064c3.03518-0.42484 5.31447-1.19699 8.56057-1.39408 45.34571-2.75124 81.56642 36.48632 85.20509 79.92057 0.20508 2.43384 0.58789 4.11153-0.02734 6.5684 0.98437 5.57906-0.02344 7.66382 0.26757 12.15001-0.06836 4.83425-2.10742 15.32491-3.31836 20.09783-9.3125 36.67695-33.95703 67.62718-60.56642 93.58668-0.98242 0.95716-3.50586 3.47888-4.47265 4.20551l-1.72071 1.46301c-2.9707 3.02179-7.34961 6.65106-10.58789 9.41693-10.5039 9.04971-21.60351 17.38449-33.22265 24.94965-11.99805 7.73709-27.96094 17.50754-42.72403 14.23965-25.79238-5.71148-70.11914-44.07062-88.53887-63.37129-11.63261-12.18867-22.55859-25.26804-31.61406-39.50186-14.74297-23.17214-24.32012-49.53873-23.30078-77.26892 0.21797-5.92949 0.77383-11.74919 2.07305-17.5513 5.29571-23.65169 18.4873-44.17202 39.13555-57.21761 16.53515-10.65688 36.65292-14.2373 55.84922-9.93963 22.78183 5.17237 40.88574 22.67405 52.96367 41.92414 1.11523-1.44505 2.51172-3.85115 3.63086-5.44602 9.00193-12.83483 20.25-23.86226 34.31446-31.0108 2.166-1.10167 6.1953-3.10303 8.52733-3.55835 1.27735-0.45825 2.54492-0.81668 3.84375-1.19582 1.93557-0.59634 3.71877-0.85477 5.72264-1.0667z",
+                  "viewBox": [
+                    0,
+                    0,
+                    300.3156,
+                    267.3825
+                  ],
+                  "fill": [
+                    {
+                      "type": "gradient",
+                      "gradientType": "angular",
+                      "enabled": true,
+                      "rotation": 30,
+                      "size": {
+                        "width": 1,
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#D0BDEB",
+                          "position": 0
+                        },
+                        {
+                          "color": "#D8E9BD",
+                          "position": 0.27
+                        },
+                        {
+                          "color": "#DCECF2",
+                          "position": 0.52
+                        },
+                        {
+                          "color": "#F8E2EA",
+                          "position": 0.77
+                        },
+                        {
+                          "color": "#D0BDEB",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.48,
+                        "y": 0.46
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 1.3,
+                        "height": 1.3
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFFFFFF5",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFFBB",
+                          "position": 0.32
+                        },
+                        {
+                          "color": "#FFFFFF35",
+                          "position": 0.66
+                        },
+                        {
+                          "color": "#74648835",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.3,
+                        "y": 0.21
+                      }
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "radial",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "width": 0.85,
+                        "height": 0.85
+                      },
+                      "colors": [
+                        {
+                          "color": "#FFF9F970",
+                          "position": 0
+                        },
+                        {
+                          "color": "#FFFFFF00",
+                          "position": 1
+                        }
+                      ],
+                      "center": {
+                        "x": 0.74,
+                        "y": 0.3
+                      }
+                    }
+                  ],
+                  "width": 100,
+                  "height": 89.034,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "inner",
+                    "color": "#89769A20",
+                    "offset": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "blur": 7.142857142857143
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "RsLHR",
+              "x": 1008,
+              "y": 244,
+              "name": "Заголовок кадра 5",
+              "fill": "#302D38",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "5 / Мягкий объём",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 17
+            },
+            {
+              "type": "text",
+              "id": "o3NJp",
+              "x": 1008,
+              "y": 280,
+              "name": "Описание кадра 5",
+              "fill": "#6B6573",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "Слои сливаются в мягкий\nобъём; ядро скрывается",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            },
+            {
+              "type": "icon",
+              "id": "GCWXb",
+              "x": 1238,
+              "y": 104,
+              "name": "Следующий этап 5",
+              "width": 16,
+              "height": 16,
+              "icon": "arrow-right",
+              "library": "lucide",
+              "fill": "#A9A2AF"
+            },
+            {
+              "type": "frame",
+              "id": "m9b2z",
+              "x": 1260,
+              "y": 0,
+              "name": "Кадр 6 / Heartbeat",
+              "width": 224,
+              "height": 224,
+              "layout": "none",
+              "children": [
+                {
+                  "id": "k1BDpT",
+                  "type": "ref",
+                  "ref": "GqNbt",
+                  "name": "Готовое мягкое сердце с заворотом",
+                  "x": 20,
+                  "y": 30.08887050822534,
+                  "width": 184,
+                  "height": 163.82225898354932,
+                  "descendants": {
+                    "pYn76": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 184,
+                      "height": 163.82225898354932,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "inner",
+                        "color": "#66557E24",
+                        "offset": {
+                          "x": -0.6900000000000001,
+                          "y": -1.3800000000000001
+                        },
+                        "blur": 6.44
+                      }
+                    },
+                    "mGaqF": {
+                      "x": 134.87761541524983,
+                      "y": 5.939833961339336,
+                      "width": 44.071022883926105,
+                      "height": 43.573421560518334
+                    },
+                    "ngygD": {
+                      "x": 137.40205985969428,
+                      "y": 5.939833961339336,
+                      "width": 41.49889164598842,
+                      "height": 38.21362007168459
+                    },
+                    "g6UMU0": {
+                      "x": 134.87761541524983,
+                      "y": 6.615036608154887,
+                      "width": 44.071022883926105,
+                      "height": 42.89821891370279
+                    },
+                    "pHdGg": {
+                      "x": 139.720626167938,
+                      "y": 8.581797016205613,
+                      "width": 38.3296829335539,
+                      "height": 36.59328370554177
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sE4wc",
+              "x": 1260,
+              "y": 244,
+              "name": "Заголовок кадра 6",
+              "fill": "#302D38",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "6 / Heartbeat",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 17
+            },
+            {
+              "type": "text",
+              "id": "wQGaF",
+              "x": 1260,
+              "y": 280,
+              "name": "Описание кадра 6",
+              "fill": "#6B6573",
+              "textGrowth": "fixed-width",
+              "width": 224,
+              "content": "Последний слой завёрнут\nна правом плече",
+              "lineHeight": 1.3,
+              "fontFamily": "Roboto",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "VcVGh",
+          "x": 48,
+          "y": 612,
+          "name": "Разделитель пояснений",
+          "fill": "#DCD8DF",
+          "width": 1504,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "GQkiL",
+          "x": 48,
+          "y": 648,
+          "name": "Правило Рост изнутри",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Рост изнутри",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 18
+        },
+        {
+          "type": "text",
+          "id": "wCPEG",
+          "x": 48,
+          "y": 684,
+          "name": "Пояснение Рост изнутри",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Каждый новый слой появляется вокруг ядра.\nВнешний край расширяется, предыдущий слой\nмягко растворяется в общем объёме.",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "id": "V3zr2",
+          "x": 560,
+          "y": 648,
+          "name": "Правило Один раз, без ожидания",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Один раз, без ожидания",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 18
+        },
+        {
+          "type": "text",
+          "id": "dzsTg",
+          "x": 560,
+          "y": 684,
+          "name": "Пояснение Один раз, без ожидания",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Брендовая сцена при первом знакомстве.\nИнтерфейс доступен сразу. Рост не обозначает\nпроцент загрузки и не повторяется в каждом ответе.",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "id": "I4LhX9",
+          "x": 1072,
+          "y": 648,
+          "name": "Правило Уменьшенное движение",
+          "fill": "#302D38",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Уменьшенное движение",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 18
+        },
+        {
+          "type": "text",
+          "id": "R5zTlv",
+          "x": 1072,
+          "y": 684,
+          "name": "Пояснение Уменьшенное движение",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 480,
+          "content": "Сразу показываем готовое сердце.\nНа desktop и Android порядок одинаковый;\nмасштаб подстраивается под доступное место.",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "id": "Lbt07",
+          "x": 48,
+          "y": 794,
+          "name": "Статусы приложения",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 1504,
+          "content": "Новый диалог: ввод доступен  ·  Загрузка: «Загружаем историю»  ·  Ошибка: «Текст сохранён» и «Повторить»",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "id": "DSofI",
+          "x": 48,
+          "y": 836,
+          "name": "Формат раскадровки",
+          "fill": "#6B6573",
+          "textGrowth": "fixed-width",
+          "width": 1504,
+          "content": "Статичная раскадровка · движение показано ключевыми состояниями",
+          "lineHeight": 1.3,
+          "fontFamily": "Roboto",
+          "fontSize": 13
         }
       ]
     }
