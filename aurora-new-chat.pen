@@ -86915,7 +86915,7 @@
                   "type": "frame",
                   "id": "kE05f",
                   "name": "Запрос / стандарт / выбор и текст",
-                  "context": "Один title в шапке вместо общего статуса. Subtitle опционален: пустой не создаёт строку или отступ. Общего футера нет. Цвет и полоса таймера сохранены; срок доступен в семантике полосы. Отправка обозначается занятой кнопкой, ошибка — адресным сообщением. Панель заменяет composer до решения.",
+                  "context": "Один title в шапке вместо общего статуса. Subtitle опционален: пустой не создаёт строку или отступ. Общего футера нет. Цвет и полоса таймера сохранены; срок доступен в семантике полосы. Отправка обозначается занятой кнопкой, ошибка — адресным сообщением. Панель заменяет composer до решения. Любое взаимодействие, даже фокус, останавливает таймер всего набора без автоматического возобновления. Выбор и текст в этом образце уже введены пользователем: показанная доля полосы зафиксирована.",
                   "reusable": true,
                   "clip": true,
                   "width": "fill_container",
@@ -86929,6 +86929,7 @@
                       "type": "frame",
                       "id": "pjE52",
                       "name": "Таймер / оставшаяся доля набора",
+                      "context": "До первого взаимодействия — доля оставшегося времени. Любое взаимодействие, включая фокус и наведение, отменяет deadline всего набора. После этого полоса неподвижна на достигнутой длине. Без deadline полная неподвижная полоса. Не индикатор отправки.",
                       "width": "fill_container",
                       "height": 3,
                       "fill": "$request.track",
@@ -88322,11 +88323,11 @@
                             {
                               "type": "icon",
                               "id": "c1pPo",
-                              "x": 14,
-                              "y": 14,
+                              "x": 16,
+                              "y": 16,
                               "name": "Отменить загрузку файла",
-                              "width": 20,
-                              "height": 20,
+                              "width": 16,
+                              "height": 16,
                               "icon": "x",
                               "library": "lucide",
                               "fill": "$aurora.green"
@@ -111379,7 +111380,7 @@
               "type": "frame",
               "id": "soqsP",
               "name": "Attachment / документ",
-              "context": "Компактная строка файла. Колонка 48, круг 40, пиктограмма 20, gap до текста 8. Вся строка — цель открытия от 48 по высоте; длинное имя увеличивает высоту. Без вложенной карточки.",
+              "context": "Компактная строка файла. Колонка 48, круг 40, пиктограмма 16, gap до текста 8. Центр круга и иконки совпадает с центром всего блока title/subtitle; длинное имя увеличивает высоту строки. Вся строка — цель открытия от 48. Без вложенной карточки.",
               "reusable": true,
               "width": "fill_container",
               "gap": 8,
@@ -111411,8 +111412,8 @@
                           "type": "icon",
                           "id": "R6J7KM",
                           "name": "Документ",
-                          "width": 20,
-                          "height": 20,
+                          "width": 16,
+                          "height": 16,
                           "icon": "file-text",
                           "library": "lucide",
                           "fill": "$aurora.pearl"
@@ -111852,11 +111853,11 @@
                         {
                           "type": "icon",
                           "id": "j5noa",
-                          "x": 14,
-                          "y": 14,
+                          "x": 16,
+                          "y": 16,
                           "name": "Отменить загрузку файла",
-                          "width": 20,
-                          "height": 20,
+                          "width": 16,
+                          "height": 16,
                           "icon": "x",
                           "library": "lucide",
                           "fill": "$aurora.green"
@@ -121098,6 +121099,205 @@
         },
         {
           "type": "frame",
+          "id": "LIFuy",
+          "name": "Таймер / до взаимодействия и после фокуса",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Zuyy5",
+              "name": "Нет взаимодействия / таймер идёт",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z75MFI",
+                  "name": "Название состояния",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "До взаимодействия · таймер идёт",
+                  "lineHeight": 1.428571,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "hBy6S",
+                  "type": "ref",
+                  "ref": "kE05f",
+                  "name": "Работающий таймер / нет взаимодействия",
+                  "width": "fill_container",
+                  "context": "С опросником ещё не взаимодействовали. Снимок отсчёта на 2/3, ответ пуст.",
+                  "descendants": {
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Как назвать рабочее пространство?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
+                    "qVFWk": {
+                      "enabled": false,
+                      "width": 260
+                    },
+                    "r7v5Rb": {
+                      "content": "1 из 1"
+                    },
+                    "vMQhh": {
+                      "enabled": false,
+                      "width": 616
+                    },
+                    "W1nKP": {
+                      "content": "",
+                      "enabled": false,
+                      "width": 616
+                    },
+                    "k72vFr": {
+                      "enabled": false,
+                      "width": 616
+                    },
+                    "C302MZ": {
+                      "content": "Название рабочего пространства"
+                    },
+                    "lsDsm": {
+                      "enabled": false,
+                      "width": 96
+                    },
+                    "iEgqy": {
+                      "content": "Введите название",
+                      "fill": "$request.secondary"
+                    },
+                    "CxEfF": {
+                      "opacity": 0.45
+                    },
+                    "NyOqJ": {
+                      "content": "Готово"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "QqCpL",
+                  "name": "Правило состояния",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Отсчёт возможен, пока не было ни фокуса, ни другого взаимодействия.",
+                  "lineHeight": 1.428571,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JnHFJ",
+              "name": "Первый фокус / таймер остановлен",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ME1wL",
+                  "name": "Название состояния",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Поле получило фокус · таймер остановлен",
+                  "lineHeight": 1.428571,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "AN7Tj",
+                  "type": "ref",
+                  "ref": "kE05f",
+                  "name": "Остановленный таймер / фокус без ввода",
+                  "width": "fill_container",
+                  "context": "Первый фокус уже отменил deadline всего набора. Полоса застыла на 2/3. Потеря фокуса не возобновляет отсчёт. Ответ ещё пуст.",
+                  "descendants": {
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Как назвать рабочее пространство?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
+                    "qVFWk": {
+                      "enabled": false,
+                      "width": 260
+                    },
+                    "r7v5Rb": {
+                      "content": "1 из 1"
+                    },
+                    "vMQhh": {
+                      "enabled": false,
+                      "width": 616
+                    },
+                    "W1nKP": {
+                      "content": "",
+                      "enabled": false,
+                      "width": 616
+                    },
+                    "k72vFr": {
+                      "enabled": false,
+                      "width": 616
+                    },
+                    "C302MZ": {
+                      "content": "Название рабочего пространства"
+                    },
+                    "lsDsm": {
+                      "enabled": false,
+                      "width": 96
+                    },
+                    "mPRJA": {
+                      "stroke": "$request.accent",
+                      "strokeWidth": 2
+                    },
+                    "iEgqy": {
+                      "content": "Введите название",
+                      "fill": "$request.secondary"
+                    },
+                    "CxEfF": {
+                      "opacity": 0.45
+                    },
+                    "NyOqJ": {
+                      "content": "Готово"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "MulJO",
+                  "name": "Правило состояния",
+                  "fill": "$aurora.ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Даже без ввода. Уход фокуса и переход к другому вопросу не запускают отсчёт снова.",
+                  "lineHeight": 1.428571,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "u3mHT",
           "name": "Сравнение вариантов",
           "width": "fill_container",
@@ -121394,7 +121594,7 @@
                       "fill": "$aurora.ink",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Время ответа истекло\n1 ответ принят. 2 вопроса закрыты без ответа",
+                      "content": "Время ответа истекло\nС опросником не взаимодействовали. Вопросы закрыты без ответа",
                       "lineHeight": 1.428571,
                       "fontFamily": "$aurora.font",
                       "fontSize": 14
@@ -124973,7 +125173,7 @@
                   "fill": "$aurora.ink",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Desktop\nTab перемещает фокус, стрелки меняют radio-выбор, Space переключает checkbox. Enter на сфокусированной кнопке выполняет её действие. Общий Enter не выдаёт разрешение.\n\nAndroid\nВыбор варианта не открывает клавиатуру. Длинный title переносится. При смене ширины сохраняются вопрос, выбор и комментарий.\n\nТаймер\nПолоса показывает остаток общего срока набора. Без deadline она полная и неподвижная. Общего футера нет; сведения о времени остаются в доступном описании полосы.",
+                  "content": "Desktop\nTab перемещает фокус, стрелки меняют radio-выбор, Space переключает checkbox. Enter на сфокусированной кнопке выполняет её действие. Общий Enter не выдаёт разрешение.\n\nAndroid\nВыбор варианта не открывает клавиатуру. Длинный title переносится. При смене ширины сохраняются вопрос, выбор и комментарий.\n\nТаймер\nПервое взаимодействие, даже фокус или наведение, останавливает таймер всего набора. Полоса замирает на текущей длине. Потеря фокуса и смена вопроса не запускают отсчёт снова. Без deadline полоса полная и неподвижная. Футера нет.",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
                   "fontSize": 16
