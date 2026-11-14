@@ -45012,6 +45012,8 @@
                   "ref": "ZLjM3",
                   "name": "Thinking / работа агента",
                   "width": "fill_container",
+                  "fill": "$aurora.action.current",
+                  "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
                     "XpIWN": {
                       "padding": [
@@ -45021,8 +45023,18 @@
                         0
                       ]
                     },
+                    "j9wrgK": {
+                      "fill": "$aurora.ink"
+                    },
+                    "K8nVq": {
+                      "fill": "$aurora.ink"
+                    },
                     "xr6pN": {
-                      "content": "Проверяю подтверждение остановки…"
+                      "content": "Проверяю подтверждение остановки…",
+                      "fill": "$aurora.ink"
+                    },
+                    "c0Cl7R": {
+                      "fill": "$aurora.ink"
                     },
                     "V4h3K": {
                       "content": "Проверяю, как подтверждается остановка и сохраняются вложения."
@@ -47189,6 +47201,8 @@
                                       "ref": "Tqpcs",
                                       "name": "Инструмент / Читаю контракт сессии / свёрнут",
                                       "width": "fill_container",
+                                      "fill": "$aurora.action.current",
+                                      "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                       "descendants": {
                                         "AI54L": {
                                           "padding": [
@@ -47199,16 +47213,20 @@
                                           ]
                                         },
                                         "qW5nX": {
-                                          "icon": "file-text"
+                                          "icon": "file-text",
+                                          "fill": "$aurora.ink"
                                         },
                                         "r5qJm": {
-                                          "content": "Читаю контракт сессии"
+                                          "content": "Читаю контракт сессии",
+                                          "fill": "$aurora.ink"
                                         },
                                         "PVuWe": {
-                                          "content": "Готово · session-contract.md"
+                                          "content": "Готово · session-contract.md",
+                                          "fill": "$aurora.ink"
                                         },
                                         "EfkZb": {
-                                          "icon": "chevron-right"
+                                          "icon": "chevron-right",
+                                          "fill": "$aurora.ink"
                                         },
                                         "nKJvQ": {
                                           "enabled": false,
@@ -47222,6 +47240,8 @@
                                       "ref": "Tqpcs",
                                       "name": "Инструмент / Ищу обработчик остановки / свёрнут",
                                       "width": "fill_container",
+                                      "fill": "$aurora.action.current",
+                                      "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                       "descendants": {
                                         "AI54L": {
                                           "padding": [
@@ -47232,16 +47252,20 @@
                                           ]
                                         },
                                         "qW5nX": {
-                                          "icon": "search"
+                                          "icon": "search",
+                                          "fill": "$aurora.ink"
                                         },
                                         "r5qJm": {
-                                          "content": "Ищу обработчик остановки"
+                                          "content": "Ищу обработчик остановки",
+                                          "fill": "$aurora.ink"
                                         },
                                         "PVuWe": {
-                                          "content": "Готово"
+                                          "content": "Готово",
+                                          "fill": "$aurora.ink"
                                         },
                                         "EfkZb": {
-                                          "icon": "chevron-right"
+                                          "icon": "chevron-right",
+                                          "fill": "$aurora.ink"
                                         },
                                         "nKJvQ": {
                                           "enabled": false,
@@ -47261,6 +47285,8 @@
                                       "ref": "ZLjM3",
                                       "name": "Thinking / активный / свёрнут",
                                       "width": "fill_container",
+                                      "fill": "$aurora.action.current",
+                                      "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                       "descendants": {
                                         "XpIWN": {
                                           "padding": [
@@ -47269,6 +47295,18 @@
                                             6,
                                             0
                                           ]
+                                        },
+                                        "j9wrgK": {
+                                          "fill": "$aurora.ink"
+                                        },
+                                        "K8nVq": {
+                                          "fill": "$aurora.ink"
+                                        },
+                                        "xr6pN": {
+                                          "fill": "$aurora.ink"
+                                        },
+                                        "c0Cl7R": {
+                                          "fill": "$aurora.ink"
                                         }
                                       }
                                     }
@@ -47676,6 +47714,8 @@
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Проверяю переходы состояния / свёрнут",
                                           "width": "fill_container",
+                                          "fill": "$aurora.action.current",
+                                          "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -47686,16 +47726,20 @@
                                               ]
                                             },
                                             "qW5nX": {
-                                              "icon": "search"
+                                              "icon": "search",
+                                              "fill": "$aurora.ink"
                                             },
                                             "r5qJm": {
-                                              "content": "Проверяю переходы состояния"
+                                              "content": "Проверяю переходы состояния",
+                                              "fill": "$aurora.ink"
                                             },
                                             "PVuWe": {
-                                              "content": "Выполняется"
+                                              "content": "Выполняется",
+                                              "fill": "$aurora.ink"
                                             },
                                             "EfkZb": {
-                                              "icon": "chevron-right"
+                                              "icon": "chevron-right",
+                                              "fill": "$aurora.ink"
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
@@ -48237,6 +48281,8 @@
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Проверяю сценарий отмены / свёрнут",
                                           "width": "fill_container",
+                                          "fill": "$aurora.action.current",
+                                          "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -48247,16 +48293,20 @@
                                               ]
                                             },
                                             "qW5nX": {
-                                              "icon": "list-checks"
+                                              "icon": "list-checks",
+                                              "fill": "$aurora.ink"
                                             },
                                             "r5qJm": {
-                                              "content": "Проверяю сценарий отмены"
+                                              "content": "Проверяю сценарий отмены",
+                                              "fill": "$aurora.ink"
                                             },
                                             "PVuWe": {
-                                              "content": "Выполняется"
+                                              "content": "Выполняется",
+                                              "fill": "$aurora.ink"
                                             },
                                             "EfkZb": {
-                                              "icon": "chevron-right"
+                                              "icon": "chevron-right",
+                                              "fill": "$aurora.ink"
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
@@ -49450,6 +49500,8 @@
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Проверяю переходы состояния / свёрнут",
                                           "width": "fill_container",
+                                          "fill": "$aurora.action.current",
+                                          "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -49460,16 +49512,20 @@
                                               ]
                                             },
                                             "qW5nX": {
-                                              "icon": "search"
+                                              "icon": "search",
+                                              "fill": "$aurora.ink"
                                             },
                                             "r5qJm": {
-                                              "content": "Проверяю переходы состояния"
+                                              "content": "Проверяю переходы состояния",
+                                              "fill": "$aurora.ink"
                                             },
                                             "PVuWe": {
-                                              "content": "Выполняется"
+                                              "content": "Выполняется",
+                                              "fill": "$aurora.ink"
                                             },
                                             "EfkZb": {
-                                              "icon": "chevron-right"
+                                              "icon": "chevron-right",
+                                              "fill": "$aurora.ink"
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
@@ -49892,6 +49948,8 @@
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Читаю обработчик отмены / свёрнут",
                                           "width": "fill_container",
+                                          "fill": "$aurora.action.current",
+                                          "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -49902,16 +49960,20 @@
                                               ]
                                             },
                                             "qW5nX": {
-                                              "icon": "file-text"
+                                              "icon": "file-text",
+                                              "fill": "$aurora.ink"
                                             },
                                             "r5qJm": {
-                                              "content": "Читаю обработчик отмены"
+                                              "content": "Читаю обработчик отмены",
+                                              "fill": "$aurora.ink"
                                             },
                                             "PVuWe": {
-                                              "content": "Выполняется"
+                                              "content": "Выполняется",
+                                              "fill": "$aurora.ink"
                                             },
                                             "EfkZb": {
-                                              "icon": "chevron-right"
+                                              "icon": "chevron-right",
+                                              "fill": "$aurora.ink"
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
@@ -49931,6 +49993,8 @@
                                           "ref": "ZLjM3",
                                           "name": "Thinking / Android / свёрнут",
                                           "width": "fill_container",
+                                          "fill": "$aurora.action.current",
+                                          "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                                           "descendants": {
                                             "XpIWN": {
                                               "padding": [
@@ -49940,8 +50004,18 @@
                                                 0
                                               ]
                                             },
+                                            "j9wrgK": {
+                                              "fill": "$aurora.ink"
+                                            },
+                                            "K8nVq": {
+                                              "fill": "$aurora.ink"
+                                            },
                                             "xr6pN": {
-                                              "content": "Проверяю сохранение вложений…"
+                                              "content": "Проверяю сохранение вложений…",
+                                              "fill": "$aurora.ink"
+                                            },
+                                            "c0Cl7R": {
+                                              "fill": "$aurora.ink"
                                             },
                                             "V4h3K": {
                                               "content": "Проверяю сохранение вложений при отмене запроса и переходе обратно к черновику."
@@ -70327,12 +70401,22 @@
                   "ref": "ZLjM3",
                   "name": "1. Свёрнут · начало текста",
                   "width": 676,
+                  "fill": "$aurora.action.current",
+                  "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
+                    "j9wrgK": {
+                      "fill": "$aurora.ink"
+                    },
                     "K8nVq": {
-                      "content": "Думает..."
+                      "content": "Думает...",
+                      "fill": "$aurora.ink"
+                    },
+                    "xr6pN": {
+                      "fill": "$aurora.ink"
                     },
                     "c0Cl7R": {
-                      "icon": "chevron-right"
+                      "icon": "chevron-right",
+                      "fill": "$aurora.ink"
                     },
                     "DFdNB": {
                       "enabled": false,
@@ -70372,7 +70456,8 @@
                   "ref": "ZLjM3",
                   "name": "2. Нажатие · весь полученный текст",
                   "width": 676,
-                  "fill": "#F0F2EB",
+                  "fill": "$aurora.action.current",
+                  "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
                     "XpIWN": {
                       "padding": 12
@@ -70380,23 +70465,29 @@
                     "Eymjb": {
                       "height": 20
                     },
+                    "j9wrgK": {
+                      "fill": "$aurora.ink"
+                    },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
                       "content": "Думает...",
                       "fontSize": 13,
-                      "lineHeight": 1.5384615384615385
+                      "lineHeight": 1.5384615384615385,
+                      "fill": "$aurora.ink"
                     },
                     "xr6pN": {
                       "fontSize": 12,
-                      "lineHeight": 1.3333333333333333
+                      "lineHeight": 1.3333333333333333,
+                      "fill": "$aurora.ink"
                     },
                     "vyDlH": {
                       "height": 20
                     },
                     "c0Cl7R": {
-                      "icon": "chevron-down"
+                      "icon": "chevron-down",
+                      "fill": "$aurora.ink"
                     },
                     "DFdNB": {
                       "enabled": true,
@@ -70445,7 +70536,8 @@
                   "ref": "ZLjM3",
                   "name": "3. Пришёл следующий фрагмент · блок вырос",
                   "width": 676,
-                  "fill": "#F0F2EB",
+                  "fill": "$aurora.action.current",
+                  "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
                     "XpIWN": {
                       "padding": 12
@@ -70453,23 +70545,29 @@
                     "Eymjb": {
                       "height": 20
                     },
+                    "j9wrgK": {
+                      "fill": "$aurora.ink"
+                    },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
                       "content": "Думает...",
                       "fontSize": 13,
-                      "lineHeight": 1.5384615384615385
+                      "lineHeight": 1.5384615384615385,
+                      "fill": "$aurora.ink"
                     },
                     "xr6pN": {
                       "fontSize": 12,
-                      "lineHeight": 1.3333333333333333
+                      "lineHeight": 1.3333333333333333,
+                      "fill": "$aurora.ink"
                     },
                     "vyDlH": {
                       "height": 20
                     },
                     "c0Cl7R": {
-                      "icon": "chevron-down"
+                      "icon": "chevron-down",
+                      "fill": "$aurora.ink"
                     },
                     "DFdNB": {
                       "enabled": true,
@@ -70582,7 +70680,8 @@
                   "ref": "ZLjM3",
                   "name": "Thinking / Android / раскрытый",
                   "width": 338,
-                  "fill": "#F0F2EB",
+                  "fill": "$aurora.action.current",
+                  "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
                     "XpIWN": {
                       "padding": 12
@@ -70590,23 +70689,29 @@
                     "Eymjb": {
                       "height": 20
                     },
+                    "j9wrgK": {
+                      "fill": "$aurora.ink"
+                    },
                     "fYrhr": {
                       "gap": 4
                     },
                     "K8nVq": {
                       "fontSize": 13,
-                      "lineHeight": 1.5384615384615385
+                      "lineHeight": 1.5384615384615385,
+                      "fill": "$aurora.ink"
                     },
                     "xr6pN": {
                       "content": "Сопоставляю состояния отмены…",
                       "fontSize": 12,
-                      "lineHeight": 1.3333333333333333
+                      "lineHeight": 1.3333333333333333,
+                      "fill": "$aurora.ink"
                     },
                     "vyDlH": {
                       "height": 20
                     },
                     "c0Cl7R": {
-                      "icon": "chevron-down"
+                      "icon": "chevron-down",
+                      "fill": "$aurora.ink"
                     },
                     "DFdNB": {
                       "enabled": true,
@@ -70715,15 +70820,23 @@
                   "ref": "ZLjM3",
                   "name": "Ожидание первого фрагмента",
                   "width": 676,
+                  "fill": "$aurora.action.current",
+                  "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
+                    "j9wrgK": {
+                      "fill": "$aurora.ink"
+                    },
                     "K8nVq": {
-                      "content": "Думает..."
+                      "content": "Думает...",
+                      "fill": "$aurora.ink"
                     },
                     "xr6pN": {
-                      "content": "Ожидаю текст…"
+                      "content": "Ожидаю текст…",
+                      "fill": "$aurora.ink"
                     },
                     "c0Cl7R": {
-                      "icon": "chevron-right"
+                      "icon": "chevron-right",
+                      "fill": "$aurora.ink"
                     },
                     "DFdNB": {
                       "enabled": false,
@@ -70918,6 +71031,10 @@
     "aurora.scroll.drag": {
       "type": "color",
       "value": "#302E39CC"
+    },
+    "aurora.action.current": {
+      "type": "color",
+      "value": "#EEF4EA"
     }
   },
   "fileToken": "236eae8f-dd41-4ae8-bfc4-4e2fca8107fb"
