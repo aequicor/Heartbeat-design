@@ -1,5 +1,5 @@
 {
-  "version": "2.21",
+  "version": "2.22",
   "children": [
     {
       "type": "frame",
@@ -33,7 +33,8 @@
           "content": "Heartbeat 2.0 · Перламутровое пространство для работы с ИИ",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 15
+          "fontSize": 15,
+          "fontWeight": "normal"
         },
         {
           "type": "frame",
@@ -70,7 +71,8 @@
                   "content": "Lavender",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 12
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -101,7 +103,8 @@
                   "content": "Granny Apple",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 12
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -132,7 +135,8 @@
                   "content": "Blush",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 12
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -163,7 +167,8 @@
                   "content": "Ice Blue",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 12
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -194,7 +199,8 @@
                   "content": "Pearl",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 12
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -405,7 +411,8 @@
               "content": "Цвет в контуре · текст на фарфоровой поверхности",
               "lineHeight": 1.5,
               "fontFamily": "$aurora.font",
-              "fontSize": 13
+              "fontSize": 13,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -442,7 +449,8 @@
                   "content": "Работает",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -470,7 +478,8 @@
                   "content": "Требует внимания пользователя",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -490,7 +499,8 @@
                   "content": "Простаивает · без индикатора",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -519,7 +529,8 @@
                   "content": "Работа завершена · результат не просмотрен",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -771,7 +782,8 @@
                           "content": "Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -834,38 +846,7 @@
                       "context": " Состояние покоя: архив скрыт. Hover/focus: архив появляется перед индикатором состояния, название плавно затеняется в доступной ширине, точка состояния остаётся на прежней вертикали.",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "opacity": 0.65,
-                        "rotation": 120,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#D7C5F1",
-                            "position": 0
-                          },
-                          {
-                            "color": "#E8DFF7",
-                            "position": 0.25
-                          },
-                          {
-                            "color": "#D8E9BD",
-                            "position": 0.53
-                          },
-                          {
-                            "color": "#DCECF2",
-                            "position": 0.76
-                          },
-                          {
-                            "color": "#F8E2EA",
-                            "position": 1
-                          }
-                        ]
-                      },
+                      "fill": "$aurora.lavender",
                       "cornerRadius": 10,
                       "gap": 8,
                       "padding": [
@@ -974,7 +955,8 @@
                               "content": "Регрессия UI",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -1075,7 +1057,8 @@
                           "content": "Архитектура движка",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1234,7 +1217,8 @@
                               "content": "Навигация Android",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -1311,7 +1295,8 @@
                               "content": "Подготовка релиза",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -1472,7 +1457,8 @@
                               "content": "Страница загрузки",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -1629,7 +1615,8 @@
                           "content": "Как устроен планировщик",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1706,7 +1693,8 @@
                           "content": "Идеи для Aurora",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1794,7 +1782,8 @@
                       "content": "Модели и подключения",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1829,7 +1818,8 @@
                       "content": "Настройки",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -1947,7 +1937,8 @@
                           "content": "Heartbeat / Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -2068,7 +2059,8 @@
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -2094,7 +2086,7 @@
                               "layout": "vertical",
                               "gap": 4,
                               "padding": [
-                                14,
+                                16,
                                 20
                               ],
                               "children": [
@@ -2108,7 +2100,8 @@
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 15
+                                  "fontSize": 15,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -2121,7 +2114,8 @@
                                   "lineHeight": 1.5,
                                   "textAlign": "right",
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -2169,7 +2163,8 @@
                                   "content": "14:03",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -2233,7 +2228,8 @@
                                           "content": "StudioComposer.kt · StudioPaneView.kt",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -2245,7 +2241,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -2311,7 +2308,8 @@
                                           "content": "Отправка · отмена · восстановление",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -2323,7 +2321,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -2349,7 +2348,8 @@
                               "content": "Контракты проверены. Нашёл один сценарий, который стоит уточнить: повторная отправка должна ждать подтверждения остановки.",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -2367,8 +2367,8 @@
                                   "type": "icon",
                                   "id": "KB9fV",
                                   "name": "Документ",
-                                  "width": 22,
-                                  "height": 22,
+                                  "width": 18,
+                                  "height": 18,
                                   "icon": "file-text",
                                   "library": "lucide",
                                   "fill": "$aurora.primary"
@@ -2400,7 +2400,8 @@
                                       "content": "3 наблюдения · 1 рекомендация",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -2525,7 +2526,7 @@
                   "name": "Область ввода",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 10,
+                  "gap": 12,
                   "padding": [
                     12,
                     32,
@@ -2554,8 +2555,8 @@
                               "type": "icon",
                               "id": "ipg9G",
                               "name": "Папка контекста",
-                              "width": 14,
-                              "height": 14,
+                              "width": 16,
+                              "height": 16,
                               "icon": "folder",
                               "library": "lucide",
                               "fill": "$aurora.muted"
@@ -2568,7 +2569,8 @@
                               "content": "Heartbeat",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -2666,8 +2668,9 @@
                                   "name": "Окно квоты",
                                   "fill": "#66646B",
                                   "content": "5 ч",
+                                  "lineHeight": 1.3333333333333333,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 11,
+                                  "fontSize": 12,
                                   "fontWeight": "normal"
                                 },
                                 {
@@ -2773,7 +2776,8 @@
                               "content": "Уточни сценарий повторной отправки",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -2922,7 +2926,8 @@
                       "content": "Enter — отправить · Shift + Enter — новая строка",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -3342,7 +3347,8 @@
                           "content": "Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -3514,7 +3520,8 @@
                               "content": "Регрессия UI",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -3615,7 +3622,8 @@
                           "content": "Архитектура движка",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -3774,7 +3782,8 @@
                               "content": "Навигация Android",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -3851,7 +3860,8 @@
                               "content": "Подготовка релиза",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -4012,7 +4022,8 @@
                               "content": "Страница загрузки",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -4169,7 +4180,8 @@
                           "content": "Как устроен планировщик",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -4246,7 +4258,8 @@
                           "content": "Идеи для Aurora",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -4334,7 +4347,8 @@
                       "content": "Модели и подключения",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -4369,7 +4383,8 @@
                       "content": "Настройки",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -4487,7 +4502,8 @@
                           "content": "Heartbeat / Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -4610,7 +4626,8 @@
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -4650,7 +4667,8 @@
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 15
+                                  "fontSize": 15,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -4663,7 +4681,8 @@
                                   "lineHeight": 1.5,
                                   "textAlign": "right",
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -4711,7 +4730,8 @@
                                   "content": "14:03",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -4775,7 +4795,8 @@
                                           "content": "StudioComposer.kt · StudioPaneView.kt",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -4787,7 +4808,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -4853,7 +4875,8 @@
                                           "content": "Отправка · отмена · восстановление",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -4865,7 +4888,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -4891,7 +4915,8 @@
                               "content": "Контракты проверены. Нашёл один сценарий, который стоит уточнить: повторная отправка должна ждать подтверждения остановки.",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -4942,7 +4967,8 @@
                                       "content": "3 наблюдения · 1 рекомендация",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -5154,7 +5180,7 @@
                           "id": "m35Zg",
                           "name": "Заголовок пустого диалога",
                           "fill": "$aurora.ink",
-                          "content": "С чего начнём?",
+                          "content": "Новый диалог в Heartbeat",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
                           "fontSize": 24,
@@ -5171,7 +5197,8 @@
                           "lineHeight": 1.6,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -5272,7 +5299,7 @@
                   "name": "Область ввода",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 10,
+                  "gap": 12,
                   "padding": [
                     12,
                     32,
@@ -5301,8 +5328,8 @@
                               "type": "icon",
                               "id": "UpJF6",
                               "name": "Папка контекста",
-                              "width": 14,
-                              "height": 14,
+                              "width": 16,
+                              "height": 16,
                               "icon": "folder",
                               "library": "lucide",
                               "fill": "$aurora.muted"
@@ -5315,7 +5342,8 @@
                               "content": "Heartbeat",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -5423,7 +5451,8 @@
                               "content": "Опишите задачу или задайте вопрос",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -5573,7 +5602,8 @@
                       "content": "Enter — отправить · Shift + Enter — новая строка",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -5993,7 +6023,8 @@
                           "content": "Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -6056,38 +6087,7 @@
                       "context": " Состояние покоя: архив скрыт. Hover/focus: архив появляется перед индикатором состояния, название плавно затеняется в доступной ширине, точка состояния остаётся на прежней вертикали.",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "opacity": 0.65,
-                        "rotation": 120,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#D7C5F1",
-                            "position": 0
-                          },
-                          {
-                            "color": "#E8DFF7",
-                            "position": 0.25
-                          },
-                          {
-                            "color": "#D8E9BD",
-                            "position": 0.53
-                          },
-                          {
-                            "color": "#DCECF2",
-                            "position": 0.76
-                          },
-                          {
-                            "color": "#F8E2EA",
-                            "position": 1
-                          }
-                        ]
-                      },
+                      "fill": "$aurora.lavender",
                       "cornerRadius": 10,
                       "gap": 8,
                       "padding": [
@@ -6196,7 +6196,8 @@
                               "content": "Регрессия UI",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -6297,7 +6298,8 @@
                           "content": "Архитектура движка",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -6456,7 +6458,8 @@
                               "content": "Навигация Android",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -6533,7 +6536,8 @@
                               "content": "Подготовка релиза",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -6694,7 +6698,8 @@
                               "content": "Страница загрузки",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -6851,7 +6856,8 @@
                           "content": "Как устроен планировщик",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -6928,7 +6934,8 @@
                           "content": "Идеи для Aurora",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -7016,7 +7023,8 @@
                       "content": "Модели и подключения",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -7051,7 +7059,8 @@
                       "content": "Настройки",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -7169,7 +7178,8 @@
                           "content": "Heartbeat / Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -7292,7 +7302,8 @@
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -7332,7 +7343,8 @@
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 15
+                                  "fontSize": 15,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -7345,7 +7357,8 @@
                                   "lineHeight": 1.5,
                                   "textAlign": "right",
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -7393,7 +7406,8 @@
                                   "content": "14:03",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -7457,7 +7471,8 @@
                                           "content": "StudioComposer.kt · StudioPaneView.kt",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -7469,7 +7484,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -7535,7 +7551,8 @@
                                           "content": "Отправка · отмена · восстановление",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -7547,7 +7564,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -7573,7 +7591,8 @@
                               "content": "Контракты проверены. Нашёл один сценарий, который стоит уточнить: повторная отправка должна ждать подтверждения остановки.",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -7624,7 +7643,8 @@
                                       "content": "3 наблюдения · 1 рекомендация",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -7778,11 +7798,12 @@
                           "fill": "$aurora.muted",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Ваш черновик сохранён. Он появится вместе с сообщениями.",
+                          "content": "Ваш черновик сохранён",
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -7834,7 +7855,7 @@
                   "name": "Область ввода",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 10,
+                  "gap": 12,
                   "padding": [
                     12,
                     32,
@@ -7863,8 +7884,8 @@
                               "type": "icon",
                               "id": "hvmZZ",
                               "name": "Папка контекста",
-                              "width": 14,
-                              "height": 14,
+                              "width": 16,
+                              "height": 16,
                               "icon": "folder",
                               "library": "lucide",
                               "fill": "$aurora.muted"
@@ -7877,7 +7898,8 @@
                               "content": "Heartbeat",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -7985,7 +8007,8 @@
                               "content": "Черновик доступен во время загрузки",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -8135,7 +8158,8 @@
                       "content": "Enter — отправить · Shift + Enter — новая строка",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -8555,7 +8579,8 @@
                           "content": "Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -8618,38 +8643,7 @@
                       "context": " Состояние покоя: архив скрыт. Hover/focus: архив появляется перед индикатором состояния, название плавно затеняется в доступной ширине, точка состояния остаётся на прежней вертикали.",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "opacity": 0.65,
-                        "rotation": 120,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#D7C5F1",
-                            "position": 0
-                          },
-                          {
-                            "color": "#E8DFF7",
-                            "position": 0.25
-                          },
-                          {
-                            "color": "#D8E9BD",
-                            "position": 0.53
-                          },
-                          {
-                            "color": "#DCECF2",
-                            "position": 0.76
-                          },
-                          {
-                            "color": "#F8E2EA",
-                            "position": 1
-                          }
-                        ]
-                      },
+                      "fill": "$aurora.lavender",
                       "cornerRadius": 10,
                       "gap": 8,
                       "padding": [
@@ -8759,7 +8753,8 @@
                               "content": "Регрессия UI",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -8860,7 +8855,8 @@
                           "content": "Архитектура движка",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -9019,7 +9015,8 @@
                               "content": "Навигация Android",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -9096,7 +9093,8 @@
                               "content": "Подготовка релиза",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -9257,7 +9255,8 @@
                               "content": "Страница загрузки",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -9414,7 +9413,8 @@
                           "content": "Как устроен планировщик",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -9491,7 +9491,8 @@
                           "content": "Идеи для Aurora",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -9579,7 +9580,8 @@
                       "content": "Модели и подключения",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -9614,7 +9616,8 @@
                       "content": "Настройки",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -9732,7 +9735,8 @@
                           "content": "Heartbeat / Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -9853,7 +9857,8 @@
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -9879,7 +9884,7 @@
                               "layout": "vertical",
                               "gap": 4,
                               "padding": [
-                                14,
+                                16,
                                 20
                               ],
                               "children": [
@@ -9893,7 +9898,8 @@
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 15
+                                  "fontSize": 15,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -9906,7 +9912,8 @@
                                   "lineHeight": 1.5,
                                   "textAlign": "right",
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -9954,7 +9961,8 @@
                                   "content": "Сейчас",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -10018,7 +10026,8 @@
                                           "content": "StudioComposer.kt · StudioPaneView.kt",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -10030,7 +10039,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -10096,7 +10106,8 @@
                                           "content": "StudioComposer.kt · обработка остановки",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -10108,7 +10119,8 @@
                                       "content": "В работе",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -10134,7 +10146,8 @@
                               "content": "Проверяю, как отмена связана с повторной отправкой. Можно продолжать писать следующий запрос.",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -10188,7 +10201,8 @@
                                       "content": "3 наблюдения · 1 рекомендация",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -10417,7 +10431,8 @@
                                       "content": "Проверяет связи между состояниями сессии",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -10435,7 +10450,7 @@
                   "name": "Область ввода",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 10,
+                  "gap": 12,
                   "padding": [
                     12,
                     32,
@@ -10464,8 +10479,8 @@
                               "type": "icon",
                               "id": "ibT49",
                               "name": "Папка контекста",
-                              "width": 14,
-                              "height": 14,
+                              "width": 16,
+                              "height": 16,
                               "icon": "folder",
                               "library": "lucide",
                               "fill": "$aurora.muted"
@@ -10478,7 +10493,8 @@
                               "content": "Heartbeat",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -10576,8 +10592,9 @@
                                   "name": "Окно квоты",
                                   "fill": "#66646B",
                                   "content": "5 ч",
+                                  "lineHeight": 1.3333333333333333,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 11,
+                                  "fontSize": 12,
                                   "fontWeight": "normal"
                                 },
                                 {
@@ -10683,7 +10700,8 @@
                               "content": "Добавь проверку восстановления после ошибки",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -10834,7 +10852,8 @@
                       "content": "Enter — отправить · Shift + Enter — новая строка",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -11254,7 +11273,8 @@
                           "content": "Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -11317,38 +11337,7 @@
                       "context": " Состояние покоя: архив скрыт. Hover/focus: архив появляется перед индикатором состояния, название плавно затеняется в доступной ширине, точка состояния остаётся на прежней вертикали.",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "opacity": 0.65,
-                        "rotation": 120,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#D7C5F1",
-                            "position": 0
-                          },
-                          {
-                            "color": "#E8DFF7",
-                            "position": 0.25
-                          },
-                          {
-                            "color": "#D8E9BD",
-                            "position": 0.53
-                          },
-                          {
-                            "color": "#DCECF2",
-                            "position": 0.76
-                          },
-                          {
-                            "color": "#F8E2EA",
-                            "position": 1
-                          }
-                        ]
-                      },
+                      "fill": "$aurora.lavender",
                       "cornerRadius": 10,
                       "gap": 8,
                       "padding": [
@@ -11458,7 +11447,8 @@
                               "content": "Регрессия UI",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -11559,7 +11549,8 @@
                           "content": "Архитектура движка",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -11718,7 +11709,8 @@
                               "content": "Навигация Android",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -11795,7 +11787,8 @@
                               "content": "Подготовка релиза",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -11956,7 +11949,8 @@
                               "content": "Страница загрузки",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -12113,7 +12107,8 @@
                           "content": "Как устроен планировщик",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -12190,7 +12185,8 @@
                           "content": "Идеи для Aurora",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -12278,7 +12274,8 @@
                       "content": "Модели и подключения",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -12313,7 +12310,8 @@
                       "content": "Настройки",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -12431,7 +12429,8 @@
                           "content": "Heartbeat / Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -12555,7 +12554,8 @@
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -12581,7 +12581,7 @@
                               "layout": "vertical",
                               "gap": 4,
                               "padding": [
-                                14,
+                                16,
                                 20
                               ],
                               "children": [
@@ -12595,7 +12595,8 @@
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 15
+                                  "fontSize": 15,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -12608,7 +12609,8 @@
                                   "lineHeight": 1.5,
                                   "textAlign": "right",
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -12656,7 +12658,8 @@
                                   "content": "Сейчас",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -12723,7 +12726,8 @@
                                           "content": "StudioComposer.kt · StudioPaneView.kt",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -12735,7 +12739,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -12801,7 +12806,8 @@
                                           "content": "Отправка · отмена · восстановление",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -12813,7 +12819,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -12839,7 +12846,8 @@
                               "content": "Субагент подготовил проверку. Для запуска тестов требуется ваше решение.",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -12893,7 +12901,8 @@
                                       "content": "3 наблюдения · 1 рекомендация",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -13034,8 +13043,8 @@
                                       "type": "icon",
                                       "id": "qd4b8",
                                       "name": "Ожидание решения",
-                                      "width": 20,
-                                      "height": 20,
+                                      "width": 18,
+                                      "height": 18,
                                       "icon": "shield",
                                       "library": "lucide",
                                       "fill": "$aurora.warning"
@@ -13045,7 +13054,7 @@
                                       "id": "LTUhQ",
                                       "name": "Кому нужно решение",
                                       "fill": "$aurora.warning",
-                                      "content": "Тесты · ожидает вашего решения",
+                                      "content": "Тесты · требуется ваше решение",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
                                       "fontSize": 14,
@@ -13083,7 +13092,8 @@
                                       "content": "./gradlew test",
                                       "lineHeight": 1.5,
                                       "fontFamily": "JetBrains Mono",
-                                      "fontSize": 13
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "text",
@@ -13093,7 +13103,8 @@
                                       "content": "Рабочая папка: Heartbeat-v2",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -13107,7 +13118,8 @@
                                   "content": "Разрешение действует только на этот запуск. Тесты выполняются локально и могут создать отчёты и файлы сборки.",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
@@ -13200,7 +13212,7 @@
                   "name": "Область ввода",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 10,
+                  "gap": 12,
                   "padding": [
                     12,
                     32,
@@ -13229,8 +13241,8 @@
                               "type": "icon",
                               "id": "SDX8o",
                               "name": "Папка контекста",
-                              "width": 14,
-                              "height": 14,
+                              "width": 16,
+                              "height": 16,
                               "icon": "folder",
                               "library": "lucide",
                               "fill": "$aurora.muted"
@@ -13243,7 +13255,8 @@
                               "content": "Heartbeat",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -13341,8 +13354,9 @@
                                   "name": "Окно квоты",
                                   "fill": "#66646B",
                                   "content": "5 ч",
+                                  "lineHeight": 1.3333333333333333,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 11,
+                                  "fontSize": 12,
                                   "fontWeight": "normal"
                                 },
                                 {
@@ -13448,7 +13462,8 @@
                               "content": "Пока проверь также документацию",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -13597,7 +13612,8 @@
                       "content": "Enter — отправить · Shift + Enter — новая строка",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -14017,7 +14033,8 @@
                           "content": "Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -14080,38 +14097,7 @@
                       "context": " Состояние покоя: архив скрыт. Hover/focus: архив появляется перед индикатором состояния, название плавно затеняется в доступной ширине, точка состояния остаётся на прежней вертикали.",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "opacity": 0.65,
-                        "rotation": 120,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#D7C5F1",
-                            "position": 0
-                          },
-                          {
-                            "color": "#E8DFF7",
-                            "position": 0.25
-                          },
-                          {
-                            "color": "#D8E9BD",
-                            "position": 0.53
-                          },
-                          {
-                            "color": "#DCECF2",
-                            "position": 0.76
-                          },
-                          {
-                            "color": "#F8E2EA",
-                            "position": 1
-                          }
-                        ]
-                      },
+                      "fill": "$aurora.lavender",
                       "cornerRadius": 10,
                       "gap": 8,
                       "padding": [
@@ -14221,7 +14207,8 @@
                               "content": "Регрессия UI",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -14322,7 +14309,8 @@
                           "content": "Архитектура движка",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -14481,7 +14469,8 @@
                               "content": "Навигация Android",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -14558,7 +14547,8 @@
                               "content": "Подготовка релиза",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -14719,7 +14709,8 @@
                               "content": "Страница загрузки",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -14876,7 +14867,8 @@
                           "content": "Как устроен планировщик",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -14953,7 +14945,8 @@
                           "content": "Идеи для Aurora",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -15041,7 +15034,8 @@
                       "content": "Модели и подключения",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -15076,7 +15070,8 @@
                       "content": "Настройки",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -15194,7 +15189,8 @@
                           "content": "Heartbeat / Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -15315,7 +15311,8 @@
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -15341,7 +15338,7 @@
                               "layout": "vertical",
                               "gap": 4,
                               "padding": [
-                                14,
+                                16,
                                 20
                               ],
                               "children": [
@@ -15355,7 +15352,8 @@
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 15
+                                  "fontSize": 15,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -15368,7 +15366,8 @@
                                   "lineHeight": 1.5,
                                   "textAlign": "right",
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -15416,7 +15415,8 @@
                                   "content": "14:03",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -15483,7 +15483,8 @@
                                           "content": "StudioComposer.kt · StudioPaneView.kt",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -15495,7 +15496,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -15561,7 +15563,8 @@
                                           "content": "Отправка · отмена · восстановление",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -15573,7 +15576,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -15599,7 +15603,8 @@
                               "content": "Проверка файлов завершена. Можно уточнить задачу или перейти к следующему сценарию.",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -15653,7 +15658,8 @@
                                       "content": "3 наблюдения · 1 рекомендация",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -15781,7 +15787,7 @@
                   "name": "Область ввода",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 10,
+                  "gap": 12,
                   "padding": [
                     12,
                     32,
@@ -15841,7 +15847,8 @@
                           "content": "Соединение прервано. Черновик и вложение сохранены.",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -15905,8 +15912,8 @@
                               "type": "icon",
                               "id": "g6ANSz",
                               "name": "Папка контекста",
-                              "width": 14,
-                              "height": 14,
+                              "width": 16,
+                              "height": 16,
                               "icon": "folder",
                               "library": "lucide",
                               "fill": "$aurora.muted"
@@ -15919,7 +15926,8 @@
                               "content": "Heartbeat",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -16017,8 +16025,9 @@
                                   "name": "Окно квоты",
                                   "fill": "#66646B",
                                   "content": "5 ч",
+                                  "lineHeight": 1.3333333333333333,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 11,
+                                  "fontSize": 12,
                                   "fontWeight": "normal"
                                 },
                                 {
@@ -16124,7 +16133,8 @@
                               "content": "Уточни сценарий восстановления после ошибки",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -16158,14 +16168,15 @@
                                   "content": "SessionState.kt",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "icon",
                                   "id": "zXsqf",
                                   "name": "Убрать вложение",
-                                  "width": 14,
-                                  "height": 14,
+                                  "width": 16,
+                                  "height": 16,
                                   "icon": "x",
                                   "library": "lucide",
                                   "fill": "$aurora.muted"
@@ -16320,7 +16331,8 @@
                       "content": "Повтор отправляет сохранённый черновик один раз",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -16618,9 +16630,10 @@
                           "name": "Проект Android",
                           "fill": "$aurora.muted",
                           "content": "Heartbeat",
-                          "lineHeight": 1.5,
+                          "lineHeight": 1.3846153846153846,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -16717,7 +16730,8 @@
                               "content": "Проверь контракты сессий\nи сценарий отмены",
                               "lineHeight": 1.625,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 16
+                              "fontSize": 16,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -16859,7 +16873,8 @@
                               "content": "2 операции завершены",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -16890,7 +16905,8 @@
                           "content": "Контракты проверены. Повторная отправка должна ждать подтверждения остановки.",
                           "lineHeight": 1.625,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 16
+                          "fontSize": 16,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -16908,8 +16924,8 @@
                               "type": "icon",
                               "id": "nl7jX",
                               "name": "Файл результата Android",
-                              "width": 20,
-                              "height": 20,
+                              "width": 18,
+                              "height": 18,
                               "icon": "file-text",
                               "library": "lucide",
                               "fill": "$aurora.primary"
@@ -16940,7 +16956,8 @@
                                   "content": "3 наблюдения",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -17006,126 +17023,140 @@
                           "content": "Heartbeat",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
-                          "id": "yhJK4",
-                          "name": "Контекст и квота",
-                          "context": "Контекст 61%; квота за 5 часов 78%. Прочерк не означает 0%. Неизвестные значения не анимируются. Нажатие открывает сведения; если наблюдение есть без метрик — «Данных пока нет».",
-                          "height": 32,
-                          "fill": "#F2F2F4",
-                          "cornerRadius": 7,
-                          "gap": 10,
-                          "padding": [
-                            4,
-                            8
-                          ],
+                          "id": "jznrx",
+                          "name": "Открыть сведения о контексте / цель 48",
+                          "context": "Контекст 61%; квота за 5 часов 78%. Прочерк не означает 0%. Неизвестные значения не анимируются. Нажатие открывает сведения; если наблюдение есть без метрик — «Данных пока нет». Android: цель нажатия 48 px по высоте. Вся внешняя область открывает сведения. При клавиатурном вводе фокус 2 px с отступом 2 px вокруг цели; индикатор внутри остаётся компактным.",
+                          "height": 48,
                           "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "ZihW6",
-                              "name": "Заполнение контекста",
-                              "gap": 6,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "w0KSmD",
-                                  "name": "Кольцо контекста",
-                                  "width": 14,
-                                  "height": 14,
-                                  "layout": "none",
-                                  "children": [
-                                    {
-                                      "type": "ellipse",
-                                      "id": "bce5A",
-                                      "x": 0,
-                                      "y": 0,
-                                      "name": "Фон кольца",
-                                      "innerRadius": 0.72,
-                                      "fill": "#E2E2E5",
-                                      "width": 14,
-                                      "height": 14
-                                    },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "TU2h1",
-                                      "x": 0,
-                                      "y": 0,
-                                      "name": "Доля контекста",
-                                      "innerRadius": 0.72,
-                                      "startAngle": -90,
-                                      "sweepAngle": 219.6,
-                                      "fill": "#965900",
-                                      "width": 14,
-                                      "height": 14
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "laXtS",
-                                  "name": "Процент контекста",
-                                  "fill": "#302E39",
-                                  "content": "61%",
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "rectangle",
-                              "id": "x115k",
-                              "name": "Разделитель метрик",
-                              "fill": "#E2E2E5",
-                              "width": 1,
-                              "height": 16
-                            },
-                            {
-                              "type": "frame",
-                              "id": "tN8St",
-                              "name": "Квота за 5 часов",
-                              "width": 32,
-                              "height": 24,
-                              "layout": "vertical",
-                              "gap": 4,
+                              "id": "yhJK4",
+                              "name": "Контекст и квота",
+                              "context": "Компактное отображение контекста и квоты внутри сенсорной цели; действие и доступное имя принадлежат внешнему контейнеру.",
+                              "height": 32,
+                              "fill": "#F2F2F4",
+                              "cornerRadius": 7,
+                              "gap": 10,
+                              "padding": [
+                                4,
+                                8
+                              ],
                               "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "text",
-                                  "id": "LMBEO",
-                                  "name": "Окно квоты",
-                                  "fill": "#66646B",
-                                  "content": "5 ч",
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 11,
-                                  "fontWeight": "normal"
+                                  "type": "frame",
+                                  "id": "ZihW6",
+                                  "name": "Заполнение контекста",
+                                  "gap": 6,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "w0KSmD",
+                                      "name": "Кольцо контекста",
+                                      "width": 14,
+                                      "height": 14,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "bce5A",
+                                          "x": 0,
+                                          "y": 0,
+                                          "name": "Фон кольца",
+                                          "innerRadius": 0.72,
+                                          "fill": "#E2E2E5",
+                                          "width": 14,
+                                          "height": 14
+                                        },
+                                        {
+                                          "type": "ellipse",
+                                          "id": "TU2h1",
+                                          "x": 0,
+                                          "y": 0,
+                                          "name": "Доля контекста",
+                                          "innerRadius": 0.72,
+                                          "startAngle": -90,
+                                          "sweepAngle": 219.6,
+                                          "fill": "#965900",
+                                          "width": 14,
+                                          "height": 14
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "laXtS",
+                                      "name": "Процент контекста",
+                                      "fill": "#302E39",
+                                      "content": "61%",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "x115k",
+                                  "name": "Разделитель метрик",
+                                  "fill": "#E2E2E5",
+                                  "width": 1,
+                                  "height": 16
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "jexCS",
-                                  "name": "Шкала квоты",
+                                  "id": "tN8St",
+                                  "name": "Квота за 5 часов",
                                   "width": 32,
-                                  "height": 4,
-                                  "fill": "#E2E2E5",
-                                  "cornerRadius": 2,
-                                  "layout": "none",
+                                  "height": 24,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "rectangle",
+                                      "type": "text",
+                                      "id": "LMBEO",
+                                      "name": "Окно квоты",
+                                      "fill": "#66646B",
+                                      "content": "5 ч",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "jexCS",
+                                      "name": "Шкала квоты",
+                                      "width": 32,
+                                      "height": 4,
+                                      "fill": "#E2E2E5",
                                       "cornerRadius": 2,
-                                      "id": "YNh3l",
-                                      "x": 0,
-                                      "y": 0,
-                                      "name": "Использованная квота",
-                                      "fill": "#965900",
-                                      "width": 24.96,
-                                      "height": 4
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "cornerRadius": 2,
+                                          "id": "YNh3l",
+                                          "x": 0,
+                                          "y": 0,
+                                          "name": "Использованная квота",
+                                          "fill": "#965900",
+                                          "width": 24.96,
+                                          "height": 4
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -17199,7 +17230,8 @@
                               "content": "Уточни сценарий\nповторной отправки",
                               "lineHeight": 1.625,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 16
+                              "fontSize": 16,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -17462,7 +17494,8 @@
                           "content": "Проверка контрактов",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -17492,8 +17525,8 @@
                           "type": "icon",
                           "id": "F4iwBQ",
                           "name": "Разрешение Android",
-                          "width": 20,
-                          "height": 20,
+                          "width": 18,
+                          "height": 18,
                           "icon": "shield",
                           "library": "lucide",
                           "fill": "$aurora.warning"
@@ -17534,7 +17567,8 @@
                       "content": "Субагент проверит контракты сессий и сценарий отмены в проекте Heartbeat.",
                       "lineHeight": 1.625,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 16
+                      "fontSize": 16,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -17555,7 +17589,8 @@
                           "content": "./gradlew test",
                           "lineHeight": 1.5,
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -17565,7 +17600,8 @@
                           "content": "В папке Heartbeat-v2",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -17579,7 +17615,8 @@
                       "content": "Только этот запуск. Тесты выполняются локально и могут создать отчёты и файлы сборки.",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -17605,7 +17642,8 @@
                       "content": "Черновик в диалоге сохранён",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -17717,7 +17755,8 @@
           "content": "Статичный контур в покое · ясный фокус · локальная активность во время генерации",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 15
+          "fontSize": 15,
+          "fontWeight": "normal"
         },
         {
           "type": "frame",
@@ -17817,7 +17856,8 @@
                               "content": "Опишите задачу или задайте вопрос",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -17865,7 +17905,8 @@
                                   "content": "Sonnet 5.5 · Среднее",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "id": "u3oaGU",
@@ -17975,7 +18016,8 @@
                               "content": "Проверь сценарий отмены│",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -18023,7 +18065,8 @@
                                   "content": "Sonnet 5.5 · Среднее",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 13
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "id": "g0oxo6",
@@ -18123,7 +18166,8 @@
                               "content": "Добавь проверку восстановления",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -18259,7 +18303,8 @@
                                       "content": "Heartbeat работает",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 13
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -18313,8 +18358,8 @@
                           "type": "icon",
                           "id": "AgMm3",
                           "name": "Ошибка тестов",
-                          "width": 20,
-                          "height": 20,
+                          "width": 18,
+                          "height": 18,
                           "icon": "circle-alert",
                           "library": "lucide",
                           "fill": "$aurora.error"
@@ -18342,7 +18387,8 @@
                       "content": "Среда выполнения разорвала соединение. Прочитанные файлы и частичный результат сохранены.",
                       "lineHeight": 1.6,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -18354,7 +18400,8 @@
                       "content": "Повтор запустит проверку заново. Он не отправит ваш черновик.",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -18430,7 +18477,8 @@
                       "content": "Ждём подтверждения от среды. Повторная отправка пока недоступна, черновик сохранён.",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -18440,7 +18488,8 @@
                       "content": "После подтверждения: «Остановлено вами»",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -18563,7 +18612,8 @@
                           "content": "Проверяю сценарий отмены",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -18577,7 +18627,8 @@
                       "content": "Без изменения формы, мерцания и движения контура. Состояние остаётся понятным по тексту.",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -18593,7 +18644,8 @@
           "content": "Ключевые состояния статичны. Анимация и работа с клавиатурой проверяются в Compose после реализации.",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 13
+          "fontSize": 13,
+          "fontWeight": "normal"
         }
       ]
     },
@@ -18618,7 +18670,8 @@
           "content": "Строка сессии · наведение и архивирование",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 24
+          "fontSize": 24,
+          "fontWeight": "normal"
         },
         {
           "type": "frame",
@@ -18643,7 +18696,8 @@
                   "content": "Без наведения",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -18723,7 +18777,8 @@
                               "content": "Проверка контрактов и сценария восстановления",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -18773,7 +18828,8 @@
                   "content": "Архив скрыт; вся ширина доступна названию",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -18793,7 +18849,8 @@
                   "content": "Наведение",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -18873,7 +18930,8 @@
                               "content": "Проверка контрактов и сценария восстановления",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -18920,7 +18978,8 @@
                   "content": "Архив появляется; место статуса сохраняется",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -18940,7 +18999,8 @@
                   "content": "Выбранная · наведение",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -18963,38 +19023,7 @@
                       "context": " Состояние покоя: архив скрыт. Hover/focus: архив появляется перед индикатором состояния, название плавно затеняется в доступной ширине, точка состояния остаётся на прежней вертикали.",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "opacity": 0.65,
-                        "rotation": 120,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#D7C5F1",
-                            "position": 0
-                          },
-                          {
-                            "color": "#E8DFF7",
-                            "position": 0.25
-                          },
-                          {
-                            "color": "#D8E9BD",
-                            "position": 0.53
-                          },
-                          {
-                            "color": "#DCECF2",
-                            "position": 0.76
-                          },
-                          {
-                            "color": "#F8E2EA",
-                            "position": 1
-                          }
-                        ]
-                      },
+                      "fill": "$aurora.lavender",
                       "cornerRadius": 10,
                       "gap": 8,
                       "padding": [
@@ -19099,7 +19128,8 @@
                   "content": "Архив появляется; место статуса сохраняется",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -19113,7 +19143,8 @@
           "content": "Название остаётся одной строкой и плавно исчезает за последние 24 px. Многоточие не используется. Полный текст доступен при наведении и фокусе.",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 13
+          "fontSize": 13,
+          "fontWeight": "normal"
         },
         {
           "type": "text",
@@ -19123,7 +19154,8 @@
           "content": "Архив доступен также при фокусе внутри строки. На Android — через меню сессии. Здесь показаны статические состояния макета.",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 13
+          "fontSize": 13,
+          "fontWeight": "normal"
         }
       ]
     },
@@ -19148,7 +19180,8 @@
           "content": "Ширина переписки",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 24
+          "fontSize": 24,
+          "fontWeight": "normal"
         },
         {
           "type": "frame",
@@ -19196,7 +19229,8 @@
                   "content": "Покой · прозрачная",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -19238,7 +19272,8 @@
                   "content": "Наведение",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -19280,7 +19315,8 @@
                   "content": "Перетаскивание",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -19307,7 +19343,8 @@
           "content": "Обе ручки меняют ширину переписки симметрично относительно центра. Поле ввода и строки контекста следуют за той же шириной.",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 14
+          "fontSize": 14,
+          "fontWeight": "normal"
         },
         {
           "type": "text",
@@ -19317,7 +19354,8 @@
           "content": "По умолчанию 760 · от 480 до 960, в пределах свободного места. Двойной щелчок возвращает ширину по умолчанию.",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 13
+          "fontSize": 13,
+          "fontWeight": "normal"
         },
         {
           "type": "text",
@@ -19327,7 +19365,8 @@
           "content": "При фокусе: ← / → меняют ширину, Home возвращает 760. В меню чата — «Ширина переписки». На компактном экране ручки скрыты.",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 13
+          "fontSize": 13,
+          "fontWeight": "normal"
         },
         {
           "type": "text",
@@ -19337,7 +19376,8 @@
           "content": "Черновик, вложения и положение чтения сохраняются. Показаны статические состояния для последующей реализации.",
           "lineHeight": 1.5,
           "fontFamily": "$aurora.font",
-          "fontSize": 13
+          "fontSize": 13,
+          "fontWeight": "normal"
         }
       ]
     },
@@ -19585,7 +19625,8 @@
                           "content": "Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -19648,38 +19689,7 @@
                       "context": " Состояние покоя: архив скрыт. Hover/focus: архив появляется перед индикатором состояния, название плавно затеняется в доступной ширине, точка состояния остаётся на прежней вертикали.",
                       "width": "fill_container",
                       "height": 36,
-                      "fill": {
-                        "type": "gradient",
-                        "gradientType": "linear",
-                        "enabled": true,
-                        "opacity": 0.65,
-                        "rotation": 120,
-                        "size": {
-                          "height": 1
-                        },
-                        "colors": [
-                          {
-                            "color": "#D7C5F1",
-                            "position": 0
-                          },
-                          {
-                            "color": "#E8DFF7",
-                            "position": 0.25
-                          },
-                          {
-                            "color": "#D8E9BD",
-                            "position": 0.53
-                          },
-                          {
-                            "color": "#DCECF2",
-                            "position": 0.76
-                          },
-                          {
-                            "color": "#F8E2EA",
-                            "position": 1
-                          }
-                        ]
-                      },
+                      "fill": "$aurora.lavender",
                       "cornerRadius": 10,
                       "gap": 8,
                       "padding": [
@@ -19788,7 +19798,8 @@
                               "content": "Регрессия UI",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -19889,7 +19900,8 @@
                           "content": "Архитектура движка",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -20048,7 +20060,8 @@
                               "content": "Навигация Android",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -20125,7 +20138,8 @@
                               "content": "Подготовка релиза",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -20286,7 +20300,8 @@
                               "content": "Страница загрузки",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 13
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -20443,7 +20458,8 @@
                           "content": "Как устроен планировщик",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -20520,7 +20536,8 @@
                           "content": "Идеи для Aurora",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -20608,7 +20625,8 @@
                       "content": "Модели и подключения",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -20643,7 +20661,8 @@
                       "content": "Настройки",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -20761,7 +20780,8 @@
                           "content": "Heartbeat / Единая модель сессий",
                           "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -20882,7 +20902,8 @@
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$aurora.font",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -20908,7 +20929,7 @@
                               "layout": "vertical",
                               "gap": 4,
                               "padding": [
-                                14,
+                                16,
                                 20
                               ],
                               "children": [
@@ -20922,7 +20943,8 @@
                                   "content": "Проверь контракты сессий и сценарий отмены",
                                   "lineHeight": 1.6,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 15
+                                  "fontSize": 15,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -20935,7 +20957,8 @@
                                   "lineHeight": 1.5,
                                   "textAlign": "right",
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -20983,7 +21006,8 @@
                                   "content": "14:03",
                                   "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -21047,7 +21071,8 @@
                                           "content": "StudioComposer.kt · StudioPaneView.kt",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -21059,7 +21084,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -21125,7 +21151,8 @@
                                           "content": "Отправка · отмена · восстановление",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -21137,7 +21164,8 @@
                                       "content": "Готово",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "icon",
@@ -21163,7 +21191,8 @@
                               "content": "Контракты проверены. Нашёл один сценарий, который стоит уточнить: повторная отправка должна ждать подтверждения остановки.",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -21181,8 +21210,8 @@
                                   "type": "icon",
                                   "id": "sfnj0",
                                   "name": "Документ",
-                                  "width": 22,
-                                  "height": 22,
+                                  "width": 18,
+                                  "height": 18,
                                   "icon": "file-text",
                                   "library": "lucide",
                                   "fill": "$aurora.primary"
@@ -21214,7 +21243,8 @@
                                       "content": "3 наблюдения · 1 рекомендация",
                                       "lineHeight": 1.5,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -21339,7 +21369,7 @@
                   "name": "Область ввода",
                   "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 10,
+                  "gap": 12,
                   "padding": [
                     12,
                     32,
@@ -21368,8 +21398,8 @@
                               "type": "icon",
                               "id": "ZDDSL",
                               "name": "Папка контекста",
-                              "width": 14,
-                              "height": 14,
+                              "width": 16,
+                              "height": 16,
                               "icon": "folder",
                               "library": "lucide",
                               "fill": "$aurora.muted"
@@ -21382,7 +21412,8 @@
                               "content": "Heartbeat",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -21480,8 +21511,9 @@
                                   "name": "Окно квоты",
                                   "fill": "#66646B",
                                   "content": "5 ч",
+                                  "lineHeight": 1.3333333333333333,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 11,
+                                  "fontSize": 12,
                                   "fontWeight": "normal"
                                 },
                                 {
@@ -21587,7 +21619,8 @@
                               "content": "Уточни сценарий повторной отправки",
                               "lineHeight": 1.6,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 15
+                              "fontSize": 15,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -21736,7 +21769,8 @@
                       "content": "Enter — отправить · Shift + Enter — новая строка",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -22025,8 +22059,9 @@
                           "name": "Окно квоты",
                           "fill": "#66646B",
                           "content": "5 ч",
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 11,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         },
                         {
@@ -22179,8 +22214,9 @@
                           "name": "Окно квоты",
                           "fill": "#66646B",
                           "content": "5 ч",
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 11,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         },
                         {
@@ -22477,8 +22513,9 @@
                           "name": "Окно квоты",
                           "fill": "#66646B",
                           "content": "5 ч",
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 11,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         },
                         {
@@ -22792,8 +22829,9 @@
                           "name": "Окно квоты",
                           "fill": "#B8B8BA",
                           "content": "5 ч",
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 11,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         },
                         {
@@ -22946,8 +22984,9 @@
                           "name": "Окно квоты",
                           "fill": "#B8B8BA",
                           "content": "5 ч",
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 11,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         },
                         {
@@ -23244,8 +23283,9 @@
                           "name": "Окно квоты",
                           "fill": "#B8B8BA",
                           "content": "5 ч",
+                          "lineHeight": 1.3333333333333333,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 11,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         },
                         {
@@ -23538,7 +23578,8 @@
                       "content": "Heartbeat / Единая модель сессий",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -23960,7 +24001,8 @@
                       "content": "Heartbeat / Единая модель сессий",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
