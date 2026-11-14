@@ -669,24 +669,6 @@
               "layout": "vertical",
               "children": [
                 {
-                  "type": "text",
-                  "id": "vxVHp",
-                  "name": "Раздел проектов",
-                  "fill": "$aurora.muted",
-                  "content": "Проекты",
-                  "lineHeight": 1.3333333333333333,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 12,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "frame",
-                  "id": "d1VDFt",
-                  "name": "Интервал после подписи проектов",
-                  "width": 1,
-                  "height": 4
-                },
-                {
                   "type": "frame",
                   "id": "Mrm56",
                   "name": "Группа списка · Heartbeat",
@@ -3908,24 +3890,6 @@
               "width": "fill_container",
               "layout": "vertical",
               "children": [
-                {
-                  "type": "text",
-                  "id": "P2LOV7",
-                  "name": "Раздел проектов",
-                  "fill": "$aurora.muted",
-                  "content": "Проекты",
-                  "lineHeight": 1.3333333333333333,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 12,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "frame",
-                  "id": "J5bjwZ",
-                  "name": "Интервал после подписи проектов",
-                  "width": 1,
-                  "height": 4
-                },
                 {
                   "type": "frame",
                   "id": "K6Y0h",
@@ -7213,24 +7177,6 @@
               "layout": "vertical",
               "children": [
                 {
-                  "type": "text",
-                  "id": "oscgF",
-                  "name": "Раздел проектов",
-                  "fill": "$aurora.muted",
-                  "content": "Проекты",
-                  "lineHeight": 1.3333333333333333,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 12,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "frame",
-                  "id": "CxhBH",
-                  "name": "Интервал после подписи проектов",
-                  "width": 1,
-                  "height": 4
-                },
-                {
                   "type": "frame",
                   "id": "GmUWc",
                   "name": "Группа списка · Heartbeat",
@@ -10398,24 +10344,6 @@
               "width": "fill_container",
               "layout": "vertical",
               "children": [
-                {
-                  "type": "text",
-                  "id": "p43v1",
-                  "name": "Раздел проектов",
-                  "fill": "$aurora.muted",
-                  "content": "Проекты",
-                  "lineHeight": 1.3333333333333333,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 12,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "frame",
-                  "id": "jpwpo",
-                  "name": "Интервал после подписи проектов",
-                  "width": 1,
-                  "height": 4
-                },
                 {
                   "type": "frame",
                   "id": "A7cqRm",
@@ -13808,24 +13736,6 @@
               "width": "fill_container",
               "layout": "vertical",
               "children": [
-                {
-                  "type": "text",
-                  "id": "VXhp5",
-                  "name": "Раздел проектов",
-                  "fill": "$aurora.muted",
-                  "content": "Проекты",
-                  "lineHeight": 1.3333333333333333,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 12,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "frame",
-                  "id": "z1K0HU",
-                  "name": "Интервал после подписи проектов",
-                  "width": 1,
-                  "height": 4
-                },
                 {
                   "type": "frame",
                   "id": "AIKzA",
@@ -17260,24 +17170,6 @@
               "width": "fill_container",
               "layout": "vertical",
               "children": [
-                {
-                  "type": "text",
-                  "id": "M13c5",
-                  "name": "Раздел проектов",
-                  "fill": "$aurora.muted",
-                  "content": "Проекты",
-                  "lineHeight": 1.3333333333333333,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 12,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "frame",
-                  "id": "RHpXx",
-                  "name": "Интервал после подписи проектов",
-                  "width": 1,
-                  "height": 4
-                },
                 {
                   "type": "frame",
                   "id": "bsFCJ",
@@ -23950,24 +23842,6 @@
               "width": "fill_container",
               "layout": "vertical",
               "children": [
-                {
-                  "type": "text",
-                  "id": "UtdJV",
-                  "name": "Раздел проектов",
-                  "fill": "$aurora.muted",
-                  "content": "Проекты",
-                  "lineHeight": 1.3333333333333333,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 12,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "frame",
-                  "id": "nk13O",
-                  "name": "Интервал после подписи проектов",
-                  "width": 1,
-                  "height": 4
-                },
                 {
                   "type": "frame",
                   "id": "QbEqv",
