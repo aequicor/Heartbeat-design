@@ -19,6 +19,16 @@
    После слияния PR обнови коммит подмодуля `design/` в PR Heartbeat-v2. При изменении согласованного
    сценария повторно согласуй его с оператором.
 
+## Codex и Pencil
+
+Для работы с макетом в Codex открой нужный `.pen` в Pencil, включи **Codex CLI** в **Settings → MCP**
+и перезапусти Codex. Проверь, что в Codex доступен сервер `pencil`.
+[Настройка подключения](https://docs.pencil.dev/getting-started/installation#chatgpt-and-codex)
+
+В Codex, открытом из корня `Heartbeat-design`, можно явно попросить агента `heartbeat_design`
+проверить макет по спецификации и плану. Для ИИ-студии Aurora начни с
+[исходного референса](plans/ai-studio-reference.md) и [плана с уточнениями](plans/ai-studio-aurora.md).
+
 [Спецификация дизайн-системы](design-system.md)
 
 [Порядок работы агента Heartbeat](https://aequicor.github.io/Heartbeat-v2/specs/agent-workflow/)
