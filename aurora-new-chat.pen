@@ -45002,10 +45002,7 @@
               "strokeWidth": 1,
               "layout": "vertical",
               "gap": 4,
-              "padding": [
-                8,
-                16
-              ],
+              "padding": 8,
               "children": [
                 {
                   "type": "frame",
@@ -47209,10 +47206,7 @@
                       "fill": "#00000000",
                       "stroke": "#00000000",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        16
-                      ],
+                      "padding": 8,
                       "children": [
                         {
                           "type": "frame",
@@ -47701,10 +47695,7 @@
                       "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        16
-                      ],
+                      "padding": 8,
                       "children": [
                         {
                           "type": "frame",
@@ -48192,10 +48183,7 @@
                       "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        16
-                      ],
+                      "padding": 8,
                       "children": [
                         {
                           "type": "frame",
@@ -48995,10 +48983,7 @@
                       "stroke": "$aurora.line",
                       "layout": "vertical",
                       "gap": 4,
-                      "padding": [
-                        8,
-                        16
-                      ],
+                      "padding": 8,
                       "children": [
                         {
                           "type": "frame",
@@ -49505,10 +49490,7 @@
                       "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        16
-                      ],
+                      "padding": 8,
                       "children": [
                         {
                           "type": "frame",
@@ -50300,10 +50282,7 @@
                       "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        8,
-                        16
-                      ],
+                      "padding": 8,
                       "children": [
                         {
                           "type": "frame",
