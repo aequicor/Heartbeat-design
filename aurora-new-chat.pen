@@ -50243,22 +50243,33 @@
                   "width": "fill_container",
                   "gap": 8,
                   "padding": 12,
-                  "alignItems": "center",
                   "children": [
                     {
-                      "type": "icon",
-                      "id": "qW5nX",
-                      "name": "Тип инструмента",
+                      "type": "frame",
+                      "id": "TxCJd",
+                      "name": "Колонка иконки / первая строка",
                       "width": 16,
-                      "height": 16,
-                      "icon": "file-text",
-                      "library": "lucide",
-                      "fill": "$aurora.muted"
+                      "height": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "qW5nX",
+                          "name": "Тип инструмента",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "file-text",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
                       "id": "SOoKK",
                       "name": "Название и статус",
+                      "context": "Название и subtitle находятся в одной текстовой колонке. Левый край обеих строк совпадает; subtitle не начинается под иконкой.",
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 4,
@@ -50292,14 +50303,25 @@
                       ]
                     },
                     {
-                      "type": "icon",
-                      "id": "EfkZb",
-                      "name": "Состояние раскрытия",
+                      "type": "frame",
+                      "id": "u3qy9",
+                      "name": "Шеврон / первая строка",
                       "width": 16,
-                      "height": 16,
-                      "icon": "chevron-right",
-                      "library": "lucide",
-                      "fill": "$aurora.muted"
+                      "height": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "EfkZb",
+                          "name": "Состояние раскрытия",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-right",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
                     }
                   ]
                 },
