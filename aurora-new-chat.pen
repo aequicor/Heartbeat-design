@@ -87899,9 +87899,9 @@
                                   "name": "Позиция в очереди",
                                   "fill": "$request.text",
                                   "content": "1 из 2",
-                                  "lineHeight": 1.3846,
+                                  "lineHeight": 1.428571,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 13,
+                                  "fontSize": 14,
                                   "fontWeight": "normal"
                                 },
                                 {
@@ -126685,7 +126685,8 @@
                       "fontSize": 28
                     },
                     "r7v5Rb": {
-                      "fontSize": 26
+                      "fontSize": 28,
+                      "lineHeight": 1.428571
                     },
                     "ipdKM": {
                       "height": 64
