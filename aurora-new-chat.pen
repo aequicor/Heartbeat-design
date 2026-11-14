@@ -90812,7 +90812,7 @@
                   "type": "frame",
                   "id": "kE05f",
                   "name": "Запрос / стандарт / выбор и текст",
-                  "context": "До отправки один вопрос за раз. Далее сохраняет ответ локально, Назад позволяет изменить ответы. Готово отправляет весь набор одним сообщением или результатом инструмента. Панель сразу исчезает, возвращается обычный ввод. Ошибка в панели — только локальная валидация. Любое взаимодействие останавливает таймер набора.",
+                  "context": "До отправки один вопрос за раз. Далее и Назад только переключают вопросы, сохраняя локальный черновик; ничего не отправляют и не блокируют переход проверкой. Отправить на последнем вопросе проверяет весь набор и отправляет его одним объектом истории. Опросник сразу закрывается и возвращается обычный ввод. Любое взаимодействие останавливает таймер.",
                   "reusable": true,
                   "clip": true,
                   "width": "fill_container",
@@ -91430,7 +91430,7 @@
               "type": "frame",
               "id": "NrTfr",
               "name": "Набор отправлен / единый ответ и обычный ввод",
-              "context": "Готово сразу закрывает весь опросник. В истории один объект со всеми вопросами и ответами, обычный ввод уже доступен. Отправка и сбой принадлежат этому объекту, без ожидания в панели.",
+              "context": "Отправить сразу закрывает весь опросник. В истории один объект со всеми вопросами и ответами, обычный ввод уже доступен. Отправка и сбой принадлежат этому объекту, без ожидания в панели.",
               "reusable": true,
               "width": "fill_container",
               "fill": "#00000000",
@@ -94862,7 +94862,7 @@
                       "content": "Сохранять текст и вложения до ручной очистки"
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 }
@@ -115176,7 +115176,7 @@
                   "x": 0,
                   "y": 40,
                   "name": "Лента до нижнего края / поле поверх истории",
-                  "context": "После Готово все вопросы набора сразу закрыты. В истории один объект со всеми ответами. Обычный ввод доступен независимо от состояния сети; сбой и повтор принадлежат единому объекту.",
+                  "context": "После Отправить все вопросы набора сразу закрыты. В истории один объект со всеми ответами. Обычный ввод доступен независимо от состояния сети; сбой и повтор принадлежат единому объекту.",
                   "clip": true,
                   "width": 1156,
                   "height": 840,
@@ -127135,7 +127135,7 @@
                       "content": "Исследование проекта"
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 }
@@ -127196,7 +127196,7 @@
                       "content": "До ручной очистки черновика"
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 }
@@ -127300,7 +127300,7 @@
                       "width": 400
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 }
@@ -127315,7 +127315,7 @@
           "fill": "$aurora.muted",
           "textGrowth": "fixed-width",
           "width": "fill_container",
-          "content": "«Далее / Готово» отправляет ответ на вопрос. «Разрешить один раз / Отклонить» сразу отправляет решение по конкретному действию. Время не выдаёт разрешение.",
+          "content": "«Далее» только переключает вопросы. «Отправить» на последнем вопросе отправляет весь набор одним объектом. Строгие разрешения используют прямые действия; время не выдаёт разрешение.",
           "lineHeight": 1.428571,
           "fontFamily": "$aurora.font",
           "fontSize": 14
@@ -127355,7 +127355,7 @@
           "fill": "$aurora.muted",
           "textGrowth": "fixed-width",
           "width": "fill_container",
-          "content": "«Далее» сохраняет ответ локально. «Готово» отправляет весь набор одним объектом; опросник сразу исчезает, возвращается обычный ввод.",
+          "content": "«Далее» только переключает вопросы, сохраняя черновик. «Отправить» отправляет весь набор одним объектом; опросник сразу исчезает и возвращается обычный ввод.",
           "lineHeight": 1.428571,
           "fontFamily": "$aurora.font",
           "fontSize": 14
@@ -127429,7 +127429,7 @@
                       "opacity": 0.45
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 },
@@ -127514,7 +127514,7 @@
                       "opacity": 0.45
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 },
@@ -127557,7 +127557,7 @@
                   "fill": "$aurora.ink",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "После «Готово» · один ответ, ввод уже доступен",
+                  "content": "После «Отправить» · один ответ, ввод уже доступен",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
                   "fontSize": 16,
@@ -127886,7 +127886,7 @@
                       "opacity": 0.45
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 }
@@ -127961,7 +127961,7 @@
                       "fill": "$request.secondary"
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 }
@@ -131733,7 +131733,7 @@
                   "ref": "kE05f",
                   "name": "Навигация / последний вопрос",
                   "width": "fill_container",
-                  "context": "Последний вопрос набора. Первый ответ сохранён локально. Назад позволяет изменить его. Готово отправляет оба ответа одним объектом и сразу возвращает обычный ввод.",
+                  "context": "Последний вопрос набора. Первый ответ сохранён локально. Назад позволяет изменить его. Отправить отправляет оба ответа одним объектом и сразу возвращает обычный ввод.",
                   "descendants": {
                     "p8S3Z": {
                       "fill": "$request.track"
@@ -131771,7 +131771,7 @@
                       "content": "Исследование проекта"
                     },
                     "NyOqJ": {
-                      "content": "Готово"
+                      "content": "Отправить"
                     }
                   }
                 },
@@ -131782,7 +131782,7 @@
                   "fill": "$aurora.muted",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "«Назад» сохраняет черновик и открывает предыдущий ожидающий вопрос. Принятый ответ удаляется из очереди. «Готово» отправляет последний оставшийся ответ.",
+                  "content": "«Назад» и «Далее» переключают вопросы без отправки, сохраняя черновик. «Отправить» проверяет весь набор и отправляет его одним объектом; опросник сразу закрывается.",
                   "lineHeight": 1.428571,
                   "fontFamily": "$aurora.font",
                   "fontSize": 14
@@ -142421,6 +142421,487 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jP7TJ",
+      "x": 6736,
+      "y": 980,
+      "name": "43 / Сообщения / Раскрытые меню",
+      "clip": true,
+      "width": 1040,
+      "fill": "$aurora.canvas",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "dIocR",
+          "name": "Раскрытые меню / название",
+          "fill": "$aurora.ink",
+          "content": "Меню сообщений",
+          "fontFamily": "$aurora.font",
+          "fontSize": 24,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "rkLnY",
+          "name": "Пользователь / подпись",
+          "fill": "$aurora.ink",
+          "content": "Пользователь · меню справа",
+          "fontFamily": "$aurora.font",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "vm3I7",
+          "name": "Пользователь / открытое меню у сообщения",
+          "context": "Один статический пример открытого меню. Пузырь сохраняет исходную ширину 390; троеточие находится снаружи.",
+          "width": "fill_container",
+          "height": 188,
+          "fill": "$aurora.chat.pearlGreen",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "padding": [
+            20,
+            52
+          ],
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Vv62y",
+              "name": "Пользователь / меню раскрыто",
+              "context": "Меню пользователя снаружи справа, исключено из расчёта ширины и высоты сообщения. Не резервировать место и не сужать пузырь. Общий правый край всех реплик пользователя сохраняется. Hover/focus не меняет геометрию.",
+              "width": 390,
+              "fill": "#00000000",
+              "justifyContent": "end",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s6pmD",
+                  "name": "Пользователь / поверхность сообщения",
+                  "context": "Ширина по тексту и строке действий, до 520 dp и доступной ширины. Отступы 12/16 dp, gap 4. Метаданные на непрозрачной поверхности: контраст не зависит от зелёного узора. Короткие сообщения не растягиваются на всю колонку.",
+                  "width": "fill_container",
+                  "fill": "#E4EDCF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    12,
+                    16,
+                    4,
+                    16
+                  ],
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HJvrl",
+                      "name": "Текст пользователя",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Проверь контракты сессий и сценарий отмены",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WYup7",
+                      "name": "Футер пользователя / только время",
+                      "width": "fill_container",
+                      "height": 16,
+                      "justifyContent": "end",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "w9kJFN",
+                          "name": "Время",
+                          "fill": "$aurora.muted",
+                          "content": "14:02",
+                          "lineHeight": 1.3333333,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 12
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sy0Kl",
+                  "layoutPosition": "absolute",
+                  "x": 394,
+                  "y": 24,
+                  "name": "Пользователь / внешнее меню справа",
+                  "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
+                  "width": 32,
+                  "height": 36,
+                  "padding": [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S0rj9l",
+                      "name": "Пользователь / троеточие справа",
+                      "context": "Меню исходного сообщения. Desktop: показывать при hover сообщения/меню, focus-within или открытом меню. Touch: видно всегда. Enter/Space открывают, Escape закрывает с возвратом фокуса.",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$aurora.pearl",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "P6K9Ng",
+                          "name": "Другие действия / значок",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "ellipsis",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g9Ywg",
+                  "layoutPosition": "absolute",
+                  "x": 186,
+                  "y": 64,
+                  "name": "Пользователь / открытое меню",
+                  "context": "Popup привязан к троеточию справа и удерживается в окне. Существующие другие действия добавляются в это же меню по доступности.",
+                  "width": 240,
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#302E391A",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "padding": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Dp5dA",
+                      "name": "Копировать сообщение",
+                      "context": "Копировать сообщение для исходной реплики. Действие доступно в меню с клавиатуры и touch.",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "WW4PL",
+                          "name": "Копировать сообщение / значок",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uZwh3",
+                          "name": "Копировать сообщение / пункт меню",
+                          "fill": "$aurora.ink",
+                          "content": "Копировать сообщение",
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x67Xw2",
+                      "name": "Редактировать сообщение",
+                      "context": "Редактировать сообщение для исходной реплики. Действие доступно в меню с клавиатуры и touch.",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "REF5n",
+                          "name": "Редактировать сообщение / значок",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "pencil",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cYYhF",
+                          "name": "Редактировать сообщение / пункт меню",
+                          "fill": "$aurora.ink",
+                          "content": "Редактировать сообщение",
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "ezKWj",
+          "name": "Агент / подпись",
+          "fill": "$aurora.ink",
+          "content": "Агент · меню слева",
+          "fontFamily": "$aurora.font",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "k4Pt3",
+          "name": "Агент / открытое меню у сообщения",
+          "context": "Другой независимый статический пример. В реальном диалоге одновременно открывается одно меню.",
+          "width": "fill_container",
+          "height": 232,
+          "fill": "$aurora.chat.pearlGreen",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "padding": [
+            20,
+            52
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "zzxLL",
+              "name": "Агент / меню раскрыто",
+              "context": "Меню агента снаружи слева, исключено из расчёта ширины и высоты сообщения. Не резервировать полосу и не сужать текст, код, таблицы или вложения. Hover/focus не меняет геометрию.",
+              "width": 632,
+              "fill": "#00000000",
+              "stroke": "#DFE2D8",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DhqtR",
+                  "layoutPosition": "absolute",
+                  "x": -36,
+                  "y": 84,
+                  "name": "Агент / меню слева / hover и focus",
+                  "context": "Абсолютное размещение за границей сообщения; позиция привязана к фактической ширине и высоте после переноса текста. Не занимает место в layout. На touch у края экрана то же меню доступно долгим нажатием, если внешняя кнопка не помещается.",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Dws7k",
+                      "name": "Агент / троеточие",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "ellipsis",
+                      "library": "lucide",
+                      "fill": "$aurora.muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "URLEF",
+                  "name": "Агент / поверхность сообщения",
+                  "context": "Отдельная карточка сохранена по уточнению оператора. Один ответ — одна карточка, внутренние разделы без отдельных оболочек. Текст max 600 dp, карточка 632 dp. Общая колонка 680 dp. На узком экране карточка занимает доступную ширину. Основной текст 16/24. Шапка: только непустое имя явно выбранного агента данного ответа. В этом образце агент не выбран: заголовка и отступа под него нет. Название запроса/сессии не подставлять вместо автора.",
+                  "width": "fill_container",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 16,
+                  "stroke": "#DFE2D8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    12,
+                    16,
+                    4,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sa1iU",
+                      "name": "Содержимое сообщения / интервалы сохранены",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d9cfL",
+                          "name": "Текст ответа",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Повторный запрос можно отправить после подтверждения остановки. Иначе оба запроса могут выполняться одновременно.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "Q8AeMt",
+                          "name": "Рекомендация в тексте ответа",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Дождитесь статуса «Остановлено», затем отправьте запрос снова.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eBEVn",
+                      "name": "Футер агента / только время",
+                      "width": "fill_container",
+                      "height": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zJPTo",
+                          "name": "Время",
+                          "fill": "$aurora.muted",
+                          "content": "14:03",
+                          "lineHeight": 1.3333333,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 12
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tMdrE",
+                  "layoutPosition": "absolute",
+                  "x": -36,
+                  "y": 124,
+                  "name": "Агент / открытое меню",
+                  "context": "Popup привязан к внешнему левому троеточию, удерживается внутри окна. Пункты применяются к исходному сообщению.",
+                  "width": 240,
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 8,
+                  "stroke": "$aurora.line",
+                  "strokeWidth": 1,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#302E391A",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "padding": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CpNEr",
+                      "name": "Копировать сообщение",
+                      "context": "Копировать сообщение в меню исходного сообщения. Enter/Space активируют пункт. После действия меню закрывается, фокус возвращается к троеточию.",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "phwCc",
+                          "name": "Копировать сообщение / значок",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NwEbl",
+                          "name": "Копировать сообщение / пункт меню",
+                          "fill": "$aurora.ink",
+                          "content": "Копировать сообщение",
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "jfcPG",
+          "name": "Состояния / пояснение",
+          "fill": "$aurora.muted",
+          "content": "Два независимых примера. Меню не меняет ширину сообщения.",
+          "fontFamily": "$aurora.font",
+          "fontSize": 13,
+          "fontWeight": "normal"
         }
       ]
     }
