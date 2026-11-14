@@ -79,7 +79,7 @@
 | Code Block | Kotlin и diff | Подсветка, язык, копирование, перенос и прокрутка |
 | Inline Code | `stopping`, `requestId` | Читаемость внутри строки, выделение и копирование |
 | Table | Состояние / отправка / вложения / действие | Заголовки, длинная ячейка, локальная прокрутка, копирование ячейки и таблицы |
-| Math | p = passed / total × 100% | Отрендеренная формула и действие копирования LaTeX; числовой пример помечен демонстрационным |
+| Math | p = passed / total × 100% | Оболочка Code: LaTeX в шапке, формула/исходник, копирование; числовой пример помечен демонстрационным |
 | Diagram | Переходы running → stopping → stopped | Предпросмотр, увеличение, исходник Mermaid или PlantUML; ошибка рендера сохраняет исходник |
 | Link | Ссылка на приложенную памятку и внешний документ | Открытие и копирование URL, различимый фокус |
 | Image | Изображение из пользовательского вложения в разборе | Подпись, просмотр, масштабирование; загрузка и недоступность |
@@ -146,8 +146,8 @@
 | List и Task List | `XvHK8`, `zq9Te`, `eLf5R`, `PGKvv`, `ZgmVS`, `SzR5E` |
 | Inline Code | `luHve` |
 | Table | `nikJ6`, мобильный viewport `r5WWd` |
-| Math | `WmCJx`, отрендеренная дробь `E7bTRw`, исходник при ошибке `nGsrT` |
-| Diagram | Mermaid: `T9YeK`, исходник `C5YZg`, ошибка `nGsrT`; [PlantUML, лист 41](aurora-plantuml.md): `GHuKL`, исходник `xglk7`, увеличение `n8ixIF`, Android `ZSmD4` |
+| Math | `WmCJx`, отрендеренная дробь `E7bTRw`, ошибка `SGqIT`; [стандарт LaTeX, лист 42](aurora-latex.md): `NRz8C` |
+| Diagram | Mermaid: `T9YeK`, исходник `C5YZg`; [PlantUML, лист 41](aurora-plantuml.md): `GHuKL`, исходник `xglk7`, увеличение `n8ixIF`, Android `ZSmD4`, ошибка отображения `YRAoW` |
 | Link, Image | Файловое вложение-ссылка `OljCP`, веб-ссылка `T7poS`, изображение `VtEeM`; просмотр изображения `FpzF8` |
 | Horizontal Rule | `mFYco` |
 | Callout: предупреждение, примечание, подсказка | `LmErr`, `mnSAZ`, `RdCBV` |
