@@ -47102,15 +47102,15 @@
                         {
                           "type": "frame",
                           "id": "mvDTL",
-                          "name": "Связанные этапы / вертикальная лента",
-                          "context": "Линия связывает реальные события по порядку. Начинается в первом маркере, заканчивается в последнем. Высота участков пересчитывается при раскрытии, переносах и смене масштаба. Маркеры декоративные; статус доступен текстом.",
+                          "name": "Текущий этап / одна группа действий",
+                          "context": "Один маркер относится к общей цели этапа. Вызовы инструментов и Thinking — хронологический список внутри этого этапа, без индивидуальных маркеров.",
                           "width": "fill_container",
                           "layout": "vertical",
                           "children": [
                             {
                               "type": "frame",
                               "id": "P6YuUw",
-                              "name": "Связанный этап / Чтение контракта",
+                              "name": "Связанный этап / Проверка отмены запроса",
                               "width": "fill_container",
                               "gap": 12,
                               "children": [
@@ -47119,7 +47119,7 @@
                                   "id": "o8eHzC",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 68,
+                                  "height": 176,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47129,22 +47129,22 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#00000000",
                                       "width": 1,
-                                      "height": 12
+                                      "height": 5
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "IrOpM",
-                                      "name": "Завершённый этап / точка",
-                                      "fill": "#8AA38D",
-                                      "width": 8,
-                                      "height": 8,
+                                      "name": "Текущий этап / фиолетовый круг",
+                                      "fill": "$aurora.primary",
+                                      "width": 10,
+                                      "height": 10,
                                       "stroke": "#00000000"
                                     },
                                     {
                                       "type": "rectangle",
                                       "id": "N4msT",
                                       "name": "Связь со следующим этапом",
-                                      "fill": "#D2DDD0",
+                                      "fill": "#00000000",
                                       "width": 1,
                                       "height": "fill_container"
                                     }
@@ -47153,17 +47153,25 @@
                                 {
                                   "type": "frame",
                                   "id": "atRSF",
-                                  "name": "Содержимое этапа",
+                                  "name": "Текущий этап / хронология действий",
+                                  "context": "Название общей цели — первая запись этапа. Далее инструменты и Thinking в порядке событий, без собственных маркеров этапов.",
                                   "width": "fill_container",
                                   "layout": "vertical",
-                                  "gap": 8,
-                                  "padding": [
-                                    0,
-                                    0,
-                                    20,
-                                    0
-                                  ],
+                                  "gap": 4,
                                   "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "btJSa",
+                                      "name": "Текущий этап / описание действия",
+                                      "fill": "$aurora.muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Проверяю отмену запроса",
+                                      "lineHeight": 1.5384615384615385,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
                                     {
                                       "id": "C1g4x",
                                       "type": "ref",
@@ -47196,74 +47204,13 @@
                                           "width": 600
                                         }
                                       }
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "y1shu",
-                              "name": "Связанный этап / Поиск обработчика",
-                              "width": "fill_container",
-                              "gap": 12,
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "AWLM5",
-                                  "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 68,
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "rectangle",
-                                      "id": "pPloM",
-                                      "name": "Связь с предыдущим этапом",
-                                      "fill": "#D2DDD0",
-                                      "width": 1,
-                                      "height": 12
                                     },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "qN7rD",
-                                      "name": "Завершённый шаг / точка",
-                                      "fill": "#8AA38D",
-                                      "width": 8,
-                                      "height": 8,
-                                      "stroke": "$aurora.primary"
-                                    },
-                                    {
-                                      "type": "rectangle",
-                                      "id": "g6srK",
-                                      "name": "Связь со следующим этапом",
-                                      "fill": "#D2DDD0",
-                                      "width": 1,
-                                      "height": "fill_container"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "pZqkm",
-                                  "name": "Содержимое этапа",
-                                  "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 8,
-                                  "padding": [
-                                    0,
-                                    0,
-                                    20,
-                                    0
-                                  ],
-                                  "children": [
                                     {
                                       "id": "Y7ZB8F",
                                       "type": "ref",
                                       "ref": "Tqpcs",
                                       "name": "Инструмент / Ищу обработчик остановки / свёрнут",
-                                      "width": 572,
+                                      "width": "fill_container",
                                       "descendants": {
                                         "AI54L": {
                                           "padding": [
@@ -47296,69 +47243,13 @@
                                           "content": "Обработчик остановки найден"
                                         }
                                       }
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "iqu8h",
-                              "name": "Связанный этап / Описание работы",
-                              "width": "fill_container",
-                              "gap": 12,
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "olASA",
-                                  "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 48,
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "rectangle",
-                                      "id": "O0Z0i",
-                                      "name": "Связь с предыдущим этапом",
-                                      "fill": "#D2DDD0",
-                                      "width": 1,
-                                      "height": 11
                                     },
-                                    {
-                                      "type": "ellipse",
-                                      "id": "jL3bx",
-                                      "name": "Thinking / текущий шаг",
-                                      "fill": "$aurora.pearl",
-                                      "width": 10,
-                                      "height": 10,
-                                      "stroke": "$aurora.primary",
-                                      "strokeWidth": 2
-                                    },
-                                    {
-                                      "type": "rectangle",
-                                      "id": "RIumA",
-                                      "name": "Связь со следующим этапом",
-                                      "fill": "#00000000",
-                                      "width": 1,
-                                      "height": "fill_container"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "jjjrl",
-                                  "name": "Содержимое этапа",
-                                  "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 8,
-                                  "children": [
                                     {
                                       "id": "oI4iD",
                                       "type": "ref",
                                       "ref": "ZLjM3",
                                       "name": "Thinking / активный / свёрнут",
-                                      "width": 572,
+                                      "width": "fill_container",
                                       "descendants": {
                                         "XpIWN": {
                                           "padding": [
@@ -47694,7 +47585,7 @@
                                   "id": "yw1HO",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 48,
+                                  "height": 72,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47704,17 +47595,16 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 11
+                                      "height": 5
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "pDefj",
-                                      "name": "Текущий этап / кольцо",
-                                      "fill": "$aurora.pearl",
+                                      "name": "Текущий этап / фиолетовый круг",
+                                      "fill": "$aurora.primary",
                                       "width": 10,
                                       "height": 10,
-                                      "stroke": "$aurora.primary",
-                                      "strokeWidth": 2
+                                      "stroke": "$aurora.primary"
                                     },
                                     {
                                       "type": "rectangle",
@@ -47738,13 +47628,26 @@
                                       "type": "frame",
                                       "id": "U6OOBp",
                                       "name": "Проверяю повторную отправку / раздел ответа",
-                                      "context": "Часть единой связанной ленты ответа. Между прошлым результатом и текущей работой нет разделителя, фоновой полосы или отдельной подложки. Локальные блоки инструментов сохраняют общее оформление.",
+                                      "context": "Название общей цели — первая запись этапа. Далее инструменты и Thinking в порядке событий, без собственных маркеров этапов.",
                                       "width": "fill_container",
                                       "fill": "#00000000",
                                       "stroke": "#00000000",
                                       "layout": "vertical",
-                                      "gap": 8,
+                                      "gap": 4,
                                       "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "fR6kV",
+                                          "name": "Текущий этап / описание действия",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Проверяю повторную отправку",
+                                          "lineHeight": 1.5384615384615385,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
                                         {
                                           "id": "GIzxm",
                                           "type": "ref",
@@ -48232,7 +48135,7 @@
                                   "id": "NIbIv",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 48,
+                                  "height": 72,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -48242,17 +48145,16 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 11
+                                      "height": 5
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "nkOVE",
-                                      "name": "Текущий этап / кольцо",
-                                      "fill": "$aurora.pearl",
+                                      "name": "Текущий этап / фиолетовый круг",
+                                      "fill": "$aurora.primary",
                                       "width": 10,
                                       "height": 10,
-                                      "stroke": "$aurora.primary",
-                                      "strokeWidth": 2
+                                      "stroke": "$aurora.primary"
                                     },
                                     {
                                       "type": "rectangle",
@@ -48276,13 +48178,26 @@
                                       "type": "frame",
                                       "id": "hELO4",
                                       "name": "Завершаю проверку / раздел ответа",
-                                      "context": "Часть единой связанной ленты ответа. Между прошлым результатом и текущей работой нет разделителя, фоновой полосы или отдельной подложки. Локальные блоки инструментов сохраняют общее оформление.",
+                                      "context": "Название общей цели — первая запись этапа. Далее инструменты и Thinking в порядке событий, без собственных маркеров этапов.",
                                       "width": "fill_container",
                                       "fill": "#00000000",
                                       "stroke": "#00000000",
                                       "layout": "vertical",
-                                      "gap": 8,
+                                      "gap": 4,
                                       "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "Dndm1",
+                                          "name": "Текущий этап / описание действия",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Проверяю сценарий отмены",
+                                          "lineHeight": 1.5384615384615385,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
                                         {
                                           "id": "qUq6p",
                                           "type": "ref",
@@ -49405,7 +49320,7 @@
                                   "id": "lOXx3",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 48,
+                                  "height": 72,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49415,17 +49330,16 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 11
+                                      "height": 5
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "k1xOK",
-                                      "name": "Текущий этап / кольцо",
-                                      "fill": "$aurora.pearl",
+                                      "name": "Текущий этап / фиолетовый круг",
+                                      "fill": "$aurora.primary",
                                       "width": 10,
                                       "height": 10,
-                                      "stroke": "$aurora.primary",
-                                      "strokeWidth": 2
+                                      "stroke": "$aurora.primary"
                                     },
                                     {
                                       "type": "rectangle",
@@ -49449,13 +49363,26 @@
                                       "type": "frame",
                                       "id": "n99qY",
                                       "name": "Новый этап / продолжается параллельно чтению истории / раздел ответа",
-                                      "context": "Часть единой связанной ленты ответа. Между прошлым результатом и текущей работой нет разделителя, фоновой полосы или отдельной подложки. Локальные блоки инструментов сохраняют общее оформление.",
+                                      "context": "Название общей цели — первая запись этапа. Далее инструменты и Thinking в порядке событий, без собственных маркеров этапов.",
                                       "width": "fill_container",
                                       "fill": "#00000000",
                                       "stroke": "#00000000",
                                       "layout": "vertical",
-                                      "gap": 8,
+                                      "gap": 4,
                                       "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "tE3vJ",
+                                          "name": "Текущий этап / описание действия",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Проверяю повторную отправку",
+                                          "lineHeight": 1.5384615384615385,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
                                         {
                                           "id": "QlmfI",
                                           "type": "ref",
@@ -49824,7 +49751,7 @@
                                   "id": "fYCgC",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 104,
+                                  "height": 124,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49834,17 +49761,16 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 11
+                                      "height": 5
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "QwVRT",
-                                      "name": "Текущий этап / кольцо",
-                                      "fill": "$aurora.pearl",
+                                      "name": "Текущий этап / фиолетовый круг",
+                                      "fill": "$aurora.primary",
                                       "width": 10,
                                       "height": 10,
-                                      "stroke": "$aurora.primary",
-                                      "strokeWidth": 2
+                                      "stroke": "$aurora.primary"
                                     },
                                     {
                                       "type": "rectangle",
@@ -49868,13 +49794,26 @@
                                       "type": "frame",
                                       "id": "j3qiRr",
                                       "name": "Проверка продолжается / раздел ответа",
-                                      "context": "Часть единой связанной ленты ответа. Между прошлым результатом и текущей работой нет разделителя, фоновой полосы или отдельной подложки. Локальные блоки инструментов сохраняют общее оформление.",
+                                      "context": "Название общей цели — первая запись этапа. Далее инструменты и Thinking в порядке событий, без собственных маркеров этапов.",
                                       "width": "fill_container",
                                       "fill": "#00000000",
                                       "stroke": "#00000000",
                                       "layout": "vertical",
-                                      "gap": 8,
+                                      "gap": 4,
                                       "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "EJEkY",
+                                          "name": "Текущий этап / описание действия",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Проверяю сохранение вложений",
+                                          "lineHeight": 1.5384615384615385,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
                                         {
                                           "id": "dvfVk",
                                           "type": "ref",
