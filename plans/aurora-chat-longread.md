@@ -131,7 +131,7 @@
 
 | Покрытие | Узлы |
 |---|---|
-| Text, Citation / Source, Blockquote | `a5o5gs`, `ndPpw`, `a9Jcrc`, `ZtpqF` |
+| Text, Citation / Source, Blockquote | `a5o5gs`, `NUr5F`, `a9Jcrc`, `ZtpqF`; файловые ссылки агента отображаются вложениями |
 | Attachment: изображение, документ, файл | `Scm9T`, состояния `f8OPB9` |
 | Code, Code Block, diff | `wQHKq`, `i0jumB`; мобильный `IigAs` |
 | Thinking Stream | `g69Nay`, `K4xQZI`; остальные жизненные состояния — существующий лист `K4aKb` |
@@ -148,7 +148,7 @@
 | Table | `nikJ6`, мобильный viewport `r5WWd` |
 | Math | `WmCJx`, отрендеренная дробь `E7bTRw`, исходник при ошибке `nGsrT` |
 | Diagram | `T9YeK`, исходник `C5YZg`, ошибка `nGsrT` |
-| Link, Image | `H9Wkf`, `VtEeM`; просмотр изображения `FpzF8` |
+| Link, Image | Файловое вложение-ссылка `OljCP`, веб-ссылка `T7poS`, изображение `VtEeM`; просмотр изображения `FpzF8` |
 | Horizontal Rule | `mFYco` |
 | Callout: предупреждение, примечание, подсказка | `LmErr`, `mnSAZ`, `RdCBV` |
 | Footnote | `bIDCL`, `esmtp` |

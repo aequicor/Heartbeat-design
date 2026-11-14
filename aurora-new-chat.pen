@@ -83511,7 +83511,7 @@
               "name": "Фон Aurora / длинная развёртка",
               "clip": true,
               "width": 808,
-              "height": 4278,
+              "height": 4368,
               "layout": "none",
               "children": [
                 {
@@ -84531,18 +84531,21 @@
                           "fontWeight": "normal"
                         },
                         {
-                          "type": "text",
-                          "id": "ndPpw",
-                          "name": "Источник утверждения",
-                          "context": "Citation / Source. Открыть указанный файл на строке 42; копировать ссылку из меню.",
-                          "fill": "$aurora.primary",
-                          "textGrowth": "fixed-width",
+                          "id": "NUr5F",
+                          "type": "ref",
+                          "ref": "soqsP",
+                          "name": "Источник / файл с диапазоном строк",
                           "width": "fill_container",
-                          "content": "session-contract.md:42–48 ↗",
-                          "lineHeight": 1.38,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "context": "Файловая ссылка из ответа агента, отображённая как вложение. Цель: session-contract.md:42–48. Нажатие открывает файл в указанном месте; меню копирует исходный адрес. Ссылка не означает, что файл создан агентом. Не применять к сообщениям пользователя, веб-ссылкам или коду.",
+                          "descendants": {
+                            "XYLLg": {
+                              "content": "session-contract.md"
+                            },
+                            "UN9hz": {
+                              "content": "Строки 42–48",
+                              "fill": "$aurora.muted"
+                            }
+                          }
                         },
                         {
                           "type": "frame",
@@ -86330,18 +86333,21 @@
                       ]
                     },
                     {
-                      "type": "text",
-                      "id": "H9Wkf",
-                      "name": "Link / связанный документ",
-                      "context": "Link. Открыть созданный документ, меню копирования адреса. Связан с Artifact текущего диалога.",
-                      "fill": "$aurora.primary",
-                      "textGrowth": "fixed-width",
+                      "id": "OljCP",
+                      "type": "ref",
+                      "ref": "soqsP",
+                      "name": "Документ / файловая ссылка агента",
                       "width": "fill_container",
-                      "content": "Открыть cancellation-notes.md ↗",
-                      "lineHeight": 1.43,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "context": "Файловая ссылка из ответа агента, отображённая как вложение. Цель: cancellation-notes.md. Нажатие открывает файл в указанном месте; меню копирует исходный адрес. Ссылка не означает, что файл создан агентом. Не применять к сообщениям пользователя, веб-ссылкам или коду.",
+                      "descendants": {
+                        "XYLLg": {
+                          "content": "cancellation-notes.md"
+                        },
+                        "UN9hz": {
+                          "content": "Markdown · 4 КБ",
+                          "fill": "$aurora.muted"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -88467,17 +88473,21 @@
                   "padding": 12,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "FJb0Y",
-                      "name": "Источник файла",
-                      "fill": "$aurora.primary",
-                      "textGrowth": "fixed-width",
+                      "id": "KPNau",
+                      "type": "ref",
+                      "ref": "soqsP",
+                      "name": "Источник / файл на строке",
                       "width": "fill_container",
-                      "content": "session-contract.md:42",
-                      "lineHeight": 1.43,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "context": "Файловая ссылка из ответа агента, отображённая как вложение. Цель: session-contract.md:42. Нажатие открывает файл в указанном месте; меню копирует исходный адрес. Ссылка не означает, что файл создан агентом. Не применять к сообщениям пользователя, веб-ссылкам или коду.",
+                      "descendants": {
+                        "XYLLg": {
+                          "content": "session-contract.md"
+                        },
+                        "UN9hz": {
+                          "content": "Строка 42",
+                          "fill": "$aurora.muted"
+                        }
+                      }
                     },
                     {
                       "type": "text",
@@ -88496,24 +88506,11 @@
                       "type": "text",
                       "id": "T7poS",
                       "name": "Ссылка на внешний источник",
-                      "context": "Демонстрационная Link/Source. Действия: открыть URL, копировать URL; в макете веб-страница не проверялась и её содержимое не цитируется.",
+                      "context": "Обычная веб-ссылка агента сохраняет текстовое представление. Нажатие открывает URL, контекстное меню копирует адрес.",
                       "fill": "$aurora.primary",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "kotlinlang.org/docs/cancellation-and-timeouts.html",
-                      "lineHeight": 1.5384615384615385,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "LZOAZ",
-                      "name": "Действия источника",
-                      "fill": "$aurora.primary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Открыть источник     Копировать ссылку",
                       "lineHeight": 1.5384615384615385,
                       "fontFamily": "$aurora.font",
                       "fontSize": 13,
@@ -89542,17 +89539,21 @@
                   ]
                 },
                 {
-                  "type": "text",
-                  "id": "LyaH8",
-                  "name": "Ссылка на файл",
-                  "fill": "$aurora.primary",
-                  "textGrowth": "fixed-width",
+                  "id": "PcORo",
+                  "type": "ref",
+                  "ref": "soqsP",
+                  "name": "Источник / файл Android",
                   "width": "fill_container",
-                  "content": "session-contract.md:42 ↗",
-                  "lineHeight": 1.43,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
+                  "context": "Файловая ссылка из ответа агента, отображённая как вложение. Цель: session-contract.md:42. Нажатие открывает файл в указанном месте; меню копирует исходный адрес. Ссылка не означает, что файл создан агентом. Не применять к сообщениям пользователя, веб-ссылкам или коду.",
+                  "descendants": {
+                    "XYLLg": {
+                      "content": "session-contract.md"
+                    },
+                    "UN9hz": {
+                      "content": "Строка 42",
+                      "fill": "$aurora.muted"
+                    }
+                  }
                 }
               ]
             },
@@ -112730,6 +112731,122 @@
               "type": "ref",
               "ref": "M2Pqy",
               "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oAK86",
+          "name": "Файловая ссылка / автор сообщения",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "X0uul",
+              "name": "Пользователь · текстовая ссылка",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fNQaV",
+                  "name": "Роль сообщения",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Пользователь · текстовая ссылка",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "H0IIK",
+                  "name": "Сообщение / user",
+                  "width": "fill_container",
+                  "fill": "#E4EDCF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Wwn2C",
+                      "name": "Файловая ссылка пользователя",
+                      "context": "Сообщение пользователя: файловая ссылка остаётся текстовой. Не преобразовывать в Attachment по правилу для agent-role.",
+                      "fill": "$aurora.primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "session-contract.md:42–48",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B27W2R",
+              "name": "Агент · ссылка как вложение",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r0lCTi",
+                  "name": "Роль сообщения",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Агент · ссылка как вложение",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "pVXNC",
+                  "name": "Сообщение / assistant",
+                  "width": "fill_container",
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "id": "mSCJh",
+                      "type": "ref",
+                      "ref": "soqsP",
+                      "width": "fill_container",
+                      "name": "Источник / файл с диапазоном строк",
+                      "context": "Файловая ссылка из ответа агента, отображённая как вложение. Цель: session-contract.md:42–48. Нажатие открывает файл в указанном месте; меню копирует исходный адрес. Ссылка не означает, что файл создан агентом. Не применять к сообщениям пользователя, веб-ссылкам или коду.",
+                      "descendants": {
+                        "XYLLg": {
+                          "content": "session-contract.md"
+                        },
+                        "UN9hz": {
+                          "content": "Строки 42–48",
+                          "fill": "$aurora.muted"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
