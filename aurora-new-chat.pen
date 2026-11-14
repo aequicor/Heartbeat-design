@@ -41363,37 +41363,6 @@
               ],
               "children": [
                 {
-                  "type": "frame",
-                  "id": "aQboG",
-                  "name": "Выполненные операции",
-                  "width": "fill_container",
-                  "height": 20,
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "m4LOcD",
-                      "name": "Операции завершены",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "circle-check",
-                      "library": "lucide",
-                      "fill": "$aurora.green"
-                    },
-                    {
-                      "type": "text",
-                      "id": "H6OAj",
-                      "name": "Сводка операций",
-                      "fill": "$aurora.muted",
-                      "content": "Прочитаны 2 файла",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13
-                    }
-                  ]
-                },
-                {
                   "type": "text",
                   "id": "r7ZAq",
                   "name": "Текст ответа",
@@ -44351,37 +44320,6 @@
               ],
               "children": [
                 {
-                  "type": "frame",
-                  "id": "Lsd29",
-                  "name": "Выполненные операции",
-                  "width": "fill_container",
-                  "height": 20,
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "yHMXn",
-                      "name": "Операции завершены",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "circle-check",
-                      "library": "lucide",
-                      "fill": "$aurora.green"
-                    },
-                    {
-                      "type": "text",
-                      "id": "ER1Kv",
-                      "name": "Сводка операций",
-                      "fill": "$aurora.muted",
-                      "content": "Прочитаны 2 файла",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13
-                    }
-                  ]
-                },
-                {
                   "type": "text",
                   "id": "A0DeS",
                   "name": "Текст ответа",
@@ -44852,37 +44790,6 @@
               ],
               "children": [
                 {
-                  "type": "frame",
-                  "id": "Gonao",
-                  "name": "Выполненные операции",
-                  "width": "fill_container",
-                  "height": 20,
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "DMwlu",
-                      "name": "Операции завершены",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "circle-check",
-                      "library": "lucide",
-                      "fill": "$aurora.green"
-                    },
-                    {
-                      "type": "text",
-                      "id": "WYluu",
-                      "name": "Сводка операций",
-                      "fill": "$aurora.muted",
-                      "content": "Прочитаны 2 файла",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13
-                    }
-                  ]
-                },
-                {
                   "type": "text",
                   "id": "kMFAb",
                   "name": "Текст ответа",
@@ -45094,35 +45001,25 @@
               "stroke": "#DFE2D8",
               "strokeWidth": 1,
               "layout": "vertical",
-              "gap": 12,
               "padding": [
-                12,
+                8,
                 16
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "yLktG",
-                  "name": "Текст ответа",
-                  "fill": "$aurora.ink",
-                  "textGrowth": "fixed-width",
+                  "id": "yRHhG",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "Thinking / работа агента",
                   "width": "fill_container",
-                  "content": "Проверяю, как подтверждается остановка и сохраняются вложения.",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 16
-                },
-                {
-                  "type": "text",
-                  "id": "ahBKL",
-                  "name": "Статус работы",
-                  "fill": "$aurora.muted",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Агент работает…",
-                  "lineHeight": 1.3846153846153846,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 13
+                  "descendants": {
+                    "xr6pN": {
+                      "content": "Проверяю подтверждение остановки…"
+                    },
+                    "V4h3K": {
+                      "content": "Проверяю, как подтверждается остановка и сохраняются вложения."
+                    }
+                  }
                 }
               ]
             }
@@ -45155,37 +45052,6 @@
                 16
               ],
               "children": [
-                {
-                  "type": "frame",
-                  "id": "M0k6tv",
-                  "name": "Выполненные операции",
-                  "width": "fill_container",
-                  "height": 20,
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "r6YZK",
-                      "name": "Операции завершены",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "circle-check",
-                      "library": "lucide",
-                      "fill": "$aurora.green"
-                    },
-                    {
-                      "type": "text",
-                      "id": "bcJ9g",
-                      "name": "Сводка операций",
-                      "fill": "$aurora.muted",
-                      "content": "Прочитаны 2 файла",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13
-                    }
-                  ]
-                },
                 {
                   "type": "text",
                   "id": "M6zXE",
@@ -47672,7 +47538,7 @@
                                   "id": "TpAd8",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 92,
+                                  "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47770,7 +47636,7 @@
                                           "fill": "$aurora.ink",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
+                                          "content": "Повторная отправка доступна до подтверждения остановки.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 16,
@@ -48202,7 +48068,7 @@
                                   "id": "f3OICn",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 92,
+                                  "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -48300,7 +48166,7 @@
                                           "fill": "$aurora.ink",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
+                                          "content": "Вложения остаются в черновике.",
                                           "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 16,
