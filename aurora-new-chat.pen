@@ -31978,7 +31978,7 @@
                       "type": "frame",
                       "id": "mi7HU",
                       "x": 198,
-                      "y": 498,
+                      "y": 595,
                       "name": "Область ответа / опросник вместо ввода",
                       "context": "Любой запрос ответа заменяет composer: разрешение, уточнение, выбор. Черновик и вложения сохранены. После подтверждения вернуть ввод. При отправке блокировать повтор; при ошибке оставить вопрос и повтор в этой области.",
                       "width": 760,
@@ -32088,15 +32088,24 @@
                             "M0wVwx": {
                               "fill": "$request.accent"
                             },
+                            "eO1sO": {
+                              "height": "fit_content"
+                            },
+                            "L6v86p": {
+                              "content": "Разрешить запуск проверки?",
+                              "fontSize": 16,
+                              "lineHeight": 1.5,
+                              "fontWeight": "500",
+                              "fill": "$request.text"
+                            },
                             "qVFWk": {
                               "enabled": false,
                               "width": 260
                             },
-                            "k6P0Z": {
-                              "content": "Разрешить запуск проверки?"
-                            },
                             "W1nKP": {
-                              "content": "Проверка контрактов в проекте Heartbeat"
+                              "content": "",
+                              "enabled": false,
+                              "width": 616
                             },
                             "o1lUt": {
                               "enabled": true,
@@ -32119,9 +32128,6 @@
                             "Oug5x": {
                               "enabled": true,
                               "width": "fill_container"
-                            },
-                            "bE8uZ": {
-                              "content": "Без таймера · решение требуется для продолжения"
                             }
                           }
                         }
@@ -83005,7 +83011,7 @@
                       "type": "frame",
                       "id": "VGGZc",
                       "x": 12,
-                      "y": 358,
+                      "y": 451,
                       "name": "Область ответа / опросник вместо ввода",
                       "context": "Android: вопрос закреплён вместо composer, цели 48. Черновик сохранён. Свободный ответ открывает клавиатуру только по фокусу; варианты не требуют IME.",
                       "width": 346,
@@ -83027,7 +83033,14 @@
                               "alignItems": "start"
                             },
                             "eO1sO": {
-                              "height": 28
+                              "height": "fit_content"
+                            },
+                            "L6v86p": {
+                              "content": "Разрешить запуск проверки?",
+                              "fontSize": 16,
+                              "lineHeight": 1.5,
+                              "fontWeight": "500",
+                              "fill": "$request.text"
                             },
                             "qVFWk": {
                               "enabled": false,
@@ -83041,11 +83054,10 @@
                             "ipdKM": {
                               "height": 48
                             },
-                            "k6P0Z": {
-                              "content": "Разрешить запуск проверки?"
-                            },
                             "W1nKP": {
-                              "content": "Проверка контрактов в проекте Heartbeat"
+                              "content": "",
+                              "enabled": false,
+                              "width": 616
                             },
                             "o1lUt": {
                               "enabled": true,
@@ -83127,9 +83139,6 @@
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
                               "textAlign": "center"
-                            },
-                            "bE8uZ": {
-                              "content": "Без таймера · решение требуется для продолжения"
                             }
                           }
                         }
@@ -83406,7 +83415,7 @@
               "name": "Фон Aurora / длинная развёртка",
               "clip": true,
               "width": 808,
-              "height": 4384,
+              "height": 4416,
               "layout": "none",
               "children": [
                 {
@@ -85830,17 +85839,48 @@
                           ]
                         },
                         {
-                          "type": "text",
-                          "id": "tYaZb",
-                          "name": "Время и копирование",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
+                          "type": "frame",
+                          "id": "my1mB",
+                          "name": "Время и действия ответа",
                           "width": "fill_container",
-                          "content": "14:07     Копировать ответ",
-                          "lineHeight": 1.33,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vGI6B",
+                              "name": "Время ответа",
+                              "fill": "$aurora.muted",
+                              "content": "14:07",
+                              "lineHeight": 1.333333,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RF83R",
+                              "name": "ImageButton / Копировать ответ",
+                              "context": "Копировать ответ. Tooltip и доступное имя; Enter/Space активируют. Всегда доступна без hover. При успехе значок check и объявление «Ответ скопирован», размер не меняется.",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "bmkXN",
+                                  "name": "Копировать ответ / значок",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "copy",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -86333,17 +86373,48 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "qR9cz",
-                      "name": "Время и действия",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
+                      "type": "frame",
+                      "id": "Q4CWy",
+                      "name": "Время и действия ответа",
                       "width": "fill_container",
-                      "content": "14:10     Копировать ответ",
-                      "lineHeight": 1.33,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DFpEg",
+                          "name": "Время ответа",
+                          "fill": "$aurora.muted",
+                          "content": "14:10",
+                          "lineHeight": 1.333333,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JkLwl",
+                          "name": "ImageButton / Копировать ответ",
+                          "context": "Копировать ответ. Tooltip и доступное имя; Enter/Space активируют. Всегда доступна без hover. При успехе значок check и объявление «Ответ скопирован», размер не меняется.",
+                          "width": 32,
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "eT5Kc",
+                              "name": "Копировать ответ / значок",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "copy",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -86831,7 +86902,7 @@
                   "type": "frame",
                   "id": "kE05f",
                   "name": "Запрос / стандарт / выбор и текст",
-                  "context": "Единая доверенная панель, вместо composer. Тёплые цвета и верхняя полоса сохранены по указанию оператора. Выбор в примере сделан пользователем, не является предвыбором. Срок общий для набора, не страницы; 2/3 полосы = 1:20 из 2:00. Контролы sending блокируют повтор, ошибка сохраняет введённый ответ. После принятия восстановить обычный черновик.",
+                  "context": "Один title в шапке вместо общего статуса. Subtitle опционален: пустой не создаёт строку или отступ. Общего футера нет. Цвет и полоса таймера сохранены; срок доступен в семантике полосы. Отправка обозначается занятой кнопкой, ошибка — адресным сообщением. Панель заменяет composer до решения.",
                   "reusable": true,
                   "clip": true,
                   "width": "fill_container",
@@ -86899,10 +86970,13 @@
                             {
                               "type": "frame",
                               "id": "eO1sO",
-                              "name": "Нужен ваш ответ",
+                              "name": "Заголовок запроса",
                               "width": "fill_container",
-                              "height": 32,
                               "gap": 8,
+                              "padding": [
+                                4,
+                                0
+                              ],
                               "alignItems": "center",
                               "children": [
                                 {
@@ -86918,14 +86992,14 @@
                                 {
                                   "type": "text",
                                   "id": "L6v86p",
-                                  "name": "Статус запроса",
-                                  "fill": "$request.accent",
+                                  "name": "Title / вопрос",
+                                  "fill": "$request.text",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Нужен ваш ответ",
-                                  "lineHeight": 1.428571,
+                                  "content": "Что сохранять после отмены?",
+                                  "lineHeight": 1.5,
                                   "fontFamily": "$aurora.font",
-                                  "fontSize": 13,
+                                  "fontSize": 16,
                                   "fontWeight": "500"
                                 }
                               ]
@@ -87020,25 +87094,14 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "k6P0Z",
-                              "name": "Вопрос",
-                              "fill": "$request.text",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Что сохранять после отмены?",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 16,
-                              "fontWeight": "500"
-                            },
-                            {
-                              "type": "text",
                               "id": "W1nKP",
-                              "name": "Контекст вопроса",
+                              "x": 0,
+                              "y": 36,
+                              "name": "Subtitle / опциональное пояснение",
+                              "enabled": false,
                               "fill": "$request.secondary",
                               "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Выберите поведение черновика для исправления",
+                              "width": 616,
                               "lineHeight": 1.428571,
                               "fontFamily": "$aurora.font",
                               "fontSize": 14
@@ -87444,18 +87507,6 @@
                               "fontSize": 13
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "bE8uZ",
-                          "name": "Срок ожидания",
-                          "fill": "$request.secondary",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Необязательный вопрос · ещё 1:20",
-                          "lineHeight": 1.428571,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12
                         }
                       ]
                     }
@@ -87505,15 +87556,24 @@
                         "M0wVwx": {
                           "fill": "$request.accent"
                         },
+                        "eO1sO": {
+                          "height": "fit_content"
+                        },
+                        "L6v86p": {
+                          "content": "Применить подготовленное исправление?",
+                          "fontSize": 16,
+                          "lineHeight": 1.5,
+                          "fontWeight": "500",
+                          "fill": "$request.text"
+                        },
                         "qVFWk": {
                           "enabled": false,
                           "width": 260
                         },
-                        "k6P0Z": {
-                          "content": "Применить подготовленное исправление?"
-                        },
                         "W1nKP": {
-                          "content": "Изменение отмены запроса и сохранения черновика"
+                          "content": "Отмена запроса и черновик",
+                          "enabled": true,
+                          "width": "fill_container"
                         },
                         "o1lUt": {
                           "enabled": true,
@@ -87530,9 +87590,6 @@
                         "Oug5x": {
                           "enabled": true,
                           "width": "fill_container"
-                        },
-                        "bE8uZ": {
-                          "content": "Без таймера · решение требуется для продолжения"
                         }
                       }
                     }
@@ -87567,8 +87624,15 @@
                   "name": "Единая панель / Запрос / отправка ответа",
                   "width": "fill_container",
                   "descendants": {
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
                     "L6v86p": {
-                      "content": "Отправляем ответ"
+                      "content": "Что сохранять после отмены?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
                     },
                     "qVFWk": {
                       "opacity": 0.5
@@ -87581,9 +87645,6 @@
                     },
                     "NyOqJ": {
                       "content": "Отправка…"
-                    },
-                    "bE8uZ": {
-                      "content": "Ждём подтверждения · повторная отправка недоступна"
                     }
                   }
                 }
@@ -87607,8 +87668,15 @@
                   "name": "Единая панель / Запрос / ошибка отправки",
                   "width": "fill_container",
                   "descendants": {
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
                     "L6v86p": {
-                      "content": "Ответ не отправлен"
+                      "content": "Что сохранять после отмены?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
                     },
                     "NyOqJ": {
                       "content": "Повторить"
@@ -87616,9 +87684,6 @@
                     "YJmOv": {
                       "enabled": true,
                       "width": "fill_container"
-                    },
-                    "bE8uZ": {
-                      "content": "Запрос остаётся открытым · срок задаёт источник"
                     }
                   }
                 }
@@ -89062,17 +89127,48 @@
                       ]
                     },
                     {
-                      "type": "text",
-                      "id": "C7sZa",
-                      "name": "Время и действия",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
+                      "type": "frame",
+                      "id": "tobSD",
+                      "name": "Время и действия ответа",
                       "width": "fill_container",
-                      "content": "14:14     Копировать ответ",
-                      "lineHeight": 1.33,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b3kH1",
+                          "name": "Время ответа",
+                          "fill": "$aurora.muted",
+                          "content": "14:14",
+                          "lineHeight": 1.333333,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OKap4",
+                          "name": "ImageButton / Копировать ответ",
+                          "context": "Копировать ответ. Tooltip и доступное имя; Enter/Space активируют. Всегда доступна без hover. При успехе значок check и объявление «Ответ скопирован», размер не меняется.",
+                          "width": 32,
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "o2vAF5",
+                              "name": "Копировать ответ / значок",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "copy",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -89913,7 +90009,14 @@
                   "alignItems": "start"
                 },
                 "eO1sO": {
-                  "height": 28
+                  "height": "fit_content"
+                },
+                "L6v86p": {
+                  "content": "Что сохранять после отмены?",
+                  "fontSize": 16,
+                  "lineHeight": 1.5,
+                  "fontWeight": "500",
+                  "fill": "$request.text"
                 },
                 "qVFWk": {
                   "width": "fill_container",
@@ -90003,7 +90106,7 @@
                   "alignItems": "start"
                 },
                 "mremt/eO1sO": {
-                  "height": 28
+                  "height": "fit_content"
                 },
                 "mremt/qVFWk": {
                   "width": 260,
@@ -90116,6 +90219,16 @@
                   "name": "Запрос / собственный ответ",
                   "width": "fill_container",
                   "descendants": {
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Что сохранять после отмены?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
                     "qVFWk": {
                       "enabled": false,
                       "width": 260
@@ -98278,7 +98391,19 @@
                       "width": 760,
                       "height": "fit_content",
                       "x": 198,
-                      "y": 472
+                      "y": 569,
+                      "descendants": {
+                        "eO1sO": {
+                          "height": "fit_content"
+                        },
+                        "L6v86p": {
+                          "content": "Что сохранять после отмены?",
+                          "fontSize": 16,
+                          "lineHeight": 1.5,
+                          "fontWeight": "500",
+                          "fill": "$request.text"
+                        }
+                      }
                     }
                   ]
                 },
@@ -101011,7 +101136,7 @@
                       "width": 760,
                       "height": "fit_content",
                       "x": 198,
-                      "y": 478
+                      "y": 543
                     }
                   ]
                 },
@@ -106461,7 +106586,7 @@
                       "width": 346,
                       "height": "fit_content",
                       "x": 12,
-                      "y": 288,
+                      "y": 401,
                       "descendants": {
                         "zmLOS": {
                           "layout": "vertical",
@@ -106469,7 +106594,14 @@
                           "alignItems": "start"
                         },
                         "eO1sO": {
-                          "height": 28
+                          "height": "fit_content"
+                        },
+                        "L6v86p": {
+                          "content": "Что сохранять после отмены?",
+                          "fontSize": 16,
+                          "lineHeight": 1.5,
+                          "fontWeight": "500",
+                          "fill": "$request.text"
                         },
                         "qVFWk": {
                           "width": "fill_container",
@@ -107289,7 +107421,7 @@
                       "width": 346,
                       "height": "fit_content",
                       "x": 12,
-                      "y": 294,
+                      "y": 375,
                       "descendants": {
                         "mremt/zmLOS": {
                           "layout": "vertical",
@@ -107297,7 +107429,7 @@
                           "alignItems": "start"
                         },
                         "mremt/eO1sO": {
-                          "height": 28
+                          "height": "fit_content"
                         },
                         "mremt/qVFWk": {
                           "width": 260,
@@ -107776,6 +107908,10 @@
                           "height": 48
                         },
                         "RyB58": {
+                          "height": 48
+                        },
+                        "OKap4": {
+                          "width": 48,
                           "height": 48
                         }
                       }
@@ -110792,7 +110928,7 @@
                       "width": 760,
                       "height": "fit_content",
                       "x": 198,
-                      "y": 417
+                      "y": 514
                     }
                   ]
                 },
@@ -120541,7 +120677,19 @@
                   "type": "ref",
                   "ref": "kE05f",
                   "name": "Один ответ + комментарий / панель",
-                  "width": "fill_container"
+                  "width": "fill_container",
+                  "descendants": {
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Что сохранять после отмены?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    }
+                  }
                 }
               ]
             },
@@ -120573,11 +120721,20 @@
                   "name": "Несколько ответов + комментарий / панель",
                   "width": "fill_container",
                   "descendants": {
-                    "k6P0Z": {
-                      "content": "Что включить в проверку?"
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Что включить в проверку?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
                     },
                     "W1nKP": {
-                      "content": "Выберите от 1 до 2 вариантов"
+                      "content": "Выберите 1–2 варианта",
+                      "enabled": true,
+                      "width": "fill_container"
                     },
                     "eAbT3": {
                       "icon": "square-check"
@@ -120639,6 +120796,16 @@
                   "name": "Свободный ответ / последний вопрос / панель",
                   "width": "fill_container",
                   "descendants": {
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Как назвать рабочее пространство?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
                     "qVFWk": {
                       "enabled": false,
                       "width": 260
@@ -120646,11 +120813,14 @@
                     "r7v5Rb": {
                       "content": "1 из 1"
                     },
-                    "k6P0Z": {
-                      "content": "Как назвать рабочее пространство?"
+                    "vMQhh": {
+                      "enabled": false,
+                      "width": 616
                     },
                     "W1nKP": {
-                      "content": "Название появится в списке проектов"
+                      "content": "",
+                      "enabled": false,
+                      "width": 616
                     },
                     "k72vFr": {
                       "enabled": false,
@@ -120668,9 +120838,6 @@
                     },
                     "NyOqJ": {
                       "content": "Готово"
-                    },
-                    "bE8uZ": {
-                      "content": "Необязательный вопрос · ещё 2:00"
                     }
                   }
                 }
@@ -120707,15 +120874,24 @@
                     "M0wVwx": {
                       "fill": "$request.accent"
                     },
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Сохранять вложения после отмены?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
                     "qVFWk": {
                       "enabled": false,
                       "width": 260
                     },
-                    "k6P0Z": {
-                      "content": "Сохранять вложения после отмены?"
-                    },
                     "W1nKP": {
-                      "content": "Уточнение поведения черновика, без выполнения операции"
+                      "content": "",
+                      "enabled": false,
+                      "width": 616
                     },
                     "e0WUjt": {
                       "content": "Да, сохранять"
@@ -120735,9 +120911,6 @@
                     },
                     "NyOqJ": {
                       "content": "Готово"
-                    },
-                    "bE8uZ": {
-                      "content": "Без таймера · требуется явный ответ"
                     }
                   }
                 }
@@ -120813,15 +120986,24 @@
                     "M0wVwx": {
                       "fill": "$request.accent"
                     },
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Где запустить проверку?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
                     "qVFWk": {
                       "enabled": false,
                       "width": 260
                     },
-                    "k6P0Z": {
-                      "content": "Где запустить проверку?"
-                    },
                     "W1nKP": {
-                      "content": "Источник принимает только предложенные варианты"
+                      "content": "",
+                      "enabled": false,
+                      "width": 616
                     },
                     "e0WUjt": {
                       "content": "Локальное окружение"
@@ -120842,9 +121024,6 @@
                     },
                     "NyOqJ": {
                       "content": "Готово"
-                    },
-                    "bE8uZ": {
-                      "content": "Без таймера · источник ожидает ответ"
                     }
                   }
                 }
@@ -121016,22 +121195,35 @@
                     "M0wVwx": {
                       "fill": "$request.accent"
                     },
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Как назвать рабочее пространство?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
                     "qVFWk": {
                       "enabled": false,
                       "width": 260
                     },
-                    "k6P0Z": {
-                      "content": "Как назвать рабочее пространство?"
+                    "vMQhh": {
+                      "enabled": false,
+                      "width": 616
                     },
                     "W1nKP": {
-                      "content": "Название нужно, чтобы продолжить настройку"
+                      "content": "",
+                      "enabled": false,
+                      "width": 616
                     },
                     "k72vFr": {
                       "enabled": false,
                       "width": 616
                     },
                     "C302MZ": {
-                      "content": "Название рабочего пространства"
+                      "content": "Название · обязательно"
                     },
                     "lsDsm": {
                       "enabled": false,
@@ -121046,9 +121238,6 @@
                     },
                     "NyOqJ": {
                       "content": "Готово"
-                    },
-                    "bE8uZ": {
-                      "content": "Обязательный вопрос · без таймера"
                     }
                   }
                 }
@@ -121085,22 +121274,35 @@
                     "M0wVwx": {
                       "fill": "$request.accent"
                     },
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Как назвать рабочее пространство?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
                     "qVFWk": {
                       "enabled": false,
                       "width": 260
                     },
-                    "k6P0Z": {
-                      "content": "Как назвать рабочее пространство?"
+                    "vMQhh": {
+                      "enabled": false,
+                      "width": 616
                     },
                     "W1nKP": {
-                      "content": "Название нужно, чтобы продолжить настройку"
+                      "content": "",
+                      "enabled": false,
+                      "width": 616
                     },
                     "k72vFr": {
                       "enabled": false,
                       "width": 616
                     },
                     "C302MZ": {
-                      "content": "Название рабочего пространства"
+                      "content": "Название · обязательно"
                     },
                     "lsDsm": {
                       "enabled": false,
@@ -121126,9 +121328,6 @@
                     },
                     "T8qcNZ": {
                       "content": "Пробелы не считаются ответом"
-                    },
-                    "bE8uZ": {
-                      "content": "Обязательный вопрос · без таймера"
                     }
                   }
                 }
@@ -121851,7 +122050,14 @@
                       "alignItems": "start"
                     },
                     "eO1sO": {
-                      "height": 28
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Что сохранять после отмены?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
                     },
                     "qVFWk": {
                       "width": "fill_container",
@@ -123418,7 +123624,7 @@
                                       "ref": "kE05f",
                                       "name": "Ответ над клавиатурой",
                                       "x": 12,
-                                      "y": 201,
+                                      "y": 226,
                                       "width": 346,
                                       "descendants": {
                                         "zmLOS": {
@@ -123427,7 +123633,14 @@
                                           "alignItems": "start"
                                         },
                                         "eO1sO": {
-                                          "height": 28
+                                          "height": "fit_content"
+                                        },
+                                        "L6v86p": {
+                                          "content": "Что сохранять после отмены?",
+                                          "fontSize": 16,
+                                          "lineHeight": 1.5,
+                                          "fontWeight": "500",
+                                          "fill": "$request.text"
                                         },
                                         "qVFWk": {
                                           "enabled": false,
@@ -123445,8 +123658,10 @@
                                           "context": "Ограниченная область вертикальной прокрутки. Показан верх списка; варианты ниже доступны прокруткой. Положение поля и действий не меняется."
                                         },
                                         "W1nKP": {
-                                          "content": "Выбрано: Текст и вложения",
-                                          "fontSize": 13
+                                          "content": "Выбрано: текст и вложения",
+                                          "fontSize": 13,
+                                          "enabled": true,
+                                          "width": "fill_container"
                                         },
                                         "sUzRM": {
                                           "height": 48
@@ -123511,9 +123726,6 @@
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
                                           "textAlign": "center"
-                                        },
-                                        "bE8uZ": {
-                                          "content": "Необязательный · ещё 1:20"
                                         }
                                       }
                                     }
@@ -124748,7 +124960,7 @@
                   "fill": "$aurora.ink",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Desktop\nTab перемещает фокус, стрелки меняют radio-выбор, Space переключает checkbox. Enter на сфокусированной кнопке выполняет её действие. Общий Enter не выдаёт разрешение.\n\nAndroid\nВыбор варианта не открывает клавиатуру. Длинные подписи переносятся. При смене ширины сохраняются вопрос, выбор и комментарий.\n\nТаймер\nПолоса показывает остаток общего срока набора. Обязательные вопросы, Confirm и разрешения имеют полную неподвижную полосу и подпись «Без таймера».",
+                  "content": "Desktop\nTab перемещает фокус, стрелки меняют radio-выбор, Space переключает checkbox. Enter на сфокусированной кнопке выполняет её действие. Общий Enter не выдаёт разрешение.\n\nAndroid\nВыбор варианта не открывает клавиатуру. Длинный title переносится. При смене ширины сохраняются вопрос, выбор и комментарий.\n\nТаймер\nПолоса показывает остаток общего срока набора. Без deadline она полная и неподвижная. Общего футера нет; сведения о времени остаются в доступном описании полосы.",
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
                   "fontSize": 16
@@ -124797,10 +125009,14 @@
                       "alignItems": "start"
                     },
                     "eO1sO": {
-                      "height": 48
+                      "height": "fit_content"
                     },
                     "L6v86p": {
-                      "fontSize": 26
+                      "fontSize": 32,
+                      "content": "Что сохранять после отмены?",
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
                     },
                     "qVFWk": {
                       "width": "fill_container",
@@ -124821,9 +125037,6 @@
                     },
                     "hgugE": {
                       "fontSize": 28
-                    },
-                    "k6P0Z": {
-                      "fontSize": 32
                     },
                     "W1nKP": {
                       "fontSize": 28
@@ -124899,9 +125112,6 @@
                     },
                     "T8qcNZ": {
                       "fontSize": 26
-                    },
-                    "bE8uZ": {
-                      "fontSize": 24
                     }
                   }
                 }
@@ -124938,14 +125148,21 @@
                     "p8S3Z": {
                       "fill": "$request.track"
                     },
+                    "eO1sO": {
+                      "height": "fit_content"
+                    },
+                    "L6v86p": {
+                      "content": "Когда очищать сохранённые вложения?",
+                      "fontSize": 16,
+                      "lineHeight": 1.5,
+                      "fontWeight": "500",
+                      "fill": "$request.text"
+                    },
                     "ZPtJ8": {
                       "opacity": 1
                     },
                     "r7v5Rb": {
                       "content": "2 из 2"
-                    },
-                    "k6P0Z": {
-                      "content": "Когда очищать сохранённые вложения?"
                     },
                     "e0WUjt": {
                       "content": "После успешной повторной отправки"
@@ -124958,9 +125175,6 @@
                     },
                     "NyOqJ": {
                       "content": "Готово"
-                    },
-                    "bE8uZ": {
-                      "content": "Необязательный вопрос · ещё 0:40"
                     }
                   }
                 },
