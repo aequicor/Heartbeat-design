@@ -127,7 +127,7 @@
 | 30 / Уточнение | `hDvcA` | Android: вертикальные варианты, цели 48, вопрос вместо ввода |
 | 31 / Разрешение | `wxrpi` | Android: прямые действия «Разрешить один раз / Отклонить», без отдельного подтверждения |
 | 32 / Финал | `QNxEY` | Android: свёрнутая история, результат, действия документа |
-| 33 / Ошибка ответа | `GYFu0` | Desktop: ответ в ошибочной реплике истории, обычный ввод доступен снизу |
+| 33 / Ошибка ответа | `GYFu0` | Desktop: все ответы набора в одной ошибочной реплике истории, обычный ввод доступен сразу после общей отправки |
 
 | Покрытие | Узлы |
 |---|---|
@@ -139,7 +139,7 @@
 | Tool Call и Tool Result | `qjGZZ`, `vfj66`, `OC1ds`, `OYIuO`, `CKE26` |
 | Tool Group | `JMIdl`, `rZ6hN`; общий закрытый ход `U450XP` |
 | Progress и Plan / Tasks | `GA23O`, `ov2On`, `bS1JK`; заблокированный план `WcKVT` |
-| Permission Request, User Input Request | `nEdXV`, `kE05f`; локальное оформление `NrTfr`, ответ в ошибочном сообщении `IoblZ`, собственный ответ `MHlCy` |
+| Permission Request, User Input Request | `nEdXV`, `kE05f`; единый ответ и немедленный возврат ввода `NrTfr`, ответ в ошибочном сообщении `IoblZ`, собственный ответ `MHlCy` |
 | Artifact | `HjvB9`, `anegA`, состояния `RMzXS` |
 | Error | `OYIuO`, `IoblZ`, `nGsrT`, `RMzXS` |
 | Paragraph и Heading H1–H6 | `F8WtW`: `TTbhh`, `L2dr6Q`, `Edzzv`, `jNdVd`, `Ias1K`, `RkX1k`, `vj5vZ` |
