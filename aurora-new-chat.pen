@@ -47216,14 +47216,11 @@
                       "id": "EmiU1",
                       "name": "Проверяю отмену запроса / раздел ответа",
                       "width": "fill_container",
-                      "fill": "#F3F5EF",
+                      "fill": "$aurora.pearl",
                       "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
+                      "gap": 16,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
@@ -47259,99 +47256,287 @@
                           ]
                         },
                         {
-                          "id": "C1g4x",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Читаю контракт сессии / свёрнут",
-                          "width": 600,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "file-text"
-                            },
-                            "r5qJm": {
-                              "content": "Читаю контракт сессии"
-                            },
-                            "PVuWe": {
-                              "content": "Готово · session-contract.md"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-right"
-                            },
-                            "nKJvQ": {
-                              "enabled": false,
-                              "width": 600
-                            }
-                          }
-                        },
-                        {
-                          "id": "Y7ZB8F",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Ищу обработчик остановки / свёрнут",
-                          "width": 600,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "search"
-                            },
-                            "r5qJm": {
-                              "content": "Ищу обработчик остановки"
-                            },
-                            "PVuWe": {
-                              "content": "Выполняется"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-right"
-                            },
-                            "nKJvQ": {
-                              "enabled": false,
-                              "width": 600
-                            },
-                            "F03pZ": {
-                              "content": "Выполнение продолжается"
-                            },
-                            "T8ILCl": {
-                              "content": "Результат пока не получен"
-                            }
-                          }
-                        },
-                        {
                           "type": "frame",
-                          "id": "QvuMe",
-                          "name": "Сопоставляю состояния отмены с повторной отправкой",
+                          "id": "mvDTL",
+                          "name": "Связанные этапы / вертикальная лента",
+                          "context": "Линия связывает реальные события по порядку. Начинается в первом маркере, заканчивается в последнем. Высота участков пересчитывается при раскрытии, переносах и смене масштаба. Маркеры декоративные; статус доступен текстом.",
                           "width": "fill_container",
                           "layout": "vertical",
-                          "gap": 4,
                           "children": [
                             {
                               "type": "frame",
-                              "id": "nMEzk",
-                              "name": "Действие",
+                              "id": "P6YuUw",
+                              "name": "Связанный этап / Чтение контракта",
                               "width": "fill_container",
-                              "gap": 8,
-                              "alignItems": "center",
+                              "gap": 12,
                               "children": [
                                 {
-                                  "type": "icon",
-                                  "id": "vdAvV",
-                                  "name": "text",
+                                  "type": "frame",
+                                  "id": "o8eHzC",
+                                  "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 16,
-                                  "icon": "file-text",
-                                  "library": "lucide",
-                                  "fill": "$aurora.muted"
+                                  "height": 90,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "Qw1Rn",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": 20
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "IrOpM",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "N4msT",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
                                 },
                                 {
-                                  "type": "text",
-                                  "id": "QbnOT",
-                                  "name": "Текст / Сопоставляю состояния отмены с повторной отправкой",
-                                  "fill": "$aurora.muted",
-                                  "textGrowth": "fixed-width",
+                                  "type": "frame",
+                                  "id": "atRSF",
+                                  "name": "Содержимое этапа",
                                   "width": "fill_container",
-                                  "content": "Сопоставляю состояния отмены с повторной отправкой",
-                                  "lineHeight": 1.3846153846153846,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "id": "C1g4x",
+                                      "type": "ref",
+                                      "ref": "Tqpcs",
+                                      "name": "Инструмент / Читаю контракт сессии / свёрнут",
+                                      "width": 572,
+                                      "descendants": {
+                                        "qW5nX": {
+                                          "icon": "file-text"
+                                        },
+                                        "r5qJm": {
+                                          "content": "Читаю контракт сессии"
+                                        },
+                                        "PVuWe": {
+                                          "content": "Готово · session-contract.md"
+                                        },
+                                        "EfkZb": {
+                                          "icon": "chevron-right"
+                                        },
+                                        "nKJvQ": {
+                                          "enabled": false,
+                                          "width": 600
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y1shu",
+                              "name": "Связанный этап / Поиск обработчика",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "AWLM5",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 90,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "pPloM",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 19
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "qN7rD",
+                                      "name": "Текущий этап / кольцо",
+                                      "fill": "$aurora.pearl",
+                                      "width": 10,
+                                      "height": 10,
+                                      "stroke": "$aurora.primary",
+                                      "strokeWidth": 2
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "g6srK",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "pZqkm",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "id": "Y7ZB8F",
+                                      "type": "ref",
+                                      "ref": "Tqpcs",
+                                      "name": "Инструмент / Ищу обработчик остановки / свёрнут",
+                                      "width": 572,
+                                      "descendants": {
+                                        "qW5nX": {
+                                          "icon": "search"
+                                        },
+                                        "r5qJm": {
+                                          "content": "Ищу обработчик остановки"
+                                        },
+                                        "PVuWe": {
+                                          "content": "Выполняется"
+                                        },
+                                        "EfkZb": {
+                                          "icon": "chevron-right"
+                                        },
+                                        "nKJvQ": {
+                                          "enabled": false,
+                                          "width": 600
+                                        },
+                                        "F03pZ": {
+                                          "content": "Выполнение продолжается"
+                                        },
+                                        "T8ILCl": {
+                                          "content": "Результат пока не получен"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "iqu8h",
+                              "name": "Связанный этап / Описание работы",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "olASA",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 18,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "O0Z0i",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 5
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "jL3bx",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#C9D3C7",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "RIumA",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jjjrl",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "QvuMe",
+                                      "name": "Сопоставляю состояния отмены с повторной отправкой",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 4,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "nMEzk",
+                                          "name": "Действие",
+                                          "width": "fill_container",
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "vdAvV",
+                                              "name": "text",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "file-text",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "QbnOT",
+                                              "name": "Текст / Сопоставляю состояния отмены с повторной отправкой",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Сопоставляю состояния отмены с повторной отправкой",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 }
                               ]
                             }
@@ -47524,149 +47709,265 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "qIMJ6",
-                      "name": "Промежуточный результат / раздел ответа",
+                      "id": "OImxc",
+                      "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
-                      "fill": "$aurora.pearl",
-                      "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "u29YF",
-                          "name": "Действия этапа · 3 / свёрнуто",
-                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                          "id": "ZxT4h",
+                          "name": "Связанные этапы / вертикальная лента",
+                          "context": "Линия связывает реальные события по порядку. Начинается в первом маркере, заканчивается в последнем. Высота участков пересчитывается при раскрытии, переносах и смене масштаба. Маркеры декоративные; статус доступен текстом.",
                           "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
+                          "layout": "vertical",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "jTdTY",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "type": "frame",
+                              "id": "nc2T5",
+                              "name": "Связанный этап / Первый результат",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "TpAd8",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 108,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "U4ITm",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": 12
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "vUWVW",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "TLg9Q",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "FAPtH",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "qIMJ6",
+                                      "name": "Промежуточный результат / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "u29YF",
+                                          "name": "Действия этапа · 3 / свёрнуто",
+                                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                                          "width": "fill_container",
+                                          "height": 32,
+                                          "cornerRadius": 8,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "jTdTY",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "MyfGG",
+                                              "name": "Подпись / Действия этапа · 3",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Действия этапа · 3",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "crMql",
+                                          "name": "Текст / Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
+                                          "fill": "$aurora.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
+                                          "lineHeight": 1.5,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 16,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
-                              "type": "text",
-                              "id": "MyfGG",
-                              "name": "Подпись / Действия этапа · 3",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "Tz1u2",
+                              "name": "Связанный этап / Текущая проверка",
                               "width": "fill_container",
-                              "content": "Действия этапа · 3",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "yw1HO",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 96,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "ZWBD3",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 4
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "pDefj",
+                                      "name": "Текущий этап / кольцо",
+                                      "fill": "$aurora.pearl",
+                                      "width": 10,
+                                      "height": 10,
+                                      "stroke": "$aurora.primary",
+                                      "strokeWidth": 2
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "bXcNj",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Aur7I",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "U6OOBp",
+                                      "name": "Проверяю повторную отправку / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "gPxIV",
+                                          "name": "Текущий этап / статус",
+                                          "width": "fill_container",
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "qL22B",
+                                              "name": "Подпись / Проверяю повторную отправку",
+                                              "fill": "$aurora.green",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Проверяю повторную отправку",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "500"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "GIzxm",
+                                          "type": "ref",
+                                          "ref": "Tqpcs",
+                                          "name": "Инструмент / Проверяю переходы состояния / свёрнут",
+                                          "width": 572,
+                                          "descendants": {
+                                            "qW5nX": {
+                                              "icon": "search"
+                                            },
+                                            "r5qJm": {
+                                              "content": "Проверяю переходы состояния"
+                                            },
+                                            "PVuWe": {
+                                              "content": "Выполняется"
+                                            },
+                                            "EfkZb": {
+                                              "icon": "chevron-right"
+                                            },
+                                            "nKJvQ": {
+                                              "enabled": false,
+                                              "width": 600
+                                            },
+                                            "F03pZ": {
+                                              "content": "Выполнение продолжается"
+                                            },
+                                            "T8ILCl": {
+                                              "content": "Результат пока не получен"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "crMql",
-                          "name": "Текст / Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "U6OOBp",
-                      "name": "Проверяю повторную отправку / раздел ответа",
-                      "width": "fill_container",
-                      "fill": "#F3F5EF",
-                      "stroke": "$aurora.line",
-                      "strokeWidth": {
-                        "top": 1
-                      },
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "gPxIV",
-                          "name": "Текущий этап / статус",
-                          "width": "fill_container",
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "aJHsI",
-                              "name": "Выполняется",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "loader-circle",
-                              "library": "lucide",
-                              "fill": "$aurora.primary"
-                            },
-                            {
-                              "type": "text",
-                              "id": "qL22B",
-                              "name": "Подпись / Проверяю повторную отправку",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Проверяю повторную отправку",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "GIzxm",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Проверяю переходы состояния / свёрнут",
-                          "width": 600,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "search"
-                            },
-                            "r5qJm": {
-                              "content": "Проверяю переходы состояния"
-                            },
-                            "PVuWe": {
-                              "content": "Выполняется"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-right"
-                            },
-                            "nKJvQ": {
-                              "enabled": false,
-                              "width": 600
-                            },
-                            "F03pZ": {
-                              "content": "Выполнение продолжается"
-                            },
-                            "T8ILCl": {
-                              "content": "Результат пока не получен"
-                            }
-                          }
                         }
                       ]
                     }
@@ -47835,217 +48136,387 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Fuvh4",
-                      "name": "Промежуточный результат / раздел ответа",
+                      "id": "Z8uxd0",
+                      "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
-                      "fill": "$aurora.pearl",
-                      "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "i31q6",
-                          "name": "Действия этапа · 3 / свёрнуто",
-                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                          "id": "Id3RU",
+                          "name": "Связанные этапы / вертикальная лента",
+                          "context": "Линия связывает реальные события по порядку. Начинается в первом маркере, заканчивается в последнем. Высота участков пересчитывается при раскрытии, переносах и смене масштаба. Маркеры декоративные; статус доступен текстом.",
                           "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
+                          "layout": "vertical",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "ULdni",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "type": "frame",
+                              "id": "NQH26",
+                              "name": "Связанный этап / Первый результат",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "f19JK8",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 84,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "P8cas",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": 12
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "Pc7BN",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "sZ2Xv",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "CVtKF",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Fuvh4",
+                                      "name": "Промежуточный результат / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "i31q6",
+                                          "name": "Действия этапа · 3 / свёрнуто",
+                                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                                          "width": "fill_container",
+                                          "height": 32,
+                                          "cornerRadius": 8,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "ULdni",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "vFmEu",
+                                              "name": "Подпись / Действия этапа · 3",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Действия этапа · 3",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "hzNUk",
+                                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
+                                          "fill": "$aurora.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Повторная отправка доступна до подтверждения остановки.",
+                                          "lineHeight": 1.5,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 16,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
-                              "type": "text",
-                              "id": "vFmEu",
-                              "name": "Подпись / Действия этапа · 3",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "q2nT1",
+                              "name": "Связанный этап / Второй результат",
                               "width": "fill_container",
-                              "content": "Действия этапа · 3",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "f3OICn",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 108,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "nK1VP",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 12
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "Iw6Hm",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "bWF3i",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "gCP3n",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "JzN1s",
+                                      "name": "Промежуточный результат / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "y93Tn",
+                                          "name": "Действия этапа · 2 / свёрнуто",
+                                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                                          "width": "fill_container",
+                                          "height": 32,
+                                          "cornerRadius": 8,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "taEiq",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "cm8n8",
+                                              "name": "Подпись / Действия этапа · 2",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Действия этапа · 2",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "Pjdq4",
+                                          "name": "Текст / Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
+                                          "fill": "$aurora.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
+                                          "lineHeight": 1.5,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 16,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "EDxNl",
+                              "name": "Связанный этап / Завершение проверки",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "NIbIv",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 96,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "rqALL",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 4
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "nkOVE",
+                                      "name": "Текущий этап / кольцо",
+                                      "fill": "$aurora.pearl",
+                                      "width": 10,
+                                      "height": 10,
+                                      "stroke": "$aurora.primary",
+                                      "strokeWidth": 2
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "GLz9C",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "YLlA3",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "hELO4",
+                                      "name": "Завершаю проверку / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "JgjEb",
+                                          "name": "Текущий этап / статус",
+                                          "width": "fill_container",
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "J8NrdX",
+                                              "name": "Подпись / Завершаю проверку",
+                                              "fill": "$aurora.green",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Завершаю проверку",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "500"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "qUq6p",
+                                          "type": "ref",
+                                          "ref": "Tqpcs",
+                                          "name": "Инструмент / Проверяю сценарий отмены / свёрнут",
+                                          "width": 572,
+                                          "descendants": {
+                                            "qW5nX": {
+                                              "icon": "list-checks"
+                                            },
+                                            "r5qJm": {
+                                              "content": "Проверяю сценарий отмены"
+                                            },
+                                            "PVuWe": {
+                                              "content": "Выполняется"
+                                            },
+                                            "EfkZb": {
+                                              "icon": "chevron-right"
+                                            },
+                                            "nKJvQ": {
+                                              "enabled": false,
+                                              "width": 600
+                                            },
+                                            "F03pZ": {
+                                              "content": "Выполнение продолжается"
+                                            },
+                                            "T8ILCl": {
+                                              "content": "Результат пока не получен"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "hzNUk",
-                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Повторная отправка доступна до подтверждения остановки.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "JzN1s",
-                      "name": "Промежуточный результат / раздел ответа",
-                      "width": "fill_container",
-                      "fill": "$aurora.pearl",
-                      "stroke": "$aurora.line",
-                      "strokeWidth": {
-                        "top": 1
-                      },
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "y93Tn",
-                          "name": "Действия этапа · 2 / свёрнуто",
-                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
-                          "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "taEiq",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
-                            },
-                            {
-                              "type": "text",
-                              "id": "cm8n8",
-                              "name": "Подпись / Действия этапа · 2",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Действия этапа · 2",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "Pjdq4",
-                          "name": "Текст / Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "hELO4",
-                      "name": "Завершаю проверку / раздел ответа",
-                      "width": "fill_container",
-                      "fill": "#F3F5EF",
-                      "stroke": "$aurora.line",
-                      "strokeWidth": {
-                        "top": 1
-                      },
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "JgjEb",
-                          "name": "Текущий этап / статус",
-                          "width": "fill_container",
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "HdvB7",
-                              "name": "Выполняется",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "loader-circle",
-                              "library": "lucide",
-                              "fill": "$aurora.primary"
-                            },
-                            {
-                              "type": "text",
-                              "id": "J8NrdX",
-                              "name": "Подпись / Завершаю проверку",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Завершаю проверку",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "qUq6p",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Проверяю сценарий отмены / свёрнут",
-                          "width": 600,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "list-checks"
-                            },
-                            "r5qJm": {
-                              "content": "Проверяю сценарий отмены"
-                            },
-                            "PVuWe": {
-                              "content": "Выполняется"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-right"
-                            },
-                            "nKJvQ": {
-                              "enabled": false,
-                              "width": 600
-                            },
-                            "F03pZ": {
-                              "content": "Выполнение продолжается"
-                            },
-                            "T8ILCl": {
-                              "content": "Результат пока не получен"
-                            }
-                          }
                         }
                       ]
                     }
@@ -48409,14 +48880,11 @@
                       "id": "VqfMX",
                       "name": "История раскрыта после завершения / раздел ответа",
                       "width": "fill_container",
-                      "fill": "#F4F4F1",
+                      "fill": "$aurora.pearl",
                       "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
+                      "gap": 12,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
@@ -48456,150 +48924,337 @@
                         },
                         {
                           "type": "frame",
-                          "id": "sMMTi",
-                          "name": "Этап 1 · 3 действия / свёрнуто",
-                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "id": "Zxgxh",
+                          "name": "Связанные этапы / вертикальная лента",
+                          "context": "Линия связывает реальные события по порядку. Начинается в первом маркере, заканчивается в последнем. Высота участков пересчитывается при раскрытии, переносах и смене масштаба. Маркеры декоративные; статус доступен текстом.",
                           "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
+                          "layout": "vertical",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "pg9Iz",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "type": "frame",
+                              "id": "V7ioTn",
+                              "name": "Связанный этап / Первый этап",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "hvaMD",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 84,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "mOTd5",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": 12
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "rXXJG",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "i3JrqH",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "KFCl2",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "sMMTi",
+                                      "name": "Этап 1 · 3 действия / свёрнуто",
+                                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                                      "width": "fill_container",
+                                      "height": 32,
+                                      "cornerRadius": 8,
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "pg9Iz",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-right",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "zAZE7",
+                                          "name": "Подпись / Этап 1 · 3 действия",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Этап 1 · 3 действия",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Nw4JB",
+                                      "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
+                                      "fill": "$aurora.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Повторная отправка доступна до подтверждения остановки.",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 16,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
-                              "type": "text",
-                              "id": "zAZE7",
-                              "name": "Подпись / Этап 1 · 3 действия",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "PQjTe",
+                              "name": "Связанный этап / Второй этап",
                               "width": "fill_container",
-                              "content": "Этап 1 · 3 действия",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "Nw4JB",
-                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Повторная отправка доступна до подтверждения остановки.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "xYeb0",
-                          "name": "Этап 2 · 2 действия / свёрнуто",
-                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
-                          "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "wmqia",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "RSyne",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 84,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "T82ZA",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 12
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "D3NKwy",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "tgCpE",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "zPF7x",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "xYeb0",
+                                      "name": "Этап 2 · 2 действия / свёрнуто",
+                                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                                      "width": "fill_container",
+                                      "height": 32,
+                                      "cornerRadius": 8,
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "wmqia",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-right",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "tyW2o",
+                                          "name": "Подпись / Этап 2 · 2 действия",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Этап 2 · 2 действия",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "B4l2o7",
+                                      "name": "Текст / Вложения остаются в черновике. Проверка отмены завершена.",
+                                      "fill": "$aurora.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Вложения остаются в черновике. Проверка отмены завершена.",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 16,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
-                              "type": "text",
-                              "id": "tyW2o",
-                              "name": "Подпись / Этап 2 · 2 действия",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "Ps1iO",
+                              "name": "Связанный этап / Третий этап",
                               "width": "fill_container",
-                              "content": "Этап 2 · 2 действия",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ZxVOn",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 58,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "u2Zib0",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 12
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "jJXqr",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "Qn0hr",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "oAN9s",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "kOc3m",
+                                      "name": "Этап 3 · 1 действие / свёрнуто",
+                                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                                      "width": "fill_container",
+                                      "height": 32,
+                                      "cornerRadius": 8,
+                                      "gap": 8,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "miZ2d",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-right",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "sFo7L",
+                                          "name": "Подпись / Этап 3 · 1 действие",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Этап 3 · 1 действие",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "c733Yt",
+                                      "name": "Подпись / Проверка сценария завершена",
+                                      "fill": "$aurora.muted",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Проверка сценария завершена",
+                                      "lineHeight": 1.3846153846153846,
+                                      "fontFamily": "$aurora.font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "B4l2o7",
-                          "name": "Текст / Вложения остаются в черновике. Проверка отмены завершена.",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Вложения остаются в черновике. Проверка отмены завершена.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "kOc3m",
-                          "name": "Этап 3 · 1 действие / свёрнуто",
-                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
-                          "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "miZ2d",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
-                            },
-                            {
-                              "type": "text",
-                              "id": "sFo7L",
-                              "name": "Подпись / Этап 3 · 1 действие",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Этап 3 · 1 действие",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "c733Yt",
-                          "name": "Подпись / Проверка сценария завершена",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверка сценария завершена",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -48745,212 +49400,328 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "dX5jx",
-                      "name": "Первый этап раскрыт во время работы / раздел ответа",
+                      "id": "XQQ6v",
+                      "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
-                      "fill": "$aurora.pearl",
-                      "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "bAxeT",
-                          "name": "Действия этапа · 3 / развёрнуто",
-                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "id": "HL6Mv",
+                          "name": "Связанные этапы / вертикальная лента",
+                          "context": "Линия связывает реальные события по порядку. Начинается в первом маркере, заканчивается в последнем. Высота участков пересчитывается при раскрытии, переносах и смене масштаба. Маркеры декоративные; статус доступен текстом.",
                           "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
+                          "layout": "vertical",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "F8Lc9h",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-down",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "type": "frame",
+                              "id": "M2x8i",
+                              "name": "Связанный этап / Первый этап / подробности",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "K1adX",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 364,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "HQqw8",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": 12
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "u9CKK",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "YkZ87",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "DJCwX",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "dX5jx",
+                                      "name": "Первый этап раскрыт во время работы / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "bAxeT",
+                                          "name": "Действия этапа · 3 / развёрнуто",
+                                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                                          "width": "fill_container",
+                                          "height": 32,
+                                          "cornerRadius": 8,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "F8Lc9h",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-down",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "JJJII",
+                                              "name": "Подпись / Действия этапа · 3",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Действия этапа · 3",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "Epzjz",
+                                          "type": "ref",
+                                          "ref": "Tqpcs",
+                                          "name": "Инструмент / Читаю контракт сессии / раскрыт",
+                                          "width": 572,
+                                          "descendants": {
+                                            "qW5nX": {
+                                              "icon": "file-text"
+                                            },
+                                            "r5qJm": {
+                                              "content": "Читаю контракт сессии"
+                                            },
+                                            "PVuWe": {
+                                              "content": "Готово · session-contract.md"
+                                            },
+                                            "EfkZb": {
+                                              "icon": "chevron-down"
+                                            },
+                                            "nKJvQ": {
+                                              "enabled": true,
+                                              "width": "fill_container"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "J0LFS",
+                                          "type": "ref",
+                                          "ref": "Tqpcs",
+                                          "name": "Инструмент / Ищу обработчик остановки / свёрнут",
+                                          "width": 572,
+                                          "descendants": {
+                                            "qW5nX": {
+                                              "icon": "search"
+                                            },
+                                            "r5qJm": {
+                                              "content": "Ищу обработчик остановки"
+                                            },
+                                            "PVuWe": {
+                                              "content": "Готово"
+                                            },
+                                            "EfkZb": {
+                                              "icon": "chevron-right"
+                                            },
+                                            "nKJvQ": {
+                                              "enabled": false,
+                                              "width": 600
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "byQJD",
+                                          "name": "Подпись / Сопоставляю состояния отмены с повторной отправкой",
+                                          "fill": "$aurora.muted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Сопоставляю состояния отмены с повторной отправкой",
+                                          "lineHeight": 1.3846153846153846,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 13,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "xRjrX",
+                                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
+                                          "fill": "$aurora.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Повторная отправка доступна до подтверждения остановки.",
+                                          "lineHeight": 1.5,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 16,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
-                              "type": "text",
-                              "id": "JJJII",
-                              "name": "Подпись / Действия этапа · 3",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "DNnf9",
+                              "name": "Связанный этап / Текущая проверка",
                               "width": "fill_container",
-                              "content": "Действия этапа · 3",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "lOXx3",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 96,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "ei5Wh",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 4
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "k1xOK",
+                                      "name": "Текущий этап / кольцо",
+                                      "fill": "$aurora.pearl",
+                                      "width": 10,
+                                      "height": 10,
+                                      "stroke": "$aurora.primary",
+                                      "strokeWidth": 2
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "wYlsj",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "e66lJr",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "n99qY",
+                                      "name": "Новый этап / продолжается параллельно чтению истории / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "e1zmks",
+                                          "name": "Текущий этап / статус",
+                                          "width": "fill_container",
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "aBHGA",
+                                              "name": "Подпись / Проверяю повторную отправку",
+                                              "fill": "$aurora.green",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Проверяю повторную отправку",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "500"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "QlmfI",
+                                          "type": "ref",
+                                          "ref": "Tqpcs",
+                                          "name": "Инструмент / Проверяю переходы состояния / свёрнут",
+                                          "width": 572,
+                                          "descendants": {
+                                            "qW5nX": {
+                                              "icon": "search"
+                                            },
+                                            "r5qJm": {
+                                              "content": "Проверяю переходы состояния"
+                                            },
+                                            "PVuWe": {
+                                              "content": "Выполняется"
+                                            },
+                                            "EfkZb": {
+                                              "icon": "chevron-right"
+                                            },
+                                            "nKJvQ": {
+                                              "enabled": false,
+                                              "width": 600
+                                            },
+                                            "F03pZ": {
+                                              "content": "Выполнение продолжается"
+                                            },
+                                            "T8ILCl": {
+                                              "content": "Результат пока не получен"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
-                        },
-                        {
-                          "id": "Epzjz",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Читаю контракт сессии / раскрыт",
-                          "width": 600,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "file-text"
-                            },
-                            "r5qJm": {
-                              "content": "Читаю контракт сессии"
-                            },
-                            "PVuWe": {
-                              "content": "Готово · session-contract.md"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-down"
-                            },
-                            "nKJvQ": {
-                              "enabled": true,
-                              "width": "fill_container"
-                            }
-                          }
-                        },
-                        {
-                          "id": "J0LFS",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Ищу обработчик остановки / свёрнут",
-                          "width": 600,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "search"
-                            },
-                            "r5qJm": {
-                              "content": "Ищу обработчик остановки"
-                            },
-                            "PVuWe": {
-                              "content": "Готово"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-right"
-                            },
-                            "nKJvQ": {
-                              "enabled": false,
-                              "width": 600
-                            }
-                          }
-                        },
-                        {
-                          "type": "text",
-                          "id": "byQJD",
-                          "name": "Подпись / Сопоставляю состояния отмены с повторной отправкой",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Сопоставляю состояния отмены с повторной отправкой",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "xRjrX",
-                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Повторная отправка доступна до подтверждения остановки.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "n99qY",
-                      "name": "Новый этап / продолжается параллельно чтению истории / раздел ответа",
-                      "width": "fill_container",
-                      "fill": "#F4F4F1",
-                      "stroke": "$aurora.line",
-                      "strokeWidth": {
-                        "top": 1
-                      },
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "e1zmks",
-                          "name": "Текущий этап / статус",
-                          "width": "fill_container",
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "xE3Jx",
-                              "name": "Выполняется",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "loader-circle",
-                              "library": "lucide",
-                              "fill": "$aurora.primary"
-                            },
-                            {
-                              "type": "text",
-                              "id": "aBHGA",
-                              "name": "Подпись / Проверяю повторную отправку",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Проверяю повторную отправку",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "QlmfI",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Проверяю переходы состояния / свёрнут",
-                          "width": 600,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "search"
-                            },
-                            "r5qJm": {
-                              "content": "Проверяю переходы состояния"
-                            },
-                            "PVuWe": {
-                              "content": "Выполняется"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-right"
-                            },
-                            "nKJvQ": {
-                              "enabled": false,
-                              "width": 600
-                            },
-                            "F03pZ": {
-                              "content": "Выполнение продолжается"
-                            },
-                            "T8ILCl": {
-                              "content": "Результат пока не получен"
-                            }
-                          }
                         }
                       ]
                     }
@@ -49122,129 +49893,255 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Zp0eW",
-                      "name": "Промежуточный результат / раздел ответа",
+                      "id": "vRVgm",
+                      "name": "Ход работы / связанные этапы",
                       "width": "fill_container",
-                      "fill": "$aurora.pearl",
-                      "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "KUE2v",
-                          "name": "Действия этапа · 3 / свёрнуто",
-                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "id": "N5Ak7A",
+                          "name": "Связанные этапы / вертикальная лента",
+                          "context": "Линия связывает реальные события по порядку. Начинается в первом маркере, заканчивается в последнем. Высота участков пересчитывается при раскрытии, переносах и смене масштаба. Маркеры декоративные; статус доступен текстом.",
                           "width": "fill_container",
-                          "height": 48,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
+                          "layout": "vertical",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "Krvwx",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "type": "frame",
+                              "id": "f9sql",
+                              "name": "Связанный этап / Первый результат",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "DuLhy",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 124,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "gvByF",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": 20
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "xMen6",
+                                      "name": "Завершённый этап / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "#00000000"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "aG2Mb",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "UxnPd",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    0,
+                                    20,
+                                    0
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Zp0eW",
+                                      "name": "Промежуточный результат / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "KUE2v",
+                                          "name": "Действия этапа · 3 / свёрнуто",
+                                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                                          "width": "fill_container",
+                                          "height": 48,
+                                          "cornerRadius": 8,
+                                          "gap": 8,
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "Krvwx",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "K766i9",
+                                              "name": "Подпись / Действия этапа · 3",
+                                              "fill": "$aurora.muted",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Действия этапа · 3",
+                                              "lineHeight": 1.3846153846153846,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 13,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "MbAv9",
+                                          "name": "Текст / Повторный запрос доступен до подтверждения остановки.",
+                                          "fill": "$aurora.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Повторный запрос доступен до подтверждения остановки.",
+                                          "lineHeight": 1.5,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 16,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
-                              "type": "text",
-                              "id": "K766i9",
-                              "name": "Подпись / Действия этапа · 3",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "kec4w",
+                              "name": "Связанный этап / Проверка вложений",
                               "width": "fill_container",
-                              "content": "Действия этапа · 3",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "fYCgC",
+                                  "name": "Линия и маркер этапа",
+                                  "width": 16,
+                                  "height": 102,
+                                  "layout": "vertical",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "MujKU",
+                                      "name": "Связь с предыдущим этапом",
+                                      "fill": "#D2DDD0",
+                                      "width": 1,
+                                      "height": 7
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "QwVRT",
+                                      "name": "Текущий этап / кольцо",
+                                      "fill": "$aurora.pearl",
+                                      "width": 10,
+                                      "height": 10,
+                                      "stroke": "$aurora.primary",
+                                      "strokeWidth": 2
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "YY7p0",
+                                      "name": "Связь со следующим этапом",
+                                      "fill": "#00000000",
+                                      "width": 1,
+                                      "height": "fill_container"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "F4NTO6",
+                                  "name": "Содержимое этапа",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "j3qiRr",
+                                      "name": "Проверка продолжается / раздел ответа",
+                                      "width": "fill_container",
+                                      "fill": "#00000000",
+                                      "stroke": "$aurora.line",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "A0856e",
+                                          "name": "Текст / Проверяю вложения",
+                                          "fill": "$aurora.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Проверяю вложения",
+                                          "lineHeight": 1.5,
+                                          "fontFamily": "$aurora.font",
+                                          "fontSize": 16,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "id": "dvfVk",
+                                          "type": "ref",
+                                          "ref": "Tqpcs",
+                                          "name": "Инструмент / Читаю обработчик отмены / свёрнут",
+                                          "width": 278,
+                                          "descendants": {
+                                            "qW5nX": {
+                                              "icon": "file-text"
+                                            },
+                                            "r5qJm": {
+                                              "content": "Читаю обработчик отмены"
+                                            },
+                                            "PVuWe": {
+                                              "content": "Выполняется"
+                                            },
+                                            "EfkZb": {
+                                              "icon": "chevron-right"
+                                            },
+                                            "nKJvQ": {
+                                              "enabled": false,
+                                              "width": 600
+                                            },
+                                            "F03pZ": {
+                                              "content": "Выполнение продолжается"
+                                            },
+                                            "T8ILCl": {
+                                              "content": "Результат пока не получен"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "MbAv9",
-                          "name": "Текст / Повторный запрос доступен до подтверждения остановки.",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Повторный запрос доступен до подтверждения остановки.",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "j3qiRr",
-                      "name": "Проверка продолжается / раздел ответа",
-                      "width": "fill_container",
-                      "fill": "#F3F5EF",
-                      "stroke": "$aurora.line",
-                      "strokeWidth": {
-                        "top": 1
-                      },
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "A0856e",
-                          "name": "Текст / Проверяю вложения",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверяю вложения",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "id": "dvfVk",
-                          "type": "ref",
-                          "ref": "Tqpcs",
-                          "name": "Инструмент / Читаю обработчик отмены / свёрнут",
-                          "width": 306,
-                          "descendants": {
-                            "qW5nX": {
-                              "icon": "file-text"
-                            },
-                            "r5qJm": {
-                              "content": "Читаю обработчик отмены"
-                            },
-                            "PVuWe": {
-                              "content": "Выполняется"
-                            },
-                            "EfkZb": {
-                              "icon": "chevron-right"
-                            },
-                            "nKJvQ": {
-                              "enabled": false,
-                              "width": 600
-                            },
-                            "F03pZ": {
-                              "content": "Выполнение продолжается"
-                            },
-                            "T8ILCl": {
-                              "content": "Результат пока не получен"
-                            }
-                          }
                         }
                       ]
                     }
