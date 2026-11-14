@@ -2200,19 +2200,19 @@
                   "type": "frame",
                   "id": "nUMhH",
                   "name": "Заголовок диалога",
-                  "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+                  "context": "Заголовок расположен у левого края панели. Правый отступ учитывает локальный вырез под нативные кнопки Windows. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
                   "width": "fill_container",
-                  "height": 56,
+                  "height": 40,
                   "stroke": "$aurora.line",
                   "strokeWidth": {
                     "bottom": 1
                   },
                   "gap": 8,
                   "padding": [
-                    4,
-                    184,
-                    4,
-                    98
+                    0,
+                    172,
+                    0,
+                    16
                   ],
                   "alignItems": "center",
                   "children": [
@@ -2221,30 +2221,59 @@
                       "id": "XSqxH",
                       "name": "Контекст диалога",
                       "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
+                      "height": 32,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "wwENt",
-                          "name": "Путь диалога",
-                          "fill": "$aurora.muted",
-                          "content": "Heartbeat",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "z21lR",
-                          "name": "Заголовок",
-                          "fill": "$aurora.ink",
-                          "content": "Единая модель сессий",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 18,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "p8TRsM",
+                          "name": "Меню диалога",
+                          "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                          "height": 32,
+                          "fill": "#00000000",
+                          "cornerRadius": 6,
+                          "stroke": "#00000000",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "JCzIq",
+                              "name": "Папка проекта",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "folder",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "z21lR",
+                              "name": "Заголовок",
+                              "fill": "$aurora.ink",
+                              "content": "Единая модель сессий",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "d4MrKS",
+                              "name": "Раскрыть меню диалога",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -2252,15 +2281,15 @@
                       "type": "frame",
                       "id": "wkQjC",
                       "name": "Открыть субагентов",
-                      "height": 36,
+                      "height": 32,
                       "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
+                      "cornerRadius": 8,
                       "stroke": "$aurora.line",
                       "strokeWidth": 1,
-                      "gap": 8,
+                      "gap": 6,
                       "padding": [
                         0,
-                        12
+                        8
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -2285,31 +2314,6 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "500"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "p8TRsM",
-                      "name": "Меню диалога",
-                      "width": 36,
-                      "height": 36,
-                      "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
-                      "stroke": "$aurora.line",
-                      "gap": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "d4MrKS",
-                          "name": "Меню диалога / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "ellipsis",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
                         }
                       ]
                     }
@@ -5027,19 +5031,19 @@
                   "type": "frame",
                   "id": "TZDwh",
                   "name": "Заголовок диалога",
-                  "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+                  "context": "Заголовок расположен у левого края панели. Правый отступ учитывает локальный вырез под нативные кнопки Windows. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
                   "width": "fill_container",
-                  "height": 56,
+                  "height": 40,
                   "stroke": "$aurora.line",
                   "strokeWidth": {
                     "bottom": 1
                   },
                   "gap": 8,
                   "padding": [
-                    4,
-                    184,
-                    4,
-                    98
+                    0,
+                    172,
+                    0,
+                    16
                   ],
                   "alignItems": "center",
                   "children": [
@@ -5048,30 +5052,59 @@
                       "id": "C5Xu0",
                       "name": "Контекст диалога",
                       "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
+                      "height": 32,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "U7wGek",
-                          "name": "Путь диалога",
-                          "fill": "$aurora.muted",
-                          "content": "Heartbeat",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "k0AVrK",
-                          "name": "Заголовок",
-                          "fill": "$aurora.ink",
-                          "content": "Новый диалог",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 18,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "B1h5tQ",
+                          "name": "Меню диалога",
+                          "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Новый диалог“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                          "height": 32,
+                          "fill": "#00000000",
+                          "cornerRadius": 6,
+                          "stroke": "#00000000",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "EclDP",
+                              "name": "Папка проекта",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "folder",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "k0AVrK",
+                              "name": "Заголовок",
+                              "fill": "$aurora.ink",
+                              "content": "Новый диалог",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "UHN1T",
+                              "name": "Раскрыть меню диалога",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -5079,15 +5112,15 @@
                       "type": "frame",
                       "id": "Xsc6Q",
                       "name": "Открыть субагентов",
-                      "height": 36,
+                      "height": 32,
                       "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
+                      "cornerRadius": 8,
                       "stroke": "$aurora.line",
                       "strokeWidth": 1,
-                      "gap": 8,
+                      "gap": 6,
                       "padding": [
                         0,
-                        12
+                        8
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -5112,31 +5145,6 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "500"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "B1h5tQ",
-                      "name": "Меню диалога",
-                      "width": 36,
-                      "height": 36,
-                      "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
-                      "stroke": "$aurora.line",
-                      "gap": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "UHN1T",
-                          "name": "Меню диалога / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "ellipsis",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
                         }
                       ]
                     }
@@ -8002,19 +8010,19 @@
                   "type": "frame",
                   "id": "srVF0",
                   "name": "Заголовок диалога",
-                  "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+                  "context": "Заголовок расположен у левого края панели. Правый отступ учитывает локальный вырез под нативные кнопки Windows. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
                   "width": "fill_container",
-                  "height": 56,
+                  "height": 40,
                   "stroke": "$aurora.line",
                   "strokeWidth": {
                     "bottom": 1
                   },
                   "gap": 8,
                   "padding": [
-                    4,
-                    184,
-                    4,
-                    98
+                    0,
+                    172,
+                    0,
+                    16
                   ],
                   "alignItems": "center",
                   "children": [
@@ -8023,30 +8031,59 @@
                       "id": "MKrYX",
                       "name": "Контекст диалога",
                       "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
+                      "height": 32,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "E2GbI",
-                          "name": "Путь диалога",
-                          "fill": "$aurora.muted",
-                          "content": "Heartbeat",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "AJIKz",
-                          "name": "Заголовок",
-                          "fill": "$aurora.ink",
-                          "content": "Единая модель сессий",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 18,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "Aim6z",
+                          "name": "Меню диалога",
+                          "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                          "height": 32,
+                          "fill": "#00000000",
+                          "cornerRadius": 6,
+                          "stroke": "#00000000",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "EKaHr",
+                              "name": "Папка проекта",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "folder",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AJIKz",
+                              "name": "Заголовок",
+                              "fill": "$aurora.ink",
+                              "content": "Единая модель сессий",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "o8RCia",
+                              "name": "Раскрыть меню диалога",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -8054,15 +8091,15 @@
                       "type": "frame",
                       "id": "fXnZS",
                       "name": "Открыть субагентов",
-                      "height": 36,
+                      "height": 32,
                       "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
+                      "cornerRadius": 8,
                       "stroke": "$aurora.line",
                       "strokeWidth": 1,
-                      "gap": 8,
+                      "gap": 6,
                       "padding": [
                         0,
-                        12
+                        8
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -8087,31 +8124,6 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "500"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Aim6z",
-                      "name": "Меню диалога",
-                      "width": 36,
-                      "height": 36,
-                      "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
-                      "stroke": "$aurora.line",
-                      "gap": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "o8RCia",
-                          "name": "Меню диалога / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "ellipsis",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
                         }
                       ]
                     }
@@ -10853,19 +10865,19 @@
                   "type": "frame",
                   "id": "u4JEvH",
                   "name": "Заголовок диалога",
-                  "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+                  "context": "Заголовок расположен у левого края панели. Правый отступ учитывает локальный вырез под нативные кнопки Windows. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
                   "width": "fill_container",
-                  "height": 56,
+                  "height": 40,
                   "stroke": "$aurora.line",
                   "strokeWidth": {
                     "bottom": 1
                   },
                   "gap": 8,
                   "padding": [
-                    4,
-                    184,
-                    4,
-                    98
+                    0,
+                    172,
+                    0,
+                    16
                   ],
                   "alignItems": "center",
                   "children": [
@@ -10874,30 +10886,59 @@
                       "id": "hha8b",
                       "name": "Контекст диалога",
                       "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
+                      "height": 32,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "WOFKZ",
-                          "name": "Путь диалога",
-                          "fill": "$aurora.muted",
-                          "content": "Heartbeat",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "a8Rg7",
-                          "name": "Заголовок",
-                          "fill": "$aurora.ink",
-                          "content": "Единая модель сессий",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 18,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "dIUcq",
+                          "name": "Меню диалога",
+                          "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                          "height": 32,
+                          "fill": "#00000000",
+                          "cornerRadius": 6,
+                          "stroke": "#00000000",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "vkAeR",
+                              "name": "Папка проекта",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "folder",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "a8Rg7",
+                              "name": "Заголовок",
+                              "fill": "$aurora.ink",
+                              "content": "Единая модель сессий",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "f8JkM",
+                              "name": "Раскрыть меню диалога",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -10905,15 +10946,15 @@
                       "type": "frame",
                       "id": "HOaOK",
                       "name": "Открыть субагентов",
-                      "height": 36,
+                      "height": 32,
                       "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
+                      "cornerRadius": 8,
                       "stroke": "$aurora.line",
                       "strokeWidth": 1,
-                      "gap": 8,
+                      "gap": 6,
                       "padding": [
                         0,
-                        12
+                        8
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -10938,31 +10979,6 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "500"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "dIUcq",
-                      "name": "Меню диалога",
-                      "width": 36,
-                      "height": 36,
-                      "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
-                      "stroke": "$aurora.line",
-                      "gap": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "f8JkM",
-                          "name": "Меню диалога / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "ellipsis",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
                         }
                       ]
                     }
@@ -13854,19 +13870,19 @@
                   "type": "frame",
                   "id": "F6uUKP",
                   "name": "Заголовок диалога",
-                  "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+                  "context": "Заголовок расположен у левого края панели. Правый отступ учитывает локальный вырез под нативные кнопки Windows. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
                   "width": "fill_container",
-                  "height": 56,
+                  "height": 40,
                   "stroke": "$aurora.line",
                   "strokeWidth": {
                     "bottom": 1
                   },
                   "gap": 8,
                   "padding": [
-                    4,
-                    184,
-                    4,
-                    98
+                    0,
+                    172,
+                    0,
+                    16
                   ],
                   "alignItems": "center",
                   "children": [
@@ -13875,30 +13891,59 @@
                       "id": "vXFUy",
                       "name": "Контекст диалога",
                       "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
+                      "height": 32,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "a0PX3O",
-                          "name": "Путь диалога",
-                          "fill": "$aurora.muted",
-                          "content": "Heartbeat",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "G0iuE2",
-                          "name": "Заголовок",
-                          "fill": "$aurora.ink",
-                          "content": "Единая модель сессий",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 18,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "eQA26",
+                          "name": "Меню диалога",
+                          "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                          "height": 32,
+                          "fill": "#00000000",
+                          "cornerRadius": 6,
+                          "stroke": "#00000000",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "x19wUC",
+                              "name": "Папка проекта",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "folder",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "G0iuE2",
+                              "name": "Заголовок",
+                              "fill": "$aurora.ink",
+                              "content": "Единая модель сессий",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "Z5Nec",
+                              "name": "Раскрыть меню диалога",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -13906,15 +13951,15 @@
                       "type": "frame",
                       "id": "xswhY",
                       "name": "Открыть субагентов",
-                      "height": 36,
+                      "height": 32,
                       "fill": "#FFF4DC",
-                      "cornerRadius": 10,
+                      "cornerRadius": 8,
                       "stroke": "#E3CCA1",
                       "strokeWidth": 1,
-                      "gap": 8,
+                      "gap": 6,
                       "padding": [
                         0,
-                        12
+                        8
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -13939,31 +13984,6 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "500"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "eQA26",
-                      "name": "Меню диалога",
-                      "width": 36,
-                      "height": 36,
-                      "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
-                      "stroke": "$aurora.line",
-                      "gap": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "Z5Nec",
-                          "name": "Меню диалога / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "ellipsis",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
                         }
                       ]
                     }
@@ -16889,19 +16909,19 @@
                   "type": "frame",
                   "id": "R9kNxG",
                   "name": "Заголовок диалога",
-                  "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+                  "context": "Заголовок расположен у левого края панели. Правый отступ учитывает локальный вырез под нативные кнопки Windows. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
                   "width": "fill_container",
-                  "height": 56,
+                  "height": 40,
                   "stroke": "$aurora.line",
                   "strokeWidth": {
                     "bottom": 1
                   },
                   "gap": 8,
                   "padding": [
-                    4,
-                    184,
-                    4,
-                    98
+                    0,
+                    172,
+                    0,
+                    16
                   ],
                   "alignItems": "center",
                   "children": [
@@ -16910,30 +16930,59 @@
                       "id": "TJIFL",
                       "name": "Контекст диалога",
                       "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
+                      "height": 32,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "ZQXpE",
-                          "name": "Путь диалога",
-                          "fill": "$aurora.muted",
-                          "content": "Heartbeat",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "e2ItH",
-                          "name": "Заголовок",
-                          "fill": "$aurora.ink",
-                          "content": "Единая модель сессий",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 18,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "eqnp1",
+                          "name": "Меню диалога",
+                          "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                          "height": 32,
+                          "fill": "#00000000",
+                          "cornerRadius": 6,
+                          "stroke": "#00000000",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "V3srC",
+                              "name": "Папка проекта",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "folder",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "e2ItH",
+                              "name": "Заголовок",
+                              "fill": "$aurora.ink",
+                              "content": "Единая модель сессий",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "F3t3C",
+                              "name": "Раскрыть меню диалога",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -16941,15 +16990,15 @@
                       "type": "frame",
                       "id": "PlDdX",
                       "name": "Открыть субагентов",
-                      "height": 36,
+                      "height": 32,
                       "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
+                      "cornerRadius": 8,
                       "stroke": "$aurora.line",
                       "strokeWidth": 1,
-                      "gap": 8,
+                      "gap": 6,
                       "padding": [
                         0,
-                        12
+                        8
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -16974,31 +17023,6 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "500"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "eqnp1",
-                      "name": "Меню диалога",
-                      "width": 36,
-                      "height": 36,
-                      "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
-                      "stroke": "$aurora.line",
-                      "gap": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "F3t3C",
-                          "name": "Меню диалога / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "ellipsis",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
                         }
                       ]
                     }
@@ -22927,17 +22951,17 @@
                   "type": "frame",
                   "id": "lKcU2",
                   "name": "Заголовок диалога",
-                  "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+                  "context": "Заголовок расположен у левого края панели. Кнопки окна macOS находятся над боковой панелью. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
                   "width": "fill_container",
-                  "height": 56,
+                  "height": 40,
                   "stroke": "$aurora.line",
                   "strokeWidth": {
                     "bottom": 1
                   },
                   "gap": 8,
                   "padding": [
-                    4,
-                    98
+                    0,
+                    16
                   ],
                   "alignItems": "center",
                   "children": [
@@ -22946,30 +22970,59 @@
                       "id": "x2rQv",
                       "name": "Контекст диалога",
                       "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
+                      "height": 32,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "b1LR4",
-                          "name": "Путь диалога",
-                          "fill": "$aurora.muted",
-                          "content": "Heartbeat",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "kBqBG",
-                          "name": "Заголовок",
-                          "fill": "$aurora.ink",
-                          "content": "Единая модель сессий",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 18,
-                          "fontWeight": "500"
+                          "type": "frame",
+                          "id": "vM52s",
+                          "name": "Меню диалога",
+                          "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                          "height": 32,
+                          "fill": "#00000000",
+                          "cornerRadius": 6,
+                          "stroke": "#00000000",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "QK7gR",
+                              "name": "Папка проекта",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "folder",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "kBqBG",
+                              "name": "Заголовок",
+                              "fill": "$aurora.ink",
+                              "content": "Единая модель сессий",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "t3Jjp9",
+                              "name": "Раскрыть меню диалога",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -22977,15 +23030,15 @@
                       "type": "frame",
                       "id": "UFqNv",
                       "name": "Открыть субагентов",
-                      "height": 36,
+                      "height": 32,
                       "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
+                      "cornerRadius": 8,
                       "stroke": "$aurora.line",
                       "strokeWidth": 1,
-                      "gap": 8,
+                      "gap": 6,
                       "padding": [
                         0,
-                        12
+                        8
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -23010,31 +23063,6 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "500"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "vM52s",
-                      "name": "Меню диалога",
-                      "width": 36,
-                      "height": 36,
-                      "fill": "$aurora.pearl",
-                      "cornerRadius": 10,
-                      "stroke": "$aurora.line",
-                      "gap": 8,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "t3Jjp9",
-                          "name": "Меню диалога / значок",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "ellipsis",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
                         }
                       ]
                     }
@@ -25758,19 +25786,19 @@
               "x": 274,
               "y": 10,
               "name": "Заголовок диалога",
-              "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+              "context": "Заголовок расположен у левого края панели. Правый отступ учитывает локальный вырез под нативные кнопки Windows. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
               "width": 1156,
-              "height": 56,
+              "height": 40,
               "stroke": "$aurora.line",
               "strokeWidth": {
                 "bottom": 1
               },
               "gap": 8,
               "padding": [
-                4,
-                184,
-                4,
-                98
+                0,
+                172,
+                0,
+                16
               ],
               "alignItems": "center",
               "children": [
@@ -25779,30 +25807,59 @@
                   "id": "v3ubT",
                   "name": "Контекст диалога",
                   "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 2,
+                  "height": 32,
+                  "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "DDwJh",
-                      "name": "Путь диалога",
-                      "fill": "$aurora.muted",
-                      "content": "Heartbeat",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "G9M4i",
-                      "name": "Заголовок",
-                      "fill": "$aurora.ink",
-                      "content": "Единая модель сессий",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 18,
-                      "fontWeight": "500"
+                      "type": "frame",
+                      "id": "AJJQa",
+                      "name": "Меню диалога",
+                      "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                      "height": 32,
+                      "fill": "#00000000",
+                      "cornerRadius": 6,
+                      "stroke": "#00000000",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        8,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ZocQy",
+                          "name": "Папка проекта",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "folder",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G9M4i",
+                          "name": "Заголовок",
+                          "fill": "$aurora.ink",
+                          "content": "Единая модель сессий",
+                          "lineHeight": 1.4285714285714286,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "eEl8J",
+                          "name": "Раскрыть меню диалога",
+                          "width": 12,
+                          "height": 12,
+                          "icon": "chevron-down",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -25810,15 +25867,15 @@
                   "type": "frame",
                   "id": "bn1Y9",
                   "name": "Открыть субагентов",
-                  "height": 36,
+                  "height": 32,
                   "fill": "$aurora.pearl",
-                  "cornerRadius": 10,
+                  "cornerRadius": 8,
                   "stroke": "$aurora.line",
                   "strokeWidth": 1,
-                  "gap": 8,
+                  "gap": 6,
                   "padding": [
                     0,
-                    12
+                    8
                   ],
                   "justifyContent": "center",
                   "alignItems": "center",
@@ -25843,31 +25900,6 @@
                       "fontFamily": "$aurora.font",
                       "fontSize": 13,
                       "fontWeight": "500"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "AJJQa",
-                  "name": "Меню диалога",
-                  "width": 36,
-                  "height": 36,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 10,
-                  "stroke": "$aurora.line",
-                  "gap": 8,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "eEl8J",
-                      "name": "Меню диалога / значок",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "ellipsis",
-                      "library": "lucide",
-                      "fill": "$aurora.muted"
                     }
                   ]
                 }
@@ -26202,17 +26234,17 @@
               "x": 274,
               "y": 10,
               "name": "Заголовок диалога",
-              "context": "Заголовок диалога и действия лежат вне системных safe-area. Свободные участки заголовка перемещают окно; действия исключены из drag region. На Windows справа зарезервировано место до локального выреза. При узком окне вторичные действия переходят в меню.",
+              "context": "Заголовок расположен у левого края панели. Кнопки окна macOS находятся над боковой панелью. Свободная часть шапки перемещает окно. Действия исключены из области перетаскивания. При узком окне вторичные действия переходят в меню диалога.",
               "width": 1156,
-              "height": 56,
+              "height": 40,
               "stroke": "$aurora.line",
               "strokeWidth": {
                 "bottom": 1
               },
               "gap": 8,
               "padding": [
-                4,
-                98
+                0,
+                16
               ],
               "alignItems": "center",
               "children": [
@@ -26221,30 +26253,59 @@
                   "id": "RETzB",
                   "name": "Контекст диалога",
                   "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 2,
+                  "height": 32,
+                  "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "I0NOC",
-                      "name": "Путь диалога",
-                      "fill": "$aurora.muted",
-                      "content": "Heartbeat",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "cuXvL",
-                      "name": "Заголовок",
-                      "fill": "$aurora.ink",
-                      "content": "Единая модель сессий",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 18,
-                      "fontWeight": "500"
+                      "type": "frame",
+                      "id": "W1x4Bs",
+                      "name": "Меню диалога",
+                      "context": "Кнопка открывает существующее меню диалога. Доступное имя: «Меню диалога „Единая модель сессий“, проект Heartbeat». Длинное название затухает у правого края и полностью доступно при наведении и клавиатурном фокусе.",
+                      "height": 32,
+                      "fill": "#00000000",
+                      "cornerRadius": 6,
+                      "stroke": "#00000000",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        8,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "YILYF",
+                          "name": "Папка проекта",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "folder",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cuXvL",
+                          "name": "Заголовок",
+                          "fill": "$aurora.ink",
+                          "content": "Единая модель сессий",
+                          "lineHeight": 1.4285714285714286,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "xVkSh",
+                          "name": "Раскрыть меню диалога",
+                          "width": 12,
+                          "height": 12,
+                          "icon": "chevron-down",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -26252,15 +26313,15 @@
                   "type": "frame",
                   "id": "kfywd",
                   "name": "Открыть субагентов",
-                  "height": 36,
+                  "height": 32,
                   "fill": "$aurora.pearl",
-                  "cornerRadius": 10,
+                  "cornerRadius": 8,
                   "stroke": "$aurora.line",
                   "strokeWidth": 1,
-                  "gap": 8,
+                  "gap": 6,
                   "padding": [
                     0,
-                    12
+                    8
                   ],
                   "justifyContent": "center",
                   "alignItems": "center",
@@ -26285,31 +26346,6 @@
                       "fontFamily": "$aurora.font",
                       "fontSize": 13,
                       "fontWeight": "500"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "W1x4Bs",
-                  "name": "Меню диалога",
-                  "width": 36,
-                  "height": 36,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 10,
-                  "stroke": "$aurora.line",
-                  "gap": 8,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "xVkSh",
-                      "name": "Меню диалога / значок",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "ellipsis",
-                      "library": "lucide",
-                      "fill": "$aurora.muted"
                     }
                   ]
                 }
