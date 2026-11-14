@@ -1,0 +1,589 @@
+{
+  "date": "2026-11-14",
+  "scope": "Static Pencil multiline plain-text bubbles. Rich content retains its content-block size constraints; active generation and explicitly labelled fixed-width comparison samples retain their roles.",
+  "method": "Measured all rendered text lines with the same font and width in Pencil, fitted bubble to maximal line right edge plus 16, preserved actual line breaks, repositioned metadata independently, checked all expanded timestamp variants.",
+  "timestampAudit": {
+    "topLevelFrames": 64,
+    "occurrences": 1124,
+    "timestamps": 1122,
+    "sendingStatuses": 2,
+    "visibleOccurrences": 1079,
+    "distinctLayouts": 75,
+    "inlineLayouts": 30,
+    "footerLayouts": 45,
+    "minimumInlineGap": 9,
+    "widthViolations": 0,
+    "geometryViolations": 0
+  },
+  "checkedMultilineVariants": 34,
+  "checkedMultilineInstances": 514,
+  "changedVariants": 33,
+  "changedInstances": 513,
+  "lineOrPaddingViolations": 0,
+  "horizontalClippingViolations": 0,
+  "layouts": [
+    {
+      "surface": "nJWJP/VdEVn",
+      "count": 149,
+      "before": 632,
+      "after": 622,
+      "maxTextRight": 606,
+      "rightOfLongestLine": 16,
+      "expected": 622,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "nJWJP/wJBlb",
+      "count": 37,
+      "before": 632,
+      "after": 629,
+      "maxTextRight": 613,
+      "rightOfLongestLine": 16,
+      "expected": 629,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "nJWJP/oWPyl",
+      "count": 37,
+      "before": 632,
+      "after": 617,
+      "maxTextRight": 601,
+      "rightOfLongestLine": 16,
+      "expected": 617,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "nJWJP/mRyZR",
+      "count": 37,
+      "before": 632,
+      "after": 630,
+      "maxTextRight": 614,
+      "rightOfLongestLine": 16,
+      "expected": 630,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "nJWJP/jh2pK",
+      "count": 37,
+      "before": 632,
+      "after": 620,
+      "maxTextRight": 604,
+      "rightOfLongestLine": 16,
+      "expected": 620,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "kEpTp/pgGgS",
+      "count": 38,
+      "before": 520,
+      "after": 511,
+      "maxTextRight": 495,
+      "rightOfLongestLine": 16,
+      "expected": 511,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "O7hqrL/M8fRrM",
+      "count": 37,
+      "before": 338,
+      "after": 327,
+      "maxTextRight": 311,
+      "rightOfLongestLine": 16,
+      "expected": 327,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "O7hqrL/AcJi8",
+      "count": 38,
+      "before": 338,
+      "after": 313,
+      "maxTextRight": 297,
+      "rightOfLongestLine": 16,
+      "expected": 313,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "hRjbq/bgGsO",
+      "count": 73,
+      "before": 338,
+      "after": 316,
+      "maxTextRight": 300,
+      "rightOfLongestLine": 16,
+      "expected": 316,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "X8zoB/M8fRrM",
+      "count": 1,
+      "before": 288,
+      "after": 252,
+      "maxTextRight": 236,
+      "rightOfLongestLine": 16,
+      "expected": 252,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "X8zoB/AcJi8",
+      "count": 1,
+      "before": 288,
+      "after": 282,
+      "maxTextRight": 266,
+      "rightOfLongestLine": 16,
+      "expected": 282,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "HbtNh/M8fRrM",
+      "count": 1,
+      "before": 288,
+      "after": 194,
+      "maxTextRight": 178,
+      "rightOfLongestLine": 16,
+      "expected": 194,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "HbtNh/AcJi8",
+      "count": 1,
+      "before": 288,
+      "after": 286,
+      "maxTextRight": 270,
+      "rightOfLongestLine": 16,
+      "expected": 286,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "tcd2X",
+      "count": 2,
+      "before": 632,
+      "after": 594,
+      "maxTextRight": 578,
+      "rightOfLongestLine": 16,
+      "expected": 594,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "urPXk",
+      "count": 2,
+      "before": 632,
+      "after": 594,
+      "maxTextRight": 578,
+      "rightOfLongestLine": 16,
+      "expected": 594,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "y1AgWC",
+      "count": 4,
+      "before": 338,
+      "after": 325,
+      "maxTextRight": 309,
+      "rightOfLongestLine": 16,
+      "expected": 325,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "Mr3uh",
+      "count": 2,
+      "before": 338,
+      "after": 317,
+      "maxTextRight": 301,
+      "rightOfLongestLine": 16,
+      "expected": 317,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "DkYqB/olCLR",
+      "count": 1,
+      "before": 338,
+      "after": 338,
+      "maxTextRight": 322,
+      "rightOfLongestLine": 16,
+      "expected": 338,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "DkYqB/WHCLW",
+      "count": 1,
+      "before": 310,
+      "after": 257,
+      "maxTextRight": 241,
+      "rightOfLongestLine": 16,
+      "expected": 257,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "gIjfa",
+      "count": 1,
+      "before": 440,
+      "after": 398,
+      "maxTextRight": 382,
+      "rightOfLongestLine": 16,
+      "expected": 398,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "C0O2E",
+      "count": 1,
+      "before": 440,
+      "after": 434,
+      "maxTextRight": 418,
+      "rightOfLongestLine": 16,
+      "expected": 434,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "pvwPe",
+      "count": 1,
+      "before": 648,
+      "after": 354,
+      "maxTextRight": 338,
+      "rightOfLongestLine": 16,
+      "expected": 354,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "W8G4F/pvwPe",
+      "count": 1,
+      "before": 520,
+      "after": 354,
+      "maxTextRight": 338,
+      "rightOfLongestLine": 16,
+      "expected": 354,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "JbWjX/pvwPe",
+      "count": 1,
+      "before": 764,
+      "after": 354,
+      "maxTextRight": 338,
+      "rightOfLongestLine": 16,
+      "expected": 354,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "dpbjs",
+      "count": 1,
+      "before": 346,
+      "after": 306,
+      "maxTextRight": 290,
+      "rightOfLongestLine": 16,
+      "expected": 306,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "NV4Pv",
+      "count": 1,
+      "before": 360,
+      "after": 324,
+      "maxTextRight": 308,
+      "rightOfLongestLine": 16,
+      "expected": 324,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "IIW1y",
+      "count": 1,
+      "before": 646,
+      "after": 622,
+      "maxTextRight": 606,
+      "rightOfLongestLine": 16,
+      "expected": 622,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "vU2c8",
+      "count": 1,
+      "before": 338,
+      "after": 313,
+      "maxTextRight": 297,
+      "rightOfLongestLine": 16,
+      "expected": 313,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "PQgIn",
+      "count": 1,
+      "before": 338,
+      "after": 316,
+      "maxTextRight": 300,
+      "rightOfLongestLine": 16,
+      "expected": 316,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "Rp0g3",
+      "count": 1,
+      "before": 440,
+      "after": 324,
+      "maxTextRight": 308,
+      "rightOfLongestLine": 16,
+      "expected": 324,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "Eh2YP",
+      "count": 1,
+      "before": 338,
+      "after": 324,
+      "maxTextRight": 308,
+      "rightOfLongestLine": 16,
+      "expected": 324,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "LgWhR",
+      "count": 1,
+      "before": 224,
+      "after": 180,
+      "maxTextRight": 164,
+      "rightOfLongestLine": 16,
+      "expected": 180,
+      "lineBreaksPreserved": true,
+      "statusWraps": true
+    },
+    {
+      "surface": "G7s4fP",
+      "count": 1,
+      "before": 440,
+      "after": 324,
+      "maxTextRight": 308,
+      "rightOfLongestLine": 16,
+      "expected": 324,
+      "lineBreaksPreserved": true
+    },
+    {
+      "surface": "fMEmO",
+      "count": 1,
+      "before": 338,
+      "after": 317,
+      "maxTextRight": 301,
+      "rightOfLongestLine": 16,
+      "expected": 317,
+      "lineBreaksPreserved": true
+    }
+  ],
+  "otherContent": [
+    {
+      "surface": "nJWJP/A8DczG",
+      "mode": "single-line",
+      "count": 113
+    },
+    {
+      "surface": "nJWJP/O2mS3",
+      "mode": "single-line",
+      "count": 74
+    },
+    {
+      "surface": "nJWJP/nfMxK",
+      "mode": "single-line",
+      "count": 37
+    },
+    {
+      "surface": "nJWJP/D4BzE",
+      "mode": "single-line",
+      "count": 37
+    },
+    {
+      "surface": "nJWJP/rho01",
+      "mode": "single-line",
+      "count": 37
+    },
+    {
+      "surface": "nJWJP/cOYJU",
+      "mode": "single-line",
+      "count": 37
+    },
+    {
+      "surface": "nJWJP/LffjD",
+      "mode": "single-line",
+      "count": 37
+    },
+    {
+      "surface": "kEpTp/lSk1r",
+      "mode": "single-line",
+      "count": 38
+    },
+    {
+      "surface": "kEpTp/A1uXH",
+      "mode": "mixed-content",
+      "count": 38
+    },
+    {
+      "surface": "kEpTp/Ej8jY",
+      "mode": "single-line",
+      "count": 38
+    },
+    {
+      "surface": "NSlOJ/osCaw",
+      "mode": "single-line",
+      "count": 39
+    },
+    {
+      "surface": "lGhmQ/WHCLW",
+      "mode": "single-line",
+      "count": 37
+    },
+    {
+      "surface": "zi6wE",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "SvGVM",
+      "mode": "single-line",
+      "count": 8
+    },
+    {
+      "surface": "Ozmzy",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "a5o5gs",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "Q7EH5W",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "M7vLQT",
+      "mode": "control-or-active",
+      "count": 1
+    },
+    {
+      "surface": "n5tpNp",
+      "mode": "mixed-content",
+      "count": 2
+    },
+    {
+      "surface": "UI7wT/a5o5gs",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "lZJ8d/n5tpNp",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "W9RWt",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "Od8kc",
+      "mode": "mixed-content",
+      "count": 2
+    },
+    {
+      "surface": "Uq6WR",
+      "mode": "mixed-content",
+      "count": 2
+    },
+    {
+      "surface": "e4zyCn",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "H3lICx",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "ekQBw",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "qaCU6/W9RWt",
+      "mode": "mixed-content",
+      "count": 2
+    },
+    {
+      "surface": "X3VM6/Od8kc",
+      "mode": "mixed-content",
+      "count": 2
+    },
+    {
+      "surface": "q9TpB6",
+      "mode": "mixed-content",
+      "count": 2
+    },
+    {
+      "surface": "XYZAZ/W9RWt",
+      "mode": "mixed-content",
+      "count": 2
+    },
+    {
+      "surface": "H0hZQ/Uq6WR",
+      "mode": "mixed-content",
+      "count": 3
+    },
+    {
+      "surface": "nrzZb",
+      "mode": "single-line",
+      "count": 1
+    },
+    {
+      "surface": "mpvDd/M7vLQT",
+      "mode": "control-or-active",
+      "count": 1
+    },
+    {
+      "surface": "g7ANyw",
+      "mode": "single-line",
+      "count": 1
+    },
+    {
+      "surface": "qBZyG",
+      "mode": "single-line",
+      "count": 1
+    },
+    {
+      "surface": "IiIfA",
+      "mode": "single-line",
+      "count": 1
+    },
+    {
+      "surface": "N3RTOM",
+      "mode": "control-or-active",
+      "count": 1
+    },
+    {
+      "surface": "miksK",
+      "mode": "single-line",
+      "count": 1
+    },
+    {
+      "surface": "v7BfeB",
+      "mode": "single-line",
+      "count": 1
+    },
+    {
+      "surface": "kGEIA/Od8kc",
+      "mode": "mixed-content",
+      "count": 1
+    },
+    {
+      "surface": "Scc0X",
+      "mode": "control-or-active",
+      "count": 1
+    },
+    {
+      "surface": "ijxon",
+      "mode": "control-or-active",
+      "count": 1
+    },
+    {
+      "surface": "bATNs",
+      "mode": "control-or-active",
+      "count": 1
+    }
+  ]
+}
