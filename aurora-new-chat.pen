@@ -45023,6 +45023,9 @@
                         0
                       ]
                     },
+                    "d8A61G": {
+                      "enabled": false
+                    },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
@@ -45038,6 +45041,14 @@
                     },
                     "c0Cl7R": {
                       "fill": "$aurora.ink"
+                    },
+                    "DFdNB": {
+                      "padding": [
+                        12,
+                        12,
+                        12,
+                        36
+                      ]
                     },
                     "V4h3K": {
                       "content": "Проверяю, как подтверждается остановка и сохраняются вложения."
@@ -47215,6 +47226,9 @@
                                             0
                                           ]
                                         },
+                                        "GCk46": {
+                                          "enabled": false
+                                        },
                                         "Bx627": {
                                           "stroke": "$aurora.green",
                                           "enabled": false
@@ -47237,7 +47251,13 @@
                                         },
                                         "nKJvQ": {
                                           "enabled": false,
-                                          "width": 600
+                                          "width": 600,
+                                          "padding": [
+                                            12,
+                                            12,
+                                            12,
+                                            36
+                                          ]
                                         }
                                       }
                                     },
@@ -47257,6 +47277,9 @@
                                             6,
                                             0
                                           ]
+                                        },
+                                        "GCk46": {
+                                          "enabled": false
                                         },
                                         "Bx627": {
                                           "stroke": "$aurora.green",
@@ -47280,7 +47303,13 @@
                                         },
                                         "nKJvQ": {
                                           "enabled": false,
-                                          "width": 600
+                                          "width": 600,
+                                          "padding": [
+                                            12,
+                                            12,
+                                            12,
+                                            36
+                                          ]
                                         },
                                         "F03pZ": {
                                           "content": "Поиск завершён"
@@ -47307,6 +47336,9 @@
                                             0
                                           ]
                                         },
+                                        "d8A61G": {
+                                          "enabled": false
+                                        },
                                         "bQNuh": {
                                           "stroke": "$aurora.status.running",
                                           "enabled": false
@@ -47322,88 +47354,16 @@
                                         },
                                         "c0Cl7R": {
                                           "fill": "$aurora.ink"
+                                        },
+                                        "DFdNB": {
+                                          "padding": [
+                                            12,
+                                            12,
+                                            12,
+                                            36
+                                          ]
                                         }
                                       }
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "qJ99k",
-                                      "layoutPosition": "absolute",
-                                      "x": 0,
-                                      "y": 0,
-                                      "name": "Хронология / маркеры на общей линии",
-                                      "context": "Декоративная линия. Центры полых маркеров лежат на x=8; высота каждого соответствует центру кликабельной шапки вызова. Пересчитывать при раскрытии и переносах. Не перехватывает ввод.",
-                                      "width": 16,
-                                      "height": 176,
-                                      "layout": "none",
-                                      "children": [
-                                        {
-                                          "type": "rectangle",
-                                          "id": "P2aBAD",
-                                          "x": 7.5,
-                                          "y": 15,
-                                          "name": "Связь / к вызову C1g4x",
-                                          "fill": "#D2DDD0",
-                                          "width": 1,
-                                          "height": 29
-                                        },
-                                        {
-                                          "type": "ellipse",
-                                          "id": "lUjCK",
-                                          "x": 4,
-                                          "y": 44,
-                                          "name": "Статус вызова / C1g4x",
-                                          "fill": "$aurora.action.current",
-                                          "width": 8,
-                                          "height": 8,
-                                          "stroke": "$aurora.green",
-                                          "strokeWidth": 1.5
-                                        },
-                                        {
-                                          "type": "rectangle",
-                                          "id": "OX50o",
-                                          "x": 7.5,
-                                          "y": 52,
-                                          "name": "Связь / к вызову Y7ZB8F",
-                                          "fill": "#D2DDD0",
-                                          "width": 1,
-                                          "height": 44
-                                        },
-                                        {
-                                          "type": "ellipse",
-                                          "id": "L1Fzdc",
-                                          "x": 4,
-                                          "y": 96,
-                                          "name": "Статус вызова / Y7ZB8F",
-                                          "fill": "$aurora.action.current",
-                                          "width": 8,
-                                          "height": 8,
-                                          "stroke": "$aurora.green",
-                                          "strokeWidth": 1.5
-                                        },
-                                        {
-                                          "type": "rectangle",
-                                          "id": "jAx7H",
-                                          "x": 7.5,
-                                          "y": 104,
-                                          "name": "Связь / к вызову oI4iD",
-                                          "fill": "#D2DDD0",
-                                          "width": 1,
-                                          "height": 44
-                                        },
-                                        {
-                                          "type": "ellipse",
-                                          "id": "Ym1TI",
-                                          "x": 4,
-                                          "y": 148,
-                                          "name": "Статус вызова / oI4iD",
-                                          "fill": "$aurora.action.current",
-                                          "width": 8,
-                                          "height": 8,
-                                          "stroke": "$aurora.status.running",
-                                          "strokeWidth": 1.5
-                                        }
-                                      ]
                                     }
                                   ]
                                 }
@@ -47820,6 +47780,9 @@
                                                 0
                                               ]
                                             },
+                                            "GCk46": {
+                                              "enabled": false
+                                            },
                                             "Bx627": {
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
@@ -47842,7 +47805,13 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600
+                                              "width": 600,
+                                              "padding": [
+                                                12,
+                                                12,
+                                                12,
+                                                36
+                                              ]
                                             },
                                             "F03pZ": {
                                               "content": "Выполнение продолжается"
@@ -47851,42 +47820,6 @@
                                               "content": "Результат пока не получен"
                                             }
                                           }
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "ws4Xi",
-                                          "layoutPosition": "absolute",
-                                          "x": 0,
-                                          "y": 0,
-                                          "name": "Хронология / маркеры на общей линии",
-                                          "context": "Декоративная линия. Центры полых маркеров лежат на x=8; высота каждого соответствует центру кликабельной шапки вызова. Пересчитывать при раскрытии и переносах. Не перехватывает ввод.",
-                                          "width": 16,
-                                          "height": 72,
-                                          "layout": "none",
-                                          "children": [
-                                            {
-                                              "type": "rectangle",
-                                              "id": "UQgGA",
-                                              "x": 7.5,
-                                              "y": 15,
-                                              "name": "Связь / к вызову GIzxm",
-                                              "fill": "#D2DDD0",
-                                              "width": 1,
-                                              "height": 29
-                                            },
-                                            {
-                                              "type": "ellipse",
-                                              "id": "Y8RA8",
-                                              "x": 4,
-                                              "y": 44,
-                                              "name": "Статус вызова / GIzxm",
-                                              "fill": "$aurora.action.current",
-                                              "width": 8,
-                                              "height": 8,
-                                              "stroke": "$aurora.status.running",
-                                              "strokeWidth": 1.5
-                                            }
-                                          ]
                                         }
                                       ]
                                     }
@@ -48427,6 +48360,9 @@
                                                 0
                                               ]
                                             },
+                                            "GCk46": {
+                                              "enabled": false
+                                            },
                                             "Bx627": {
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
@@ -48449,7 +48385,13 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600
+                                              "width": 600,
+                                              "padding": [
+                                                12,
+                                                12,
+                                                12,
+                                                36
+                                              ]
                                             },
                                             "F03pZ": {
                                               "content": "Выполнение продолжается"
@@ -48458,42 +48400,6 @@
                                               "content": "Результат пока не получен"
                                             }
                                           }
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "S62yBX",
-                                          "layoutPosition": "absolute",
-                                          "x": 0,
-                                          "y": 0,
-                                          "name": "Хронология / маркеры на общей линии",
-                                          "context": "Декоративная линия. Центры полых маркеров лежат на x=8; высота каждого соответствует центру кликабельной шапки вызова. Пересчитывать при раскрытии и переносах. Не перехватывает ввод.",
-                                          "width": 16,
-                                          "height": 72,
-                                          "layout": "none",
-                                          "children": [
-                                            {
-                                              "type": "rectangle",
-                                              "id": "WExtj",
-                                              "x": 7.5,
-                                              "y": 15,
-                                              "name": "Связь / к вызову qUq6p",
-                                              "fill": "#D2DDD0",
-                                              "width": 1,
-                                              "height": 29
-                                            },
-                                            {
-                                              "type": "ellipse",
-                                              "id": "TeWRU",
-                                              "x": 4,
-                                              "y": 44,
-                                              "name": "Статус вызова / qUq6p",
-                                              "fill": "$aurora.action.current",
-                                              "width": 8,
-                                              "height": 8,
-                                              "stroke": "$aurora.status.running",
-                                              "strokeWidth": 1.5
-                                            }
-                                          ]
                                         }
                                       ]
                                     }
@@ -49814,6 +49720,9 @@
                                                 0
                                               ]
                                             },
+                                            "GCk46": {
+                                              "enabled": false
+                                            },
                                             "Bx627": {
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
@@ -49836,7 +49745,13 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600
+                                              "width": 600,
+                                              "padding": [
+                                                12,
+                                                12,
+                                                12,
+                                                36
+                                              ]
                                             },
                                             "F03pZ": {
                                               "content": "Выполнение продолжается"
@@ -49845,42 +49760,6 @@
                                               "content": "Результат пока не получен"
                                             }
                                           }
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "kmtUm",
-                                          "layoutPosition": "absolute",
-                                          "x": 0,
-                                          "y": 0,
-                                          "name": "Хронология / маркеры на общей линии",
-                                          "context": "Декоративная линия. Центры полых маркеров лежат на x=8; высота каждого соответствует центру кликабельной шапки вызова. Пересчитывать при раскрытии и переносах. Не перехватывает ввод.",
-                                          "width": 16,
-                                          "height": 72,
-                                          "layout": "none",
-                                          "children": [
-                                            {
-                                              "type": "rectangle",
-                                              "id": "OlCuJ",
-                                              "x": 7.5,
-                                              "y": 15,
-                                              "name": "Связь / к вызову QlmfI",
-                                              "fill": "#D2DDD0",
-                                              "width": 1,
-                                              "height": 29
-                                            },
-                                            {
-                                              "type": "ellipse",
-                                              "id": "iZU3l",
-                                              "x": 4,
-                                              "y": 44,
-                                              "name": "Статус вызова / QlmfI",
-                                              "fill": "$aurora.action.current",
-                                              "width": 8,
-                                              "height": 8,
-                                              "stroke": "$aurora.status.running",
-                                              "strokeWidth": 1.5
-                                            }
-                                          ]
                                         }
                                       ]
                                     }
@@ -50302,6 +50181,9 @@
                                                 0
                                               ]
                                             },
+                                            "GCk46": {
+                                              "enabled": false
+                                            },
                                             "Bx627": {
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
@@ -50324,7 +50206,13 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600
+                                              "width": 600,
+                                              "padding": [
+                                                12,
+                                                12,
+                                                12,
+                                                36
+                                              ]
                                             },
                                             "F03pZ": {
                                               "content": "Выполнение продолжается"
@@ -50351,6 +50239,9 @@
                                                 0
                                               ]
                                             },
+                                            "d8A61G": {
+                                              "enabled": false
+                                            },
                                             "bQNuh": {
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
@@ -50368,68 +50259,18 @@
                                             "c0Cl7R": {
                                               "fill": "$aurora.ink"
                                             },
+                                            "DFdNB": {
+                                              "padding": [
+                                                12,
+                                                12,
+                                                12,
+                                                36
+                                              ]
+                                            },
                                             "V4h3K": {
                                               "content": "Проверяю сохранение вложений при отмене запроса и переходе обратно к черновику."
                                             }
                                           }
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "d0EbZu",
-                                          "layoutPosition": "absolute",
-                                          "x": 0,
-                                          "y": 0,
-                                          "name": "Хронология / маркеры на общей линии",
-                                          "context": "Декоративная линия. Центры полых маркеров лежат на x=8; высота каждого соответствует центру кликабельной шапки вызова. Пересчитывать при раскрытии и переносах. Не перехватывает ввод.",
-                                          "width": 16,
-                                          "height": 124,
-                                          "layout": "none",
-                                          "children": [
-                                            {
-                                              "type": "rectangle",
-                                              "id": "TJJXS",
-                                              "x": 7.5,
-                                              "y": 15,
-                                              "name": "Связь / к вызову dvfVk",
-                                              "fill": "#D2DDD0",
-                                              "width": 1,
-                                              "height": 29
-                                            },
-                                            {
-                                              "type": "ellipse",
-                                              "id": "ohQz7",
-                                              "x": 4,
-                                              "y": 44,
-                                              "name": "Статус вызова / dvfVk",
-                                              "fill": "$aurora.action.current",
-                                              "width": 8,
-                                              "height": 8,
-                                              "stroke": "$aurora.status.running",
-                                              "strokeWidth": 1.5
-                                            },
-                                            {
-                                              "type": "rectangle",
-                                              "id": "ATJuY",
-                                              "x": 7.5,
-                                              "y": 52,
-                                              "name": "Связь / к вызову tV0RO",
-                                              "fill": "#D2DDD0",
-                                              "width": 1,
-                                              "height": 44
-                                            },
-                                            {
-                                              "type": "ellipse",
-                                              "id": "co4gd",
-                                              "x": 4,
-                                              "y": 96,
-                                              "name": "Статус вызова / tV0RO",
-                                              "fill": "$aurora.action.current",
-                                              "width": 8,
-                                              "height": 8,
-                                              "stroke": "$aurora.status.running",
-                                              "strokeWidth": 1.5
-                                            }
-                                          ]
                                         }
                                       ]
                                     }
@@ -70837,6 +70678,9 @@
                   "fill": "$aurora.action.current",
                   "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
+                    "d8A61G": {
+                      "enabled": false
+                    },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
@@ -70856,7 +70700,13 @@
                     },
                     "DFdNB": {
                       "enabled": false,
-                      "width": 600
+                      "width": 600,
+                      "padding": [
+                        12,
+                        12,
+                        12,
+                        36
+                      ]
                     },
                     "V4h3K": {
                       "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике."
@@ -70898,6 +70748,9 @@
                     "XpIWN": {
                       "padding": 12
                     },
+                    "d8A61G": {
+                      "enabled": false
+                    },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
@@ -70930,7 +70783,13 @@
                     },
                     "DFdNB": {
                       "enabled": true,
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "padding": [
+                        12,
+                        12,
+                        12,
+                        36
+                      ]
                     },
                     "V4h3K": {
                       "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике."
@@ -70981,6 +70840,9 @@
                     "XpIWN": {
                       "padding": 12
                     },
+                    "d8A61G": {
+                      "enabled": false
+                    },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
@@ -71013,7 +70875,13 @@
                     },
                     "DFdNB": {
                       "enabled": true,
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "padding": [
+                        12,
+                        12,
+                        12,
+                        36
+                      ]
                     },
                     "V4h3K": {
                       "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике.\n\nПроверяю также, что повторная отправка не запускается до подтверждения остановки. Сравниваю этот переход с поведением списка вложений."
@@ -71131,6 +70999,9 @@
                     "XpIWN": {
                       "padding": 12
                     },
+                    "d8A61G": {
+                      "enabled": false
+                    },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
@@ -71163,7 +71034,13 @@
                     },
                     "DFdNB": {
                       "enabled": true,
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "padding": [
+                        12,
+                        12,
+                        12,
+                        36
+                      ]
                     }
                   }
                 }
@@ -71271,6 +71148,9 @@
                   "fill": "$aurora.action.current",
                   "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
+                    "d8A61G": {
+                      "enabled": false
+                    },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
@@ -71291,7 +71171,13 @@
                     },
                     "DFdNB": {
                       "enabled": false,
-                      "width": 600
+                      "width": 600,
+                      "padding": [
+                        12,
+                        12,
+                        12,
+                        36
+                      ]
                     },
                     "V4h3K": {
                       "content": ""
