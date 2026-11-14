@@ -45013,13 +45013,13 @@
                   "name": "Текущий этап / название недоступно",
                   "context": "При отсутствии содержательного названия активного хода показывать Агент работает...; заменить той же строкой после появления названия.",
                   "width": "fill_container",
-                  "gap": 12,
+                  "gap": 8,
                   "children": [
                     {
                       "type": "frame",
                       "id": "ldfHt",
                       "name": "Линия и маркер этапа",
-                      "width": 16,
+                      "width": 24,
                       "height": 24,
                       "layout": "vertical",
                       "alignItems": "center",
@@ -45082,7 +45082,9 @@
                         8,
                         6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "d8A61G": {
                       "enabled": false
@@ -45090,15 +45092,36 @@
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
+                    "Eymjb": {
+                      "width": 24,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
                     "j9wrgK": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
+                    },
+                    "fYrhr": {
+                      "gap": 0
                     },
                     "K8nVq": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
                       "content": "Проверяю подтверждение остановки…",
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
+                    },
+                    "vyDlH": {
+                      "width": 16,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "fill": "$aurora.ink"
@@ -45109,7 +45132,8 @@
                         12,
                         12,
                         32
-                      ]
+                      ],
+                      "width": "fill_container(0)"
                     },
                     "V4h3K": {
                       "content": "Проверяю, как подтверждается остановка и сохраняются вложения."
@@ -47216,13 +47240,13 @@
                                       "name": "Текущий этап / индикатор и описание",
                                       "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                       "width": "fill_container",
-                                      "gap": 12,
+                                      "gap": 8,
                                       "children": [
                                         {
                                           "type": "frame",
                                           "id": "o8eHzC",
                                           "name": "Линия и маркер этапа",
-                                          "width": 16,
+                                          "width": 24,
                                           "height": 24,
                                           "layout": "vertical",
                                           "alignItems": "center",
@@ -47285,7 +47309,9 @@
                                             8,
                                             6,
                                             0
-                                          ]
+                                          ],
+                                          "gap": 8,
+                                          "alignItems": "center"
                                         },
                                         "GCk46": {
                                           "enabled": false
@@ -47294,17 +47320,38 @@
                                           "stroke": "$aurora.green",
                                           "enabled": false
                                         },
+                                        "TxCJd": {
+                                          "width": 24,
+                                          "height": 36,
+                                          "alignItems": "center",
+                                          "justifyContent": "center"
+                                        },
                                         "qW5nX": {
                                           "icon": "file-text",
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "width": 16,
+                                          "height": 16
+                                        },
+                                        "SOoKK": {
+                                          "gap": 0
                                         },
                                         "r5qJm": {
                                           "content": "Читаю контракт сессии",
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "fontSize": 13,
+                                          "lineHeight": 1.5384615384615385
                                         },
                                         "PVuWe": {
                                           "content": "Готово · session-contract.md",
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "fontSize": 12,
+                                          "lineHeight": 1.3333333333333333
+                                        },
+                                        "u3qy9": {
+                                          "width": 16,
+                                          "height": 36,
+                                          "alignItems": "center",
+                                          "justifyContent": "center"
                                         },
                                         "EfkZb": {
                                           "icon": "chevron-right",
@@ -47312,7 +47359,7 @@
                                         },
                                         "nKJvQ": {
                                           "enabled": false,
-                                          "width": 600,
+                                          "width": "fill_container(0)",
                                           "padding": [
                                             12,
                                             12,
@@ -47337,7 +47384,9 @@
                                             8,
                                             6,
                                             0
-                                          ]
+                                          ],
+                                          "gap": 8,
+                                          "alignItems": "center"
                                         },
                                         "GCk46": {
                                           "enabled": false
@@ -47346,17 +47395,38 @@
                                           "stroke": "$aurora.green",
                                           "enabled": false
                                         },
+                                        "TxCJd": {
+                                          "width": 24,
+                                          "height": 36,
+                                          "alignItems": "center",
+                                          "justifyContent": "center"
+                                        },
                                         "qW5nX": {
                                           "icon": "search",
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "width": 16,
+                                          "height": 16
+                                        },
+                                        "SOoKK": {
+                                          "gap": 0
                                         },
                                         "r5qJm": {
                                           "content": "Ищу обработчик остановки",
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "fontSize": 13,
+                                          "lineHeight": 1.5384615384615385
                                         },
                                         "PVuWe": {
                                           "content": "Готово",
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "fontSize": 12,
+                                          "lineHeight": 1.3333333333333333
+                                        },
+                                        "u3qy9": {
+                                          "width": 16,
+                                          "height": 36,
+                                          "alignItems": "center",
+                                          "justifyContent": "center"
                                         },
                                         "EfkZb": {
                                           "icon": "chevron-right",
@@ -47364,7 +47434,7 @@
                                         },
                                         "nKJvQ": {
                                           "enabled": false,
-                                          "width": 600,
+                                          "width": "fill_container(0)",
                                           "padding": [
                                             12,
                                             12,
@@ -47395,7 +47465,9 @@
                                             8,
                                             6,
                                             0
-                                          ]
+                                          ],
+                                          "gap": 8,
+                                          "alignItems": "center"
                                         },
                                         "d8A61G": {
                                           "enabled": false
@@ -47404,14 +47476,35 @@
                                           "stroke": "$aurora.status.running",
                                           "enabled": false
                                         },
+                                        "Eymjb": {
+                                          "width": 24,
+                                          "height": 36,
+                                          "alignItems": "center",
+                                          "justifyContent": "center"
+                                        },
                                         "j9wrgK": {
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "width": 16,
+                                          "height": 16
+                                        },
+                                        "fYrhr": {
+                                          "gap": 0
                                         },
                                         "K8nVq": {
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "fontSize": 13,
+                                          "lineHeight": 1.5384615384615385
                                         },
                                         "xr6pN": {
-                                          "fill": "$aurora.ink"
+                                          "fill": "$aurora.ink",
+                                          "fontSize": 12,
+                                          "lineHeight": 1.3333333333333333
+                                        },
+                                        "vyDlH": {
+                                          "width": 16,
+                                          "height": 36,
+                                          "alignItems": "center",
+                                          "justifyContent": "center"
                                         },
                                         "c0Cl7R": {
                                           "fill": "$aurora.ink"
@@ -47422,7 +47515,8 @@
                                             12,
                                             12,
                                             32
-                                          ]
+                                          ],
+                                          "width": "fill_container(0)"
                                         }
                                       }
                                     }
@@ -47621,13 +47715,13 @@
                               "id": "nc2T5",
                               "name": "Связанный этап / Первый результат",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "TpAd8",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
+                                  "width": 24,
                                   "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
@@ -47770,13 +47864,13 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 12,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "yw1HO",
                                               "name": "Линия и маркер этапа",
-                                              "width": 16,
+                                              "width": 24,
                                               "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
@@ -47839,7 +47933,9 @@
                                                 8,
                                                 6,
                                                 0
-                                              ]
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
                                             },
                                             "GCk46": {
                                               "enabled": false
@@ -47848,17 +47944,38 @@
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
                                             },
+                                            "TxCJd": {
+                                              "width": 24,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
+                                            },
                                             "qW5nX": {
                                               "icon": "search",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "width": 16,
+                                              "height": 16
+                                            },
+                                            "SOoKK": {
+                                              "gap": 0
                                             },
                                             "r5qJm": {
                                               "content": "Проверяю переходы состояния",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
                                             },
                                             "PVuWe": {
                                               "content": "Выполняется",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 12,
+                                              "lineHeight": 1.3333333333333333
+                                            },
+                                            "u3qy9": {
+                                              "width": 16,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-right",
@@ -47866,7 +47983,7 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600,
+                                              "width": "fill_container(0)",
                                               "padding": [
                                                 12,
                                                 12,
@@ -48079,13 +48196,13 @@
                               "id": "NQH26",
                               "name": "Связанный этап / Первый результат",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "f19JK8",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
+                                  "width": 24,
                                   "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
@@ -48201,13 +48318,13 @@
                               "id": "q2nT1",
                               "name": "Связанный этап / Второй результат",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "f3OICn",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
+                                  "width": 24,
                                   "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
@@ -48350,13 +48467,13 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 12,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "NIbIv",
                                               "name": "Линия и маркер этапа",
-                                              "width": 16,
+                                              "width": 24,
                                               "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
@@ -48419,7 +48536,9 @@
                                                 8,
                                                 6,
                                                 0
-                                              ]
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
                                             },
                                             "GCk46": {
                                               "enabled": false
@@ -48429,16 +48548,26 @@
                                               "enabled": false
                                             },
                                             "TxCJd": {
-                                              "height": 36
+                                              "height": 36,
+                                              "width": 24,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "qW5nX": {
                                               "icon": "terminal",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "width": 16,
+                                              "height": 16
+                                            },
+                                            "SOoKK": {
+                                              "gap": 0
                                             },
                                             "r5qJm": {
                                               "content": "Проверяю сценарий отмены",
                                               "fill": "$aurora.ink",
-                                              "enabled": false
+                                              "enabled": false,
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
                                             },
                                             "PVuWe": {
                                               "content": "./gradlew :features:aistudio:desktopTest --info",
@@ -48447,7 +48576,10 @@
                                               "lineHeight": 1.5384615384615385
                                             },
                                             "u3qy9": {
-                                              "height": 36
+                                              "height": 36,
+                                              "width": 16,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-right",
@@ -48455,7 +48587,7 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600,
+                                              "width": "fill_container(0)",
                                               "padding": [
                                                 12,
                                                 12,
@@ -48886,13 +49018,13 @@
                               "id": "V7ioTn",
                               "name": "Связанный этап / Первый этап",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "hvaMD",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
+                                  "width": 24,
                                   "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
@@ -48995,13 +49127,13 @@
                               "id": "PQjTe",
                               "name": "Связанный этап / Второй этап",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "RSyne",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
+                                  "width": 24,
                                   "height": 68,
                                   "layout": "vertical",
                                   "alignItems": "center",
@@ -49104,13 +49236,13 @@
                               "id": "Ps1iO",
                               "name": "Связанный этап / Третий этап",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "ZxVOn",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
+                                  "width": 24,
                                   "height": 32,
                                   "layout": "vertical",
                                   "alignItems": "center",
@@ -49345,14 +49477,14 @@
                               "id": "M2x8i",
                               "name": "Связанный этап / Первый этап / подробности",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "K1adX",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
-                                  "height": 350,
+                                  "width": 24,
+                                  "height": 334,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49449,16 +49581,18 @@
                                           "type": "ref",
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Читаю контракт сессии / раскрыт",
-                                          "width": 572,
+                                          "width": "fill_container",
                                           "fill": "#F0F2EB",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
-                                                12,
-                                                12,
-                                                12,
+                                                6,
+                                                8,
+                                                6,
                                                 0
-                                              ]
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
                                             },
                                             "GCk46": {
                                               "enabled": false
@@ -49467,13 +49601,18 @@
                                               "stroke": "$aurora.green"
                                             },
                                             "TxCJd": {
-                                              "height": 20
+                                              "height": 36,
+                                              "width": 24,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "qW5nX": {
-                                              "icon": "file-text"
+                                              "icon": "file-text",
+                                              "width": 16,
+                                              "height": 16
                                             },
                                             "SOoKK": {
-                                              "gap": 4
+                                              "gap": 0
                                             },
                                             "r5qJm": {
                                               "content": "Читаю контракт сессии",
@@ -49486,7 +49625,10 @@
                                               "lineHeight": 1.3333333333333333
                                             },
                                             "u3qy9": {
-                                              "height": 20
+                                              "height": 36,
+                                              "width": 16,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-down"
@@ -49508,29 +49650,60 @@
                                           "type": "ref",
                                           "ref": "Tqpcs",
                                           "name": "Инструмент / Ищу обработчик остановки / свёрнут",
-                                          "width": 572,
+                                          "width": "fill_container",
                                           "descendants": {
+                                            "AI54L": {
+                                              "padding": [
+                                                6,
+                                                8,
+                                                6,
+                                                0
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
+                                            },
                                             "GCk46": {
                                               "enabled": false
                                             },
                                             "Bx627": {
                                               "stroke": "$aurora.green"
                                             },
+                                            "TxCJd": {
+                                              "width": 24,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
+                                            },
                                             "qW5nX": {
-                                              "icon": "search"
+                                              "icon": "search",
+                                              "width": 16,
+                                              "height": 16
+                                            },
+                                            "SOoKK": {
+                                              "gap": 0
                                             },
                                             "r5qJm": {
-                                              "content": "Ищу обработчик остановки"
+                                              "content": "Ищу обработчик остановки",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
                                             },
                                             "PVuWe": {
-                                              "content": "Готово"
+                                              "content": "Готово",
+                                              "fontSize": 12,
+                                              "lineHeight": 1.3333333333333333
+                                            },
+                                            "u3qy9": {
+                                              "width": 16,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-right"
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600,
+                                              "width": "fill_container(0)",
                                               "padding": [
                                                 12,
                                                 12,
@@ -49545,16 +49718,51 @@
                                           "type": "ref",
                                           "ref": "ZLjM3",
                                           "name": "Thinking / завершённый / история",
-                                          "width": 572,
+                                          "width": "fill_container",
                                           "descendants": {
+                                            "XpIWN": {
+                                              "padding": [
+                                                6,
+                                                8,
+                                                6,
+                                                0
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
+                                            },
                                             "d8A61G": {
                                               "enabled": false
                                             },
                                             "bQNuh": {
                                               "stroke": "$aurora.green"
                                             },
+                                            "Eymjb": {
+                                              "width": 24,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
+                                            },
+                                            "j9wrgK": {
+                                              "width": 16,
+                                              "height": 16
+                                            },
+                                            "fYrhr": {
+                                              "gap": 0
+                                            },
                                             "K8nVq": {
-                                              "content": "Размышления"
+                                              "content": "Размышления",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
+                                            },
+                                            "xr6pN": {
+                                              "fontSize": 12,
+                                              "lineHeight": 1.3333333333333333
+                                            },
+                                            "vyDlH": {
+                                              "width": 16,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "DFdNB": {
                                               "padding": [
@@ -49562,7 +49770,8 @@
                                                 12,
                                                 12,
                                                 32
-                                              ]
+                                              ],
+                                              "width": "fill_container(0)"
                                             }
                                           }
                                         },
@@ -49607,26 +49816,26 @@
                                   "x": 0,
                                   "y": 0,
                                   "name": "Хронология / маркеры на общей линии",
-                                  "context": "Декоративная линия. Центры полых маркеров лежат на x=8; высота каждого соответствует центру кликабельной шапки вызова. Пересчитывать при раскрытии и переносах. Не перехватывает ввод.",
-                                  "width": 16,
-                                  "height": 350,
+                                  "context": "Декоративная линия: ось x=12 в колонке 24. Центры полых маркеров совпадают с центрами кликабельных шапок. Пересчитывать после переноса и раскрытия; не перехватывать ввод.",
+                                  "width": 24,
+                                  "height": 334,
                                   "layout": "none",
                                   "children": [
                                     {
                                       "type": "rectangle",
                                       "id": "GMg6B",
-                                      "x": 7.5,
+                                      "x": 11.5,
                                       "y": 20,
                                       "name": "Связь / к вызову Epzjz",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 44
+                                      "height": 36
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "bYtpz",
-                                      "x": 4,
-                                      "y": 64,
+                                      "x": 8,
+                                      "y": 56,
                                       "name": "Статус вызова / Epzjz",
                                       "fill": "$aurora.pearl",
                                       "width": 8,
@@ -49637,18 +49846,18 @@
                                     {
                                       "type": "rectangle",
                                       "id": "fYEX3",
-                                      "x": 7.5,
-                                      "y": 72,
+                                      "x": 11.5,
+                                      "y": 64,
                                       "name": "Связь / к вызову J0LFS",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 150
+                                      "height": 142
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "SGJQl",
-                                      "x": 4,
-                                      "y": 222,
+                                      "x": 8,
+                                      "y": 206,
                                       "name": "Статус вызова / J0LFS",
                                       "fill": "$aurora.pearl",
                                       "width": 8,
@@ -49659,8 +49868,8 @@
                                     {
                                       "type": "rectangle",
                                       "id": "nHXhn",
-                                      "x": 7.5,
-                                      "y": 230,
+                                      "x": 11.5,
+                                      "y": 214,
                                       "name": "Связь / к вызову dQb1s",
                                       "fill": "#D2DDD0",
                                       "width": 1,
@@ -49669,8 +49878,8 @@
                                     {
                                       "type": "ellipse",
                                       "id": "jflWJ",
-                                      "x": 4,
-                                      "y": 274,
+                                      "x": 8,
+                                      "y": 258,
                                       "name": "Статус вызова / dQb1s",
                                       "fill": "$aurora.pearl",
                                       "width": 8,
@@ -49681,8 +49890,8 @@
                                     {
                                       "type": "rectangle",
                                       "id": "PhEE0",
-                                      "x": 7.5,
-                                      "y": 282,
+                                      "x": 11.5,
+                                      "y": 266,
                                       "name": "Связь / к следующему этапу",
                                       "fill": "#D2DDD0",
                                       "width": 1,
@@ -49724,13 +49933,13 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 12,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "lOXx3",
                                               "name": "Линия и маркер этапа",
-                                              "width": 16,
+                                              "width": 24,
                                               "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
@@ -49793,7 +50002,9 @@
                                                 8,
                                                 6,
                                                 0
-                                              ]
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
                                             },
                                             "GCk46": {
                                               "enabled": false
@@ -49802,17 +50013,38 @@
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
                                             },
+                                            "TxCJd": {
+                                              "width": 24,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
+                                            },
                                             "qW5nX": {
                                               "icon": "search",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "width": 16,
+                                              "height": 16
+                                            },
+                                            "SOoKK": {
+                                              "gap": 0
                                             },
                                             "r5qJm": {
                                               "content": "Проверяю переходы состояния",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
                                             },
                                             "PVuWe": {
                                               "content": "Выполняется",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 12,
+                                              "lineHeight": 1.3333333333333333
+                                            },
+                                            "u3qy9": {
+                                              "width": 16,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-right",
@@ -49820,7 +50052,7 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600,
+                                              "width": "fill_container(0)",
                                               "padding": [
                                                 12,
                                                 12,
@@ -50036,13 +50268,13 @@
                               "id": "f9sql",
                               "name": "Связанный этап / Первый результат",
                               "width": "fill_container",
-                              "gap": 12,
+                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "DuLhy",
                                   "name": "Линия и маркер этапа",
-                                  "width": 16,
+                                  "width": 24,
                                   "height": 108,
                                   "layout": "vertical",
                                   "alignItems": "center",
@@ -50185,13 +50417,13 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 12,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "fYCgC",
                                               "name": "Линия и маркер этапа",
-                                              "width": 16,
+                                              "width": 24,
                                               "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
@@ -50254,7 +50486,9 @@
                                                 8,
                                                 6,
                                                 0
-                                              ]
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
                                             },
                                             "GCk46": {
                                               "enabled": false
@@ -50263,17 +50497,38 @@
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
                                             },
+                                            "TxCJd": {
+                                              "width": 24,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
+                                            },
                                             "qW5nX": {
                                               "icon": "file-text",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "width": 16,
+                                              "height": 16
+                                            },
+                                            "SOoKK": {
+                                              "gap": 0
                                             },
                                             "r5qJm": {
                                               "content": "Читаю обработчик отмены",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
                                             },
                                             "PVuWe": {
                                               "content": "Выполняется",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 12,
+                                              "lineHeight": 1.3333333333333333
+                                            },
+                                            "u3qy9": {
+                                              "width": 16,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-right",
@@ -50281,7 +50536,7 @@
                                             },
                                             "nKJvQ": {
                                               "enabled": false,
-                                              "width": 600,
+                                              "width": "fill_container(0)",
                                               "padding": [
                                                 12,
                                                 12,
@@ -50312,7 +50567,9 @@
                                                 8,
                                                 6,
                                                 0
-                                              ]
+                                              ],
+                                              "gap": 8,
+                                              "alignItems": "center"
                                             },
                                             "d8A61G": {
                                               "enabled": false
@@ -50321,15 +50578,36 @@
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
                                             },
+                                            "Eymjb": {
+                                              "width": 24,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
+                                            },
                                             "j9wrgK": {
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "width": 16,
+                                              "height": 16
+                                            },
+                                            "fYrhr": {
+                                              "gap": 0
                                             },
                                             "K8nVq": {
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
                                             },
                                             "xr6pN": {
                                               "content": "Проверяю сохранение вложений…",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 12,
+                                              "lineHeight": 1.3333333333333333
+                                            },
+                                            "vyDlH": {
+                                              "width": 16,
+                                              "height": 36,
+                                              "alignItems": "center",
+                                              "justifyContent": "center"
                                             },
                                             "c0Cl7R": {
                                               "fill": "$aurora.ink"
@@ -50340,7 +50618,8 @@
                                                 12,
                                                 12,
                                                 32
-                                              ]
+                                              ],
+                                              "width": "fill_container(0)"
                                             },
                                             "V4h3K": {
                                               "content": "Проверяю сохранение вложений при отмене запроса и переходе обратно к черновику."
@@ -50973,7 +51252,7 @@
                       "id": "TxCJd",
                       "name": "Иконка / центр колонки 24",
                       "width": 24,
-                      "height": 20,
+                      "height": 36,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -51030,7 +51309,7 @@
                       "id": "u3qy9",
                       "name": "Шеврон / центр текстовой колонки",
                       "width": 16,
-                      "height": 20,
+                      "height": 36,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -51055,7 +51334,7 @@
                   "y": 118,
                   "name": "Подробности инструмента / внутри блока",
                   "enabled": false,
-                  "width": 600,
+                  "width": "fill_container(0)",
                   "fill": "#00000000",
                   "stroke": "#D8DDD2",
                   "strokeWidth": {
@@ -51154,7 +51433,7 @@
                       "id": "Eymjb",
                       "name": "Иконка / центр колонки 24",
                       "width": 24,
-                      "height": 20,
+                      "height": 36,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -51211,7 +51490,7 @@
                       "id": "vyDlH",
                       "name": "Шеврон / центр текстовой колонки",
                       "width": 16,
-                      "height": 20,
+                      "height": 36,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -51236,7 +51515,7 @@
                   "y": 118,
                   "name": "Thinking / полный текст",
                   "enabled": false,
-                  "width": 600,
+                  "width": "fill_container(0)",
                   "fill": "#00000000",
                   "stroke": "#D8DDD2",
                   "strokeWidth": {
@@ -69945,13 +70224,13 @@
                   "name": "Текущий этап / название недоступно",
                   "context": "При отсутствии содержательного названия активного хода показывать Агент работает...; заменить той же строкой после появления названия.",
                   "width": "fill_container",
-                  "gap": 12,
+                  "gap": 8,
                   "children": [
                     {
                       "type": "frame",
                       "id": "dvW8t",
                       "name": "Линия и маркер этапа",
-                      "width": 16,
+                      "width": 24,
                       "height": 24,
                       "layout": "vertical",
                       "alignItems": "center",
@@ -70355,21 +70634,44 @@
                         8,
                         6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "Bx627": {
                       "stroke": "$aurora.error"
                     },
+                    "TxCJd": {
+                      "width": 24,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
                     "qW5nX": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
+                    },
+                    "SOoKK": {
+                      "gap": 0
                     },
                     "r5qJm": {
                       "content": "Читаю контракт сессии",
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "PVuWe": {
                       "content": "Ошибка · файл недоступен",
-                      "fill": "$aurora.error"
+                      "fill": "$aurora.error",
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
+                    },
+                    "u3qy9": {
+                      "width": 16,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "nKJvQ": {
                       "padding": [
@@ -70377,7 +70679,8 @@
                         12,
                         12,
                         56
-                      ]
+                      ],
+                      "width": "fill_container(0)"
                     },
                     "F03pZ": {
                       "content": "Файл: session-contract.md"
@@ -70790,20 +71093,32 @@
                         8,
                         6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "GCk46": {
                       "enabled": false
                     },
                     "TxCJd": {
-                      "height": 36
+                      "height": 36,
+                      "width": 24,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "qW5nX": {
                       "icon": "terminal",
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
+                    },
+                    "SOoKK": {
+                      "gap": 0
                     },
                     "r5qJm": {
-                      "enabled": false
+                      "enabled": false,
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "PVuWe": {
                       "content": "./gradlew :features:aistudio:desktopTest --info",
@@ -70812,7 +71127,10 @@
                       "fill": "$aurora.ink"
                     },
                     "u3qy9": {
-                      "height": 36
+                      "height": 36,
+                      "width": 16,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "EfkZb": {
                       "fill": "$aurora.ink"
@@ -70823,7 +71141,8 @@
                         12,
                         12,
                         32
-                      ]
+                      ],
+                      "width": "fill_container(0)"
                     },
                     "F03pZ": {
                       "content": "Выполняется"
@@ -70884,20 +71203,32 @@
                             8,
                             6,
                             0
-                          ]
+                          ],
+                          "gap": 8,
+                          "alignItems": "center"
                         },
                         "GCk46": {
                           "enabled": false
                         },
                         "TxCJd": {
-                          "height": 36
+                          "height": 36,
+                          "width": 24,
+                          "alignItems": "center",
+                          "justifyContent": "center"
                         },
                         "qW5nX": {
                           "icon": "terminal",
-                          "fill": "$aurora.ink"
+                          "fill": "$aurora.ink",
+                          "width": 16,
+                          "height": 16
+                        },
+                        "SOoKK": {
+                          "gap": 0
                         },
                         "r5qJm": {
-                          "enabled": false
+                          "enabled": false,
+                          "fontSize": 13,
+                          "lineHeight": 1.5384615384615385
                         },
                         "PVuWe": {
                           "content": "./gradlew :features:aistudio:desktopTest --info",
@@ -70906,7 +71237,10 @@
                           "fill": "$aurora.ink"
                         },
                         "u3qy9": {
-                          "height": 36
+                          "height": 36,
+                          "width": 16,
+                          "alignItems": "center",
+                          "justifyContent": "center"
                         },
                         "EfkZb": {
                           "fill": "$aurora.ink"
@@ -70917,7 +71251,8 @@
                             12,
                             12,
                             32
-                          ]
+                          ],
+                          "width": "fill_container(0)"
                         },
                         "F03pZ": {
                           "content": "Выполняется"
@@ -71007,25 +71342,56 @@
                   "type": "ref",
                   "ref": "ZLjM3",
                   "name": "1. Свёрнут · начало текста",
-                  "width": 676,
+                  "width": "fill_container",
                   "fill": "$aurora.action.current",
                   "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
+                    "XpIWN": {
+                      "padding": [
+                        6,
+                        8,
+                        6,
+                        0
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
+                    },
                     "d8A61G": {
                       "enabled": false
                     },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
+                    "Eymjb": {
+                      "width": 24,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
                     "j9wrgK": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
+                    },
+                    "fYrhr": {
+                      "gap": 0
                     },
                     "K8nVq": {
                       "content": "Думает...",
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
+                    },
+                    "vyDlH": {
+                      "width": 16,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "icon": "chevron-right",
@@ -71033,7 +71399,7 @@
                     },
                     "DFdNB": {
                       "enabled": false,
-                      "width": 600,
+                      "width": "fill_container(0)",
                       "padding": [
                         12,
                         12,
@@ -71074,17 +71440,19 @@
                   "type": "ref",
                   "ref": "ZLjM3",
                   "name": "2. Нажатие · весь полученный текст",
-                  "width": 676,
+                  "width": "fill_container",
                   "fill": "$aurora.action.current",
                   "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
                     "XpIWN": {
                       "padding": [
-                        12,
-                        12,
-                        12,
+                        6,
+                        8,
+                        6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "d8A61G": {
                       "enabled": false
@@ -71093,13 +71461,18 @@
                       "stroke": "$aurora.status.running"
                     },
                     "Eymjb": {
-                      "height": 20
+                      "height": 36,
+                      "width": 24,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "j9wrgK": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
                     },
                     "fYrhr": {
-                      "gap": 4
+                      "gap": 0
                     },
                     "K8nVq": {
                       "content": "Думает...",
@@ -71113,7 +71486,10 @@
                       "fill": "$aurora.ink"
                     },
                     "vyDlH": {
-                      "height": 20
+                      "height": 36,
+                      "width": 16,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down",
@@ -71171,17 +71547,19 @@
                   "type": "ref",
                   "ref": "ZLjM3",
                   "name": "3. Пришёл следующий фрагмент · блок вырос",
-                  "width": 676,
+                  "width": "fill_container",
                   "fill": "$aurora.action.current",
                   "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
                     "XpIWN": {
                       "padding": [
-                        12,
-                        12,
-                        12,
+                        6,
+                        8,
+                        6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "d8A61G": {
                       "enabled": false
@@ -71190,13 +71568,18 @@
                       "stroke": "$aurora.status.running"
                     },
                     "Eymjb": {
-                      "height": 20
+                      "height": 36,
+                      "width": 24,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "j9wrgK": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
                     },
                     "fYrhr": {
-                      "gap": 4
+                      "gap": 0
                     },
                     "K8nVq": {
                       "content": "Думает...",
@@ -71210,7 +71593,10 @@
                       "fill": "$aurora.ink"
                     },
                     "vyDlH": {
-                      "height": 20
+                      "height": 36,
+                      "width": 16,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down",
@@ -71259,25 +71645,34 @@
                   "type": "ref",
                   "ref": "ZLjM3",
                   "name": "4. Завершён · текст сохранён",
-                  "width": 676,
+                  "width": "fill_container",
                   "fill": "#F0F2EB",
                   "descendants": {
                     "XpIWN": {
                       "padding": [
-                        12,
-                        12,
-                        12,
+                        6,
+                        8,
+                        6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "bQNuh": {
                       "stroke": "$aurora.green"
                     },
                     "Eymjb": {
-                      "height": 20
+                      "height": 36,
+                      "width": 24,
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
+                    "j9wrgK": {
+                      "width": 16,
+                      "height": 16
                     },
                     "fYrhr": {
-                      "gap": 4
+                      "gap": 0
                     },
                     "K8nVq": {
                       "content": "Размышления",
@@ -71289,7 +71684,10 @@
                       "lineHeight": 1.3333333333333333
                     },
                     "vyDlH": {
-                      "height": 20
+                      "height": 36,
+                      "width": 16,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
@@ -71346,17 +71744,19 @@
                   "type": "ref",
                   "ref": "ZLjM3",
                   "name": "Thinking / Android / раскрытый",
-                  "width": 338,
+                  "width": "fill_container",
                   "fill": "$aurora.action.current",
                   "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
                     "XpIWN": {
                       "padding": [
-                        12,
-                        12,
-                        12,
+                        6,
+                        8,
+                        6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "d8A61G": {
                       "enabled": false
@@ -71365,13 +71765,18 @@
                       "stroke": "$aurora.status.running"
                     },
                     "Eymjb": {
-                      "height": 20
+                      "height": 36,
+                      "width": 24,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "j9wrgK": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
                     },
                     "fYrhr": {
-                      "gap": 4
+                      "gap": 0
                     },
                     "K8nVq": {
                       "fontSize": 13,
@@ -71385,7 +71790,10 @@
                       "fill": "$aurora.ink"
                     },
                     "vyDlH": {
-                      "height": 20
+                      "height": 36,
+                      "width": 16,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down",
@@ -71503,26 +71911,57 @@
                   "type": "ref",
                   "ref": "ZLjM3",
                   "name": "Ожидание первого фрагмента",
-                  "width": 676,
+                  "width": "fill_container",
                   "fill": "$aurora.action.current",
                   "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
                   "descendants": {
+                    "XpIWN": {
+                      "padding": [
+                        6,
+                        8,
+                        6,
+                        0
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
+                    },
                     "d8A61G": {
                       "enabled": false
                     },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
+                    "Eymjb": {
+                      "width": 24,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
                     "j9wrgK": {
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "width": 16,
+                      "height": 16
+                    },
+                    "fYrhr": {
+                      "gap": 0
                     },
                     "K8nVq": {
                       "content": "Думает...",
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385
                     },
                     "xr6pN": {
                       "content": "Ожидаю текст…",
-                      "fill": "$aurora.ink"
+                      "fill": "$aurora.ink",
+                      "fontSize": 12,
+                      "lineHeight": 1.3333333333333333
+                    },
+                    "vyDlH": {
+                      "width": 16,
+                      "height": 36,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "icon": "chevron-right",
@@ -71530,7 +71969,7 @@
                     },
                     "DFdNB": {
                       "enabled": false,
-                      "width": 600,
+                      "width": "fill_container(0)",
                       "padding": [
                         12,
                         12,
@@ -71571,25 +72010,34 @@
                   "type": "ref",
                   "ref": "ZLjM3",
                   "name": "Поток прерван / полученный текст сохранён",
-                  "width": 676,
+                  "width": "fill_container",
                   "fill": "#F0F2EB",
                   "descendants": {
                     "XpIWN": {
                       "padding": [
-                        12,
-                        12,
-                        12,
+                        6,
+                        8,
+                        6,
                         0
-                      ]
+                      ],
+                      "gap": 8,
+                      "alignItems": "center"
                     },
                     "bQNuh": {
                       "stroke": "$aurora.status.running"
                     },
                     "Eymjb": {
-                      "height": 20
+                      "height": 36,
+                      "width": 24,
+                      "alignItems": "center",
+                      "justifyContent": "center"
+                    },
+                    "j9wrgK": {
+                      "width": 16,
+                      "height": 16
                     },
                     "fYrhr": {
-                      "gap": 4
+                      "gap": 0
                     },
                     "K8nVq": {
                       "content": "Размышления прерваны",
@@ -71602,7 +72050,10 @@
                       "lineHeight": 1.3333333333333333
                     },
                     "vyDlH": {
-                      "height": 20
+                      "height": 36,
+                      "width": 16,
+                      "alignItems": "center",
+                      "justifyContent": "center"
                     },
                     "c0Cl7R": {
                       "icon": "chevron-down"
