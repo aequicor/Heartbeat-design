@@ -44249,20 +44249,23 @@
                                   "id": "vFVGA",
                                   "name": "Код / локальная прокрутка",
                                   "context": "Самостоятельная горизонтальная прокрутка и выделение. Ширина истории не растёт. Полоса внутри безопасного трека с отступом 8 от углов. Код — демонстрация UI-логики, не реализация протокола.",
+                                  "clip": true,
                                   "width": "fill_container",
-                                  "fill": "#F1F3EC",
+                                  "fill": "#F4F3F2",
                                   "cornerRadius": 8,
                                   "layout": "vertical",
-                                  "gap": 8,
-                                  "padding": 12,
                                   "children": [
                                     {
                                       "type": "frame",
                                       "id": "l0QO7Z",
-                                      "name": "Код / язык и копирование",
+                                      "name": "Код / стандартная панель",
                                       "width": "fill_container",
-                                      "height": 32,
+                                      "height": 40,
                                       "gap": 8,
+                                      "padding": [
+                                        4,
+                                        12
+                                      ],
                                       "alignItems": "center",
                                       "children": [
                                         {
@@ -44273,9 +44276,31 @@
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
                                           "content": "Kotlin",
-                                          "lineHeight": 1.3846153846153846,
+                                          "lineHeight": 1.3333333,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 13
+                                          "fontSize": 12
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "X3wnb",
+                                          "name": "Перенос строк",
+                                          "width": 32,
+                                          "height": 32,
+                                          "layout": "vertical",
+                                          "justifyContent": "center",
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "icon",
+                                              "id": "s34G7",
+                                              "name": "Перенос строк",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "text-wrap",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
+                                            }
+                                          ]
                                         },
                                         {
                                           "type": "frame",
@@ -44325,43 +44350,59 @@
                                     },
                                     {
                                       "type": "frame",
-                                      "id": "q5Ozs",
-                                      "name": "Код / окно строк",
-                                      "clip": true,
+                                      "id": "BrTqA",
+                                      "name": "Код / тело с локальной прокруткой",
                                       "width": "fill_container",
-                                      "height": 84,
-                                      "layout": "none",
+                                      "layout": "vertical",
+                                      "gap": 8,
+                                      "padding": [
+                                        8,
+                                        12,
+                                        12,
+                                        12
+                                      ],
                                       "children": [
                                         {
-                                          "type": "text",
-                                          "id": "M2fMk",
-                                          "x": 0,
-                                          "y": 0,
-                                          "name": "Код / строки",
-                                          "fill": "$aurora.ink",
-                                          "textGrowth": "fixed-width",
-                                          "width": 920,
-                                          "content": "when (connection) {\n    Checking -> keepDraftAndReadingPosition(sessionId, pendingMessageId, lastVisibleMessageAnchor)\n    Connected -> reconcileCurrentTurn()\n}",
-                                          "lineHeight": 1.5,
-                                          "fontFamily": "Roboto Mono",
-                                          "fontSize": 14
+                                          "type": "frame",
+                                          "id": "q5Ozs",
+                                          "name": "Код / окно строк",
+                                          "clip": true,
+                                          "width": "fill_container",
+                                          "height": 80,
+                                          "layout": "none",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "M2fMk",
+                                              "x": 0,
+                                              "y": 0,
+                                              "name": "Код / строки",
+                                              "fill": "$aurora.ink",
+                                              "textGrowth": "fixed-width",
+                                              "width": 920,
+                                              "content": "when (connection) {\n    Checking -> keepDraftAndReadingPosition(sessionId, pendingMessageId, lastVisibleMessageAnchor)\n    Connected -> reconcileCurrentTurn()\n}",
+                                              "lineHeight": 1.5384615385,
+                                              "fontFamily": "JetBrains Mono",
+                                              "fontSize": 13
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "l08Yr",
+                                          "type": "ref",
+                                          "ref": "QU6D4",
+                                          "name": "Прокрутка / код / покой",
+                                          "width": "fill_container",
+                                          "height": 12,
+                                          "context": "L=624, V=624, C=920; thumb=L*V/C. Hover FFznT, drag eeeAe. Только блок кода, обычный текст не прокручивается горизонтально.",
+                                          "descendants": {
+                                            "iAehH": {
+                                              "x": 0,
+                                              "width": 423.2348
+                                            }
+                                          }
                                         }
                                       ]
-                                    },
-                                    {
-                                      "id": "l08Yr",
-                                      "type": "ref",
-                                      "ref": "QU6D4",
-                                      "name": "Прокрутка / код / покой",
-                                      "width": "fill_container",
-                                      "height": 12,
-                                      "context": "L=624, V=624, C=920; thumb=L*V/C. Hover FFznT, drag eeeAe. Только блок кода, обычный текст не прокручивается горизонтально.",
-                                      "descendants": {
-                                        "iAehH": {
-                                          "x": 0,
-                                          "width": 423.2348
-                                        }
-                                      }
                                     }
                                   ]
                                 }
@@ -48519,20 +48560,23 @@
                               "id": "fBwyy",
                               "name": "Код / локальная прокрутка",
                               "context": "Самостоятельная горизонтальная прокрутка и выделение. Ширина истории не растёт. Полоса внутри безопасного трека с отступом 8 от углов. Код — демонстрация UI-логики, не реализация протокола.",
+                              "clip": true,
                               "width": "fill_container",
-                              "fill": "#F1F3EC",
+                              "fill": "#F4F3F2",
                               "cornerRadius": 8,
                               "layout": "vertical",
-                              "gap": 8,
-                              "padding": 12,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "wIWfT",
-                                  "name": "Код / язык и копирование",
+                                  "name": "Код / стандартная панель",
                                   "width": "fill_container",
-                                  "height": 32,
+                                  "height": 56,
                                   "gap": 8,
+                                  "padding": [
+                                    4,
+                                    12
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -48543,17 +48587,39 @@
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
                                       "content": "Kotlin",
-                                      "lineHeight": 1.3846153846153846,
+                                      "lineHeight": 1.3333333,
                                       "fontFamily": "$aurora.font",
-                                      "fontSize": 13
+                                      "fontSize": 12
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "KIM7b",
+                                      "name": "Перенос строк",
+                                      "width": 48,
+                                      "height": 48,
+                                      "layout": "vertical",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "J4S6ym",
+                                          "name": "Перенос строк",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "text-wrap",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
+                                        }
+                                      ]
                                     },
                                     {
                                       "type": "frame",
                                       "id": "YOtOe",
                                       "name": "Копировать код",
                                       "context": "Копирует весь код, включая невидимую справа часть. Доступен с клавиатуры, состояние «Скопировано» не меняет размеры.",
-                                      "width": 32,
-                                      "height": 32,
+                                      "width": 48,
+                                      "height": 48,
                                       "justifyContent": "center",
                                       "alignItems": "center",
                                       "children": [
@@ -48574,8 +48640,8 @@
                                       "id": "e878np",
                                       "name": "ImageButton / Открыть на всё окно",
                                       "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда.",
-                                      "width": 32,
-                                      "height": 32,
+                                      "width": 48,
+                                      "height": 48,
                                       "justifyContent": "center",
                                       "alignItems": "center",
                                       "children": [
@@ -48595,43 +48661,59 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "Atj7E",
-                                  "name": "Код / окно строк",
-                                  "clip": true,
+                                  "id": "u5raE2",
+                                  "name": "Код / тело с локальной прокруткой",
                                   "width": "fill_container",
-                                  "height": 84,
-                                  "layout": "none",
+                                  "layout": "vertical",
+                                  "gap": 8,
+                                  "padding": [
+                                    8,
+                                    12,
+                                    12,
+                                    12
+                                  ],
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "aEOhv",
-                                      "x": 0,
-                                      "y": 0,
-                                      "name": "Код / строки",
-                                      "fill": "$aurora.ink",
-                                      "textGrowth": "fixed-width",
-                                      "width": 920,
-                                      "content": "when (connection) {\n    Checking -> keepDraftAndReadingPosition(sessionId, pendingMessageId, lastVisibleMessageAnchor)\n    Connected -> reconcileCurrentTurn()\n}",
-                                      "lineHeight": 1.5,
-                                      "fontFamily": "Roboto Mono",
-                                      "fontSize": 14
+                                      "type": "frame",
+                                      "id": "Atj7E",
+                                      "name": "Код / окно строк",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 80,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "aEOhv",
+                                          "x": 0,
+                                          "y": 0,
+                                          "name": "Код / строки",
+                                          "fill": "$aurora.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": 920,
+                                          "content": "when (connection) {\n    Checking -> keepDraftAndReadingPosition(sessionId, pendingMessageId, lastVisibleMessageAnchor)\n    Connected -> reconcileCurrentTurn()\n}",
+                                          "lineHeight": 1.5384615385,
+                                          "fontFamily": "JetBrains Mono",
+                                          "fontSize": 13
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "czcRh",
+                                      "type": "ref",
+                                      "ref": "QU6D4",
+                                      "name": "Прокрутка / код / покой",
+                                      "width": "fill_container",
+                                      "height": 12,
+                                      "context": "L=624, V=624, C=920; thumb=L*V/C. Hover FFznT, drag eeeAe. Только блок кода, обычный текст не прокручивается горизонтально.",
+                                      "descendants": {
+                                        "iAehH": {
+                                          "x": 0,
+                                          "width": 58.504347826086956
+                                        }
+                                      }
                                     }
                                   ]
-                                },
-                                {
-                                  "id": "czcRh",
-                                  "type": "ref",
-                                  "ref": "QU6D4",
-                                  "name": "Прокрутка / код / покой",
-                                  "width": "fill_container",
-                                  "height": 12,
-                                  "context": "L=624, V=624, C=920; thumb=L*V/C. Hover FFznT, drag eeeAe. Только блок кода, обычный текст не прокручивается горизонтально.",
-                                  "descendants": {
-                                    "iAehH": {
-                                      "x": 0,
-                                      "width": 58.504347826086956
-                                    }
-                                  }
                                 }
                               ]
                             }
@@ -86397,7 +86479,7 @@
               "name": "Фон Aurora / длинная развёртка",
               "clip": true,
               "width": 808,
-              "height": 4300,
+              "height": 4252,
               "layout": "none",
               "children": [
                 {
@@ -93019,6 +93101,28 @@
                         },
                         {
                           "type": "frame",
+                          "id": "K4ivhM",
+                          "name": "ImageButton / Повторить отображение",
+                          "context": "Повторить отображение. Подсказка и доступное имя; действие доступно без hover.",
+                          "width": 32,
+                          "height": 32,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "dNScN",
+                              "name": "Повторить отображение",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "rotate-cw",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "CwZGW",
                           "name": "ImageButton / Открыть на всё окно",
                           "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда.",
@@ -93093,40 +93197,6 @@
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 13,
                           "fontWeight": "normal"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "s4evd",
-                          "name": "Повторить отображение",
-                          "height": 32,
-                          "gap": 8,
-                          "padding": [
-                            0,
-                            8
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "Pe73x",
-                              "name": "Повторить",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "rotate-cw",
-                              "library": "lucide",
-                              "fill": "$aurora.primary"
-                            },
-                            {
-                              "type": "text",
-                              "id": "ymM1R",
-                              "name": "Действие",
-                              "fill": "$aurora.primary",
-                              "content": "Повторить",
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -132350,17 +132420,19 @@
                   "context": "Демонстрация области схемы. Полнооконный модальный контейнер показан отдельными кадрами, по единому контракту просмотра содержимого.",
                   "width": 958,
                   "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
                   "layout": "vertical",
-                  "gap": 24,
-                  "padding": 24,
                   "children": [
                     {
                       "type": "frame",
                       "id": "r10S3",
                       "name": "Панель просмотра",
                       "width": "fill_container",
+                      "height": 56,
                       "gap": 8,
+                      "padding": [
+                        4,
+                        16
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -132515,139 +132587,150 @@
                     },
                     {
                       "type": "frame",
-                      "id": "l0rwF",
-                      "name": "PlantUML / схема в увеличении",
+                      "id": "x8h35",
+                      "name": "Просмотр / область схемы",
                       "width": "fill_container",
-                      "gap": 8,
-                      "alignItems": "center",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "hw3Ib",
-                          "name": "Состояние running",
+                          "id": "l0rwF",
+                          "name": "PlantUML / схема в увеличении",
                           "width": "fill_container",
-                          "fill": "$aurora.pearl",
-                          "cornerRadius": 6,
-                          "stroke": "#CFD8CB",
-                          "strokeWidth": 1,
-                          "layout": "vertical",
-                          "padding": [
-                            24,
-                            8
-                          ],
+                          "gap": 8,
+                          "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "o5iCB",
-                              "name": "Имя состояния",
-                              "fill": "$aurora.ink",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "hw3Ib",
+                              "name": "Состояние running",
                               "width": "fill_container",
-                              "content": "running",
-                              "lineHeight": 1.54,
-                              "textAlign": "center",
-                              "fontFamily": "JetBrains Mono",
-                              "fontSize": 26,
-                              "fontWeight": "normal"
+                              "fill": "$aurora.pearl",
+                              "cornerRadius": 6,
+                              "stroke": "#CFD8CB",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": [
+                                24,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "o5iCB",
+                                  "name": "Имя состояния",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "running",
+                                  "lineHeight": 1.54,
+                                  "textAlign": "center",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 26,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon",
+                              "id": "w7zG0",
+                              "name": "Переход",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ko8FB",
+                              "name": "Состояние stopping",
+                              "width": "fill_container",
+                              "fill": "$aurora.pearl",
+                              "cornerRadius": 6,
+                              "stroke": "#CFD8CB",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": [
+                                24,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "O4LmRh",
+                                  "name": "Имя состояния",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "stopping",
+                                  "lineHeight": 1.54,
+                                  "textAlign": "center",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 26,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon",
+                              "id": "fTtrf",
+                              "name": "Переход",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "uYpA9",
+                              "name": "Состояние stopped",
+                              "width": "fill_container",
+                              "fill": "$aurora.pearl",
+                              "cornerRadius": 6,
+                              "stroke": "#CFD8CB",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": [
+                                24,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "sTmBk",
+                                  "name": "Имя состояния",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "stopped",
+                                  "lineHeight": 1.54,
+                                  "textAlign": "center",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 26,
+                                  "fontWeight": "normal"
+                                }
+                              ]
                             }
                           ]
                         },
                         {
-                          "type": "icon",
-                          "id": "w7zG0",
-                          "name": "Переход",
-                          "width": 24,
-                          "height": 24,
-                          "icon": "arrow-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ko8FB",
-                          "name": "Состояние stopping",
+                          "type": "text",
+                          "id": "Dv4e2",
+                          "name": "Описание переходов",
+                          "fill": "$aurora.muted",
+                          "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "fill": "$aurora.pearl",
-                          "cornerRadius": 6,
-                          "stroke": "#CFD8CB",
-                          "strokeWidth": 1,
-                          "layout": "vertical",
-                          "padding": [
-                            24,
-                            8
-                          ],
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "O4LmRh",
-                              "name": "Имя состояния",
-                              "fill": "$aurora.ink",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "stopping",
-                              "lineHeight": 1.54,
-                              "textAlign": "center",
-                              "fontFamily": "JetBrains Mono",
-                              "fontSize": 26,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "icon",
-                          "id": "fTtrf",
-                          "name": "Переход",
-                          "width": 24,
-                          "height": 24,
-                          "icon": "arrow-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "uYpA9",
-                          "name": "Состояние stopped",
-                          "width": "fill_container",
-                          "fill": "$aurora.pearl",
-                          "cornerRadius": 6,
-                          "stroke": "#CFD8CB",
-                          "strokeWidth": 1,
-                          "layout": "vertical",
-                          "padding": [
-                            24,
-                            8
-                          ],
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "sTmBk",
-                              "name": "Имя состояния",
-                              "fill": "$aurora.ink",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "stopped",
-                              "lineHeight": 1.54,
-                              "textAlign": "center",
-                              "fontFamily": "JetBrains Mono",
-                              "fontSize": 26,
-                              "fontWeight": "normal"
-                            }
-                          ]
+                          "content": "Стоп → ожидание подтверждения → можно отправлять",
+                          "lineHeight": 1.42857,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "Dv4e2",
-                      "name": "Описание переходов",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Стоп → ожидание подтверждения → можно отправлять",
-                      "lineHeight": 1.42857,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -133363,28 +133446,6 @@
                     },
                     {
                       "type": "frame",
-                      "id": "DPTpq",
-                      "name": "ImageButton / Открыть на всё окно",
-                      "context": "Открыть блок на всё окно. Если диаграмма ещё не отображена, открыть доступный исходник.",
-                      "width": 32,
-                      "height": 32,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "PNuRT",
-                          "name": "Увеличить диаграмму",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "maximize-2",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
                       "id": "lQb5S",
                       "name": "ImageButton / Повторить отображение",
                       "context": "Повторить отображение. Подсказка и доступное имя; действие доступно без hover.",
@@ -133400,6 +133461,28 @@
                           "width": 16,
                           "height": 16,
                           "icon": "rotate-cw",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DPTpq",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть блок на всё окно. Если диаграмма ещё не отображена, открыть доступный исходник.",
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "PNuRT",
+                          "name": "Увеличить диаграмму",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
                           "library": "lucide",
                           "fill": "$aurora.muted"
                         }
@@ -134845,6 +134928,28 @@
                     },
                     {
                       "type": "frame",
+                      "id": "YdthD",
+                      "name": "ImageButton / Повторить отображение",
+                      "context": "Повторить отображение. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "nBc47",
+                          "name": "Повторить отображение",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "rotate-cw",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "iuQ9b",
                       "name": "ImageButton / Открыть на всё окно",
                       "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда.",
@@ -134919,40 +135024,6 @@
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 13,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "EaKAe",
-                      "name": "Повторить отображение",
-                      "height": 32,
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        8
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "v0Nmds",
-                          "name": "Повторить",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "rotate-cw",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "fDVLe",
-                          "name": "Действие",
-                          "fill": "$aurora.primary",
-                          "content": "Повторить",
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        }
-                      ]
                     }
                   ]
                 }
@@ -140056,6 +140127,7 @@
           "strokeWidth": {
             "bottom": 1
           },
+          "gap": 8,
           "padding": [
             4,
             12
@@ -140473,6 +140545,7 @@
           "strokeWidth": {
             "bottom": 1
           },
+          "gap": 8,
           "padding": [
             4,
             12
@@ -141839,6 +141912,7 @@
           "strokeWidth": {
             "bottom": 1
           },
+          "gap": 8,
           "padding": [
             4,
             12
@@ -142115,10 +142189,54 @@
                       "fill": "$aurora.ink",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Содержимое",
+                      "content": "PlantUML",
                       "fontFamily": "$aurora.font",
                       "fontSize": 14,
                       "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wUrIj",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Действие доступно для уже полученного исходника.",
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "GJkxq",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "M8haZ",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Действие доступно для уже полученного исходника.",
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Va4fn",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
@@ -142213,10 +142331,56 @@
                       "fill": "$aurora.ink",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Содержимое",
+                      "content": "PlantUML",
                       "fontFamily": "$aurora.font",
                       "fontSize": 14,
                       "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ROsMq",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Недоступно: исходник отсутствует.",
+                      "opacity": 0.38,
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "fnc5S",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Gd92B",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Недоступно: исходник отсутствует.",
+                      "opacity": 0.38,
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "eePyU",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
@@ -142340,6 +142504,28 @@
                     },
                     {
                       "type": "frame",
+                      "id": "D4xFg",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Копировать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 32,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "q9r6rS",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "UDi55",
                       "name": "ImageButton / Повторить отображение",
                       "context": "Повторить отображение",
@@ -142409,6 +142595,1805 @@
                     {
                       "type": "text",
                       "id": "am2DX",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Исходник доступен. Можно повторить отображение.",
+                      "lineHeight": 1.43,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Vc49J",
+          "name": "Android / проверка оболочек",
+          "fill": "$aurora.ink",
+          "content": "Android: исходник и состояния содержимого",
+          "fontFamily": "$aurora.font",
+          "fontSize": 20,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "t6X6U",
+          "name": "Android / варианты общей оболочки",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "cmgPD",
+              "name": "Android / Поверхность / Diagram · просмотр исходника",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jBScz",
+                  "name": "Mermaid / стандартная панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aosAe",
+                      "name": "Формат",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Mermaid",
+                      "lineHeight": 1.3333333,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JOiyI",
+                      "name": "ImageButton / Показать диаграмму",
+                      "context": "Показать диаграмму. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "V5gmm",
+                          "name": "Показать диаграмму",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "workflow",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QfQVT",
+                      "name": "ImageButton / Перенос строк",
+                      "context": "Перенос строк. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "teYmi",
+                          "name": "Перенос строк",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "text-wrap",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WzP3t",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Копировать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "i1b7QE",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pVGPz",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Bs8Kc",
+                          "name": "Открыть на всё окно",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "phsAb",
+                  "name": "Mermaid / тело исходника",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UkdWS",
+                      "name": "Исходник диаграммы",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "stateDiagram-v2\n  running --> stopping: Стоп\n  stopping --> stopped: Подтверждение",
+                      "lineHeight": 1.5384615384615385,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PR5X2",
+              "name": "Android / Diagram / PlantUML / исходник",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mRyuK",
+                  "name": "PlantUML / стандартная панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tiWIZ",
+                      "name": "Формат",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML",
+                      "lineHeight": 1.3333333,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FjAHg",
+                      "name": "ImageButton / Показать диаграмму",
+                      "context": "Показать диаграмму. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "uPJGN",
+                          "name": "Показать диаграмму",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "workflow",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R1rtgs",
+                      "name": "ImageButton / Перенос строк",
+                      "context": "Перенос строк. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "XxpT9",
+                          "name": "Перенос строк",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "text-wrap",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mYcuv",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Копировать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ZpUtW",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IRabL",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Vn4XE",
+                          "name": "Открыть на всё окно",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TcBEq",
+                  "name": "PlantUML / тело исходника",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y3PCm",
+                      "name": "Исходник PlantUML",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "@startuml\nleft to right direction\nstate running\nstate stopping\nstate stopped\nrunning --> stopping : Стоп\nstopping --> stopped : Подтверждение\n@enduml",
+                      "lineHeight": 1.5384615,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GruCL",
+              "name": "Android / LaTeX / loading",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tEfCW",
+                  "name": "LaTeX / панель состояния",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aHc2C",
+                      "name": "Язык",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "LaTeX",
+                      "lineHeight": 1.33,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SPIxY",
+                      "name": "Показать исходник",
+                      "width": 48,
+                      "height": 48,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "R3QV5X",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O2QAVA",
+                      "name": "Копировать LaTeX",
+                      "width": 48,
+                      "height": 48,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Laj4G",
+                          "name": "Копировать LaTeX",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pR7Vw",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "I8O3GB",
+                          "name": "Открыть на всё окно",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MrS9B",
+                  "name": "Тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t4kig",
+                      "name": "Состояние",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Подготавливаю формулу…",
+                      "lineHeight": 1.3846154,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fGK46",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Исходник получен и доступен для копирования.",
+                      "lineHeight": 1.3846154,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "r4lovQ",
+          "name": "Android / варианты общей оболочки",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "X6qkS",
+              "name": "Android / PlantUML / loading",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SFeTl",
+                  "name": "PlantUML / стандартная панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mEgn3",
+                      "name": "Формат",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML",
+                      "lineHeight": 1.3333333,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cvCJO",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Показать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j6nWC5",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o0BO0",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Копировать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "n8VUL",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vzS1Y",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть блок на всё окно. Если диаграмма ещё не отображена, открыть доступный исходник.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "J6lBAS",
+                          "name": "Увеличить диаграмму",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qfWKy",
+                  "name": "PlantUML / тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VeLCy",
+                      "name": "Состояние",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Подготавливаю диаграмму…",
+                      "lineHeight": 1.42857,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EKhZL",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML · исходник получен",
+                      "lineHeight": 1.42857,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D5xGpK",
+              "name": "Android / PlantUML / empty",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V1zQk",
+                  "name": "PlantUML / стандартная панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O6Ufs",
+                      "name": "Формат",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML",
+                      "lineHeight": 1.3333333,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nIifR",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Показать исходник. Подсказка и доступное имя; действие доступно без hover. Недоступно в этом состоянии.",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "rvGB6",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y1mB7",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Копировать исходник. Подсказка и доступное имя; действие доступно без hover. Недоступно в этом состоянии.",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "W4GiFK",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Cni9l",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Недоступно: содержимое отсутствует.",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "IXKdh",
+                          "name": "Увеличить диаграмму",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IO7N8",
+                  "name": "PlantUML / тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z0WKG",
+                      "name": "Состояние",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Нет данных для диаграммы",
+                      "lineHeight": 1.42857,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YnFtc",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML · исходник пуст",
+                      "lineHeight": 1.42857,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KA8XD",
+              "name": "Android / PlantUML / error",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ESaP4",
+                  "name": "PlantUML / стандартная панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HOcEk",
+                      "name": "Формат",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML",
+                      "lineHeight": 1.3333333,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bJV8d",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Показать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "hsWHv",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x8UWtR",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Копировать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "O2Ebs8",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z2oNt",
+                      "name": "ImageButton / Повторить отображение",
+                      "context": "Повторить отображение. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "iQqTy",
+                          "name": "Повторить отображение",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "rotate-cw",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JkL8y",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть блок на всё окно. Если диаграмма ещё не отображена, открыть доступный исходник.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "sUFzZ",
+                          "name": "Увеличить диаграмму",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pIwg7",
+                  "name": "PlantUML / тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cx1aL",
+                      "name": "Состояние",
+                      "fill": "$aurora.error",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Не удалось отобразить диаграмму",
+                      "lineHeight": 1.42857,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q70hT1",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Исходник сохранён. Повтор относится только к отображению.",
+                      "lineHeight": 1.42857,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vhdZN",
+          "name": "Android / варианты общей оболочки",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "y8WQx",
+              "name": "Android / LaTeX / empty",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RULpC",
+                  "name": "LaTeX / панель состояния",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ccukk",
+                      "name": "Язык",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "LaTeX",
+                      "lineHeight": 1.33,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bToQF",
+                      "name": "Показать исходник",
+                      "context": "Недоступно: исходник отсутствует",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "a1YUG",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bUNPa",
+                      "name": "Копировать LaTeX",
+                      "context": "Недоступно: исходник отсутствует",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Z9yoa",
+                          "name": "Копировать LaTeX",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eu0Y6",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда. Недоступно: содержимое отсутствует.",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "v2QyHw",
+                          "name": "Открыть на всё окно",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kbk5q",
+                  "name": "Тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t6cwJv",
+                      "name": "Состояние",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Нет данных для формулы",
+                      "lineHeight": 1.3846154,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fG1MZ",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Исходник пуст.",
+                      "lineHeight": 1.3846154,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xOgLm",
+              "name": "Android / LaTeX / error",
+              "clip": true,
+              "width": 338,
+              "fill": "#F4F3F2",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "km1TE",
+                  "name": "LaTeX / панель состояния",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sLqDs",
+                      "name": "Язык",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "LaTeX",
+                      "lineHeight": 1.33,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O3Yz2",
+                      "name": "Показать исходник",
+                      "width": 48,
+                      "height": 48,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Zumzd",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aINdI",
+                      "name": "Копировать LaTeX",
+                      "width": 48,
+                      "height": 48,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "uEGzs",
+                          "name": "Копировать LaTeX",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H0RvVW",
+                      "name": "ImageButton / Повторить отображение",
+                      "context": "Повторить отображение. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "KrhBy",
+                          "name": "Повторить отображение",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "rotate-cw",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "unWLP",
+                      "name": "ImageButton / Открыть на всё окно",
+                      "context": "Открыть этот блок на всё окно. Сохранить режим и место чтения; при закрытии вернуть фокус сюда.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "sLsvZ",
+                          "name": "Открыть на всё окно",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "maximize-2",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D6Xxqz",
+                  "name": "Тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12,
+                    12,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jh76q",
+                      "name": "Состояние",
+                      "fill": "$aurora.error",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Не удалось отобразить формулу",
+                      "lineHeight": 1.3846154,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gNXAH",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Исходник сохранён. Повторите отображение.",
+                      "lineHeight": 1.3846154,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZPoWP",
+                      "name": "Сохранённый LaTeX",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "p = \\frac{passed}{total} \\times 100\\%",
+                      "lineHeight": 1.5384615,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "W0rDF",
+              "type": "ref",
+              "ref": "iEqH5",
+              "name": "Android / LaTeX / исходник",
+              "width": 338,
+              "descendants": {
+                "t5RJv": {
+                  "height": 56
+                },
+                "edsAO": {
+                  "width": 48,
+                  "height": 48
+                },
+                "z3Sylc": {
+                  "width": 48,
+                  "height": 48
+                },
+                "ikhz0": {
+                  "width": 48,
+                  "height": 48
+                },
+                "ao9uE": {
+                  "width": 48,
+                  "height": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "t1e6EW",
+          "name": "Android / состояния модального просмотра",
+          "fill": "$aurora.ink",
+          "content": "Android: состояния полнооконного просмотра",
+          "fontFamily": "$aurora.font",
+          "fontSize": 20,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "YR3ZY",
+          "name": "Android / модальный просмотр / подготовка, пусто, ошибка",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "F5tuJ",
+              "name": "Android / Просмотр / loading",
+              "clip": true,
+              "width": 390,
+              "height": 252,
+              "fill": "$aurora.pearl",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V5QZP",
+                  "name": "Закреплённая панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Mrppn",
+                      "name": "Название",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML",
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uAOHI",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Действие доступно для уже полученного исходника.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "NQAql",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gRdUg",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Действие доступно для уже полученного исходника.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "BPp4N",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tiaho",
+                      "name": "ImageButton / Закрыть просмотр",
+                      "context": "Закрыть просмотр",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "g65usE",
+                          "name": "Закрыть просмотр",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M4ds1",
+                  "name": "Тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "H46Ddr",
+                      "name": "Состояние",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Подготавливаю содержимое…",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ww8KS",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Код и положение чтения сохранены.",
+                      "lineHeight": 1.43,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VCpQA",
+              "name": "Android / Просмотр / empty",
+              "clip": true,
+              "width": 390,
+              "height": 252,
+              "fill": "$aurora.pearl",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j0vBy",
+                  "name": "Закреплённая панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n144v",
+                      "name": "Название",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML",
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uDJKk",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Недоступно: исходник отсутствует.",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Idj9j",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aSsWS",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Недоступно: исходник отсутствует.",
+                      "opacity": 0.38,
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "TGySL",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yVBq7",
+                      "name": "ImageButton / Закрыть просмотр",
+                      "context": "Закрыть просмотр",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "yhN3C",
+                          "name": "Закрыть просмотр",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ToN3r",
+                  "name": "Тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kb1Ur",
+                      "name": "Состояние",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Нет данных для просмотра",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RcQtN",
+                      "name": "Пояснение",
+                      "fill": "$aurora.muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Блок больше не содержит данных.",
+                      "lineHeight": 1.43,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p95FzZ",
+              "name": "Android / Просмотр / error",
+              "clip": true,
+              "width": 390,
+              "height": 252,
+              "fill": "$aurora.pearl",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CBzKI",
+                  "name": "Закреплённая панель",
+                  "width": "fill_container",
+                  "height": 56,
+                  "gap": 8,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "b7YnT",
+                      "name": "Название",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PlantUML",
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sPEqR",
+                      "name": "ImageButton / Показать исходник",
+                      "context": "Показать исходник",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "JWHX7",
+                          "name": "Показать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "code-xml",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "am7bo",
+                      "name": "ImageButton / Копировать исходник",
+                      "context": "Копировать исходник. Подсказка и доступное имя; действие доступно без hover.",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "u4VPq5",
+                          "name": "Копировать исходник",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pzaWj",
+                      "name": "ImageButton / Повторить отображение",
+                      "context": "Повторить отображение",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "NlZYi",
+                          "name": "Повторить отображение",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "rotate-cw",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b7gEi",
+                      "name": "ImageButton / Закрыть просмотр",
+                      "context": "Закрыть просмотр",
+                      "width": 48,
+                      "height": 48,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "RVOZL",
+                          "name": "Закрыть просмотр",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MyQ4K",
+                  "name": "Тело состояния",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xmbgw",
+                      "name": "Состояние",
+                      "fill": "$aurora.error",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Не удалось отобразить схему",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MngEr",
                       "name": "Пояснение",
                       "fill": "$aurora.muted",
                       "textGrowth": "fixed-width",
