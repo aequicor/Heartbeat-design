@@ -86688,7 +86688,7 @@
     {
       "type": "frame",
       "id": "kIs2B",
-      "x": 5616,
+      "x": 20168,
       "y": 0,
       "name": "22 / Лонгрид / Варианты блоков",
       "clip": true,
@@ -86773,6 +86773,10 @@
                       "width": "fill_container",
                       "height": 3,
                       "fill": "$request.track",
+                      "padding": [
+                        0,
+                        1
+                      ],
                       "children": [
                         {
                           "type": "rectangle",
