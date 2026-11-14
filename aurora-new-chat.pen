@@ -31978,7 +31978,7 @@
                       "type": "frame",
                       "id": "mi7HU",
                       "x": 198,
-                      "y": 595,
+                      "y": 603,
                       "name": "Область ответа / опросник вместо ввода",
                       "context": "Любой запрос ответа заменяет composer: разрешение, уточнение, выбор. Черновик и вложения сохранены. После подтверждения вернуть ввод. При отправке блокировать повтор; при ошибке оставить вопрос и повтор в этой области.",
                       "width": 760,
@@ -50624,8 +50624,8 @@
                                   "id": "FJTnK",
                                   "name": "Копировать сообщение",
                                   "context": "Копировать сообщение",
-                                  "width": 32,
-                                  "height": 32,
+                                  "width": 48,
+                                  "height": 48,
                                   "cornerRadius": 8,
                                   "justifyContent": "center",
                                   "alignItems": "center",
@@ -50647,8 +50647,8 @@
                                   "id": "ERmeK",
                                   "name": "Редактировать сообщение",
                                   "context": "Доступное имя и подсказка при наведении и клавиатурном фокусе: Редактировать сообщение. Действие относится к этому сообщению пользователя.",
-                                  "width": 32,
-                                  "height": 32,
+                                  "width": 48,
+                                  "height": 48,
                                   "cornerRadius": 8,
                                   "justifyContent": "center",
                                   "alignItems": "center",
@@ -50670,8 +50670,8 @@
                                   "id": "iy2Rx",
                                   "name": "Другие действия",
                                   "context": "Другие действия",
-                                  "width": 32,
-                                  "height": 32,
+                                  "width": 48,
+                                  "height": 48,
                                   "cornerRadius": 8,
                                   "justifyContent": "center",
                                   "alignItems": "center",
@@ -51220,8 +51220,8 @@
                                   "id": "h6xaz",
                                   "name": "Редактировать сообщение",
                                   "context": "Доступное имя и подсказка при наведении и клавиатурном фокусе: Редактировать сообщение. Действие относится к этому сообщению пользователя.",
-                                  "width": 32,
-                                  "height": 32,
+                                  "width": 48,
+                                  "height": 48,
                                   "cornerRadius": 8,
                                   "justifyContent": "center",
                                   "alignItems": "center",
@@ -51243,8 +51243,8 @@
                                   "id": "foAzm",
                                   "name": "Другие действия",
                                   "context": "Другие действия",
-                                  "width": 32,
-                                  "height": 32,
+                                  "width": 48,
+                                  "height": 48,
                                   "cornerRadius": 8,
                                   "justifyContent": "center",
                                   "alignItems": "center",
@@ -83544,7 +83544,7 @@
                       "type": "frame",
                       "id": "VGGZc",
                       "x": 12,
-                      "y": 451,
+                      "y": 459,
                       "name": "Область ответа / опросник вместо ввода",
                       "context": "Android: вопрос закреплён вместо composer, цели 48. Черновик сохранён. Свободный ответ открывает клавиатуру только по фокусу; варианты не требуют IME.",
                       "width": 346,
@@ -87829,10 +87829,6 @@
                               "name": "Заголовок запроса",
                               "width": "fill_container",
                               "gap": 8,
-                              "padding": [
-                                4,
-                                0
-                              ],
                               "alignItems": "center",
                               "children": [
                                 {
@@ -87954,6 +87950,7 @@
                               "x": 0,
                               "y": 36,
                               "name": "Subtitle / опциональное пояснение",
+                              "context": "Опциональный subtitle. Интервал от шапки и до следующего содержимого — 12. При отсутствии текста скрывается без пустого места.",
                               "enabled": false,
                               "fill": "$request.secondary",
                               "textGrowth": "fixed-width",
@@ -101937,7 +101934,7 @@
                       "width": 760,
                       "height": "fit_content",
                       "x": 198,
-                      "y": 543
+                      "y": 551
                     }
                   ]
                 },
@@ -107387,7 +107384,7 @@
                       "width": 346,
                       "height": "fit_content",
                       "x": 12,
-                      "y": 457,
+                      "y": 465,
                       "descendants": {
                         "zmLOS": {
                           "layout": "vertical",
@@ -108211,7 +108208,7 @@
                       "width": 346,
                       "height": "fit_content",
                       "x": 12,
-                      "y": 375,
+                      "y": 383,
                       "descendants": {
                         "mremt/zmLOS": {
                           "layout": "vertical",
@@ -108676,6 +108673,10 @@
                         "U450XP": {
                           "height": 64,
                           "alignItems": "center"
+                        },
+                        "OKap4": {
+                          "width": 48,
+                          "height": 48
                         }
                       }
                     }
@@ -114746,13 +114747,41 @@
               "id": "XYZAZ",
               "type": "ref",
               "ref": "vA4c5",
-              "width": "fill_container"
+              "width": "fill_container",
+              "descendants": {
+                "U0exOS": {
+                  "width": 48,
+                  "height": 48
+                },
+                "lQkOV": {
+                  "width": 48,
+                  "height": 48
+                },
+                "NfaMy": {
+                  "width": 48,
+                  "height": 48
+                }
+              }
             },
             {
               "id": "H0hZQ",
               "type": "ref",
               "ref": "M2Pqy",
-              "width": "fill_container"
+              "width": "fill_container",
+              "descendants": {
+                "Odb8o": {
+                  "width": 48,
+                  "height": 48
+                },
+                "yhDkj": {
+                  "width": 48,
+                  "height": 48
+                },
+                "nA44g": {
+                  "width": 48,
+                  "height": 48
+                }
+              }
             }
           ]
         },
@@ -125257,7 +125286,7 @@
                                       "ref": "kE05f",
                                       "name": "Ответ над клавиатурой",
                                       "x": 12,
-                                      "y": 253,
+                                      "y": 261,
                                       "width": 346,
                                       "descendants": {
                                         "zmLOS": {
