@@ -2642,13 +2642,14 @@
                   "type": "frame",
                   "id": "gwtCT",
                   "name": "Область ввода",
+                  "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
                   "width": "fill_container",
                   "layout": "vertical",
                   "gap": 8,
                   "padding": [
                     8,
                     24,
-                    12,
+                    20,
                     24
                   ],
                   "alignItems": "center",
@@ -3032,152 +3033,6 @@
                                   ]
                                 }
                               ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "QxSii",
-                      "name": "Подсказка клавиатуры",
-                      "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
-                      "height": 18,
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "h7N1I",
-                          "name": "Сочетание · Отправить",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "a7HcI",
-                              "name": "Клавиша · Enter",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "lhNHJ",
-                                  "name": "Подпись клавиши · Enter",
-                                  "fill": "$aurora.muted",
-                                  "content": "Enter",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "v6qHTC",
-                              "name": "Действие клавиатуры · Отправить",
-                              "fill": "$aurora.muted",
-                              "content": "Отправить",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "rP2ku",
-                          "name": "Сочетание · Новая строка",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "erP93",
-                              "name": "Клавиша · Shift",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "xtnfj",
-                                  "name": "Подпись клавиши · Shift",
-                                  "fill": "$aurora.muted",
-                                  "content": "Shift",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "s3sw5",
-                              "name": "Разделитель клавиш",
-                              "fill": "$aurora.muted",
-                              "content": "+",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "n2tYl",
-                              "name": "Клавиша · Enter",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "HgpeO",
-                                  "name": "Подпись клавиши · Enter",
-                                  "fill": "$aurora.muted",
-                                  "content": "Enter",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "sUIeb",
-                              "name": "Действие клавиатуры · Новая строка",
-                              "fill": "$aurora.muted",
-                              "content": "Новая строка",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -5642,6 +5497,7 @@
                       "type": "frame",
                       "id": "yTwDq",
                       "name": "Область ввода",
+                      "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 8,
@@ -5945,152 +5801,6 @@
                                       ]
                                     }
                                   ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "u4sfL",
-                          "name": "Подсказка клавиатуры",
-                          "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
-                          "height": 18,
-                          "gap": 16,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "xnTBN",
-                              "name": "Сочетание · Отправить",
-                              "gap": 4,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "SKLxT",
-                                  "name": "Клавиша · Enter",
-                                  "height": 18,
-                                  "fill": "#F4F3F5",
-                                  "cornerRadius": 4,
-                                  "stroke": "$aurora.line",
-                                  "strokeWidth": 1,
-                                  "padding": [
-                                    0,
-                                    4
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "N89C3",
-                                      "name": "Подпись клавиши · Enter",
-                                      "fill": "$aurora.muted",
-                                      "content": "Enter",
-                                      "lineHeight": 1.25,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 12,
-                                      "fontWeight": "normal"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "K4A1P",
-                                  "name": "Действие клавиатуры · Отправить",
-                                  "fill": "$aurora.muted",
-                                  "content": "Отправить",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "J9R7L",
-                              "name": "Сочетание · Новая строка",
-                              "gap": 4,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "BNaeR",
-                                  "name": "Клавиша · Shift",
-                                  "height": 18,
-                                  "fill": "#F4F3F5",
-                                  "cornerRadius": 4,
-                                  "stroke": "$aurora.line",
-                                  "strokeWidth": 1,
-                                  "padding": [
-                                    0,
-                                    4
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "WurYB",
-                                      "name": "Подпись клавиши · Shift",
-                                      "fill": "$aurora.muted",
-                                      "content": "Shift",
-                                      "lineHeight": 1.25,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 12,
-                                      "fontWeight": "normal"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "ZEpo4",
-                                  "name": "Разделитель клавиш",
-                                  "fill": "$aurora.muted",
-                                  "content": "+",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "SWU9H",
-                                  "name": "Клавиша · Enter",
-                                  "height": 18,
-                                  "fill": "#F4F3F5",
-                                  "cornerRadius": 4,
-                                  "stroke": "$aurora.line",
-                                  "strokeWidth": 1,
-                                  "padding": [
-                                    0,
-                                    4
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "r63Vx",
-                                      "name": "Подпись клавиши · Enter",
-                                      "fill": "$aurora.muted",
-                                      "content": "Enter",
-                                      "lineHeight": 1.25,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 12,
-                                      "fontWeight": "normal"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "lDKw6",
-                                  "name": "Действие клавиатуры · Новая строка",
-                                  "fill": "$aurora.muted",
-                                  "content": "Новая строка",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -8463,6 +8173,7 @@
                       "type": "frame",
                       "id": "LZ88m",
                       "name": "Область ввода",
+                      "context": "Клавиатура desktop. Shift + Enter переносит строку черновика. Отправка становится доступна после загрузки истории.",
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 8,
@@ -8755,104 +8466,6 @@
                                       ]
                                     }
                                   ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "mevh7",
-                          "name": "Подсказка клавиатуры",
-                          "context": "Клавиатура desktop. Shift + Enter переносит строку черновика. Отправка становится доступна после загрузки истории.",
-                          "height": 18,
-                          "gap": 16,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "KVAl2",
-                              "name": "Сочетание · Новая строка",
-                              "gap": 4,
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "R5llW",
-                                  "name": "Клавиша · Shift",
-                                  "height": 18,
-                                  "fill": "#F4F3F5",
-                                  "cornerRadius": 4,
-                                  "stroke": "$aurora.line",
-                                  "strokeWidth": 1,
-                                  "padding": [
-                                    0,
-                                    4
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "DAKk3",
-                                      "name": "Подпись клавиши · Shift",
-                                      "fill": "$aurora.muted",
-                                      "content": "Shift",
-                                      "lineHeight": 1.25,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 12,
-                                      "fontWeight": "normal"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "XwLwk",
-                                  "name": "Разделитель клавиш",
-                                  "fill": "$aurora.muted",
-                                  "content": "+",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "V7iKjk",
-                                  "name": "Клавиша · Enter",
-                                  "height": 18,
-                                  "fill": "#F4F3F5",
-                                  "cornerRadius": 4,
-                                  "stroke": "$aurora.line",
-                                  "strokeWidth": 1,
-                                  "padding": [
-                                    0,
-                                    4
-                                  ],
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "YTUfV",
-                                      "name": "Подпись клавиши · Enter",
-                                      "fill": "$aurora.muted",
-                                      "content": "Enter",
-                                      "lineHeight": 1.25,
-                                      "fontFamily": "$aurora.font",
-                                      "fontSize": 12,
-                                      "fontWeight": "normal"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "cIyEp",
-                                  "name": "Действие клавиатуры · Новая строка",
-                                  "fill": "$aurora.muted",
-                                  "content": "Новая строка",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -11273,13 +10886,14 @@
                   "type": "frame",
                   "id": "gdcA8",
                   "name": "Область ввода",
+                  "context": "Клавиатура desktop. Shift + Enter переносит строку черновика. Текущий ответ можно прервать кнопкой «Остановить генерацию».",
                   "width": "fill_container",
                   "layout": "vertical",
                   "gap": 8,
                   "padding": [
                     8,
                     24,
-                    12,
+                    20,
                     24
                   ],
                   "alignItems": "center",
@@ -11673,104 +11287,6 @@
                                   ]
                                 }
                               ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ZLm4e",
-                      "name": "Подсказка клавиатуры",
-                      "context": "Клавиатура desktop. Shift + Enter переносит строку черновика. Текущий ответ можно прервать кнопкой «Остановить генерацию».",
-                      "height": 18,
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "KBabl",
-                          "name": "Сочетание · Новая строка",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "pVxVF",
-                              "name": "Клавиша · Shift",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "B5tZw",
-                                  "name": "Подпись клавиши · Shift",
-                                  "fill": "$aurora.muted",
-                                  "content": "Shift",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "y9X3W",
-                              "name": "Разделитель клавиш",
-                              "fill": "$aurora.muted",
-                              "content": "+",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "s2l5vs",
-                              "name": "Клавиша · Enter",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "dQocf",
-                                  "name": "Подпись клавиши · Enter",
-                                  "fill": "$aurora.muted",
-                                  "content": "Enter",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "d2947",
-                              "name": "Действие клавиатуры · Новая строка",
-                              "fill": "$aurora.muted",
-                              "content": "Новая строка",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -14252,13 +13768,14 @@
                   "type": "frame",
                   "id": "QoYBo",
                   "name": "Область ввода",
+                  "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
                   "width": "fill_container",
                   "layout": "vertical",
                   "gap": 8,
                   "padding": [
                     8,
                     24,
-                    12,
+                    20,
                     24
                   ],
                   "alignItems": "center",
@@ -14631,152 +14148,6 @@
                                   ]
                                 }
                               ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "QuLYL",
-                      "name": "Подсказка клавиатуры",
-                      "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
-                      "height": 18,
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "ECmyX",
-                          "name": "Сочетание · Отправить",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "tmFnF",
-                              "name": "Клавиша · Enter",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "wYWJh",
-                                  "name": "Подпись клавиши · Enter",
-                                  "fill": "$aurora.muted",
-                                  "content": "Enter",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "dHiUJ",
-                              "name": "Действие клавиатуры · Отправить",
-                              "fill": "$aurora.muted",
-                              "content": "Отправить",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "r6Grcy",
-                          "name": "Сочетание · Новая строка",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "lUgno",
-                              "name": "Клавиша · Shift",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "omFNP",
-                                  "name": "Подпись клавиши · Shift",
-                                  "fill": "$aurora.muted",
-                                  "content": "Shift",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "Tlz8v",
-                              "name": "Разделитель клавиш",
-                              "fill": "$aurora.muted",
-                              "content": "+",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "v6iwPF",
-                              "name": "Клавиша · Enter",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "aQOyj",
-                                  "name": "Подпись клавиши · Enter",
-                                  "fill": "$aurora.muted",
-                                  "content": "Enter",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "wUuRh",
-                              "name": "Действие клавиатуры · Новая строка",
-                              "fill": "$aurora.muted",
-                              "content": "Новая строка",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -22943,13 +22314,14 @@
                   "type": "frame",
                   "id": "h7jtay",
                   "name": "Область ввода",
+                  "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
                   "width": "fill_container",
                   "layout": "vertical",
                   "gap": 8,
                   "padding": [
                     8,
                     24,
-                    12,
+                    20,
                     24
                   ],
                   "alignItems": "center",
@@ -23333,152 +22705,6 @@
                                   ]
                                 }
                               ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "mr0n1",
-                      "name": "Подсказка клавиатуры",
-                      "context": "Клавиатура desktop. Enter отправляет, когда отправка доступна. Shift + Enter вставляет новую строку. Подтверждение текста через IME само по себе не отправляет сообщение.",
-                      "height": 18,
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "YdJPV",
-                          "name": "Сочетание · Отправить",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "iD4zn",
-                              "name": "Клавиша · Enter",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "z2fHQ3",
-                                  "name": "Подпись клавиши · Enter",
-                                  "fill": "$aurora.muted",
-                                  "content": "Enter",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "wLiL5",
-                              "name": "Действие клавиатуры · Отправить",
-                              "fill": "$aurora.muted",
-                              "content": "Отправить",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "sgW6Y",
-                          "name": "Сочетание · Новая строка",
-                          "gap": 4,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "g3FLT",
-                              "name": "Клавиша · Shift",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "kHrop",
-                                  "name": "Подпись клавиши · Shift",
-                                  "fill": "$aurora.muted",
-                                  "content": "Shift",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "nlKQh",
-                              "name": "Разделитель клавиш",
-                              "fill": "$aurora.muted",
-                              "content": "+",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "MbtRc",
-                              "name": "Клавиша · Enter",
-                              "height": 18,
-                              "fill": "#F4F3F5",
-                              "cornerRadius": 4,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
-                              "padding": [
-                                0,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "SfSDm",
-                                  "name": "Подпись клавиши · Enter",
-                                  "fill": "$aurora.muted",
-                                  "content": "Enter",
-                                  "lineHeight": 1.25,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 12,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "kdHNc",
-                              "name": "Действие клавиатуры · Новая строка",
-                              "fill": "$aurora.muted",
-                              "content": "Новая строка",
-                              "lineHeight": 1.25,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 12,
-                              "fontWeight": "normal"
                             }
                           ]
                         }
