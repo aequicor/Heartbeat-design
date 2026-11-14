@@ -47220,42 +47220,11 @@
                       "fill": "#00000000",
                       "stroke": "#00000000",
                       "layout": "vertical",
-                      "gap": 16,
-                      "padding": 16,
+                      "padding": [
+                        8,
+                        16
+                      ],
                       "children": [
-                        {
-                          "type": "frame",
-                          "id": "dOpQS",
-                          "name": "Текущий этап / статус",
-                          "width": "fill_container",
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "l4iOz",
-                              "name": "Выполняется",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "loader-circle",
-                              "library": "lucide",
-                              "fill": "$aurora.primary"
-                            },
-                            {
-                              "type": "text",
-                              "id": "Vk73E",
-                              "name": "Подпись / Проверяю отмену запроса",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Проверяю отмену запроса",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
                         {
                           "type": "frame",
                           "id": "mvDTL",
@@ -47825,7 +47794,7 @@
                                   "id": "yw1HO",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 74,
+                                  "height": 48,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47835,7 +47804,7 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 4
+                                      "height": 11
                                     },
                                     {
                                       "type": "ellipse",
@@ -47876,28 +47845,6 @@
                                       "layout": "vertical",
                                       "gap": 8,
                                       "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "gPxIV",
-                                          "name": "Текущий этап / статус",
-                                          "width": "fill_container",
-                                          "gap": 8,
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "qL22B",
-                                              "name": "Подпись / Проверяю повторную отправку",
-                                              "fill": "$aurora.muted",
-                                              "textGrowth": "fixed-width",
-                                              "width": "fill_container",
-                                              "content": "Проверяю повторную отправку",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$aurora.font",
-                                              "fontSize": 13
-                                            }
-                                          ]
-                                        },
                                         {
                                           "id": "GIzxm",
                                           "type": "ref",
@@ -48377,7 +48324,7 @@
                                   "id": "NIbIv",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 74,
+                                  "height": 48,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -48387,7 +48334,7 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 4
+                                      "height": 11
                                     },
                                     {
                                       "type": "ellipse",
@@ -48428,28 +48375,6 @@
                                       "layout": "vertical",
                                       "gap": 8,
                                       "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "JgjEb",
-                                          "name": "Текущий этап / статус",
-                                          "width": "fill_container",
-                                          "gap": 8,
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "J8NrdX",
-                                              "name": "Подпись / Завершаю проверку",
-                                              "fill": "$aurora.muted",
-                                              "textGrowth": "fixed-width",
-                                              "width": "fill_container",
-                                              "content": "Завершаю проверку",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$aurora.font",
-                                              "fontSize": 13
-                                            }
-                                          ]
-                                        },
                                         {
                                           "id": "qUq6p",
                                           "type": "ref",
@@ -48723,19 +48648,6 @@
                         16
                       ],
                       "children": [
-                        {
-                          "type": "text",
-                          "id": "LyXXp",
-                          "name": "Текст / Проверка завершена",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверка завершена",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "600"
-                        },
                         {
                           "type": "text",
                           "id": "O0gKy",
@@ -49236,19 +49148,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "R59j0",
-                          "name": "Текст / Проверка завершена",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверка завершена",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "m8LPx6",
                           "name": "Текст / Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
                           "fill": "$aurora.ink",
@@ -49590,7 +49489,7 @@
                                   "id": "lOXx3",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 74,
+                                  "height": 48,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49600,7 +49499,7 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 4
+                                      "height": 11
                                     },
                                     {
                                       "type": "ellipse",
@@ -49641,28 +49540,6 @@
                                       "layout": "vertical",
                                       "gap": 8,
                                       "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "e1zmks",
-                                          "name": "Текущий этап / статус",
-                                          "width": "fill_container",
-                                          "gap": 8,
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "aBHGA",
-                                              "name": "Подпись / Проверяю повторную отправку",
-                                              "fill": "$aurora.muted",
-                                              "textGrowth": "fixed-width",
-                                              "width": "fill_container",
-                                              "content": "Проверяю повторную отправку",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$aurora.font",
-                                              "fontSize": 13
-                                            }
-                                          ]
-                                        },
                                         {
                                           "id": "QlmfI",
                                           "type": "ref",
@@ -50023,7 +49900,7 @@
                                   "id": "fYCgC",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 130,
+                                  "height": 104,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -50033,7 +49910,7 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 4
+                                      "height": 11
                                     },
                                     {
                                       "type": "ellipse",
@@ -50074,18 +49951,6 @@
                                       "layout": "vertical",
                                       "gap": 8,
                                       "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "A0856e",
-                                          "name": "Текст / Проверяю вложения",
-                                          "fill": "$aurora.muted",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Проверяю вложения",
-                                          "lineHeight": 1.3846153846153846,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13
-                                        },
                                         {
                                           "id": "dvfVk",
                                           "type": "ref",
@@ -50377,19 +50242,6 @@
                         16
                       ],
                       "children": [
-                        {
-                          "type": "text",
-                          "id": "xjwWV",
-                          "name": "Текст / Проверка завершена",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверка завершена",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "600"
-                        },
                         {
                           "type": "text",
                           "id": "i48f2J",
@@ -50690,11 +50542,11 @@
                     {
                       "type": "text",
                       "id": "bWMCb",
-                      "name": "Текст / Проверка завершена. Вложения сохранены.",
+                      "name": "Результат / Вложения сохранены",
                       "fill": "$aurora.ink",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Проверка завершена. Вложения сохранены.",
+                      "content": "Вложения сохранены.",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
                       "fontSize": 32,
@@ -69689,19 +69541,6 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "XQqGo",
-                  "name": "Текст / Начинаю работу",
-                  "fill": "$aurora.ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Начинаю работу",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
                   "id": "G2MtGc",
                   "name": "Подпись / Ожидаю первое действие агента",
                   "fill": "$aurora.muted",
@@ -70340,19 +70179,6 @@
                   "lineHeight": 1.5,
                   "fontFamily": "$aurora.font",
                   "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "KwN1Y",
-                  "name": "Подпись / Формирую итог проверки…",
-                  "fill": "$aurora.muted",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Формирую итог проверки…",
-                  "lineHeight": 1.3846153846153846,
-                  "fontFamily": "$aurora.font",
-                  "fontSize": 13,
                   "fontWeight": "normal"
                 },
                 {
