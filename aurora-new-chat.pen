@@ -47162,7 +47162,7 @@
                                           "id": "o8eHzC",
                                           "name": "Линия и маркер этапа",
                                           "width": 16,
-                                          "height": 20,
+                                          "height": 24,
                                           "layout": "vertical",
                                           "alignItems": "center",
                                           "children": [
@@ -47172,7 +47172,7 @@
                                               "name": "Связь с предыдущим этапом",
                                               "fill": "#00000000",
                                               "width": 1,
-                                              "height": 5
+                                              "height": 7
                                             },
                                             {
                                               "type": "ellipse",
@@ -47198,13 +47198,13 @@
                                           "type": "text",
                                           "id": "btJSa",
                                           "name": "Текущий этап / описание действия",
-                                          "fill": "$aurora.muted",
+                                          "fill": "$aurora.ink",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
                                           "content": "Проверяю отмену запроса",
-                                          "lineHeight": 1.5384615384615385,
+                                          "lineHeight": 1.5,
                                           "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
+                                          "fontSize": 16,
                                           "fontWeight": "normal"
                                         }
                                       ]
@@ -47716,7 +47716,7 @@
                                               "id": "yw1HO",
                                               "name": "Линия и маркер этапа",
                                               "width": 16,
-                                              "height": 20,
+                                              "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
                                               "children": [
@@ -47726,7 +47726,7 @@
                                                   "name": "Связь с предыдущим этапом",
                                                   "fill": "#D2DDD0",
                                                   "width": 1,
-                                                  "height": 5
+                                                  "height": 7
                                                 },
                                                 {
                                                   "type": "ellipse",
@@ -47752,13 +47752,13 @@
                                               "type": "text",
                                               "id": "fR6kV",
                                               "name": "Текущий этап / описание действия",
-                                              "fill": "$aurora.muted",
+                                              "fill": "$aurora.ink",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
                                               "content": "Проверяю повторную отправку",
-                                              "lineHeight": 1.5384615384615385,
+                                              "lineHeight": 1.5,
                                               "fontFamily": "$aurora.font",
-                                              "fontSize": 13,
+                                              "fontSize": 16,
                                               "fontWeight": "normal"
                                             }
                                           ]
@@ -48296,7 +48296,7 @@
                                               "id": "NIbIv",
                                               "name": "Линия и маркер этапа",
                                               "width": 16,
-                                              "height": 20,
+                                              "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
                                               "children": [
@@ -48306,7 +48306,7 @@
                                                   "name": "Связь с предыдущим этапом",
                                                   "fill": "#D2DDD0",
                                                   "width": 1,
-                                                  "height": 5
+                                                  "height": 7
                                                 },
                                                 {
                                                   "type": "ellipse",
@@ -48332,13 +48332,13 @@
                                               "type": "text",
                                               "id": "Dndm1",
                                               "name": "Текущий этап / описание действия",
-                                              "fill": "$aurora.muted",
+                                              "fill": "$aurora.ink",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
                                               "content": "Проверяю сценарий отмены",
-                                              "lineHeight": 1.5384615384615385,
+                                              "lineHeight": 1.5,
                                               "fontFamily": "$aurora.font",
-                                              "fontSize": 13,
+                                              "fontSize": 16,
                                               "fontWeight": "normal"
                                             }
                                           ]
@@ -49656,7 +49656,7 @@
                                               "id": "lOXx3",
                                               "name": "Линия и маркер этапа",
                                               "width": 16,
-                                              "height": 20,
+                                              "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
                                               "children": [
@@ -49666,7 +49666,7 @@
                                                   "name": "Связь с предыдущим этапом",
                                                   "fill": "#D2DDD0",
                                                   "width": 1,
-                                                  "height": 5
+                                                  "height": 7
                                                 },
                                                 {
                                                   "type": "ellipse",
@@ -49692,13 +49692,13 @@
                                               "type": "text",
                                               "id": "tE3vJ",
                                               "name": "Текущий этап / описание действия",
-                                              "fill": "$aurora.muted",
+                                              "fill": "$aurora.ink",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
                                               "content": "Проверяю повторную отправку",
-                                              "lineHeight": 1.5384615384615385,
+                                              "lineHeight": 1.5,
                                               "fontFamily": "$aurora.font",
-                                              "fontSize": 13,
+                                              "fontSize": 16,
                                               "fontWeight": "normal"
                                             }
                                           ]
@@ -50117,7 +50117,7 @@
                                               "id": "fYCgC",
                                               "name": "Линия и маркер этапа",
                                               "width": 16,
-                                              "height": 20,
+                                              "height": 24,
                                               "layout": "vertical",
                                               "alignItems": "center",
                                               "children": [
@@ -50127,7 +50127,7 @@
                                                   "name": "Связь с предыдущим этапом",
                                                   "fill": "#D2DDD0",
                                                   "width": 1,
-                                                  "height": 5
+                                                  "height": 7
                                                 },
                                                 {
                                                   "type": "ellipse",
@@ -50153,13 +50153,13 @@
                                               "type": "text",
                                               "id": "EJEkY",
                                               "name": "Текущий этап / описание действия",
-                                              "fill": "$aurora.muted",
+                                              "fill": "$aurora.ink",
                                               "textGrowth": "fixed-width",
                                               "width": "fill_container",
                                               "content": "Проверяю сохранение вложений",
-                                              "lineHeight": 1.5384615384615385,
+                                              "lineHeight": 1.5,
                                               "fontFamily": "$aurora.font",
-                                              "fontSize": 13,
+                                              "fontSize": 16,
                                               "fontWeight": "normal"
                                             }
                                           ]
