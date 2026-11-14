@@ -1549,14 +1549,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "boOAK",
-                      "name": "Показать больше",
-                      "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                      "id": "ex1Uv",
+                      "name": "Действие после списка сессий",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 6,
                       "padding": [
-                        0,
+                        4,
                         12,
                         0,
                         26
@@ -1564,15 +1561,45 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "KU3xx",
-                          "name": "Подпись кнопки раскрытия",
-                          "fill": "$aurora.muted",
-                          "content": "Показать больше",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "boOAK",
+                          "name": "Показать больше...",
+                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "height": 32,
+                          "fill": "$aurora.pearl",
+                          "cornerRadius": 6,
+                          "stroke": "$aurora.line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KU3xx",
+                              "name": "Подпись кнопки раскрытия",
+                              "fill": "$aurora.primary",
+                              "content": "Показать больше...",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "fWVMy",
+                              "name": "Раскрыть список",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -4814,14 +4841,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "uZk4f",
-                      "name": "Показать больше",
-                      "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                      "id": "xkFHc",
+                      "name": "Действие после списка сессий",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 6,
                       "padding": [
-                        0,
+                        4,
                         12,
                         0,
                         26
@@ -4829,15 +4853,45 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "F89mZa",
-                          "name": "Подпись кнопки раскрытия",
-                          "fill": "$aurora.muted",
-                          "content": "Показать больше",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "uZk4f",
+                          "name": "Показать больше...",
+                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "height": 32,
+                          "fill": "$aurora.pearl",
+                          "cornerRadius": 6,
+                          "stroke": "$aurora.line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "F89mZa",
+                              "name": "Подпись кнопки раскрытия",
+                              "fill": "$aurora.primary",
+                              "content": "Показать больше...",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "p50YEs",
+                              "name": "Раскрыть список",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -8160,14 +8214,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "MsIVU",
-                      "name": "Показать больше",
-                      "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                      "id": "UQUe6",
+                      "name": "Действие после списка сессий",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 6,
                       "padding": [
-                        0,
+                        4,
                         12,
                         0,
                         26
@@ -8175,15 +8226,45 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "o2edi",
-                          "name": "Подпись кнопки раскрытия",
-                          "fill": "$aurora.muted",
-                          "content": "Показать больше",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "MsIVU",
+                          "name": "Показать больше...",
+                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "height": 32,
+                          "fill": "$aurora.pearl",
+                          "cornerRadius": 6,
+                          "stroke": "$aurora.line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "o2edi",
+                              "name": "Подпись кнопки раскрытия",
+                              "fill": "$aurora.primary",
+                              "content": "Показать больше...",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "c1usgp",
+                              "name": "Раскрыть список",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -11382,14 +11463,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "OcDmm",
-                      "name": "Показать больше",
-                      "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                      "id": "C3pjv",
+                      "name": "Действие после списка сессий",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 6,
                       "padding": [
-                        0,
+                        4,
                         12,
                         0,
                         26
@@ -11397,15 +11475,45 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "V11CAW",
-                          "name": "Подпись кнопки раскрытия",
-                          "fill": "$aurora.muted",
-                          "content": "Показать больше",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "OcDmm",
+                          "name": "Показать больше...",
+                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "height": 32,
+                          "fill": "$aurora.pearl",
+                          "cornerRadius": 6,
+                          "stroke": "$aurora.line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V11CAW",
+                              "name": "Подпись кнопки раскрытия",
+                              "fill": "$aurora.primary",
+                              "content": "Показать больше...",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "HQYG3",
+                              "name": "Раскрыть список",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -14821,14 +14929,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "X4EcUN",
-                      "name": "Показать больше",
-                      "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                      "id": "IsQ8F",
+                      "name": "Действие после списка сессий",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 6,
                       "padding": [
-                        0,
+                        4,
                         12,
                         0,
                         26
@@ -14836,15 +14941,45 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "CBkFC",
-                          "name": "Подпись кнопки раскрытия",
-                          "fill": "$aurora.muted",
-                          "content": "Показать больше",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "X4EcUN",
+                          "name": "Показать больше...",
+                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "height": 32,
+                          "fill": "$aurora.pearl",
+                          "cornerRadius": 6,
+                          "stroke": "$aurora.line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CBkFC",
+                              "name": "Подпись кнопки раскрытия",
+                              "fill": "$aurora.primary",
+                              "content": "Показать больше...",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "E4fL8",
+                              "name": "Раскрыть список",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -18294,14 +18429,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "pl9aG",
-                      "name": "Показать больше",
-                      "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                      "id": "Hi4O6",
+                      "name": "Действие после списка сессий",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 6,
                       "padding": [
-                        0,
+                        4,
                         12,
                         0,
                         26
@@ -18309,15 +18441,45 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "V3lDVp",
-                          "name": "Подпись кнопки раскрытия",
-                          "fill": "$aurora.muted",
-                          "content": "Показать больше",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "pl9aG",
+                          "name": "Показать больше...",
+                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "height": 32,
+                          "fill": "$aurora.pearl",
+                          "cornerRadius": 6,
+                          "stroke": "$aurora.line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V3lDVp",
+                              "name": "Подпись кнопки раскрытия",
+                              "fill": "$aurora.primary",
+                              "content": "Показать больше...",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "FNzak",
+                              "name": "Раскрыть список",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -24849,14 +25011,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "mcKhI",
-                      "name": "Показать больше",
-                      "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                      "id": "A2jjr",
+                      "name": "Действие после списка сессий",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 6,
                       "padding": [
-                        0,
+                        4,
                         12,
                         0,
                         26
@@ -24864,15 +25023,45 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "yHznA",
-                          "name": "Подпись кнопки раскрытия",
-                          "fill": "$aurora.muted",
-                          "content": "Показать больше",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
+                          "type": "frame",
+                          "id": "mcKhI",
+                          "name": "Показать больше...",
+                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "height": 32,
+                          "fill": "$aurora.pearl",
+                          "cornerRadius": 6,
+                          "stroke": "$aurora.line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yHznA",
+                              "name": "Подпись кнопки раскрытия",
+                              "fill": "$aurora.primary",
+                              "content": "Показать больше...",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "gVbng",
+                              "name": "Раскрыть список",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -30501,14 +30690,11 @@
                         },
                         {
                           "type": "frame",
-                          "id": "TvWRF",
-                          "name": "Показать больше",
-                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "id": "yRkKc",
+                          "name": "Действие после списка сессий",
                           "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 6,
                           "padding": [
-                            0,
+                            4,
                             12,
                             0,
                             26
@@ -30516,15 +30702,45 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "d73vt0",
-                              "name": "Подпись кнопки раскрытия",
-                              "fill": "$aurora.muted",
-                              "content": "Показать больше",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "type": "frame",
+                              "id": "TvWRF",
+                              "name": "Показать больше...",
+                              "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                              "height": 32,
+                              "fill": "$aurora.pearl",
+                              "cornerRadius": 6,
+                              "stroke": "$aurora.line",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "d73vt0",
+                                  "name": "Подпись кнопки раскрытия",
+                                  "fill": "$aurora.primary",
+                                  "content": "Показать больше...",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "spJaX",
+                                  "name": "Раскрыть список",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$aurora.primary"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -32314,14 +32530,11 @@
                         },
                         {
                           "type": "frame",
-                          "id": "wdgkO",
-                          "name": "Показать больше",
-                          "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                          "id": "DbOuP",
+                          "name": "Действие после списка сессий",
                           "width": "fill_container",
-                          "height": 48,
-                          "cornerRadius": 6,
                           "padding": [
-                            0,
+                            4,
                             12,
                             0,
                             26
@@ -32329,15 +32542,45 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "rmS89",
-                              "name": "Подпись кнопки раскрытия",
-                              "fill": "$aurora.muted",
-                              "content": "Показать больше",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "type": "frame",
+                              "id": "wdgkO",
+                              "name": "Показать больше...",
+                              "context": "Доступное имя: «Показать больше сессий проекта Heartbeat». Кнопка раскрывает остальные сессии проекта на месте. После клавиатурной активации фокус переходит на первую добавленную сессию. Текущий чат остаётся открыт.",
+                              "height": 48,
+                              "fill": "$aurora.pearl",
+                              "cornerRadius": 6,
+                              "stroke": "$aurora.line",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "rmS89",
+                                  "name": "Подпись кнопки раскрытия",
+                                  "fill": "$aurora.primary",
+                                  "content": "Показать больше...",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "jIZMF",
+                                  "name": "Раскрыть список",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$aurora.primary"
+                                }
+                              ]
                             }
                           ]
                         }
