@@ -51441,7 +51441,7 @@
                       "type": "frame",
                       "id": "mi7HU",
                       "x": 198,
-                      "y": 630,
+                      "y": 657,
                       "name": "Область ответа / опросник вместо ввода",
                       "context": "Любой запрос ответа заменяет composer: разрешение, уточнение, выбор. Черновик и вложения сохранены. После подтверждения вернуть ввод. При отправке блокировать повтор; при ошибке оставить вопрос и повтор в этой области.",
                       "width": 760,
@@ -106145,7 +106145,7 @@
                       "type": "frame",
                       "id": "VGGZc",
                       "x": 12,
-                      "y": 486,
+                      "y": 513,
                       "name": "Область ответа / опросник вместо ввода",
                       "context": "Android: вопрос закреплён вместо composer, цели 48. Черновик сохранён. Свободный ответ открывает клавиатуру только по фокусу; варианты не требуют IME.",
                       "width": 346,
@@ -111187,18 +111187,6 @@
                               "gap": 8,
                               "padding": 12,
                               "children": [
-                                {
-                                  "type": "text",
-                                  "id": "tqVSP",
-                                  "name": "Проект и агент",
-                                  "fill": "$request.secondary",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "Heartbeat · Проверка контрактов",
-                                  "lineHeight": 1.428571,
-                                  "fontFamily": "$aurora.font",
-                                  "fontSize": 13
-                                },
                                 {
                                   "type": "text",
                                   "id": "nJjyq",
@@ -125895,7 +125883,7 @@
                       "width": 760,
                       "height": "fit_content",
                       "x": 198,
-                      "y": 610
+                      "y": 637
                     }
                   ]
                 },
@@ -132219,7 +132207,7 @@
                       "width": 346,
                       "height": "fit_content",
                       "x": 12,
-                      "y": 442,
+                      "y": 469,
                       "descendants": {
                         "mremt/zmLOS": {
                           "layout": "vertical",
@@ -152825,9 +152813,6 @@
                     },
                     "jh8ln": {
                       "fontSize": 28
-                    },
-                    "tqVSP": {
-                      "fontSize": 26
                     },
                     "nJjyq": {
                       "fontSize": 28
