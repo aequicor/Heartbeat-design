@@ -47600,239 +47600,252 @@
                 },
                 {
                   "type": "frame",
-                  "id": "EmiU1",
-                  "name": "Проверяю отмену запроса",
+                  "id": "CgmYW",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": 632,
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "dOpQS",
-                      "name": "Текущий этап / статус",
+                      "id": "EmiU1",
+                      "name": "Проверяю отмену запроса / раздел ответа",
                       "width": "fill_container",
+                      "fill": "#F3F5EF",
+                      "stroke": "$aurora.line",
+                      "layout": "vertical",
                       "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "l4iOz",
-                          "name": "Выполняется",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "loader-circle",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "Vk73E",
-                          "name": "Подпись / Проверяю отмену запроса",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверяю отмену запроса",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "A4qxu",
-                      "name": "Читаю контракт сессии",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
                         {
                           "type": "frame",
-                          "id": "viO4q",
-                          "name": "Действие",
+                          "id": "dOpQS",
+                          "name": "Текущий этап / статус",
                           "width": "fill_container",
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "s8E2Nd",
-                              "name": "file-text",
+                              "id": "l4iOz",
+                              "name": "Выполняется",
                               "width": 16,
                               "height": 16,
-                              "icon": "file-text",
+                              "icon": "loader-circle",
                               "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "fill": "$aurora.primary"
                             },
                             {
                               "type": "text",
-                              "id": "fCaiA",
-                              "name": "Текст / Читаю контракт сессии",
-                              "fill": "$aurora.ink",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Читаю контракт сессии",
-                              "lineHeight": 1.5,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "emPC9",
-                          "name": "Подпись / Готово · session-contract.md",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Готово · session-contract.md",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "b6Ir9",
-                          "name": "Результат инструмента / свёрнуто",
-                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
-                          "width": "fill_container",
-                          "height": 32,
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "c6uAdA",
-                              "name": "Раскрыть или свернуть",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "chevron-right",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
-                            },
-                            {
-                              "type": "text",
-                              "id": "qMgyH",
-                              "name": "Подпись / Действия этапа · 3",
+                              "id": "Vk73E",
+                              "name": "Подпись / Проверяю отмену запроса",
                               "fill": "$aurora.muted",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Результат инструмента",
+                              "content": "Проверяю отмену запроса",
                               "lineHeight": 1.3846153846153846,
                               "fontFamily": "$aurora.font",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "vTqCv",
-                      "name": "Ищу обработчик остановки",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
+                        },
                         {
                           "type": "frame",
-                          "id": "oYo13",
-                          "name": "Действие",
+                          "id": "A4qxu",
+                          "name": "Читаю контракт сессии",
                           "width": "fill_container",
-                          "gap": 8,
-                          "alignItems": "center",
+                          "layout": "vertical",
+                          "gap": 4,
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "PnaQ3",
-                              "name": "search",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "search",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
+                              "type": "frame",
+                              "id": "viO4q",
+                              "name": "Действие",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "s8E2Nd",
+                                  "name": "file-text",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "fCaiA",
+                                  "name": "Текст / Читаю контракт сессии",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Читаю контракт сессии",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
                             },
                             {
                               "type": "text",
-                              "id": "D3FawJ",
-                              "name": "Текст / Ищу обработчик остановки",
-                              "fill": "$aurora.ink",
+                              "id": "emPC9",
+                              "name": "Подпись / Готово · session-contract.md",
+                              "fill": "$aurora.muted",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Ищу обработчик остановки",
-                              "lineHeight": 1.5,
+                              "content": "Готово · session-contract.md",
+                              "lineHeight": 1.3846153846153846,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 16,
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "b6Ir9",
+                              "name": "Результат инструмента / свёрнуто",
+                              "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                              "width": "fill_container",
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "c6uAdA",
+                                  "name": "Раскрыть или свернуть",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "chevron-right",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "qMgyH",
+                                  "name": "Подпись / Действия этапа · 3",
+                                  "fill": "$aurora.muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Результат инструмента",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vTqCv",
+                          "name": "Ищу обработчик остановки",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "oYo13",
+                              "name": "Действие",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "PnaQ3",
+                                  "name": "search",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "search",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "D3FawJ",
+                                  "name": "Текст / Ищу обработчик остановки",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Ищу обработчик остановки",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "nGek3",
+                              "name": "Подпись / Выполняется",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Выполняется",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
                               "fontWeight": "normal"
                             }
                           ]
                         },
                         {
-                          "type": "text",
-                          "id": "nGek3",
-                          "name": "Подпись / Выполняется",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Выполняется",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "QvuMe",
-                      "name": "Сопоставляю состояния отмены с повторной отправкой",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "children": [
-                        {
                           "type": "frame",
-                          "id": "nMEzk",
-                          "name": "Действие",
+                          "id": "QvuMe",
+                          "name": "Сопоставляю состояния отмены с повторной отправкой",
                           "width": "fill_container",
-                          "gap": 8,
-                          "alignItems": "center",
+                          "layout": "vertical",
+                          "gap": 4,
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "vdAvV",
-                              "name": "text",
-                              "width": 16,
-                              "height": 16,
-                              "icon": "file-text",
-                              "library": "lucide",
-                              "fill": "$aurora.muted"
-                            },
-                            {
-                              "type": "text",
-                              "id": "QbnOT",
-                              "name": "Текст / Сопоставляю состояния отмены с повторной отправкой",
-                              "fill": "$aurora.muted",
-                              "textGrowth": "fixed-width",
+                              "type": "frame",
+                              "id": "nMEzk",
+                              "name": "Действие",
                               "width": "fill_container",
-                              "content": "Сопоставляю состояния отмены с повторной отправкой",
-                              "lineHeight": 1.3846153846153846,
-                              "fontFamily": "$aurora.font",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "vdAvV",
+                                  "name": "text",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QbnOT",
+                                  "name": "Текст / Сопоставляю состояния отмены с повторной отправкой",
+                                  "fill": "$aurora.muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Сопоставляю состояния отмены с повторной отправкой",
+                                  "lineHeight": 1.3846153846153846,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -47990,173 +48003,187 @@
                 },
                 {
                   "type": "frame",
-                  "id": "qIMJ6",
-                  "name": "Промежуточный результат",
+                  "id": "UK5cm",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": 632,
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "u29YF",
-                      "name": "Действия этапа · 3 / свёрнуто",
-                      "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                      "id": "qIMJ6",
+                      "name": "Промежуточный результат / раздел ответа",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "jTdTY",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "MyfGG",
-                          "name": "Подпись / Действия этапа · 3",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Действия этапа · 3",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "crMql",
-                      "name": "Текст / Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "U6OOBp",
-                  "name": "Проверяю повторную отправку",
-                  "width": 632,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "gPxIV",
-                      "name": "Текущий этап / статус",
-                      "width": "fill_container",
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "aJHsI",
-                          "name": "Выполняется",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "loader-circle",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "qL22B",
-                          "name": "Подпись / Проверяю повторную отправку",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверяю повторную отправку",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "L41Vul",
-                      "name": "Проверяю переходы состояния",
-                      "width": "fill_container",
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 4,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
                         {
                           "type": "frame",
-                          "id": "IBfkj",
-                          "name": "Действие",
+                          "id": "u29YF",
+                          "name": "Действия этапа · 3 / свёрнуто",
+                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
                           "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "G3Yhw",
-                              "name": "search",
+                              "id": "jTdTY",
+                              "name": "Раскрыть или свернуть",
                               "width": 16,
                               "height": 16,
-                              "icon": "search",
+                              "icon": "chevron-right",
                               "library": "lucide",
                               "fill": "$aurora.muted"
                             },
                             {
                               "type": "text",
-                              "id": "ynL4O",
-                              "name": "Текст / Проверяю переходы состояния",
-                              "fill": "$aurora.ink",
+                              "id": "MyfGG",
+                              "name": "Подпись / Действия этапа · 3",
+                              "fill": "$aurora.muted",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Проверяю переходы состояния",
-                              "lineHeight": 1.5,
+                              "content": "Действия этапа · 3",
+                              "lineHeight": 1.3846153846153846,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 16,
+                              "fontSize": 13,
                               "fontWeight": "normal"
                             }
                           ]
                         },
                         {
                           "type": "text",
-                          "id": "IUvNV",
-                          "name": "Подпись / Выполняется",
-                          "fill": "$aurora.muted",
+                          "id": "crMql",
+                          "name": "Текст / Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
+                          "fill": "$aurora.ink",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Выполняется",
-                          "lineHeight": 1.3846153846153846,
+                          "content": "Повторная отправка доступна до подтверждения остановки. Проверю, может ли это запустить два запроса.",
+                          "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U6OOBp",
+                      "name": "Проверяю повторную отправку / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "#F3F5EF",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "gPxIV",
+                          "name": "Текущий этап / статус",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "aJHsI",
+                              "name": "Выполняется",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "loader-circle",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qL22B",
+                              "name": "Подпись / Проверяю повторную отправку",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Проверяю повторную отправку",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "L41Vul",
+                          "name": "Проверяю переходы состояния",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "IBfkj",
+                              "name": "Действие",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "G3Yhw",
+                                  "name": "search",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "search",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ynL4O",
+                                  "name": "Текст / Проверяю переходы состояния",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Проверяю переходы состояния",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "IUvNV",
+                              "name": "Подпись / Выполняется",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Выполняется",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -48312,240 +48339,255 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Fuvh4",
-                  "name": "Промежуточный результат",
+                  "id": "Q0KGb",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": 632,
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "i31q6",
-                      "name": "Действия этапа · 3 / свёрнуто",
-                      "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                      "id": "Fuvh4",
+                      "name": "Промежуточный результат / раздел ответа",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "ULdni",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "vFmEu",
-                          "name": "Подпись / Действия этапа · 3",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Действия этапа · 3",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "hzNUk",
-                      "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Повторная отправка доступна до подтверждения остановки.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "JzN1s",
-                  "name": "Промежуточный результат",
-                  "width": 632,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "y93Tn",
-                      "name": "Действия этапа · 2 / свёрнуто",
-                      "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
-                      "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "taEiq",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "cm8n8",
-                          "name": "Подпись / Действия этапа · 2",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Действия этапа · 2",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "Pjdq4",
-                      "name": "Текст / Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "hELO4",
-                  "name": "Завершаю проверку",
-                  "width": 632,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "JgjEb",
-                      "name": "Текущий этап / статус",
-                      "width": "fill_container",
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "HdvB7",
-                          "name": "Выполняется",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "loader-circle",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "J8NrdX",
-                          "name": "Подпись / Завершаю проверку",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Завершаю проверку",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "a2E5i",
-                      "name": "Проверяю сценарий отмены",
-                      "width": "fill_container",
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
                       "layout": "vertical",
-                      "gap": 4,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
                         {
                           "type": "frame",
-                          "id": "Hw7yV",
-                          "name": "Действие",
+                          "id": "i31q6",
+                          "name": "Действия этапа · 3 / свёрнуто",
+                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
                           "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "W0wUcd",
-                              "name": "list-checks",
+                              "id": "ULdni",
+                              "name": "Раскрыть или свернуть",
                               "width": 16,
                               "height": 16,
-                              "icon": "list-checks",
+                              "icon": "chevron-right",
                               "library": "lucide",
                               "fill": "$aurora.muted"
                             },
                             {
                               "type": "text",
-                              "id": "KGk3X",
-                              "name": "Текст / Проверяю сценарий отмены",
-                              "fill": "$aurora.ink",
+                              "id": "vFmEu",
+                              "name": "Подпись / Действия этапа · 3",
+                              "fill": "$aurora.muted",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Проверяю сценарий отмены",
-                              "lineHeight": 1.5,
+                              "content": "Действия этапа · 3",
+                              "lineHeight": 1.3846153846153846,
                               "fontFamily": "$aurora.font",
-                              "fontSize": 16,
+                              "fontSize": 13,
                               "fontWeight": "normal"
                             }
                           ]
                         },
                         {
                           "type": "text",
-                          "id": "Y82xA3",
-                          "name": "Подпись / Выполняется",
-                          "fill": "$aurora.muted",
+                          "id": "hzNUk",
+                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
+                          "fill": "$aurora.ink",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Выполняется",
-                          "lineHeight": 1.3846153846153846,
+                          "content": "Повторная отправка доступна до подтверждения остановки.",
+                          "lineHeight": 1.5,
                           "fontFamily": "$aurora.font",
-                          "fontSize": 13,
+                          "fontSize": 16,
                           "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JzN1s",
+                      "name": "Промежуточный результат / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "y93Tn",
+                          "name": "Действия этапа · 2 / свёрнуто",
+                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "taEiq",
+                              "name": "Раскрыть или свернуть",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-right",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cm8n8",
+                              "name": "Подпись / Действия этапа · 2",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Действия этапа · 2",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Pjdq4",
+                          "name": "Текст / Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Вложения остаются в черновике. Проверю, что отмена не очищает список файлов.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hELO4",
+                      "name": "Завершаю проверку / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "#F3F5EF",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JgjEb",
+                          "name": "Текущий этап / статус",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "HdvB7",
+                              "name": "Выполняется",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "loader-circle",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            },
+                            {
+                              "type": "text",
+                              "id": "J8NrdX",
+                              "name": "Подпись / Завершаю проверку",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Завершаю проверку",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "a2E5i",
+                          "name": "Проверяю сценарий отмены",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Hw7yV",
+                              "name": "Действие",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "W0wUcd",
+                                  "name": "list-checks",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "list-checks",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KGk3X",
+                                  "name": "Текст / Проверяю сценарий отмены",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Проверяю сценарий отмены",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "Y82xA3",
+                              "name": "Подпись / Выполняется",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Выполняется",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -48701,164 +48743,178 @@
                 },
                 {
                   "type": "frame",
-                  "id": "CMCCJ",
-                  "name": "Вся история свёрнута",
+                  "id": "DA5u9",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": 632,
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "wEiN8",
-                      "name": "Ход работы · 3 этапа / свёрнуто",
-                      "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                      "id": "CMCCJ",
+                      "name": "Вся история свёрнута / раздел ответа",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
+                      "fill": "#F4F4F1",
+                      "stroke": "$aurora.line",
+                      "layout": "vertical",
                       "gap": 8,
-                      "alignItems": "center",
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
-                        {
-                          "type": "icon",
-                          "id": "he9Kv",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "D1a4P",
-                          "name": "Подпись / Ход работы · 3 этапа",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ход работы · 3 этапа",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "tcd2X",
-                  "name": "Финальный ответ",
-                  "width": 632,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "LyXXp",
-                      "name": "Текст / Проверка завершена",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Проверка завершена",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "O0gKy",
-                      "name": "Текст / Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "V71Np",
-                      "name": "Текст / Что исправить",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Что исправить",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "CfXAB",
-                      "name": "Текст / Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "HlIzX",
-                      "name": "Действия финального ответа",
-                      "width": "fill_container",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "XOMl0",
-                          "name": "Время",
-                          "fill": "$aurora.muted",
-                          "content": "14:05",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        },
                         {
                           "type": "frame",
-                          "id": "LibY2",
-                          "name": "Копировать сообщение",
-                          "context": "Копировать сообщение",
-                          "width": 32,
+                          "id": "wEiN8",
+                          "name": "Ход работы · 3 этапа / свёрнуто",
+                          "context": "Нажатие, Enter или Space переключают раскрытие. Содержимое сохранено. При завершении финала все раскрытия этого хода сбрасываются однократно.",
+                          "width": "fill_container",
                           "height": 32,
                           "cornerRadius": 8,
-                          "justifyContent": "center",
+                          "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "IscMk",
-                              "name": "Копировать сообщение / значок",
+                              "id": "he9Kv",
+                              "name": "Раскрыть или свернуть",
                               "width": 16,
                               "height": 16,
-                              "icon": "copy",
+                              "icon": "chevron-right",
                               "library": "lucide",
                               "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "D1a4P",
+                              "name": "Подпись / Ход работы · 3 этапа",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ход работы · 3 этапа",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tcd2X",
+                      "name": "Финальный ответ / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LyXXp",
+                          "name": "Текст / Проверка завершена",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Проверка завершена",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O0gKy",
+                          "name": "Текст / Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "V71Np",
+                          "name": "Текст / Что исправить",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Что исправить",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CfXAB",
+                          "name": "Текст / Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HlIzX",
+                          "name": "Действия финального ответа",
+                          "width": "fill_container",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XOMl0",
+                              "name": "Время",
+                              "fill": "$aurora.muted",
+                              "content": "14:05",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "frame",
+                              "id": "LibY2",
+                              "name": "Копировать сообщение",
+                              "context": "Копировать сообщение",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "IscMk",
+                                  "name": "Копировать сообщение / значок",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "copy",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -48879,311 +48935,325 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "VqfMX",
-                  "name": "История раскрыта после завершения",
+                  "id": "s9K4c",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": 632,
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "r3nbHk",
-                      "name": "Ход работы · 3 этапа / развёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                      "id": "VqfMX",
+                      "name": "История раскрыта после завершения / раздел ответа",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
+                      "fill": "#F4F4F1",
+                      "stroke": "$aurora.line",
+                      "layout": "vertical",
                       "gap": 8,
-                      "alignItems": "center",
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
-                        {
-                          "type": "icon",
-                          "id": "iLJdb",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-down",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "p0hMl7",
-                          "name": "Подпись / Ход работы · 3 этапа",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ход работы · 3 этапа",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "sMMTi",
-                      "name": "Этап 1 · 3 действия / свёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
-                      "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "pg9Iz",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "zAZE7",
-                          "name": "Подпись / Этап 1 · 3 действия",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Этап 1 · 3 действия",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "Nw4JB",
-                      "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Повторная отправка доступна до подтверждения остановки.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "xYeb0",
-                      "name": "Этап 2 · 2 действия / свёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
-                      "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "wmqia",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "tyW2o",
-                          "name": "Подпись / Этап 2 · 2 действия",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Этап 2 · 2 действия",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "B4l2o7",
-                      "name": "Текст / Вложения остаются в черновике. Проверка отмены завершена.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Вложения остаются в черновике. Проверка отмены завершена.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "kOc3m",
-                      "name": "Этап 3 · 1 действие / свёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
-                      "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "miZ2d",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "sFo7L",
-                          "name": "Подпись / Этап 3 · 1 действие",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Этап 3 · 1 действие",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "c733Yt",
-                      "name": "Подпись / Проверка сценария завершена",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Проверка сценария завершена",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "urPXk",
-                  "name": "Финальный ответ / остаётся видимым",
-                  "width": 632,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "R59j0",
-                      "name": "Текст / Проверка завершена",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Проверка завершена",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "m8LPx6",
-                      "name": "Текст / Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "aulP9",
-                      "name": "Текст / Что исправить",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Что исправить",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Yj7m9",
-                      "name": "Текст / Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "oLM8B",
-                      "name": "Действия финального ответа",
-                      "width": "fill_container",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "GjLt1",
-                          "name": "Время",
-                          "fill": "$aurora.muted",
-                          "content": "14:05",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        },
                         {
                           "type": "frame",
-                          "id": "HMRzx",
-                          "name": "Копировать сообщение",
-                          "context": "Копировать сообщение",
-                          "width": 32,
+                          "id": "r3nbHk",
+                          "name": "Ход работы · 3 этапа / развёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "width": "fill_container",
                           "height": 32,
                           "cornerRadius": 8,
-                          "justifyContent": "center",
+                          "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "R64t4",
-                              "name": "Копировать сообщение / значок",
+                              "id": "iLJdb",
+                              "name": "Раскрыть или свернуть",
                               "width": 16,
                               "height": 16,
-                              "icon": "copy",
+                              "icon": "chevron-down",
                               "library": "lucide",
                               "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "p0hMl7",
+                              "name": "Подпись / Ход работы · 3 этапа",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ход работы · 3 этапа",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sMMTi",
+                          "name": "Этап 1 · 3 действия / свёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "pg9Iz",
+                              "name": "Раскрыть или свернуть",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-right",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zAZE7",
+                              "name": "Подпись / Этап 1 · 3 действия",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Этап 1 · 3 действия",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Nw4JB",
+                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Повторная отправка доступна до подтверждения остановки.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xYeb0",
+                          "name": "Этап 2 · 2 действия / свёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "wmqia",
+                              "name": "Раскрыть или свернуть",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-right",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tyW2o",
+                              "name": "Подпись / Этап 2 · 2 действия",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Этап 2 · 2 действия",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "B4l2o7",
+                          "name": "Текст / Вложения остаются в черновике. Проверка отмены завершена.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Вложения остаются в черновике. Проверка отмены завершена.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kOc3m",
+                          "name": "Этап 3 · 1 действие / свёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "miZ2d",
+                              "name": "Раскрыть или свернуть",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-right",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "sFo7L",
+                              "name": "Подпись / Этап 3 · 1 действие",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Этап 3 · 1 действие",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "c733Yt",
+                          "name": "Подпись / Проверка сценария завершена",
+                          "fill": "$aurora.muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Проверка сценария завершена",
+                          "lineHeight": 1.3846153846153846,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "urPXk",
+                      "name": "Финальный ответ / остаётся видимым / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R59j0",
+                          "name": "Текст / Проверка завершена",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Проверка завершена",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m8LPx6",
+                          "name": "Текст / Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aulP9",
+                          "name": "Текст / Что исправить",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Что исправить",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Yj7m9",
+                          "name": "Текст / Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oLM8B",
+                          "name": "Действия финального ответа",
+                          "width": "fill_container",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GjLt1",
+                              "name": "Время",
+                              "fill": "$aurora.muted",
+                              "content": "14:05",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HMRzx",
+                              "name": "Копировать сообщение",
+                              "context": "Копировать сообщение",
+                              "width": 32,
+                              "height": 32,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "R64t4",
+                                  "name": "Копировать сообщение / значок",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "copy",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -49204,268 +49274,148 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "dX5jx",
-                  "name": "Первый этап раскрыт во время работы",
+                  "id": "A6rnS",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": 632,
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "bAxeT",
-                      "name": "Действия этапа · 3 / развёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                      "id": "dX5jx",
+                      "name": "Первый этап раскрыт во время работы / раздел ответа",
                       "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "F8Lc9h",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-down",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "JJJII",
-                          "name": "Подпись / Действия этапа · 3",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Действия этапа · 3",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "iaV1h",
-                      "name": "Подпись / Читаю контракт сессии",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Читаю контракт сессии",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "P1SR5L",
-                      "name": "Результат инструмента / развёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
-                      "width": "fill_container",
-                      "height": 32,
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "yLrsn",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-down",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "XqqSX",
-                          "name": "Подпись / Результат инструмента",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Результат инструмента",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "MeWFE",
-                      "name": "Параметры и результат чтения",
-                      "width": "fill_container",
-                      "fill": "#F0F2EB",
-                      "cornerRadius": 8,
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
                       "layout": "vertical",
                       "gap": 8,
-                      "padding": 12,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "rCsoI",
-                          "name": "Подпись / Файл: session-contract.md",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Файл: session-contract.md",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "I3mddr",
-                          "name": "Текст / Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
-                          "fill": "$aurora.ink",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
-                          "lineHeight": 1.5,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "t1aZY",
-                      "name": "Подпись / Ищу обработчик остановки · Готово",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Ищу обработчик остановки · Готово",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "byQJD",
-                      "name": "Подпись / Сопоставляю состояния отмены с повторной отправкой",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Сопоставляю состояния отмены с повторной отправкой",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "xRjrX",
-                      "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Повторная отправка доступна до подтверждения остановки.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "n99qY",
-                  "name": "Новый этап / продолжается параллельно чтению истории",
-                  "width": 632,
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "e1zmks",
-                      "name": "Текущий этап / статус",
-                      "width": "fill_container",
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "xE3Jx",
-                          "name": "Выполняется",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "loader-circle",
-                          "library": "lucide",
-                          "fill": "$aurora.primary"
-                        },
-                        {
-                          "type": "text",
-                          "id": "aBHGA",
-                          "name": "Подпись / Проверяю повторную отправку",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Проверяю повторную отправку",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "CO6Nf",
-                      "name": "Проверяю переходы состояния",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 4,
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
                         {
                           "type": "frame",
-                          "id": "PnhPw",
-                          "name": "Действие",
+                          "id": "bAxeT",
+                          "name": "Действия этапа · 3 / развёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
                           "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "qTmNJ",
-                              "name": "search",
+                              "id": "F8Lc9h",
+                              "name": "Раскрыть или свернуть",
                               "width": 16,
                               "height": 16,
-                              "icon": "search",
+                              "icon": "chevron-down",
                               "library": "lucide",
                               "fill": "$aurora.muted"
                             },
                             {
                               "type": "text",
-                              "id": "Y5v7h",
-                              "name": "Текст / Проверяю переходы состояния",
+                              "id": "JJJII",
+                              "name": "Подпись / Действия этапа · 3",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Действия этапа · 3",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "iaV1h",
+                          "name": "Подпись / Читаю контракт сессии",
+                          "fill": "$aurora.muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Читаю контракт сессии",
+                          "lineHeight": 1.3846153846153846,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "P1SR5L",
+                          "name": "Результат инструмента / развёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "yLrsn",
+                              "name": "Раскрыть или свернуть",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "XqqSX",
+                              "name": "Подпись / Результат инструмента",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Результат инструмента",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MeWFE",
+                          "name": "Параметры и результат чтения",
+                          "width": "fill_container",
+                          "fill": "#F0F2EB",
+                          "cornerRadius": 8,
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rCsoI",
+                              "name": "Подпись / Файл: session-contract.md",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Файл: session-contract.md",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "I3mddr",
+                              "name": "Текст / Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
                               "fill": "$aurora.ink",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Проверяю переходы состояния",
+                              "content": "Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
                               "lineHeight": 1.5,
                               "fontFamily": "$aurora.font",
                               "fontSize": 16,
@@ -49475,16 +49425,150 @@
                         },
                         {
                           "type": "text",
-                          "id": "FxtoL",
-                          "name": "Подпись / Выполняется",
+                          "id": "t1aZY",
+                          "name": "Подпись / Ищу обработчик остановки · Готово",
                           "fill": "$aurora.muted",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Выполняется",
+                          "content": "Ищу обработчик остановки · Готово",
                           "lineHeight": 1.3846153846153846,
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "byQJD",
+                          "name": "Подпись / Сопоставляю состояния отмены с повторной отправкой",
+                          "fill": "$aurora.muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Сопоставляю состояния отмены с повторной отправкой",
+                          "lineHeight": 1.3846153846153846,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xRjrX",
+                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Повторная отправка доступна до подтверждения остановки.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n99qY",
+                      "name": "Новый этап / продолжается параллельно чтению истории / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "#F4F4F1",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "e1zmks",
+                          "name": "Текущий этап / статус",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "xE3Jx",
+                              "name": "Выполняется",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "loader-circle",
+                              "library": "lucide",
+                              "fill": "$aurora.primary"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aBHGA",
+                              "name": "Подпись / Проверяю повторную отправку",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Проверяю повторную отправку",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CO6Nf",
+                          "name": "Проверяю переходы состояния",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "PnhPw",
+                              "name": "Действие",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "qTmNJ",
+                                  "name": "search",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "search",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Y5v7h",
+                                  "name": "Текст / Проверяю переходы состояния",
+                                  "fill": "$aurora.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Проверяю переходы состояния",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$aurora.font",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "FxtoL",
+                              "name": "Подпись / Выполняется",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Выполняется",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -49643,125 +49727,139 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Zp0eW",
-                  "name": "Промежуточный результат",
+                  "id": "Z1X6om",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": "fill_container",
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "KUE2v",
-                      "name": "Действия этапа · 3 / свёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                      "id": "Zp0eW",
+                      "name": "Промежуточный результат / раздел ответа",
                       "width": "fill_container",
-                      "height": 48,
-                      "cornerRadius": 8,
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
+                      "layout": "vertical",
                       "gap": 8,
-                      "alignItems": "center",
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
                         {
-                          "type": "icon",
-                          "id": "Krvwx",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
+                          "type": "frame",
+                          "id": "KUE2v",
+                          "name": "Действия этапа · 3 / свёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "width": "fill_container",
+                          "height": 48,
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Krvwx",
+                              "name": "Раскрыть или свернуть",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-right",
+                              "library": "lucide",
+                              "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "K766i9",
+                              "name": "Подпись / Действия этапа · 3",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Действия этапа · 3",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         },
                         {
                           "type": "text",
-                          "id": "K766i9",
-                          "name": "Подпись / Действия этапа · 3",
+                          "id": "MbAv9",
+                          "name": "Текст / Повторный запрос доступен до подтверждения остановки.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Повторный запрос доступен до подтверждения остановки.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j3qiRr",
+                      "name": "Проверка продолжается / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "#F3F5EF",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A0856e",
+                          "name": "Текст / Проверяю вложения",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Проверяю вложения",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "y8Wh6",
+                          "name": "Подпись / Читаю обработчик отмены",
                           "fill": "$aurora.muted",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Действия этапа · 3",
+                          "content": "Читаю обработчик отмены",
+                          "lineHeight": 1.3846153846153846,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mRJek",
+                          "name": "Подпись / Выполняется",
+                          "fill": "$aurora.muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Выполняется",
                           "lineHeight": 1.3846153846153846,
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "normal"
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "MbAv9",
-                      "name": "Текст / Повторный запрос доступен до подтверждения остановки.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Повторный запрос доступен до подтверждения остановки.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "j3qiRr",
-                  "name": "Проверка продолжается",
-                  "width": "fill_container",
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "A0856e",
-                      "name": "Текст / Проверяю вложения",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Проверяю вложения",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "y8Wh6",
-                      "name": "Подпись / Читаю обработчик отмены",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Читаю обработчик отмены",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "mRJek",
-                      "name": "Подпись / Выполняется",
-                      "fill": "$aurora.muted",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Выполняется",
-                      "lineHeight": 1.3846153846153846,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -49918,170 +50016,184 @@
                 },
                 {
                   "type": "frame",
-                  "id": "sRP1q",
-                  "name": "Ход работы свёрнут",
+                  "id": "cdnAV",
+                  "name": "Ответ агента / одно облачко на весь ход",
+                  "context": "Действия, промежуточные результаты, история и финал — части одного ответа. Один внешний контур; разделение линиями и оттенком фона. Завершённый финал сворачивает все уровни истории.",
+                  "clip": true,
                   "width": "fill_container",
                   "fill": "$aurora.pearl",
                   "cornerRadius": 16,
                   "stroke": "#DFE2D8",
                   "strokeWidth": 1,
                   "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "RADWL",
-                      "name": "Ход работы · 3 этапа / свёрнуто",
-                      "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                      "id": "sRP1q",
+                      "name": "Ход работы свёрнут / раздел ответа",
                       "width": "fill_container",
-                      "height": 48,
-                      "cornerRadius": 8,
+                      "fill": "#F4F4F1",
+                      "stroke": "$aurora.line",
+                      "layout": "vertical",
                       "gap": 8,
-                      "alignItems": "center",
+                      "padding": [
+                        12,
+                        16
+                      ],
                       "children": [
-                        {
-                          "type": "icon",
-                          "id": "j9x7a",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-right",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
-                        {
-                          "type": "text",
-                          "id": "hLziX",
-                          "name": "Подпись / Ход работы · 3 этапа",
-                          "fill": "$aurora.muted",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ход работы · 3 этапа",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Mr3uh",
-                  "name": "Финальный ответ Android",
-                  "width": "fill_container",
-                  "fill": "$aurora.pearl",
-                  "cornerRadius": 16,
-                  "stroke": "#DFE2D8",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 8,
-                  "padding": [
-                    12,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "xjwWV",
-                      "name": "Текст / Проверка завершена",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Проверка завершена",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "i48f2J",
-                      "name": "Текст / Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "l0bHih",
-                      "x": 16,
-                      "y": 100,
-                      "name": "Текст / Что исправить",
-                      "enabled": false,
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": 306,
-                      "content": "Что исправить",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "GUsxh",
-                      "x": 16,
-                      "y": 132,
-                      "name": "Текст / Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
-                      "enabled": false,
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": 306,
-                      "content": "Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "uUI68",
-                      "name": "Действия финального ответа",
-                      "width": "fill_container",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "KPiEB",
-                          "name": "Время",
-                          "fill": "$aurora.muted",
-                          "content": "14:05",
-                          "lineHeight": 1.3846153846153846,
-                          "fontFamily": "$aurora.font",
-                          "fontSize": 13
-                        },
                         {
                           "type": "frame",
-                          "id": "pj7jc",
-                          "name": "Копировать сообщение",
-                          "context": "Копировать сообщение",
-                          "width": 48,
+                          "id": "RADWL",
+                          "name": "Ход работы · 3 этапа / свёрнуто",
+                          "context": "Доступное имя и состояние раскрытия. Нажатие, Enter или Space. Финал однократно закрывает все уровни истории.",
+                          "width": "fill_container",
                           "height": 48,
                           "cornerRadius": 8,
-                          "justifyContent": "center",
+                          "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon",
-                              "id": "s8dzX",
-                              "name": "Копировать сообщение / значок",
+                              "id": "j9x7a",
+                              "name": "Раскрыть или свернуть",
                               "width": 16,
                               "height": 16,
-                              "icon": "copy",
+                              "icon": "chevron-right",
                               "library": "lucide",
                               "fill": "$aurora.muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hLziX",
+                              "name": "Подпись / Ход работы · 3 этапа",
+                              "fill": "$aurora.muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ход работы · 3 этапа",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Mr3uh",
+                      "name": "Финальный ответ Android / раздел ответа",
+                      "width": "fill_container",
+                      "fill": "$aurora.pearl",
+                      "stroke": "$aurora.line",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xjwWV",
+                          "name": "Текст / Проверка завершена",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Проверка завершена",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "i48f2J",
+                          "name": "Текст / Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Вложения сохраняются при отмене. Повторный запрос нужно отправлять только после подтверждения остановки.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l0bHih",
+                          "x": 16,
+                          "y": 100,
+                          "name": "Текст / Что исправить",
+                          "enabled": false,
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": 306,
+                          "content": "Что исправить",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GUsxh",
+                          "x": 16,
+                          "y": 132,
+                          "name": "Текст / Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
+                          "enabled": false,
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": 306,
+                          "content": "Блокировать повторную отправку до статуса «Остановлено» и сохранять файлы в черновике.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uUI68",
+                          "name": "Действия финального ответа",
+                          "width": "fill_container",
+                          "gap": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KPiEB",
+                              "name": "Время",
+                              "fill": "$aurora.muted",
+                              "content": "14:05",
+                              "lineHeight": 1.3846153846153846,
+                              "fontFamily": "$aurora.font",
+                              "fontSize": 13
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pj7jc",
+                              "name": "Копировать сообщение",
+                              "context": "Копировать сообщение",
+                              "width": 48,
+                              "height": 48,
+                              "cornerRadius": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "s8dzX",
+                                  "name": "Копировать сообщение / значок",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "copy",
+                                  "library": "lucide",
+                                  "fill": "$aurora.muted"
+                                }
+                              ]
                             }
                           ]
                         }
