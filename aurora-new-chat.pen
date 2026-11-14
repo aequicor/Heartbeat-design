@@ -48347,10 +48347,10 @@
                                           "id": "qUq6p",
                                           "type": "ref",
                                           "ref": "Tqpcs",
-                                          "name": "Инструмент / Проверяю сценарий отмены / свёрнут",
+                                          "name": "Инструмент / команда без title",
                                           "width": "fill_container",
                                           "fill": "$aurora.action.current",
-                                          "context": "Вызов текущего этапа: основной цвет текста и иконок, светло-зелёный фон. Не означает успешное завершение. Hover шапки нейтрально-серый #F4F3F2, при уходе возвращается зелёный фон.",
+                                          "context": "Title отсутствует; subtitle — тело команды. Статус события: выполняется; доступное описание и подробности сохраняют статус. Демонстрационный пример, команда не запускалась.",
                                           "descendants": {
                                             "AI54L": {
                                               "padding": [
@@ -48367,17 +48367,26 @@
                                               "stroke": "$aurora.status.running",
                                               "enabled": false
                                             },
+                                            "TxCJd": {
+                                              "height": 36
+                                            },
                                             "qW5nX": {
-                                              "icon": "list-checks",
+                                              "icon": "terminal",
                                               "fill": "$aurora.ink"
                                             },
                                             "r5qJm": {
                                               "content": "Проверяю сценарий отмены",
-                                              "fill": "$aurora.ink"
+                                              "fill": "$aurora.ink",
+                                              "enabled": false
                                             },
                                             "PVuWe": {
-                                              "content": "Выполняется",
-                                              "fill": "$aurora.ink"
+                                              "content": "./gradlew :features:aistudio:desktopTest --info",
+                                              "fill": "$aurora.ink",
+                                              "fontSize": 13,
+                                              "lineHeight": 1.5384615384615385
+                                            },
+                                            "u3qy9": {
+                                              "height": 36
                                             },
                                             "EfkZb": {
                                               "icon": "chevron-right",
@@ -50915,15 +50924,15 @@
                     {
                       "type": "frame",
                       "id": "SOoKK",
-                      "name": "Название и статус",
-                      "context": "Название и subtitle находятся в одной текстовой колонке. Левый край обеих строк совпадает; subtitle не начинается под иконкой.",
+                      "name": "Опциональный title и обязательный subtitle",
+                      "context": "title опционален, subtitle обязателен. При отсутствии title его узел отключён и не занимает места. Subtitle на первой строке 13/20, свободно переносится. Минимальная цель 48, текст определяет рост высоты.",
                       "width": "fill_container",
                       "layout": "vertical",
                       "children": [
                         {
                           "type": "text",
                           "id": "r5qJm",
-                          "name": "Название инструмента",
+                          "name": "Title инструмента / опциональный",
                           "fill": "$aurora.primary",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
@@ -50936,7 +50945,7 @@
                         {
                           "type": "text",
                           "id": "PVuWe",
-                          "name": "Статус и файл",
+                          "name": "Subtitle инструмента / обязательный",
                           "fill": "$aurora.muted",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
@@ -70597,6 +70606,192 @@
               "fontFamily": "$aurora.font",
               "fontSize": 13,
               "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BssJd",
+          "name": "Инструменты / опциональный title",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "RW5UM",
+              "name": "Без title · тело команды",
+              "width": 676,
+              "fill": "$aurora.pearl",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yfXSS",
+                  "name": "Без title · тело команды",
+                  "fill": "$aurora.ink",
+                  "content": "Без title · тело команды",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "MmB9J",
+                  "type": "ref",
+                  "ref": "Tqpcs",
+                  "name": "Команда / subtitle без title",
+                  "width": "fill_container",
+                  "fill": "$aurora.action.current",
+                  "descendants": {
+                    "AI54L": {
+                      "padding": [
+                        6,
+                        8,
+                        6,
+                        0
+                      ]
+                    },
+                    "GCk46": {
+                      "enabled": false
+                    },
+                    "TxCJd": {
+                      "height": 36
+                    },
+                    "qW5nX": {
+                      "icon": "terminal",
+                      "fill": "$aurora.ink"
+                    },
+                    "r5qJm": {
+                      "enabled": false
+                    },
+                    "PVuWe": {
+                      "content": "./gradlew :features:aistudio:desktopTest --info",
+                      "fontSize": 13,
+                      "lineHeight": 1.5384615384615385,
+                      "fill": "$aurora.ink"
+                    },
+                    "u3qy9": {
+                      "height": 36
+                    },
+                    "EfkZb": {
+                      "fill": "$aurora.ink"
+                    },
+                    "nKJvQ": {
+                      "padding": [
+                        12,
+                        12,
+                        12,
+                        36
+                      ]
+                    },
+                    "F03pZ": {
+                      "content": "Выполняется"
+                    },
+                    "T8ILCl": {
+                      "content": "Результат пока не получен"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s0nimg",
+              "name": "Android · многострочный subtitle",
+              "width": 676,
+              "fill": "$aurora.pearl",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VReL9",
+                  "name": "Android · многострочный subtitle",
+                  "fill": "$aurora.ink",
+                  "content": "Android · многострочный subtitle",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "sZxJc",
+                  "name": "Android / область сообщения 338",
+                  "width": 338,
+                  "fill": "$aurora.pearl",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "id": "VyQE7",
+                      "type": "ref",
+                      "ref": "Tqpcs",
+                      "name": "Команда / subtitle без title",
+                      "width": "fill_container",
+                      "fill": "$aurora.action.current",
+                      "descendants": {
+                        "AI54L": {
+                          "padding": [
+                            6,
+                            8,
+                            6,
+                            0
+                          ]
+                        },
+                        "GCk46": {
+                          "enabled": false
+                        },
+                        "TxCJd": {
+                          "height": 36
+                        },
+                        "qW5nX": {
+                          "icon": "terminal",
+                          "fill": "$aurora.ink"
+                        },
+                        "r5qJm": {
+                          "enabled": false
+                        },
+                        "PVuWe": {
+                          "content": "./gradlew :features:aistudio:desktopTest --info",
+                          "fontSize": 13,
+                          "lineHeight": 1.5384615384615385,
+                          "fill": "$aurora.ink"
+                        },
+                        "u3qy9": {
+                          "height": 36
+                        },
+                        "EfkZb": {
+                          "fill": "$aurora.ink"
+                        },
+                        "nKJvQ": {
+                          "padding": [
+                            12,
+                            12,
+                            12,
+                            36
+                          ]
+                        },
+                        "F03pZ": {
+                          "content": "Выполняется"
+                        },
+                        "T8ILCl": {
+                          "content": "Результат пока не получен"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
