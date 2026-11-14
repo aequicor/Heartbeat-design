@@ -1568,8 +1568,7 @@
                           "height": 32,
                           "fill": "$aurora.pearl",
                           "cornerRadius": 6,
-                          "stroke": "$aurora.line",
-                          "strokeWidth": 1,
+                          "stroke": "#00000000",
                           "strokeAlignment": "inner",
                           "gap": 8,
                           "padding": [
@@ -4883,8 +4882,7 @@
                           "height": 32,
                           "fill": "$aurora.pearl",
                           "cornerRadius": 6,
-                          "stroke": "$aurora.line",
-                          "strokeWidth": 1,
+                          "stroke": "#00000000",
                           "strokeAlignment": "inner",
                           "gap": 8,
                           "padding": [
@@ -8279,8 +8277,7 @@
                           "height": 32,
                           "fill": "$aurora.pearl",
                           "cornerRadius": 6,
-                          "stroke": "$aurora.line",
-                          "strokeWidth": 1,
+                          "stroke": "#00000000",
                           "strokeAlignment": "inner",
                           "gap": 8,
                           "padding": [
@@ -11551,8 +11548,7 @@
                           "height": 32,
                           "fill": "$aurora.pearl",
                           "cornerRadius": 6,
-                          "stroke": "$aurora.line",
-                          "strokeWidth": 1,
+                          "stroke": "#00000000",
                           "strokeAlignment": "inner",
                           "gap": 8,
                           "padding": [
@@ -15040,8 +15036,7 @@
                           "height": 32,
                           "fill": "$aurora.pearl",
                           "cornerRadius": 6,
-                          "stroke": "$aurora.line",
-                          "strokeWidth": 1,
+                          "stroke": "#00000000",
                           "strokeAlignment": "inner",
                           "gap": 8,
                           "padding": [
@@ -18563,8 +18558,7 @@
                           "height": 32,
                           "fill": "$aurora.pearl",
                           "cornerRadius": 6,
-                          "stroke": "$aurora.line",
-                          "strokeWidth": 1,
+                          "stroke": "#00000000",
                           "strokeAlignment": "inner",
                           "gap": 8,
                           "padding": [
@@ -25168,8 +25162,7 @@
                           "height": 32,
                           "fill": "$aurora.pearl",
                           "cornerRadius": 6,
-                          "stroke": "$aurora.line",
-                          "strokeWidth": 1,
+                          "stroke": "#00000000",
                           "strokeAlignment": "inner",
                           "gap": 8,
                           "padding": [
@@ -30870,8 +30863,7 @@
                               "height": 32,
                               "fill": "$aurora.pearl",
                               "cornerRadius": 6,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
+                              "stroke": "#00000000",
                               "strokeAlignment": "inner",
                               "gap": 8,
                               "padding": [
@@ -32710,8 +32702,7 @@
                               "height": 48,
                               "fill": "$aurora.pearl",
                               "cornerRadius": 6,
-                              "stroke": "$aurora.line",
-                              "strokeWidth": 1,
+                              "stroke": "#00000000",
                               "strokeAlignment": "inner",
                               "gap": 8,
                               "padding": [
