@@ -45001,11 +45001,72 @@
               "stroke": "#DFE2D8",
               "strokeWidth": 1,
               "layout": "vertical",
+              "gap": 4,
               "padding": [
                 8,
                 16
               ],
               "children": [
+                {
+                  "type": "frame",
+                  "id": "yXuCi",
+                  "name": "Текущий этап / название недоступно",
+                  "context": "При отсутствии содержательного названия активного хода показывать Агент работает...; заменить той же строкой после появления названия.",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ldfHt",
+                      "name": "Линия и маркер этапа",
+                      "width": 16,
+                      "height": 24,
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "pYE2I",
+                          "name": "Связь с предыдущим этапом",
+                          "fill": "#00000000",
+                          "width": 1,
+                          "height": 7
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "ndUOJ",
+                          "name": "Текущий этап / полый фиолетовый индикатор",
+                          "fill": "$aurora.pearl",
+                          "width": 10,
+                          "height": 10,
+                          "stroke": "$aurora.primary",
+                          "strokeWidth": 2
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "XJIqY",
+                          "name": "Связь со следующим этапом",
+                          "fill": "#00000000",
+                          "width": 1,
+                          "height": "fill_container"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "K6nF5",
+                      "name": "Текущий этап / резервное пояснение",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Агент работает...",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
                 {
                   "id": "yRHhG",
                   "type": "ref",
@@ -69878,6 +69939,66 @@
                 16
               ],
               "children": [
+                {
+                  "type": "frame",
+                  "id": "xsGIp",
+                  "name": "Текущий этап / название недоступно",
+                  "context": "При отсутствии содержательного названия активного хода показывать Агент работает...; заменить той же строкой после появления названия.",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dvW8t",
+                      "name": "Линия и маркер этапа",
+                      "width": 16,
+                      "height": 24,
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "O5EPnS",
+                          "name": "Связь с предыдущим этапом",
+                          "fill": "#00000000",
+                          "width": 1,
+                          "height": 7
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "wDVoR",
+                          "name": "Текущий этап / полый фиолетовый индикатор",
+                          "fill": "$aurora.pearl",
+                          "width": 10,
+                          "height": 10,
+                          "stroke": "$aurora.primary",
+                          "strokeWidth": 2
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "YqmTO",
+                          "name": "Связь со следующим этапом",
+                          "fill": "#00000000",
+                          "width": 1,
+                          "height": "fill_container"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "flKw7",
+                      "name": "Текущий этап / резервное пояснение",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Агент работает...",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
                 {
                   "type": "text",
                   "id": "G2MtGc",
