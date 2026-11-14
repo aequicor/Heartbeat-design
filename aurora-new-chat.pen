@@ -45013,15 +45013,21 @@
                   "name": "Текущий этап / название недоступно",
                   "context": "При отсутствии содержательного названия активного хода показывать Агент работает...; заменить той же строкой после появления названия.",
                   "width": "fill_container",
-                  "gap": 16,
+                  "gap": 8,
                   "children": [
                     {
                       "type": "frame",
                       "id": "ldfHt",
                       "name": "Линия и маркер этапа",
-                      "width": 24,
+                      "width": 32,
                       "height": 24,
                       "layout": "vertical",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        8
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -47238,15 +47244,21 @@
                                       "name": "Текущий этап / индикатор и описание",
                                       "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                       "width": "fill_container",
-                                      "gap": 16,
+                                      "gap": 8,
                                       "children": [
                                         {
                                           "type": "frame",
                                           "id": "o8eHzC",
                                           "name": "Линия и маркер этапа",
-                                          "width": 24,
+                                          "width": 32,
                                           "height": 24,
                                           "layout": "vertical",
+                                          "padding": [
+                                            0,
+                                            0,
+                                            0,
+                                            8
+                                          ],
                                           "alignItems": "center",
                                           "children": [
                                             {
@@ -47707,15 +47719,20 @@
                               "id": "nc2T5",
                               "name": "Связанный этап / Первый результат",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "TpAd8",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 68,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -47856,15 +47873,21 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 16,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "yw1HO",
                                               "name": "Линия и маркер этапа",
-                                              "width": 24,
+                                              "width": 32,
                                               "height": 24,
                                               "layout": "vertical",
+                                              "padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                8
+                                              ],
                                               "alignItems": "center",
                                               "children": [
                                                 {
@@ -48187,15 +48210,20 @@
                               "id": "NQH26",
                               "name": "Связанный этап / Первый результат",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "f19JK8",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 68,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -48309,15 +48337,20 @@
                               "id": "q2nT1",
                               "name": "Связанный этап / Второй результат",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "f3OICn",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 68,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -48458,15 +48491,21 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 16,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "NIbIv",
                                               "name": "Линия и маркер этапа",
-                                              "width": 24,
+                                              "width": 32,
                                               "height": 24,
                                               "layout": "vertical",
+                                              "padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                8
+                                              ],
                                               "alignItems": "center",
                                               "children": [
                                                 {
@@ -49010,15 +49049,20 @@
                               "id": "V7ioTn",
                               "name": "Связанный этап / Первый этап",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "hvaMD",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 68,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -49119,15 +49163,20 @@
                               "id": "PQjTe",
                               "name": "Связанный этап / Второй этап",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "RSyne",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 68,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -49228,15 +49277,20 @@
                               "id": "Ps1iO",
                               "name": "Связанный этап / Третий этап",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "ZxVOn",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 32,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -49469,15 +49523,20 @@
                               "id": "M2x8i",
                               "name": "Связанный этап / Первый этап / подробности",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "K1adX",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 334,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -49802,15 +49861,15 @@
                                   "x": 0,
                                   "y": 0,
                                   "name": "Хронология / маркеры на общей линии",
-                                  "context": "Декоративная линия: ось x=12 в колонке 24. Центры полых маркеров совпадают с центрами кликабельных шапок. Пересчитывать после переноса и раскрытия; не перехватывать ввод.",
-                                  "width": 24,
+                                  "context": "Декоративная линия: ось x=20 совпадает с центром иконки текущего инструмента. Внешние маркеры истории стоят на линии, по высоте центра кликабельной шапки. Пересчитывать при переносах/раскрытии; не перехватывать ввод.",
+                                  "width": 32,
                                   "height": 334,
                                   "layout": "none",
                                   "children": [
                                     {
                                       "type": "rectangle",
                                       "id": "GMg6B",
-                                      "x": 11.5,
+                                      "x": 19.5,
                                       "y": 20,
                                       "name": "Связь / к вызову Epzjz",
                                       "fill": "#D2DDD0",
@@ -49820,7 +49879,7 @@
                                     {
                                       "type": "ellipse",
                                       "id": "bYtpz",
-                                      "x": 8,
+                                      "x": 16,
                                       "y": 56,
                                       "name": "Статус вызова / Epzjz",
                                       "fill": "$aurora.pearl",
@@ -49832,7 +49891,7 @@
                                     {
                                       "type": "rectangle",
                                       "id": "fYEX3",
-                                      "x": 11.5,
+                                      "x": 19.5,
                                       "y": 64,
                                       "name": "Связь / к вызову J0LFS",
                                       "fill": "#D2DDD0",
@@ -49842,7 +49901,7 @@
                                     {
                                       "type": "ellipse",
                                       "id": "SGJQl",
-                                      "x": 8,
+                                      "x": 16,
                                       "y": 206,
                                       "name": "Статус вызова / J0LFS",
                                       "fill": "$aurora.pearl",
@@ -49854,7 +49913,7 @@
                                     {
                                       "type": "rectangle",
                                       "id": "nHXhn",
-                                      "x": 11.5,
+                                      "x": 19.5,
                                       "y": 214,
                                       "name": "Связь / к вызову dQb1s",
                                       "fill": "#D2DDD0",
@@ -49864,7 +49923,7 @@
                                     {
                                       "type": "ellipse",
                                       "id": "jflWJ",
-                                      "x": 8,
+                                      "x": 16,
                                       "y": 258,
                                       "name": "Статус вызова / dQb1s",
                                       "fill": "$aurora.pearl",
@@ -49876,7 +49935,7 @@
                                     {
                                       "type": "rectangle",
                                       "id": "PhEE0",
-                                      "x": 11.5,
+                                      "x": 19.5,
                                       "y": 266,
                                       "name": "Связь / к следующему этапу",
                                       "fill": "#D2DDD0",
@@ -49919,15 +49978,21 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 16,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "lOXx3",
                                               "name": "Линия и маркер этапа",
-                                              "width": 24,
+                                              "width": 32,
                                               "height": 24,
                                               "layout": "vertical",
+                                              "padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                8
+                                              ],
                                               "alignItems": "center",
                                               "children": [
                                                 {
@@ -50253,15 +50318,20 @@
                               "id": "f9sql",
                               "name": "Связанный этап / Первый результат",
                               "width": "fill_container",
-                              "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
                                   "id": "DuLhy",
                                   "name": "Линия и маркер этапа",
-                                  "width": 24,
+                                  "width": 32,
                                   "height": 108,
                                   "layout": "vertical",
+                                  "padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    8
+                                  ],
                                   "alignItems": "center",
                                   "children": [
                                     {
@@ -50402,15 +50472,21 @@
                                           "name": "Текущий этап / индикатор и описание",
                                           "context": "Колонка маркера действует только в этой строке. Следующая хронология инструментов начинается от внешнего поля облачка.",
                                           "width": "fill_container",
-                                          "gap": 16,
+                                          "gap": 8,
                                           "children": [
                                             {
                                               "type": "frame",
                                               "id": "fYCgC",
                                               "name": "Линия и маркер этапа",
-                                              "width": 24,
+                                              "width": 32,
                                               "height": 24,
                                               "layout": "vertical",
+                                              "padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                8
+                                              ],
                                               "alignItems": "center",
                                               "children": [
                                                 {
@@ -70202,15 +70278,21 @@
                   "name": "Текущий этап / название недоступно",
                   "context": "При отсутствии содержательного названия активного хода показывать Агент работает...; заменить той же строкой после появления названия.",
                   "width": "fill_container",
-                  "gap": 16,
+                  "gap": 8,
                   "children": [
                     {
                       "type": "frame",
                       "id": "dvW8t",
                       "name": "Линия и маркер этапа",
-                      "width": 24,
+                      "width": 32,
                       "height": 24,
                       "layout": "vertical",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        8
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
