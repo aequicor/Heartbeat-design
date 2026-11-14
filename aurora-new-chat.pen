@@ -49118,7 +49118,7 @@
                                   "id": "K1adX",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 342,
+                                  "height": 350,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49290,17 +49290,37 @@
                                           }
                                         },
                                         {
-                                          "type": "text",
-                                          "id": "xRjrX",
-                                          "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
-                                          "fill": "$aurora.ink",
-                                          "textGrowth": "fixed-width",
+                                          "type": "frame",
+                                          "id": "dfFiL",
+                                          "name": "Результат этапа / граница после инструментов",
+                                          "context": "Один разделитель между видимым списком действий и текстом результата. При свёрнутом списке или отсутствии результата скрывается. Не разделяет отдельные вызовы или соседние этапы.",
                                           "width": "fill_container",
-                                          "content": "Повторная отправка доступна до подтверждения остановки.",
-                                          "lineHeight": 1.5,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 16,
-                                          "fontWeight": "normal"
+                                          "stroke": "#D8DDD2",
+                                          "strokeWidth": {
+                                            "top": 1
+                                          },
+                                          "layout": "vertical",
+                                          "padding": [
+                                            8,
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "xRjrX",
+                                              "name": "Текст / Повторная отправка доступна до подтверждения остановки.",
+                                              "fill": "$aurora.ink",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Повторная отправка доступна до подтверждения остановки.",
+                                              "lineHeight": 1.5,
+                                              "fontFamily": "$aurora.font",
+                                              "fontSize": 16,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
