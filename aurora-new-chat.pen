@@ -87846,6 +87846,8 @@
                               "type": "frame",
                               "id": "qVFWk",
                               "name": "Навигация по оставшимся вопросам",
+                              "context": "Счётчик на центральной вертикальной оси строки. Боковые области одинаковой ширины, все три подписи выровнены по горизонтальной оси.",
+                              "width": 256,
                               "height": 32,
                               "gap": 4,
                               "alignItems": "center",
@@ -87855,6 +87857,7 @@
                                   "id": "ZPtJ8",
                                   "name": "Предыдущий ожидающий вопрос",
                                   "opacity": 0.55,
+                                  "width": "fill_container",
                                   "height": 32,
                                   "fill": "#00000000",
                                   "cornerRadius": 8,
@@ -87894,6 +87897,7 @@
                                   "type": "frame",
                                   "id": "ipdKM",
                                   "name": "Пропустить необязательный вопрос",
+                                  "width": "fill_container",
                                   "height": 32,
                                   "fill": "#00000000",
                                   "cornerRadius": 8,
@@ -99179,6 +99183,9 @@
                           "lineHeight": 1.5,
                           "fontWeight": "500",
                           "fill": "$request.text"
+                        },
+                        "qVFWk": {
+                          "width": 256
                         }
                       }
                     }
@@ -111683,7 +111690,12 @@
                       "width": 760,
                       "height": "fit_content",
                       "x": 198,
-                      "y": 554
+                      "y": 554,
+                      "descendants": {
+                        "VLns9/qVFWk": {
+                          "width": 256
+                        }
+                      }
                     }
                   ]
                 },
@@ -122192,6 +122204,9 @@
                       "lineHeight": 1.5,
                       "fontWeight": "500",
                       "fill": "$request.text"
+                    },
+                    "qVFWk": {
+                      "width": 256
                     }
                   }
                 }
@@ -122234,6 +122249,9 @@
                       "lineHeight": 1.5,
                       "fontWeight": "500",
                       "fill": "$request.text"
+                    },
+                    "qVFWk": {
+                      "width": 256
                     },
                     "W1nKP": {
                       "content": "Выберите 1–2 варианта",
@@ -122791,6 +122809,9 @@
                   "descendants": {
                     "cLQzm/QY3n9": {
                       "icon": "loader-circle"
+                    },
+                    "cLQzm/qVFWk": {
+                      "width": 256
                     }
                   }
                 }
@@ -122822,7 +122843,12 @@
                   "type": "ref",
                   "ref": "IoblZ",
                   "name": "Ошибка / выбор и комментарий сохранены / панель",
-                  "width": "fill_container"
+                  "width": "fill_container",
+                  "descendants": {
+                    "VLns9/qVFWk": {
+                      "width": 256
+                    }
+                  }
                 }
               ]
             }
@@ -126784,6 +126810,9 @@
                       "lineHeight": 1.5,
                       "fontWeight": "500",
                       "fill": "$request.text"
+                    },
+                    "qVFWk": {
+                      "width": 256
                     },
                     "ZPtJ8": {
                       "opacity": 1
