@@ -47371,17 +47371,16 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 19
+                                      "height": 20
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "qN7rD",
-                                      "name": "Текущий этап / кольцо",
-                                      "fill": "$aurora.pearl",
-                                      "width": 10,
-                                      "height": 10,
-                                      "stroke": "$aurora.primary",
-                                      "strokeWidth": 2
+                                      "name": "Завершённый шаг / точка",
+                                      "fill": "#8AA38D",
+                                      "width": 8,
+                                      "height": 8,
+                                      "stroke": "$aurora.primary"
                                     },
                                     {
                                       "type": "rectangle",
@@ -47421,7 +47420,7 @@
                                           "content": "Ищу обработчик остановки"
                                         },
                                         "PVuWe": {
-                                          "content": "Выполняется"
+                                          "content": "Готово"
                                         },
                                         "EfkZb": {
                                           "icon": "chevron-right"
@@ -47431,10 +47430,10 @@
                                           "width": 600
                                         },
                                         "F03pZ": {
-                                          "content": "Выполнение продолжается"
+                                          "content": "Поиск завершён"
                                         },
                                         "T8ILCl": {
-                                          "content": "Результат пока не получен"
+                                          "content": "Обработчик остановки найден"
                                         }
                                       }
                                     }
@@ -47454,7 +47453,7 @@
                                   "id": "olASA",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 18,
+                                  "height": 70,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -47464,16 +47463,17 @@
                                       "name": "Связь с предыдущим этапом",
                                       "fill": "#D2DDD0",
                                       "width": 1,
-                                      "height": 5
+                                      "height": 19
                                     },
                                     {
                                       "type": "ellipse",
                                       "id": "jL3bx",
-                                      "name": "Завершённый этап / точка",
-                                      "fill": "#C9D3C7",
-                                      "width": 8,
-                                      "height": 8,
-                                      "stroke": "#00000000"
+                                      "name": "Thinking / текущий шаг",
+                                      "fill": "$aurora.pearl",
+                                      "width": 10,
+                                      "height": 10,
+                                      "stroke": "$aurora.primary",
+                                      "strokeWidth": 2
                                     },
                                     {
                                       "type": "rectangle",
@@ -47494,47 +47494,11 @@
                                   "gap": 8,
                                   "children": [
                                     {
-                                      "type": "frame",
-                                      "id": "QvuMe",
-                                      "name": "Сопоставляю состояния отмены с повторной отправкой",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "nMEzk",
-                                          "name": "Действие",
-                                          "width": "fill_container",
-                                          "gap": 8,
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "vdAvV",
-                                              "name": "text",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "file-text",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
-                                            {
-                                              "type": "text",
-                                              "id": "QbnOT",
-                                              "name": "Текст / Сопоставляю состояния отмены с повторной отправкой",
-                                              "fill": "$aurora.muted",
-                                              "textGrowth": "fixed-width",
-                                              "width": "fill_container",
-                                              "content": "Сопоставляю состояния отмены с повторной отправкой",
-                                              "lineHeight": 1.3846153846153846,
-                                              "fontFamily": "$aurora.font",
-                                              "fontSize": 13,
-                                              "fontWeight": "normal"
-                                            }
-                                          ]
-                                        }
-                                      ]
+                                      "id": "oI4iD",
+                                      "type": "ref",
+                                      "ref": "ZLjM3",
+                                      "name": "Thinking / активный / свёрнут",
+                                      "width": 572
                                     }
                                   ]
                                 }
@@ -49420,7 +49384,7 @@
                                   "id": "K1adX",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 340,
+                                  "height": 392,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -49562,17 +49526,16 @@
                                           }
                                         },
                                         {
-                                          "type": "text",
-                                          "id": "byQJD",
-                                          "name": "Подпись / Сопоставляю состояния отмены с повторной отправкой",
-                                          "fill": "$aurora.muted",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "Сопоставляю состояния отмены с повторной отправкой",
-                                          "lineHeight": 1.3846153846153846,
-                                          "fontFamily": "$aurora.font",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal"
+                                          "id": "dQb1s",
+                                          "type": "ref",
+                                          "ref": "ZLjM3",
+                                          "name": "Thinking / завершённый / история",
+                                          "width": 572,
+                                          "descendants": {
+                                            "K8nVq": {
+                                              "content": "Размышления"
+                                            }
+                                          }
                                         },
                                         {
                                           "type": "text",
@@ -50037,7 +50000,7 @@
                                   "id": "fYCgC",
                                   "name": "Линия и маркер этапа",
                                   "width": 16,
-                                  "height": 102,
+                                  "height": 198,
                                   "layout": "vertical",
                                   "alignItems": "center",
                                   "children": [
@@ -50128,6 +50091,21 @@
                                             },
                                             "T8ILCl": {
                                               "content": "Результат пока не получен"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "tV0RO",
+                                          "type": "ref",
+                                          "ref": "ZLjM3",
+                                          "name": "Thinking / Android / свёрнут",
+                                          "width": 278,
+                                          "descendants": {
+                                            "xr6pN": {
+                                              "content": "Проверяю сохранение вложений…"
+                                            },
+                                            "V4h3K": {
+                                              "content": "Проверяю сохранение вложений при отмене запроса и переходе обратно к черновику."
                                             }
                                           }
                                         }
@@ -50861,6 +50839,147 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Отмена: running → stopping → stopped\nПовторная отправка: доступна в stopping",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZLjM3",
+              "name": "Thinking / единый раскрываемый блок",
+              "context": "Активный заголовок Думает...; subtitle — начало переданного движком текста Thinking. По нажатию весь полученный текст; открытый блок растёт с новыми фрагментами. Ручное сворачивание сохраняется. На финале всё закрывается.",
+              "reusable": true,
+              "clip": true,
+              "width": 600,
+              "fill": "#F0F2EB",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XpIWN",
+                  "name": "Инструмент / кликабельный заголовок",
+                  "context": "Единый focusable button с expanded/collapsed. Доступное имя содержит название и статус. Минимальная цель 48; высота растёт по тексту.",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Eymjb",
+                      "name": "Колонка иконки / первая строка",
+                      "width": 16,
+                      "height": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j9wrgK",
+                          "name": "Тип инструмента",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "brain",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fYrhr",
+                      "name": "Название и статус",
+                      "context": "Название и subtitle находятся в одной текстовой колонке. Левый край обеих строк совпадает; subtitle не начинается под иконкой.",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K8nVq",
+                          "name": "Thinking / title",
+                          "fill": "$aurora.ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Думает...",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xr6pN",
+                          "name": "Thinking / первые токены",
+                          "fill": "$aurora.muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Сопоставляю состояния отмены с повторной отправкой…",
+                          "lineHeight": 1.3846153846153846,
+                          "fontFamily": "$aurora.font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vyDlH",
+                      "name": "Шеврон / первая строка",
+                      "width": 16,
+                      "height": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "c0Cl7R",
+                          "name": "Состояние раскрытия",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-right",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DFdNB",
+                  "x": 16,
+                  "y": 118,
+                  "name": "Thinking / полный текст",
+                  "enabled": false,
+                  "width": 600,
+                  "fill": "#00000000",
+                  "stroke": "#D8DDD2",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    12,
+                    12,
+                    12,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V4h3K",
+                      "name": "Thinking / полученные фрагменты",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике.",
                       "lineHeight": 1.5,
                       "fontFamily": "$aurora.font",
                       "fontSize": 16,
@@ -70280,6 +70399,464 @@
               "fontFamily": "$aurora.font",
               "fontSize": 13,
               "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "K4aKb",
+      "x": 2460,
+      "y": 4900,
+      "name": "19 / Thinking / Раскрытие и поступление текста",
+      "clip": true,
+      "width": 1440,
+      "fill": "$aurora.canvas",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "i4u1wR",
+          "name": "Thinking: начало текста → раскрытие → новые фрагменты",
+          "fill": "$aurora.ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Thinking: начало текста → раскрытие → новые фрагменты",
+          "lineHeight": 1.3333333333333333,
+          "fontFamily": "$aurora.font",
+          "fontSize": 24,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "Qlmol",
+          "name": "Статические состояния · текст в примерах демонстрационный · в приложении используются только полученные данные",
+          "fill": "$aurora.muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Статические состояния · текст в примерах демонстрационный · в приложении используются только полученные данные",
+          "lineHeight": 1.3846153846153846,
+          "fontFamily": "$aurora.font",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "OF2os",
+          "name": "Свёрнутый и раскрытый Thinking",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "d12Dx4",
+              "name": "1. Свёрнут · начало текста",
+              "width": 676,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FbB9a",
+                  "name": "1. Свёрнут · начало текста",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "1. Свёрнут · начало текста",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "FQrGJ",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "1. Свёрнут · начало текста",
+                  "width": 676,
+                  "descendants": {
+                    "K8nVq": {
+                      "content": "Думает..."
+                    },
+                    "c0Cl7R": {
+                      "icon": "chevron-right"
+                    },
+                    "DFdNB": {
+                      "enabled": false,
+                      "width": 600
+                    },
+                    "V4h3K": {
+                      "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике."
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kRMMQ",
+              "name": "2. Нажатие · весь полученный текст",
+              "width": 676,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a9Gi7",
+                  "name": "2. Нажатие · весь полученный текст",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "2. Нажатие · весь полученный текст",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "I2ys7a",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "2. Нажатие · весь полученный текст",
+                  "width": 676,
+                  "descendants": {
+                    "K8nVq": {
+                      "content": "Думает..."
+                    },
+                    "c0Cl7R": {
+                      "icon": "chevron-down"
+                    },
+                    "DFdNB": {
+                      "enabled": true,
+                      "width": "fill_container"
+                    },
+                    "V4h3K": {
+                      "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G8Vmk",
+          "name": "Рост и завершение Thinking",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "H0vqr8",
+              "name": "3. Пришёл следующий фрагмент · блок вырос",
+              "width": 676,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y8wdfz",
+                  "name": "3. Пришёл следующий фрагмент · блок вырос",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "3. Пришёл следующий фрагмент · блок вырос",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "Yi4Nz",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "3. Пришёл следующий фрагмент · блок вырос",
+                  "width": 676,
+                  "descendants": {
+                    "K8nVq": {
+                      "content": "Думает..."
+                    },
+                    "c0Cl7R": {
+                      "icon": "chevron-down"
+                    },
+                    "DFdNB": {
+                      "enabled": true,
+                      "width": "fill_container"
+                    },
+                    "V4h3K": {
+                      "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике.\n\nПроверяю также, что повторная отправка не запускается до подтверждения остановки. Сравниваю этот переход с поведением списка вложений."
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AL9WV",
+              "name": "4. Завершён · текст сохранён",
+              "width": 676,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x4p9fG",
+                  "name": "4. Завершён · текст сохранён",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "4. Завершён · текст сохранён",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "jnrEB",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "4. Завершён · текст сохранён",
+                  "width": 676,
+                  "descendants": {
+                    "K8nVq": {
+                      "content": "Размышления"
+                    },
+                    "c0Cl7R": {
+                      "icon": "chevron-down"
+                    },
+                    "DFdNB": {
+                      "enabled": true,
+                      "width": "fill_container"
+                    },
+                    "V4h3K": {
+                      "content": "Сопоставляю состояния отмены с повторной отправкой. Проверяю, когда запрос переходит в stopped и остаются ли вложения в черновике.\n\nПроверяю также, что повторная отправка не запускается до подтверждения остановки. Сравниваю этот переход с поведением списка вложений."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RPbI8",
+          "name": "Android и правило обновления",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Q9Fr38",
+              "name": "Android / раскрытый Thinking",
+              "width": 338,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dYzEK",
+                  "name": "Android · ширина сообщения 338",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Android · ширина сообщения 338",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "s26L2",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "Thinking / Android / раскрытый",
+                  "width": 338,
+                  "descendants": {
+                    "xr6pN": {
+                      "content": "Сопоставляю состояния отмены…"
+                    },
+                    "c0Cl7R": {
+                      "icon": "chevron-down"
+                    },
+                    "DFdNB": {
+                      "enabled": true,
+                      "width": "fill_container"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jjxUX",
+              "name": "Правила потока",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QOUZo",
+                  "name": "Новые фрагменты дописываются в раскрытый блок. Высота растёт по тексту; положение чтения сохраняется.",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Новые фрагменты дописываются в раскрытый блок. Высота растёт по тексту; положение чтения сохраняется.",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RUSeG",
+                  "name": "Начало в subtitle остаётся стабильным. При ручном сворачивании новые фрагменты не открывают блок снова.",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Начало в subtitle остаётся стабильным. При ручном сворачивании новые фрагменты не открывают блок снова.",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XIfo3",
+                  "name": "До первого фрагмента — «Ожидаю текст…». Если движок не передаёт Thinking, фиктивный блок не создаётся.",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "До первого фрагмента — «Ожидаю текст…». Если движок не передаёт Thinking, фиктивный блок не создаётся.",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TRqKU",
+                  "name": "Нажатие и Enter/Space переключают раскрытие. Выделение текста не сворачивает блок. Финал закрывает весь ход по общему правилу.",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Нажатие и Enter/Space переключают раскрытие. Выделение текста не сворачивает блок. Финал закрывает весь ход по общему правилу.",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Mvpjy",
+          "name": "Ожидание и прерывание Thinking",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "LxLb8",
+              "name": "Ожидание первого фрагмента",
+              "width": 676,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dn8Du",
+                  "name": "Ожидание первого фрагмента",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ожидание первого фрагмента",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "gFPJ6",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "Ожидание первого фрагмента",
+                  "width": 676,
+                  "descendants": {
+                    "K8nVq": {
+                      "content": "Думает..."
+                    },
+                    "xr6pN": {
+                      "content": "Ожидаю текст…"
+                    },
+                    "c0Cl7R": {
+                      "icon": "chevron-right"
+                    },
+                    "DFdNB": {
+                      "enabled": false,
+                      "width": 600
+                    },
+                    "V4h3K": {
+                      "content": ""
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vYQeA",
+              "name": "Поток прерван / полученный текст сохранён",
+              "width": 676,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F0apEo",
+                  "name": "Поток прерван / полученный текст сохранён",
+                  "fill": "$aurora.muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Поток прерван / полученный текст сохранён",
+                  "lineHeight": 1.3846153846153846,
+                  "fontFamily": "$aurora.font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "lOsNq",
+                  "type": "ref",
+                  "ref": "ZLjM3",
+                  "name": "Поток прерван / полученный текст сохранён",
+                  "width": 676,
+                  "descendants": {
+                    "K8nVq": {
+                      "content": "Размышления прерваны"
+                    },
+                    "xr6pN": {
+                      "content": "Сопоставляю состояния отмены…"
+                    },
+                    "c0Cl7R": {
+                      "icon": "chevron-down"
+                    },
+                    "DFdNB": {
+                      "enabled": true,
+                      "width": "fill_container"
+                    },
+                    "V4h3K": {
+                      "content": "Сопоставляю состояния отмены с повторной отправкой."
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
