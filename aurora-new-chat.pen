@@ -111190,7 +111190,7 @@
                                   "type": "text",
                                   "id": "nJjyq",
                                   "name": "Аргументы действия",
-                                  "fill": "$request.text",
+                                  "fill": "$request.secondary",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
                                   "content": "SessionController.kt\nSessionControllerTest.kt",
