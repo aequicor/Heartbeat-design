@@ -1,5 +1,6 @@
 /exports/
 /out/
+/plans/
 
 # Local Codex state. Share repository configuration and agents.
 /.codex/*
