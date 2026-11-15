@@ -154309,13 +154309,14 @@
                   "type": "frame",
                   "id": "x3r5Gb",
                   "name": "Заголовок панели файлов",
+                  "context": "Слева сворачивание панели и поиск; справа название. Высота 40, цели 32, gap 4. Шапка сразу под нативной областью окна.",
                   "width": "fill_container",
                   "height": 40,
                   "stroke": "#00000000",
                   "strokeWidth": {
                     "bottom": 1
                   },
-                  "gap": 8,
+                  "gap": 4,
                   "padding": [
                     0,
                     8
@@ -154323,17 +154324,27 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "ZhYu3",
-                      "name": "Название панели",
-                      "fill": "$aurora.ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Файлы",
-                      "lineHeight": 1.4285714286,
-                      "fontFamily": "$aurora.font",
-                      "fontSize": 14,
-                      "fontWeight": "500"
+                      "type": "frame",
+                      "id": "yQg9Z",
+                      "name": "Свернуть панель файлов",
+                      "context": "Свернуть панель файлов; чат занимает освободившееся место. Доступное имя и подсказка: Свернуть панель файлов. При сворачивании фокус возвращается на кнопку файлов диалога.",
+                      "width": 32,
+                      "height": 32,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "eCjZc",
+                          "name": "Свернуть боковую панель",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "panel-left",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
@@ -154358,26 +154369,18 @@
                       ]
                     },
                     {
-                      "type": "frame",
-                      "id": "yQg9Z",
-                      "name": "Закрыть панель",
-                      "width": 32,
-                      "height": 32,
-                      "layout": "vertical",
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "eCjZc",
-                          "name": "Закрыть панель",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "x",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        }
-                      ]
+                      "type": "text",
+                      "id": "ZhYu3",
+                      "name": "Название панели",
+                      "fill": "$aurora.ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Файлы",
+                      "lineHeight": 1.4285714286,
+                      "textAlign": "right",
+                      "fontFamily": "$aurora.font",
+                      "fontSize": 14,
+                      "fontWeight": "500"
                     }
                   ]
                 },
@@ -160064,7 +160067,7 @@
           "height": "fill_container",
           "layout": "vertical",
           "padding": [
-            40,
+            24,
             0,
             0,
             0
@@ -160076,7 +160079,7 @@
               "ref": "RUvoc",
               "name": "Файлы / правая панель",
               "x": 0,
-              "y": 40,
+              "y": 24,
               "width": "fill_container",
               "height": "fill_container",
               "stroke": "#00000000",
