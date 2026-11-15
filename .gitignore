@@ -1,1 +1,9 @@
 /exports/
+/out/
+/plans/
+
+# Local Codex state. Share repository configuration and agents.
+/.codex/*
+!/.codex/config.toml
+!/.codex/agents/
+/AGENTS.override.md

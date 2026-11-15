@@ -1,96 +1,102 @@
-# Aurora — Opalescent Material 3 Design System
+# Aurora — каталог дизайн-системы
 
-**Product:** Heartbeat 2.0 / AI Studio  
-**Targets:** Compose Multiplatform (Android + JVM Desktop); visual tokens are platform-agnostic  
-**Concept:** A quiet pastel workspace with a visually distinctive, living chat surface.
+Актуально на 15 ноября 2026. Визуальный источник — [aurora-new-chat.pen](aurora-new-chat.pen).
+Общие токены, геометрия, поведение и приёмка находятся в [дизайн-системе](design-system.md).
+Этот каталог заменяет раннее описание Opalescent Material 3: оно больше не задаёт параллельную
+палитру, размеры, свечение composer или анимацию сферы. История доступна в Git и исходных планах.
 
-## Direction
+Сверка 15 ноября 2026 включает актуальные листы 35–36 и 54–55: соседнюю панель файлов,
+шапку истории над завершённым ответом и её размытие под верхним управлением.
+Условия взаимодействия сведены в [поведение чата](plans/aurora-chat-behavior.md);
+размеры кадров ниже — примеры, а не фиксированные размеры окна приложения.
 
-Aurora combines **Opalescent / Iridescent** lighting with a predominantly calm, opaque material language. The workspace must never become a full-screen animated gradient. The user's attention belongs to the content and the chat composer. Use lavender, Granny Smith apple green, blush, icy blue, and pearl white. Glow is contextual and concentrated around the central chat frame, the composer, and generation feedback.
+## Основной сценарий и состояния
 
-## Colors
+Путь: выбрать проект/диалог → отправить задачу с файлами → проследить этапы → ответить на
+уточнение/разрешение → получить подтверждённый финал → открыть результат и вернуться к чтению.
+Все узлы ниже принадлежат одному `.pen`; искать по ID, поскольку номера 38, 42 и 43 повторяются.
 
-| Token | Hex | Usage |
-|---|---|---|
-| `aurora.pearl` | `#FEFDFC` | Chat surface |
-| `aurora.canvas` | `#F8F8F5` | Workspace background |
-| `aurora.lavender` | `#E8DFF7` | Primary luminous accent |
-| `aurora.grannyApple` | `#D8E9BD` | Soft green accent / selected states |
-| `aurora.blush` | `#F8E2EA` | Secondary sheen |
-| `aurora.iceBlue` | `#DCECF2` | Spectral cool highlight |
-| `aurora.ink` | `#302E39` | Main content text |
-| `aurora.mutedText` | `#5A5663` | Secondary text |
-| `aurora.primary` | `#66557E` | High-contrast CTA / focus state |
-| `aurora.secondary` | `#4D6B48` | Functional green / active indicator |
-| `aurora.outlineVariant` | `#E6E1E9` | Dividers |
+| Сценарий | Desktop / узлы | Android / узлы | Что проверить |
+| --- | --- | --- | --- |
+| Длинная история и перекрытие | `d6ZB8`, `XhJ7f` | `MwTJk`, `mrWMg` с IME | Плавающее управление, резкий фон, доступ к последней строке |
+| Пустой чат | `Mjw25` | Правило переносится, отдельный полный кадр не выделен | Composer есть, неизвестных метрик и пустых субагентов нет |
+| Загрузка истории | `vBK1U` | Контракт IME/безопасных областей | Не изображать пустоту/выдуманные данные; ранее известное сохраняется |
+| Ошибка отправки | `sWrLf`, `PqKTq` | Варианты в `PqKTq`, `CcQKk` | Ошибка у исходного сообщения, меню повтора снаружи |
+| Генерация | `N02oY`, `eolsk` | `KQnqD`, `p70iTK` | Stop, текущая работа, сохранённый черновик |
+| Промежуточные результаты | `qGFsN`, `kOSMB` | `KQnqD` | Полезный текст остаётся, действия этапа сворачиваются |
+| Финал / раскрытая история | `E1N9XZ`, `TXpMP`, `FPidY` | `XciNe`, `QNxEY` | Сворачивание только по подтверждённому завершению |
+| Раскрытый инструмент | `FmwTH`, `UCw0p` | Варианты `kIs2B` | Одна шапка раскрытия, статус, параметры и результат |
+| Thinking | `K4aKb` | Мобильные образцы внутри листа | Только доступный текст; префикс и накопление |
+| Уточнение / разрешение | `SeYLy`, `fN9TV`, `z7wL3` | `mS0Di`, `hDvcA`, `wxrpi` | Панель вместо composer; разные семантики набора и строгого решения |
+| Ошибка единого ответа набора | `GYFu0`, `IoblZ` | `XQe4i` | Опросник не возвращается, повтор того же объекта |
+| Полный диалог и типы содержимого | `gs8Be`, `kIs2B`, `lvysX`, `rc3Y4` | `p70iTK`, `DhrfJ` | Markdown, файлы, таблица, код, промежуточные и финальные ответы |
+| Сообщения с вложениями | `Hq5OG` | `lMdLY` | Файл/миниатюра и подпись в одном облачке |
+| Все файлы диалога | `MgB3D`, состояния `Hq5OG` | `SRtcJ` | Соседняя панель 320 без перекрытия чата / отдельный экран; возврат к якорю |
+| Режим доступа | `i34Owf`, основные экраны | `LBadY`, полный экран `Q13lsE` | Четыре режима; прокрутка параметров отдельно от закреплённых метрик |
 
-### Material 3 mapping
+Это карта статических примеров. Наличие строки не означает, что отдельный полноэкранный
+вариант каждого состояния нарисован для каждой платформы. macOS описан контрактом, отдельного
+актуального рабочего кадра нет. IME, сеть, таймер и доступность проверяются в реализации.
 
-| Role | Value |
-|---|---|
-| `primary` / `onPrimary` | `#66557E` / `#FFFFFF` |
-| `primaryContainer` | `#E8DFF7` |
-| `secondary` / `onSecondary` | `#4D6B48` / `#FFFFFF` |
-| `secondaryContainer` | `#D8E9BD` |
-| `tertiary` / `tertiaryContainer` | `#8F5A76` / `#F8E2EA` |
-| `background` / `surface` | `#F8F8F5` / `#FEFDFC` |
-| `onSurface` / `onSurfaceVariant` | `#302E39` / `#5A5663` |
-| `outlineVariant` | `#E6E1E9` |
+## Общие компоненты и контрольные листы
 
-Keep the Aurora brand theme deterministic by default; disable platform Dynamic Color unless the user explicitly selects system wallpaper coloring.
+| Семейство | Узлы / листы | Контракт |
+| --- | --- | --- |
+| Send / Stop | `PtiEY`, `OyNiC` | Круг 36, глиф 16; Android цель 48 |
+| Ручка ширины | `UKaHt` | 32 × 64, rest/hover/focus/drag |
+| Предметный фон | `pkCgX`, `INV9p`, контроль `FoMcE` | Бесшовная плитка 720, Multiply 22%, единая фаза |
+| Вертикальная полоса | `igRSG`, `BQAw9`, `Xx73K` | Rest / hover-focus / drag, толщина 4/6/8 |
+| Горизонтальная полоса | `QU6D4`, `FFznT`, `eeeAe` | Та же логика, локальная область |
+| Ход работы | `ccvEE`, `loxt9`, `dcZk6`, `IYpfj`, `T1cKsz`, `fOE5N` | Текущие действия, результаты, финал и история |
+| Шапка истории / покой, hover, focus, раскрытие | `zJwZm` (54) | Свёрнутая desktop-шапка над облачком на всю ширину без дополнительного зазора; раскрытая шапка в потоке; Android 48 |
+| Шапка под верхними панелями | `wZ67c` (55), фрагмент `jqM2T` | Общая маска размытия истории; hover не поднимает шапку над панелями |
+| Мобильный ход | `hztEb`, `O9FXOh` | Те же события, сенсорные цели |
+| Инструмент / Thinking | `Tqpcs`, `ZLjM3` | Общая шапка, локальные подробности |
+| Опросник / строгое разрешение | `kE05f`, `nEdXV` | Общая оболочка request, разные действия |
+| После отправки / ошибка | `NrTfr`, `IoblZ` | Composer восстановлен, единый объект истории |
+| Стандарт / состояния / доступность запросов | `O9gNAI`, `I01CPy`, `XQe4i` | Выбор, текст, Confirm, пропуски, таймер, восстановление |
+| Документ / изображение как файл | `soqsP`, `Ujizf` | Колонка 48, имя и метаданные |
+| Файловая панель | `RUvoc`, шапка `x3r5Gb`, колонка `BkohY` | Поверхность окна; миниатюры 40, gap 8, строки от 72; шапка 40 desktop / 56 Android |
+| Таблица и код: обе оси | `a6OwA`, `DyuuZ`, `m6Yew`, `JvPEx`, `gLteN` | Rest/hover/drag и крайние положения |
+| PlantUML | `z0iwmv` | Предпросмотр, исходник, подготовка/пустота/ошибка |
+| LaTeX | `NRz8C`, `WmCJx`, `iEqH5` | Формула и исходник в общей оболочке |
+| Полнооконный просмотр desktop | `LevXZ`, `hgfQB`, `B8GAt5` | Код, таблица, схема |
+| Полнооконный просмотр Android | `ddDsZ`, `w5ysp`, `cAbRM` | Код, таблица, формула |
+| Состояния просмотра | `wZVh3` | Подготовка, пустота, ошибка, мобильные оболочки |
+| Внешние меню сообщений | `jP7TJ`, `PqKTq` | Слева агент, справа пользователь, без влияния на ширину |
+| Компактное время | `C04Uv`, `ExZDB` | Текст и подписи, время не расширяет сообщение |
+| Ошибки / крупный текст | `CcQKk`, `QOEUX` | Адаптивный футер, границы и 200% |
+| Контекст и лимиты | `IRmPD` | Оба / только контекст / только лимиты / ничего |
+| Режим доступа / desktop | `i34Owf`, `l5qri` | Справа от усилия; четыре режима, выбранное автоподтверждение, загрузка / недоступность / ошибка |
+| Режим доступа / Android | `LBadY` | Начало и конец горизонтальной прокрутки, длинная подпись, меню с целями 48 |
 
-## Surfaces and components
+## Подробные контракты
 
-| Element | Design contract |
-|---|---|
-| Workspace | Opaque warm-white surface; static pastel hues; no continuous animation |
-| Sidebar | Low-contrast, clear navigation; selected item gets lavender-to-apple tint |
-| Chat frame | 28–32 dp rounded edge; 1.5–2 dp opalescent gradient border; subtle corner glow |
-| Chat interior | 95–100% opaque pearl; content-first; transparent ambient color only near corners |
-| Composer | 24–26 dp corners; opalescent contour; strong focus response; no flashing or flicker |
-| Assistant marker | Small iridescent pearl/orb; not a large avatar or floating blob |
-| User message | Pale green fill, high legibility, no animated background |
-| Send action | Deep lavender solid button for predictable affordance and text/icon contrast |
-| Model selector | Low-emphasis surface chip; meaningful model identity, not decoration |
-| Thinking | Small breathing orb and local shimmer; reduce motion supported |
-| Error | High-contrast semantic/error color and text; do not encode failure only in hue |
+Актуальные правила, которые важно переносить вместе с компонентами:
 
-## Motion states
+- В `MgB3D` при окне 1440 × 900 чат занимает 824 dp, соседняя панель файлов — 320 dp,
+  промежуток — 16 dp. Фон и контур заканчиваются на границе чата; заголовок, сообщения и
+  ввод получают его оставшуюся ширину. Шапка файлов: сворачивание → «Файлы» → поиск.
+  «Назад» вместо сворачивания при вложенной навигации — контракт поведения; кадр показывает корень.
+- У завершённого ответа desktop шапка истории появляется на hover/focus над телом, высота 32,
+  без зазора и изменения геометрии ответа. Раскрытая шапка находится в потоке; на Android
+  строка постоянно доступна и имеет цель от 48. Текущая работа и ошибки остаются видимыми.
+- Шапка и тело ответа проходят общую маску размытия; hover не поднимает их над верхними
+  панелями. Лист `wZ67c` показывает композицию, интерактивность проверяется в приложении.
+- После общей отправки набора вопросов composer возвращается сразу (`NrTfr`). Ошибка
+  относится к единому объекту истории (`IoblZ`); опросник не открывается повторно.
 
-| State | Timing | Behavior |
-|---|---:|---|
-| Idle | Static / optional very slow CSS preview | No continuous expensive Compose animation |
-| Hover | 140–190 ms | Small surface highlight and elevation shift |
-| Focus on composer | 240–320 ms | Border becomes sharper and slightly brighter |
-| Send | 180–240 ms | Gentle button press, content enters without large displacement |
-| Generating | 4.5–6 s / cycle | Shimmer on chat border + orb breathing; no full-window animation |
-| Completion | 300–450 ms | Glow returns to idle |
-| Reduced motion | 0 ms for non-essential movement | Replace shimmer by a static highlight + textual progress |
+- [Поведение чата](plans/aurora-chat-behavior.md), [эргономика](plans/aurora-chat-ergonomics.md): оболочка, оси, переносы и платформы.
+- [Пространство сообщения](plans/aurora-message-space.md), [ошибки и меню](plans/aurora-message-error.md): последние уточнения имеют приоритет над ранними футерами.
+- [Ход работы](plans/aurora-agent-timeline.md), [движение](plans/aurora-agent-motion.md): этапы, поток и завершение.
+- [Запросы](plans/aurora-decision-panel.md), [их проверка](plans/aurora-decision-panel-audit.md): набор, таймер, разрешение и ошибка.
+- [Вложения](plans/aurora-attachments.md), [прокрутка содержимого](plans/aurora-content-scroll.md), [оболочка](plans/aurora-diagram-shell.md), [просмотр](plans/aurora-fullscreen-content.md).
+- [Фон](plans/aurora-chat-background-seam.md), [метрики](plans/aurora-context-visibility.md), [субагенты](plans/aurora-subagents-visibility.md).
 
-Motion should reflect agent state. If `EngineState` or session state indicates thinking, derive `isActive` in presentation; the component itself must not own business logic. Animations belong in Compose UI and should be active only while needed. Keep static typography and list contents out of per-frame recomposition.
+## Архив и ещё не утверждённое
 
-## Spacing and shape
-
-- Base spacing: 4 dp increments; typical gaps 8 / 12 / 16 / 24 / 32 dp.
-- Main outer chat radius: 30–32 dp on desktop.
-- Composer radius: 24–26 dp.
-- Container padding: 24–32 dp desktop and 16–20 dp compact width.
-- Limit readable chat content to ~640–760 dp, but allow composer to fill the chat column.
-- On narrow windows, collapse the sidebar into an accessible navigation drawer.
-
-## KMP integration
-
-- `designsystem/foundation`: Aurora palette, Material 3 `ColorScheme`, shapes and theme adapter.
-- `designsystem/components`: `AuroraChatFrame`, `AuroraComposer`, `AuroraThinkingIndicator` and message surfaces.
-- `features/aistudio`: screen composition and connection to `AiEngine`/session UI states, without colors or animations in domain logic.
-- For non-Compose native targets, reuse visual tokens and motion contracts; Kotlin Compose implementations cannot be used as native UI directly.
-- Integrate SVG/vector icons from your established icon library (e.g. Tabler) rather than embedding icon path source in business components.
-
-## Acceptance criteria
-
-The visual hierarchy must still be clear with all animations disabled. Primary text and actionable controls need adequate contrast. No user-facing text should sit over a moving multicolor gradient. Ambient light must not appear to be a permanent loading state. Test animations and resize behavior on Android and desktop separately; avoid heavy fullscreen blur and shader effects in a chat with a long lazy list.
-
-## Deliverables
-
-- `AuroraPreview.html` — browser preview with a local, simulated input and live-effect toggle; no AI backend.
-- `AuroraChat.kt` — Compose Multiplatform + Material 3 theme, opalescent frame, composer, and a small sample screen. No package statement or project-specific imports; integrate into `commonMain` and wire to real state.
+`V4Y2K` — сохранённая сфера, не универсальный знак автора. `E29XF6` — прежний оригинал фона.
+Листы `jX1NJ`, `QUKhy`, `Moqat`, `oPcYY`, `i8ei1`, `n06DwL` — архив поиска знака;
+не переносить их эффекты в продукт. `ry9dm` / `NQ7gm` — последний вариант двух спокойных
+ударов для ревью, без массовой замены рабочих заголовков. Тёмная Aurora, отдельный macOS-кадр,
+Comfortable, iOS и Web не выдаются за готовые варианты каталога.

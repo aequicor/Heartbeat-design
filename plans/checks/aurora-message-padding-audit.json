@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-14",
+  "scope": "Static Pencil content-width and side-padding audit; fixed-width fit-boundary fixtures excluded from content-hug checks.",
+  "timestampAudit": {
+    "topLevelFrames": 62,
+    "occurrences": 1124,
+    "timestamps": 1122,
+    "sendingStatuses": 2,
+    "visibleOccurrences": 1079,
+    "distinctLayouts": 78,
+    "inlineLayouts": 33,
+    "footerLayouts": 45,
+    "minimumInlineGap": 9,
+    "widthViolations": 0,
+    "geometryViolations": 0
+  },
+  "shortLayoutCount": 18,
+  "shortInstanceCount": 538,
+  "changedVariantCount": 12,
+  "changedInstanceCount": 89,
+  "paddingViolations": 0,
+  "clippingViolations": 0,
+  "shortLayouts": [
+    {
+      "surface": "nJWJP/A8DczG",
+      "count": 113,
+      "width": 390,
+      "textWidth": 358,
+      "expected": 390,
+      "rightSpace": 16,
+      "text": "Проверь контракты сессий и сценарий отмены",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "nJWJP/O2mS3",
+      "count": 74,
+      "width": 466,
+      "textWidth": 434,
+      "expected": 466,
+      "rightSpace": 16,
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "nJWJP/nfMxK",
+      "count": 37,
+      "width": 213,
+      "textWidth": 181,
+      "expected": 213,
+      "rightSpace": 16,
+      "text": "Да. Черновик сохранён.",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "nJWJP/D4BzE",
+      "count": 37,
+      "width": 361,
+      "textWidth": 329,
+      "expected": 361,
+      "rightSpace": 16,
+      "text": "А если связь пропала во время остановки?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "nJWJP/rho01",
+      "count": 37,
+      "width": 391,
+      "textWidth": 359,
+      "expected": 391,
+      "rightSpace": 16,
+      "text": "Как избежать повторной отправки сообщения?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "nJWJP/cOYJU",
+      "count": 37,
+      "width": 325,
+      "textWidth": 293,
+      "expected": 325,
+      "rightSpace": 16,
+      "text": "Что делать с сообщениями в очереди?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "nJWJP/LffjD",
+      "count": 37,
+      "width": 320,
+      "textWidth": 288,
+      "expected": 320,
+      "rightSpace": 16,
+      "text": "Добавь эти случаи в список проверок",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "kEpTp/lSk1r",
+      "count": 38,
+      "width": 145,
+      "textWidth": 113,
+      "expected": 145,
+      "rightSpace": 16,
+      "text": "Да, продолжай",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "kEpTp/Ej8jY",
+      "count": 38,
+      "width": 612,
+      "textWidth": 580,
+      "expected": 612,
+      "rightSpace": 16,
+      "text": "Отдельно стоит проверить восстановление связи при открытой клавиатуре.",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "NSlOJ/osCaw",
+      "count": 39,
+      "width": 466,
+      "textWidth": 434,
+      "expected": 466,
+      "rightSpace": 16,
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "lGhmQ/WHCLW",
+      "count": 37,
+      "width": 313,
+      "textWidth": 281,
+      "expected": 313,
+      "rightSpace": 16,
+      "text": "Запусти проверку контрактов сессий",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "SvGVM",
+      "count": 8,
+      "width": 405,
+      "textWidth": 373,
+      "expected": 405,
+      "rightSpace": 16,
+      "text": "Проверь отмену запроса и сохранение вложений",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "nrzZb",
+      "count": 1,
+      "width": 229,
+      "textWidth": 197,
+      "expected": 229,
+      "rightSpace": 16,
+      "text": "session-contract.md:42–48",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "g7ANyw",
+      "count": 1,
+      "width": 466,
+      "textWidth": 434,
+      "expected": 466,
+      "rightSpace": 16,
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "qBZyG",
+      "count": 1,
+      "width": 466,
+      "textWidth": 434,
+      "expected": 466,
+      "rightSpace": 16,
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "IiIfA",
+      "count": 1,
+      "width": 466,
+      "textWidth": 434,
+      "expected": 466,
+      "rightSpace": 16,
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "miksK",
+      "count": 1,
+      "width": 145,
+      "textWidth": 113,
+      "expected": 145,
+      "rightSpace": 16,
+      "text": "Да, продолжай",
+      "leftPadding": 16,
+      "rightPadding": 16
+    },
+    {
+      "surface": "v7BfeB",
+      "count": 1,
+      "width": 213,
+      "textWidth": 181,
+      "expected": 213,
+      "rightSpace": 16,
+      "text": "Да. Черновик сохранён.",
+      "leftPadding": 16,
+      "rightPadding": 16
+    }
+  ],
+  "changes": [
+    {
+      "source": "nfMxK",
+      "text": "Да. Черновик сохранён.",
+      "before": 216,
+      "textWidth": 181,
+      "after": 213,
+      "count": 37
+    },
+    {
+      "source": "lSk1r",
+      "text": "Да, продолжай",
+      "before": 173,
+      "textWidth": 113,
+      "after": 145,
+      "count": 38
+    },
+    {
+      "source": "SvGVM",
+      "text": "Проверь отмену запроса и сохранение вложений",
+      "before": 440,
+      "textWidth": 373,
+      "after": 405,
+      "count": 2
+    },
+    {
+      "source": "dH2tL",
+      "text": "Проверь отмену запроса и сохранение вложений",
+      "before": 440,
+      "textWidth": 373,
+      "after": 405,
+      "count": 2
+    },
+    {
+      "source": "W0w8x",
+      "text": "Проверь отмену запроса и сохранение вложений",
+      "before": 440,
+      "textWidth": 373,
+      "after": 405,
+      "count": 2
+    },
+    {
+      "source": "linJY",
+      "text": "Проверь отмену запроса и сохранение вложений",
+      "before": 440,
+      "textWidth": 373,
+      "after": 405,
+      "count": 2
+    },
+    {
+      "source": "nrzZb",
+      "text": "session-contract.md:42–48",
+      "before": 652,
+      "textWidth": 197,
+      "after": 229,
+      "count": 1
+    },
+    {
+      "source": "g7ANyw",
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "before": 480,
+      "textWidth": 434,
+      "after": 466,
+      "count": 1
+    },
+    {
+      "source": "qBZyG",
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "before": 504,
+      "textWidth": 434,
+      "after": 466,
+      "count": 1
+    },
+    {
+      "source": "IiIfA",
+      "text": "Что увидит пользователь, пока запрос останавливается?",
+      "before": 504,
+      "textWidth": 434,
+      "after": 466,
+      "count": 1
+    },
+    {
+      "source": "miksK",
+      "text": "Да, продолжай",
+      "before": 173,
+      "textWidth": 113,
+      "after": 145,
+      "count": 1
+    },
+    {
+      "source": "v7BfeB",
+      "text": "Да. Черновик сохранён.",
+      "before": 216,
+      "textWidth": 181,
+      "after": 213,
+      "count": 1
+    }
+  ]
+}
