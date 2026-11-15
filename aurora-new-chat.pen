@@ -63733,23 +63733,13 @@
                                       "type": "frame",
                                       "id": "KfrDU",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "oVazP",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "a1ShVo",
@@ -63762,6 +63752,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "oVazP",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -64953,23 +64953,13 @@
                                       "type": "frame",
                                       "id": "g7gZIN",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "EBhwC",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "PwgER",
@@ -64982,6 +64972,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "EBhwC",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -65792,23 +65792,13 @@
                                       "type": "frame",
                                       "id": "rhbsc",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "ns5Dw",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "Z1oC1G",
@@ -65821,6 +65811,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "ns5Dw",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -66627,23 +66627,13 @@
                                       "type": "frame",
                                       "id": "ZipnB",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "km1s6",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "iRfwF",
@@ -66656,6 +66646,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "km1s6",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -67462,23 +67462,13 @@
                                       "type": "frame",
                                       "id": "W4TfI",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "Vf39I",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "kemoq",
@@ -67491,6 +67481,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "Vf39I",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -68574,23 +68574,13 @@
                                           "type": "frame",
                                           "id": "F2aEO",
                                           "name": "Проверка повторной отправки / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "UEDTB",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-down",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "fIShS",
@@ -68603,6 +68593,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "UEDTB",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-down",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -70510,23 +70510,13 @@
                                       "type": "frame",
                                       "id": "f1j0y",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 48,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "PJr5Z",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "d3o5N7",
@@ -70539,6 +70529,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "PJr5Z",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -71164,23 +71164,13 @@
                                       "type": "frame",
                                       "id": "h1l2Q",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 48,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "R9P06p",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "EwWep",
@@ -71193,6 +71183,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "R9P06p",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -72044,23 +72044,13 @@
                                       "type": "frame",
                                       "id": "Y4SS6k",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "W7KYUl",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "KHbty",
@@ -72073,6 +72063,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "W7KYUl",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -73240,23 +73240,13 @@
                                       "type": "frame",
                                       "id": "M1cRFw",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "g6quQ",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "v7qWq",
@@ -73269,6 +73259,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "g6quQ",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -74253,23 +74253,13 @@
                                       "type": "frame",
                                       "id": "j2Xzz",
                                       "name": "Проверка повторной отправки / раскрытие этапа",
-                                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                       "width": "fill_container",
                                       "height": 32,
                                       "cornerRadius": 8,
                                       "gap": 8,
                                       "alignItems": "center",
                                       "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "pZDk2",
-                                          "name": "Раскрыть или свернуть",
-                                          "width": 16,
-                                          "height": 16,
-                                          "icon": "chevron-down",
-                                          "library": "lucide",
-                                          "fill": "$aurora.muted"
-                                        },
                                         {
                                           "type": "text",
                                           "id": "MXK6Y",
@@ -74282,6 +74272,16 @@
                                           "fontFamily": "$aurora.font",
                                           "fontSize": 13,
                                           "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "pZDk2",
+                                          "name": "Раскрыть или свернуть",
+                                          "width": 16,
+                                          "height": 16,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$aurora.muted"
                                         }
                                       ]
                                     },
@@ -77722,23 +77722,13 @@
                                           "type": "frame",
                                           "id": "u29YF",
                                           "name": "Проверка повторной отправки / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "jTdTY",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-right",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "MyfGG",
@@ -77751,6 +77741,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "jTdTY",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -78294,23 +78294,13 @@
                                           "type": "frame",
                                           "id": "i31q6",
                                           "name": "Проверка повторной отправки / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "ULdni",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-right",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "vFmEu",
@@ -78323,6 +78313,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "ULdni",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -78421,23 +78421,13 @@
                                           "type": "frame",
                                           "id": "y93Tn",
                                           "name": "Проверка сохранения вложений / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 2 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "taEiq",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-right",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "cm8n8",
@@ -78450,6 +78440,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "taEiq",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -79330,23 +79330,13 @@
                                           "type": "frame",
                                           "id": "sMMTi",
                                           "name": "Проверка повторной отправки / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "pg9Iz",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-right",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "zAZE7",
@@ -79359,6 +79349,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "pg9Iz",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -79444,23 +79444,13 @@
                                           "type": "frame",
                                           "id": "xYeb0",
                                           "name": "Проверка сохранения вложений / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 2 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "wmqia",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-right",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "tyW2o",
@@ -79473,6 +79463,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "wmqia",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -79553,23 +79553,13 @@
                                           "type": "frame",
                                           "id": "kOc3m",
                                           "name": "Проверка сценария отмены / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 1 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "miZ2d",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-right",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "sFo7L",
@@ -79582,6 +79572,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "miZ2d",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         }
@@ -79861,23 +79861,13 @@
                                           "type": "frame",
                                           "id": "bAxeT",
                                           "name": "Проверка повторной отправки / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 32,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "F8Lc9h",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-down",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "JJJII",
@@ -79890,6 +79880,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "F8Lc9h",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-down",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -80729,23 +80729,13 @@
                                           "type": "frame",
                                           "id": "KUE2v",
                                           "name": "Проверка повторной отправки / раскрытие этапа",
-                                          "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                          "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                           "width": "fill_container",
                                           "height": 48,
                                           "cornerRadius": 8,
                                           "gap": 8,
                                           "alignItems": "center",
                                           "children": [
-                                            {
-                                              "type": "icon",
-                                              "id": "Krvwx",
-                                              "name": "Раскрыть или свернуть",
-                                              "width": 16,
-                                              "height": 16,
-                                              "icon": "chevron-right",
-                                              "library": "lucide",
-                                              "fill": "$aurora.muted"
-                                            },
                                             {
                                               "type": "text",
                                               "id": "K766i9",
@@ -80758,6 +80748,16 @@
                                               "fontFamily": "$aurora.font",
                                               "fontSize": 13,
                                               "fontWeight": "normal"
+                                            },
+                                            {
+                                              "type": "icon",
+                                              "id": "Krvwx",
+                                              "name": "Раскрыть или свернуть",
+                                              "width": 16,
+                                              "height": 16,
+                                              "icon": "chevron-right",
+                                              "library": "lucide",
+                                              "fill": "$aurora.muted"
                                             }
                                           ]
                                         },
@@ -81599,23 +81599,13 @@
                       "type": "frame",
                       "id": "Aj8W1",
                       "name": "Проверка повторной отправки / раскрытие этапа",
-                      "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                      "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                       "width": "fill_container",
                       "height": 48,
                       "cornerRadius": 8,
                       "gap": 8,
                       "alignItems": "center",
                       "children": [
-                        {
-                          "type": "icon",
-                          "id": "OCJig",
-                          "name": "Раскрыть или свернуть",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-down",
-                          "library": "lucide",
-                          "fill": "$aurora.muted"
-                        },
                         {
                           "type": "text",
                           "id": "i38CdO",
@@ -81628,6 +81618,16 @@
                           "fontFamily": "$aurora.font",
                           "fontSize": 13,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "OCJig",
+                          "name": "Раскрыть или свернуть",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-down",
+                          "library": "lucide",
+                          "fill": "$aurora.muted"
                         }
                       ]
                     },
@@ -112250,23 +112250,13 @@
                   "type": "frame",
                   "id": "XHGDU",
                   "name": "Проверка сохранения вложений / раскрытие этапа",
-                  "context": "Название автоматически составлено из действий и объектов этапа. 2 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                  "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                   "width": "fill_container",
                   "height": 32,
                   "cornerRadius": 8,
                   "gap": 8,
                   "alignItems": "center",
                   "children": [
-                    {
-                      "type": "icon",
-                      "id": "UWIxx",
-                      "name": "Раскрыть или свернуть",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "chevron-right",
-                      "library": "lucide",
-                      "fill": "$aurora.muted"
-                    },
                     {
                       "type": "text",
                       "id": "xHxHT",
@@ -112279,6 +112269,16 @@
                       "fontFamily": "$aurora.font",
                       "fontSize": 13,
                       "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "UWIxx",
+                      "name": "Раскрыть или свернуть",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$aurora.muted"
                     }
                   ]
                 },
@@ -115162,23 +115162,13 @@
                                                   "type": "frame",
                                                   "id": "UHMQz",
                                                   "name": "Проверка повторной отправки / раскрытие этапа",
-                                                  "context": "Название автоматически составлено из действий и объектов этапа. 3 действий. Единая цель раскрытия 32 desktop / 48 touch. Название и доступное состояние раскрытия читаются экранным диктором. Счётчик в данных, не в подписи.",
+                                                  "context": "Название этапа слева, шеврон 16 справа после зазора 8. Вся строка — единая цель раскрытия 32 desktop / 48 Android; растёт при переносе. Маркер состояния остаётся на линии слева. Enter/Space и нажатие переключают раскрытие, состояние доступно экранному диктору.",
                                                   "width": "fill_container",
                                                   "height": 32,
                                                   "cornerRadius": 8,
                                                   "gap": 8,
                                                   "alignItems": "center",
                                                   "children": [
-                                                    {
-                                                      "type": "icon",
-                                                      "id": "U59Zf",
-                                                      "name": "Раскрыть или свернуть",
-                                                      "width": 16,
-                                                      "height": 16,
-                                                      "icon": "chevron-down",
-                                                      "library": "lucide",
-                                                      "fill": "$aurora.muted"
-                                                    },
                                                     {
                                                       "type": "text",
                                                       "id": "vBBeq",
@@ -115191,6 +115181,16 @@
                                                       "fontFamily": "$aurora.font",
                                                       "fontSize": 13,
                                                       "fontWeight": "normal"
+                                                    },
+                                                    {
+                                                      "type": "icon",
+                                                      "id": "U59Zf",
+                                                      "name": "Раскрыть или свернуть",
+                                                      "width": 16,
+                                                      "height": 16,
+                                                      "icon": "chevron-down",
+                                                      "library": "lucide",
+                                                      "fill": "$aurora.muted"
                                                     }
                                                   ]
                                                 },
