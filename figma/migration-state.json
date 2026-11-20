@@ -1,0 +1,660 @@
+{
+  "pageId": "0:1",
+  "collection": {
+    "ok": true,
+    "collectionId": "VariableCollectionId:2:55",
+    "defaultModeId": "2:0",
+    "name": "Aurora · Pencil source"
+  },
+  "vars": {
+    "aurora.canvas": "VariableID:2:56",
+    "aurora.pearl": "VariableID:2:57",
+    "aurora.lavender": "VariableID:2:58",
+    "aurora.apple": "VariableID:2:59",
+    "aurora.blush": "VariableID:2:60",
+    "aurora.ice": "VariableID:2:61",
+    "aurora.ink": "VariableID:2:62",
+    "aurora.muted": "VariableID:2:63",
+    "aurora.primary": "VariableID:2:64",
+    "aurora.green": "VariableID:2:65",
+    "aurora.line": "VariableID:2:66",
+    "aurora.error": "VariableID:2:67",
+    "aurora.warning": "VariableID:2:68",
+    "aurora.font": "VariableID:2:69",
+    "aurora.fontTouch": "VariableID:2:70",
+    "aurora.status.working": "VariableID:2:71",
+    "aurora.status.attention": "VariableID:2:72",
+    "aurora.status.unread": "VariableID:2:73",
+    "aurora.chat.lavender": "VariableID:2:74",
+    "aurora.chat.apple": "VariableID:2:75",
+    "aurora.chat.blush": "VariableID:2:76",
+    "aurora.chat.ice": "VariableID:2:77",
+    "aurora.chat.sage": "VariableID:2:78",
+    "aurora.chat.pearlGreen": "VariableID:2:79",
+    "aurora.chat.eucalyptus": "VariableID:2:80",
+    "aurora.scroll.rest": "VariableID:2:81",
+    "aurora.scroll.hover": "VariableID:2:82",
+    "aurora.scroll.drag": "VariableID:2:83",
+    "aurora.action.current": "VariableID:2:84",
+    "aurora.status.running": "VariableID:2:85",
+    "request.surface": "VariableID:2:86",
+    "request.input": "VariableID:2:87",
+    "request.selected": "VariableID:2:88",
+    "request.text": "VariableID:2:89",
+    "request.secondary": "VariableID:2:90",
+    "request.accent": "VariableID:2:91",
+    "request.onAccent": "VariableID:2:92",
+    "request.border": "VariableID:2:93",
+    "request.track": "VariableID:2:94",
+    "request.error": "VariableID:2:95"
+  },
+  "libraryPage": "2:8576",
+  "templates": {
+    "da909d11bca3c1e6a8fd": "2:8580",
+    "eda5d6e687c2d33f1fc9": "2:8601",
+    "97955fe9dc8fade3e7e5": "2:8604",
+    "2c4ea78cfa31b4da1076": "2:8631",
+    "e754bfdbd28cd3d65c46": "2:9074",
+    "bc200f5ba79a406a2d21": "2:9092",
+    "93c3a16ded56500f8e51": "2:9115",
+    "040d8b516888a633b413": "2:9136",
+    "08dee8a9da6194ff6496": "2:9154",
+    "38a844cf427e917d097f": "2:9177",
+    "117e64891ccb7151ca8b": "2:9195",
+    "9fc04446889a42012fce": "2:9218",
+    "b61d2ba87db7325194f2": "2:9236",
+    "635ac2a8de399b2f9f6c": "2:9259",
+    "b8ad9113c16e4b7ba7ca": "2:9277",
+    "44a5a0cdad282ebbaee9": "2:9300",
+    "4727669b121f4b81c306": "2:9318",
+    "d7e80d7c6a693fe5703c": "2:9341",
+    "763363d9fc069c3dabce": "2:9720",
+    "b660a4e15351e579aeac": "2:10460",
+    "b7756d41de24488f495c": "2:37100",
+    "3e4d48132cd68e5a6fd7": "2:37168",
+    "14e4b97be4b1a81d3815": "2:37522",
+    "0126edbbc81caa372f56": "2:37752",
+    "c0c85bc44eeea186d3cd": "2:37770",
+    "e303fe5bb005cfdfbc2e": "2:37793",
+    "2c62f049464be83a09f5": "2:37814",
+    "d58f0cee328572347558": "2:37832",
+    "050c02025c0309ed02d2": "2:37855",
+    "5f7bc8ae83ece92a06e7": "2:37988",
+    "45667c7819a4fcc0d0fd": "2:38052",
+    "bc9ff295a5603048b533": "2:38387",
+    "10acd3211c6a6dfbeae7": "2:50659",
+    "9f951d5ed74e57e26bbc": "2:50799",
+    "76b8de12674668c5d21a": "2:50863",
+    "684c9470ed254d7f7607": "2:50990",
+    "25dcc00a6be6b8946d3d": "2:55551",
+    "14c6a9bb28427183c0eb": "2:55569",
+    "a3cd84bbe9746ec46ff6": "2:55683",
+    "e0b9a8a8136087d420d1": "2:56238",
+    "960f28646be4adf1b807": "2:56488",
+    "d2464b8bed61e999a759": "2:56653",
+    "c668ce90f0e684da9f3d": "2:62931",
+    "a6d0130ba1f00a884e00": "2:63106",
+    "7e944da62af9e02669c1": "2:69650",
+    "c6d4eccb0bec05d6808d": "2:69842",
+    "6f57fa62db4bc22a3095": "2:70075",
+    "56ff99f33256811a9c13": "2:73997",
+    "0d0f897eda1dd239eab3": "2:74123",
+    "2b93ab05f09fe0c9c46c": "2:74169",
+    "1d8fe5872524de44cbef": "2:78739",
+    "f1dc888b6d191211b7c8": "2:79324",
+    "acf43f5aeb6000c6852c": "2:79451",
+    "6f3d0400f6ad88c6d3c3": "2:79578",
+    "f9cef8f49e5d920b3c1a": "2:79581",
+    "a28c572d1f13bcac6543": "2:83815",
+    "8333947b38817dfa9714": "2:83818",
+    "8a168d29f5707c254e4c": "2:83821",
+    "244542e9f805c4778a91": "2:83824",
+    "7ce25591c9b896c08d13": "2:83827",
+    "a65fa3fb8d7689abb06e": "2:83830",
+    "fed8a702229af2ec6fdd": "2:89125",
+    "d21500d12b6ed3bfc8ef": "2:89797",
+    "404249adfbdd586494be": "2:89820",
+    "6c1c931b1a1f4aabff39": "2:89841",
+    "3009aa520cda02eed415": "2:89859",
+    "3623a90c19a225aa87fd": "2:89882",
+    "580131104b2f58f8bc76": "2:90743",
+    "32bf25e39b8701ef094a": "2:90761",
+    "1d6d7ece10683c96d350": "2:90779",
+    "5bf16a664cf5da5908d8": "2:90800",
+    "ac28a10f7736a361457e": "2:90818",
+    "84c7a452ad75043b9317": "2:90841",
+    "8e5b8803d9260477cdd1": "2:90862",
+    "a633f10d2e0ed8038f0b": "2:90885",
+    "b69a17ff7c050881bb4b": "2:91537",
+    "b025c76217c0548063fa": "2:92003",
+    "c9aff9a85d6c53341a4c": "2:92452",
+    "bc7554aabbf086dbd309": "2:92885",
+    "8be7f1ab88aa8a67cb2b": "2:93301",
+    "72d0b3771524657da453": "2:93778",
+    "e7c60ed82cf0b3ec7200": "2:94254",
+    "7ddf4deba476d58af88b": "2:94388",
+    "881ddcbdd0b67fb96454": "2:94476",
+    "3ffc08cbc8a367c0bb7a": "2:94637",
+    "c66c44d621ce8aea033b": "2:94655",
+    "73ceab4587e736771cce": "2:94735",
+    "dbbe8a393220532deccd": "2:94827",
+    "89158e2a5c3fab5370f2": "2:94850",
+    "c600f0176bff21f55a81": "2:94873",
+    "f4cac08bb6683dbf79b5": "2:94896",
+    "7b75900c67c4d9c9364a": "2:94919",
+    "a816bec9773bd92ac07f": "2:94942",
+    "68f0c7fcf778841bd85d": "2:94965",
+    "3a31fe89083612db048a": "2:95266",
+    "01924a6388b93bce8242": "2:95448",
+    "421484c389d7ef454c3b": "2:95610",
+    "e1c6f40427b7ba73367e": "2:95633",
+    "4bb509d1de3b0c12358f": "2:95763",
+    "81332b5edd559e887e4c": "2:95776",
+    "2f12d61bdbd8718dc2b8": "2:95894",
+    "b7ca5bd7c68ce9be3e69": "2:95907",
+    "00a2ce4d43d37a205906": "2:95917",
+    "b1be87dc9b1b219cfc5d": "2:95929",
+    "9de8ab16c1b22901031f": "2:96050",
+    "26dd32902472c28194f1": "2:96073",
+    "56e6a39f610b851e28d5": "2:96328",
+    "479f6cc88be3a9ca90b9": "2:96351",
+    "25355d8fa73d49ff75e6": "2:96488",
+    "d9ae529b0ea9ada3e2a8": "2:96535",
+    "0e933ce7d9e46d0e3a60": "2:96581",
+    "3bb8b2f6de34a132cb78": "2:96716",
+    "3399c1bef759493523ab": "2:96739",
+    "3cff554b09e98291b819": "2:96752",
+    "9e0045eef33341ecc03b": "2:96797",
+    "cf10a15fdb4d3ac12f47": "2:96985",
+    "ff606439538c40cf30df": "2:97003",
+    "98e84930962699e76e67": "2:97021",
+    "3ae3b647ea49c979a24a": "2:97039",
+    "8059f5147470806430b1": "2:97060",
+    "1feec21964c2c01e2402": "2:97083",
+    "6833896000d858a33e11": "2:97096",
+    "b9dd3d4152bfae5bb430": "2:97106",
+    "701215e6ade6d4ffa62d": "2:97118",
+    "bc280e4b83d2812591ee": "2:97129",
+    "d149fa2717ffb2508877": "2:97139",
+    "d4fa7ae0e96e3bf0cb35": "2:97142",
+    "9ccbe2ab850c2b1b23aa": "2:97762",
+    "98e9131a3871701d3c4a": "2:98482",
+    "96c02785f9681527097a": "2:99158",
+    "6f39ec5a9a74228dacc8": "2:99204",
+    "6f64aa6fbd528d3e06e7": "2:99616",
+    "fe559e0fe026e1a3dff6": "2:100030",
+    "0a05b4b39340ed65ad01": "2:100377",
+    "96faa665fe583a94bc7b": "2:100441",
+    "21bab2e353954638d04d": "2:100675",
+    "07bd1c07a2b6b56ccc68": "2:100807",
+    "4276251e84bd43499ee7": "2:100870",
+    "52207466e6d1695b668c": "2:101105",
+    "3ac34666244543736601": "2:101195",
+    "aa9d3c1aa2d2678335cf": "2:101390",
+    "0db65cac331a3de4622d": "2:101756",
+    "dfcf2769148d72353fea": "2:101778",
+    "0cda95baa4c72cb72322": "2:101805",
+    "63c2e63e1f9bcbba7978": "2:101912",
+    "2b125fe6ccc292fd750a": "2:101934",
+    "27ef4d07b518bb29a628": "2:101961",
+    "65ad9a307002f1882d1a": "2:102452",
+    "a84cef6e3daf69d57ce1": "2:102470",
+    "b4bcccaac74d14ae03b6": "2:102493",
+    "679604b3f4ba9b6afb23": "2:102710",
+    "a1259f16645958b88099": "2:102849",
+    "575d4e44ca986b97e051": "2:102885",
+    "12663f0a807c41284724": "2:103075",
+    "83eb9a08540208be2e7a": "2:103609",
+    "c82dc2ee1bac61dc943f": "2:103720",
+    "425ae56ee6f2955e4e9b": "2:103756",
+    "3f971f4264aa10e84669": "2:103820",
+    "cc75935b68f5b15deaef": "2:103975",
+    "3f49f726d5992c7d1d1e": "2:103978",
+    "fc9cd504c3a86192f45d": "2:104089",
+    "aa994c9f921d05f101f3": "2:104093",
+    "a5266eb7c6e2ae1e587f": "2:104096",
+    "ae77ff3bc1290e360f7e": "2:104139",
+    "37e4afb42ad995476500": "2:104314",
+    "712e75a820cd1f767661": "2:104317",
+    "ce48177ec078555a37c9": "2:104320",
+    "7e58ae0dd4e72f6592ea": "2:104323",
+    "6f66651a3f8012fb181c": "2:104326",
+    "84d07dab72b1780b2570": "2:104673",
+    "0db233c4f23295d6d9ca": "2:104720",
+    "3b49ab3fe7636a4d84bc": "2:104766",
+    "f7ec34bfb934e122df8f": "2:104812",
+    "38f2a7267c66b22b3bd8": "2:104859",
+    "51691dfa9999b6a3cb3f": "2:104905",
+    "de23f90d82396e675348": "2:105248",
+    "676fa755d329ab13565f": "2:105294",
+    "a5d0143ad9fc412ca8f8": "2:105319",
+    "e36e23779cbc2134daf7": "2:105356",
+    "2aab60e36ebceb63de41": "2:105402",
+    "bbb34a1d82d8b7307b31": "2:105448",
+    "d7462ea209153a94d097": "2:105743",
+    "b849694522459725b1e8": "2:105868",
+    "898b39deba7324ee0dc6": "2:105914",
+    "8332706bcdd560de4a9b": "2:105960",
+    "ab23babd303e417e0ff4": "2:106006",
+    "0a7b2c1018d5b2d2a3ef": "2:106052",
+    "c96075bf9aeff4851485": "2:106099",
+    "58d6b7ed869d3226af97": "2:106146",
+    "31a6c2f087a23603f4bb": "2:106192",
+    "e1fd8427def858373f78": "2:106238",
+    "c7686a7ed55cf4199f45": "2:106764",
+    "6e0a9e84ed970ada7ec3": "2:110698",
+    "0910aec342296374d7e3": "2:110839",
+    "b39bb02fce11a15c1ea2": "2:110867",
+    "c97e4682ae0d8d8a646a": "2:110892",
+    "bc90c13a2d8ce09df85c": "2:110919",
+    "7c660f75b14a617ff9d2": "2:111068",
+    "b7652f0afc39a3de72a8": "2:111557",
+    "236cd01b4d49b3455672": "2:111908",
+    "bb68a4318c69e0bd215a": "2:112114",
+    "ceeb6cc331ac644cbd5e": "2:112652",
+    "02139b7eb3e3420c91a4": "2:112655",
+    "a747530d149c2e4d9ed5": "2:112658",
+    "cefbedf8876cacdd25a2": "2:112661",
+    "ff487257c75f2fc6be8a": "2:112664",
+    "2009d6bb8d656c062acf": "2:112667",
+    "82067257a22aee23e707": "2:112694",
+    "b43978ec353193aef11b": "2:113121",
+    "c58d62aca8cf274820eb": "2:113157",
+    "059d9a04872ced949b3a": "2:113193",
+    "63beabd98a1a25e0590f": "2:113640",
+    "bbc958d3d21571999134": "2:113652",
+    "ef2c4b900080001944c5": "2:113664",
+    "a0dd3105a2ff62d24ee9": "2:113676",
+    "b148d4732b6037e71121": "2:113829",
+    "12c6e7006179b14851dd": "2:113952",
+    "8a58b3354419371fc11c": "2:113958",
+    "6caeb5b23624d77a328f": "2:113964",
+    "6064fc5796128bbcebb9": "2:114330",
+    "fee1127b6b02a9bbab0a": "2:120638",
+    "69678b0c90d0e56663e9": "2:121378",
+    "9f258fdb1564b55daa5c": "2:174833"
+  },
+  "cleaned": true,
+  "roots": {
+    "d6ZB8": {
+      "figmaId": "2:8577",
+      "nodes": 397
+    },
+    "XhJ7f": {
+      "figmaId": "2:37503",
+      "nodes": 278
+    },
+    "MwTJk": {
+      "figmaId": "2:50654",
+      "nodes": 126
+    },
+    "Mjw25": {
+      "figmaId": "2:55599",
+      "nodes": 207
+    },
+    "vBK1U": {
+      "figmaId": "2:55910",
+      "nodes": 208
+    },
+    "sWrLf": {
+      "figmaId": "2:56219",
+      "nodes": 278
+    },
+    "N02oY": {
+      "figmaId": "2:62801",
+      "nodes": 278
+    },
+    "mrWMg": {
+      "figmaId": "2:69831",
+      "nodes": 210
+    },
+    "SeYLy": {
+      "figmaId": "2:73770",
+      "nodes": 279
+    },
+    "CF0sr": {
+      "figmaId": "2:84316",
+      "nodes": 3150
+    },
+    "eolsk": {
+      "figmaId": "2:91402",
+      "nodes": 207
+    },
+    "qGFsN": {
+      "figmaId": "2:91897",
+      "nodes": 207
+    },
+    "kOSMB": {
+      "figmaId": "2:92334",
+      "nodes": 207
+    },
+    "E1N9XZ": {
+      "figmaId": "2:92795",
+      "nodes": 207
+    },
+    "TXpMP": {
+      "figmaId": "2:93201",
+      "nodes": 207
+    },
+    "FmwTH": {
+      "figmaId": "2:93627",
+      "nodes": 207
+    },
+    "KQnqD": {
+      "figmaId": "2:94154",
+      "nodes": 55
+    },
+    "XciNe": {
+      "figmaId": "2:94417",
+      "nodes": 55
+    },
+    "UCw0p": {
+      "figmaId": "2:94595",
+      "nodes": 79
+    },
+    "K4aKb": {
+      "figmaId": "2:94790",
+      "nodes": 33
+    },
+    "mS0Di": {
+      "figmaId": "2:95131",
+      "nodes": 49
+    },
+    "gs8Be": {
+      "figmaId": "2:95540",
+      "nodes": 361
+    },
+    "kIs2B": {
+      "figmaId": "2:96429",
+      "nodes": 300
+    },
+    "lvysX": {
+      "figmaId": "2:97653",
+      "nodes": 207
+    },
+    "rc3Y4": {
+      "figmaId": "2:98096",
+      "nodes": 207
+    },
+    "fN9TV": {
+      "figmaId": "2:99094",
+      "nodes": 201
+    },
+    "z7wL3": {
+      "figmaId": "2:99529",
+      "nodes": 201
+    },
+    "FPidY": {
+      "figmaId": "2:99941",
+      "nodes": 207
+    },
+    "p70iTK": {
+      "figmaId": "2:100345",
+      "nodes": 55
+    },
+    "DhrfJ": {
+      "figmaId": "2:100578",
+      "nodes": 55
+    },
+    "hDvcA": {
+      "figmaId": "2:100837",
+      "nodes": 48
+    },
+    "wxrpi": {
+      "figmaId": "2:100995",
+      "nodes": 48
+    },
+    "QNxEY": {
+      "figmaId": "2:101137",
+      "nodes": 55
+    },
+    "GYFu0": {
+      "figmaId": "2:101313",
+      "nodes": 208
+    },
+    "Hq5OG": {
+      "figmaId": "2:101718",
+      "nodes": 308
+    },
+    "MgB3D": {
+      "figmaId": "2:102633",
+      "nodes": 209
+    },
+    "SRtcJ": {
+      "figmaId": "2:103536",
+      "nodes": 3
+    },
+    "lMdLY": {
+      "figmaId": "2:174759",
+      "nodes": 57
+    },
+    "a6OwA": {
+      "figmaId": "2:103957",
+      "nodes": 269
+    },
+    "O9gNAI": {
+      "figmaId": "2:104615",
+      "nodes": 25
+    },
+    "I01CPy": {
+      "figmaId": "2:105184",
+      "nodes": 86
+    },
+    "XQe4i": {
+      "figmaId": "2:105805",
+      "nodes": 246
+    },
+    "z0iwmv": {
+      "figmaId": "2:110574",
+      "nodes": 135
+    },
+    "NRz8C": {
+      "figmaId": "2:110795",
+      "nodes": 125
+    },
+    "PqKTq": {
+      "figmaId": "2:111191",
+      "nodes": 259
+    },
+    "LevXZ": {
+      "figmaId": "2:111684",
+      "nodes": 39
+    },
+    "hgfQB": {
+      "figmaId": "2:111731",
+      "nodes": 112
+    },
+    "B8GAt5": {
+      "figmaId": "2:111847",
+      "nodes": 35
+    },
+    "ddDsZ": {
+      "figmaId": "2:111896",
+      "nodes": 33
+    },
+    "w5ysp": {
+      "figmaId": "2:111941",
+      "nodes": 106
+    },
+    "cAbRM": {
+      "figmaId": "2:112052",
+      "nodes": 21
+    },
+    "wZVh3": {
+      "figmaId": "2:112080",
+      "nodes": 190
+    },
+    "jP7TJ": {
+      "figmaId": "2:112448",
+      "nodes": 85
+    },
+    "jX1NJ": {
+      "figmaId": "2:112615",
+      "nodes": 58
+    },
+    "C04Uv": {
+      "figmaId": "2:112706",
+      "nodes": 139
+    },
+    "ExZDB": {
+      "figmaId": "2:113077",
+      "nodes": 17
+    },
+    "CcQKk": {
+      "figmaId": "2:113338",
+      "nodes": 49
+    },
+    "QOEUX": {
+      "figmaId": "2:113399",
+      "nodes": 58
+    },
+    "QUKhy": {
+      "figmaId": "2:113515",
+      "nodes": 60
+    },
+    "Moqat": {
+      "figmaId": "2:113603",
+      "nodes": 51
+    },
+    "oPcYY": {
+      "figmaId": "2:113770",
+      "nodes": 52
+    },
+    "i8ei1": {
+      "figmaId": "2:113862",
+      "nodes": 6
+    },
+    "n06DwL": {
+      "figmaId": "2:113900",
+      "nodes": 27
+    },
+    "ry9dm": {
+      "figmaId": "2:113934",
+      "nodes": 19
+    },
+    "IRmPD": {
+      "figmaId": "2:113984",
+      "nodes": 107
+    },
+    "i34Owf": {
+      "figmaId": "2:114091",
+      "nodes": 129
+    },
+    "LBadY": {
+      "figmaId": "2:114270",
+      "nodes": 109
+    },
+    "Q13lsE": {
+      "figmaId": "2:114426",
+      "nodes": 126
+    },
+    "zJwZm": {
+      "figmaId": "2:119076",
+      "nodes": 259
+    },
+    "wZ67c": {
+      "figmaId": "2:119819",
+      "nodes": 266
+    }
+  },
+  "serviceRestarted": true,
+  "shaderRestarted": true,
+  "refinement": {
+    "revision": "2026-11-16",
+    "desktop": "2:175087",
+    "styles": {
+      "title": "S:3857a4fe7f6639f23a9c2d1fa69fd60b1d3a69d7,",
+      "meta": "S:547f99a07d6621d6fbef2a0a56ebe1ec24244120,",
+      "body": "S:3f4154d4637aa11d64b702703aeebd8f0f511007,",
+      "caption": "S:0be518b9b2f5f09a8c348660559f539ed163fb13,",
+      "detail": "S:65c28f55e2d11f11cb0e0a4f0131eee52b83c5f5,"
+    },
+    "effectStyles": {
+      "panel": "S:ab6669d71093515c03a33f57d0cf28ef1675037c,",
+      "composer": "S:c03f2ee40a1af0c0a2f02ef5051e0618b2e5f516,"
+    },
+    "components": [
+      "2:9074",
+      "2:9092",
+      "2:9115",
+      "2:9136",
+      "2:9154",
+      "2:9177",
+      "2:9195",
+      "2:9218",
+      "2:9236",
+      "2:9259",
+      "2:9277",
+      "2:9300",
+      "2:9318",
+      "2:9341",
+      "2:37770",
+      "2:37793",
+      "2:37814",
+      "2:37832",
+      "2:37855",
+      "2:50799",
+      "2:62931",
+      "2:89820",
+      "2:89841",
+      "2:89859",
+      "2:89882",
+      "2:90761",
+      "2:90779",
+      "2:90800",
+      "2:90818",
+      "2:90841",
+      "2:90862",
+      "2:90885",
+      "2:94637",
+      "2:94655",
+      "2:94735",
+      "2:94827",
+      "2:94850",
+      "2:94873",
+      "2:94896",
+      "2:94919",
+      "2:94942",
+      "2:94965",
+      "2:95610",
+      "2:95633",
+      "2:96050",
+      "2:96073",
+      "2:96328",
+      "2:96351",
+      "2:96716",
+      "2:96739",
+      "2:97003",
+      "2:97021",
+      "2:97039",
+      "2:97060",
+      "2:97083",
+      "2:100377",
+      "2:102452",
+      "2:102470",
+      "2:102493",
+      "2:105743",
+      "2:111557"
+    ]
+  },
+  "desktopRefinement": {
+    "version": "Aurora · финальный Desktop · 16.11.2026",
+    "styles": {
+      "message": "S:90445ffe3043fe1345a4978ab023f6f7711307c4,",
+      "title": "S:15159db32a5f26436f5fc1971a330eacea786afc,",
+      "meta": "S:39bb4a64022e9096b70fabd6d2dd81dd8dcf5e45,",
+      "thinking": "S:b6769f432b58b5296647b8372d25fdcb8191a4d9,",
+      "caption": "S:c9c6a44fccbc41a1b3b6f347c138ecec5de30035,",
+      "detail": "S:4df59b878f5c1604776734689cd0711084901d4d,"
+    },
+    "components": "desktop-components.json",
+    "spec": "aurora.json#desktopDensity",
+    "backup": "../exports/aurora-figma/Aurora-DS-final-2026-11-16.fig",
+    "frames": [
+      "2:175087",
+      "2:8577",
+      "2:55599",
+      "2:56219"
+    ]
+  }
+}

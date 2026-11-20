@@ -1,0 +1,45 @@
+{
+  "revision": "2026-11-16",
+  "fileKey": "ivLmgulIBIkMzOw8sgvKxj",
+  "fileName": "Aurora-DS",
+  "pages": ["0:1", "2:8576", "2:175086"],
+  "libraryPage": "2:8576",
+  "desktop": "2:175087",
+  "colors": {
+    "aurora.canvas": "#FFFFFF",
+    "aurora.pearl": "#FFFFFF",
+    "aurora.ink": "#000000",
+    "aurora.muted": "#5F6368",
+    "aurora.primary": "#3F1D62",
+    "aurora.lavender": "#E5D9F5",
+    "aurora.apple": "#F1FEE1",
+    "aurora.line": "#CDD7CC",
+    "aurora.green": "#285F3D",
+    "aurora.status.unread": "#2A8150",
+    "aurora.status.working": "#C64157"
+  },
+  "processStyles": {
+    "title": {"name": "Aurora/Ход работы/Название действия", "size": 14, "line": 20, "weight": "Medium"},
+    "meta": {"name": "Aurora/Ход работы/Статус и файл", "size": 12, "line": 18, "weight": "Regular"},
+    "body": {"name": "Aurora/Ход работы/Размышления", "size": 14, "line": 22, "weight": "Regular"},
+    "caption": {"name": "Aurora/Ход работы/Подпись", "size": 13, "line": 18, "weight": "Regular"},
+    "detail": {"name": "Aurora/Ход работы/Подробности инструмента", "size": 16, "line": 24, "weight": "Regular"}
+  },
+  "message": {"family": "Roboto", "size": 16, "line": 24, "radius": 16, "horizontalPadding": 12},
+  "navigation": {"width": 240, "rowHeight": 32, "projectGap": 12, "createRowHeight": 48, "createVerticalPadding": 8, "createGap": 8, "buttonHeight": 32, "searchSize": 32},
+  "icons": {"family": "Lucide", "size": 16, "projectSize": 18, "stroke": 1.5, "color": "aurora.ink", "closedFolder": "8:162366", "openFolder": "8:162369"},
+  "background": {"corners": ["#51A779", "#C4DF85", "#E0ECC5", "#79B697"], "pattern": "../assets/aurora-chat/INV9p.png", "opacity": 0.32, "blendMode": "MULTIPLY", "historyEdgeOpacity": 1},
+  "chrome": {"panelRadius": 10, "composerRadius": 20, "composerInnerRadius": 18},
+  "verificationFrames": ["2:175087", "2:94790", "2:56219", "2:55599", "2:50654"],
+  "desktopDensity": {
+    "screens": ["2:175087", "2:8577", "2:55599", "2:56219"],
+    "historySources": ["2:9720", "2:10460", "2:56488", "2:56653"],
+    "message": {"size": 14, "line": 22},
+    "textColor": "#000000",
+    "subtitleColor": "#5F6368",
+    "navigation": {"size": 14, "line": 20, "projectWeight": "Regular", "rowHeight": 28, "buttonHeight": 28, "createRowHeight": 44},
+    "process": {"title": [14, 20], "titleWeight": "Regular", "meta": [14, 20], "thinking": [14, 22], "caption": [14, 20], "detail": [14, 22], "toolRowHeight": 32, "eventGap": 2, "statusPlacement": "trailing"},
+    "chrome": {"panelHeight": 32, "composerHeight": 48, "composerText": [14, 20], "composerRadius": 16, "composerInnerRadius": 14},
+    "messageGap": 16
+  }
+}

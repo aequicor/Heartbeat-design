@@ -1,6 +1,12 @@
 # Aurora — каталог дизайн-системы
 
-Актуально на 15 ноября 2026. Визуальный источник — [aurora-new-chat.pen](aurora-new-chat.pen).
+Оформление актуализировано 16 ноября 2026 по
+[Aurora-DS](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=2-175087).
+Сценарии и ID Pencil ниже сохраняют ссылку на [aurora-new-chat.pen](aurora-new-chat.pen).
+Соответствие Figma ID, значения доработок и порядок переноса — в [пакете Figma](figma/README.md).
+Компактные компоненты Desktop и их экземпляры перечислены в
+[desktop-components.json](figma/desktop-components.json); параметры Desktop имеют приоритет
+над архивными размерами Pencil ниже. Названия проектов и инструментов — Regular 14/20.
 Общие токены, геометрия, поведение и приёмка находятся в [дизайн-системе](design-system.md).
 Этот каталог заменяет раннее описание Opalescent Material 3: оно больше не задаёт параллельную
 палитру, размеры, свечение composer или анимацию сферы. История доступна в Git и исходных планах.
