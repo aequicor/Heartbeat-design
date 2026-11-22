@@ -36,11 +36,11 @@
 
 ### Переименование и удаление
 
-В меню ⋮ находятся «Переименовать», «Создать копию» и «Удалить». Переименование открывает поле с текущим именем выбранного движка. После подтверждения новое имя появляется в списке и в открытых настройках этого движка. Его правила и связь с ACP сохраняются.
+В меню ⋮ находятся «Переименовать», «Создать копию» и «Удалить». При выборе «Переименовать» меню закрывается, а текущее имя целиком выделяется прямо в строке исходного движка или копии. Enter или галочка сохраняет новое имя, Escape отменяет ввод. После подтверждения имя обновляется в списке и в открытых настройках этого движка. Его правила и связь с ACP сохраняются.
 
 При выборе «Удалить» диалог показывает имя движка и название ACP-подключения, которое сохранится. «Отмена» закрывает диалог. Подтверждение удаляет выбранную запись движка и её локальные настройки. После удаления копии исходный движок и соседние копии продолжают использовать то же ACP-подключение.
 
-[Меню ⋮](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=385-233455) · [Переименование](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=385-234933) · [Подтверждение удаления на Desktop](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=385-234934) · [Подтверждение на Android](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=385-235029)
+[Меню ⋮](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=385-233455) · [Переименование в строке](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=392-4453) · [Подтверждение удаления на Desktop](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=385-234934) · [Подтверждение на Android](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=385-235029)
 
 ### Пресеты запуска
 
