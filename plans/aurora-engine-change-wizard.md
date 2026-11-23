@@ -45,7 +45,7 @@
 | Состояние | Desktop | Android |
 | --- | --- | --- |
 | Выбор движка | [Движок](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-60903) | [Движок](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61083) |
-| Загрузка после выбора | [Лоадер](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-60921) | [Лоадер](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61100) |
+| Загрузка после выбора | [Лоадер](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-70937) | [Лоадер](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-73334) |
 | Модели загружены | [Модель](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-60939) | [Модель](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61117) |
 | Подтверждение и результат | [Выбор уровня](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-60975) · [Результат](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=556-158378) | [Выбор уровня](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61151) · [Результат](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=556-158432) |
 | Нет моделей, ошибка загрузки | [Пустой список](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61029) · [Повторить](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61011) | [Пустой список](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61202) · [Повторить](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=426-61185) |
@@ -54,6 +54,8 @@
 Для просмотра основного пути нажать «Помощник», выбрать «Помощник — ревью», дождаться моделей, выбрать «Для кода», затем «Высокое». Ветка «Навигатор» показывает пустой список, а модель «Быстрая» — применение без настройки рассуждения. Ошибки доступны отдельными стартами в прототипе. Списки демонстрационные, ожидание ответа воспроизводят таймеры Figma. Нативный фокус, TalkBack и системный жест возврата проверяются в Compose.
 
 ## Раскладка листа в Figma
+
+В секции загрузки у каждой платформы один экран. Справа расположен компонент индикатора с четырьмя фазами. Повороты происходят внутри экземпляра компонента в меню. [Анимация Desktop](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=556-162276) · [Анимация Android](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=556-162277)
 
 В общей секции слева собраны кадры Desktop, справа — соответствующие кадры Android. В верхнем ряду показан путь от чата до применения настроек, в среднем — ожидание и загрузка моделей, в нижнем — ошибки и ограничения. Внутри каждой секции кадры читаются слева направо, затем сверху вниз. [Открыть лист в Figma](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=555-157283)
 
