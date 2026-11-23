@@ -1,8 +1,10 @@
 # Checkpoint · выразительный Desktop Aurora
 
-23 ноября 2026. Рабочий файл — Aurora-DS. Изменения относятся к прототипу и спецификации Desktop. Макеты хранятся в Figma. Снимки в репозитории фиксируют проверенные состояния. [Лонгрид](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=466-146906) · [Снимки](previews/desktop-agent-turns/) · [Открытый PR #15](https://github.com/aequicor/Heartbeat-design/pull/15).
+23 ноября 2026. Рабочий файл — Aurora-DS. Изменения относятся к прототипу и спецификации Desktop. Макеты хранятся в Figma. Снимки в репозитории фиксируют проверенные состояния. [Лонгрид](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=466-146906) · [Снимки](previews/desktop-agent-turns/) · [PR #16](https://github.com/aequicor/Heartbeat-design/pull/16).
 
 ## С чего продолжить
+
+Актуальная точка входа для реализации Desktop — [спецификация рабочей области](specs/desktop-aurora-agent-workspace.md). При сверке начать с [нулевого хода](previews/desktop-agent-turns/initial-summary-active.png), затем проверить [геометрию](specs/desktop-aurora-agent-workspace.md#геометрия-desktop) и [сценарии приёмки](specs/desktop-aurora-agent-workspace.md#приёмка). В PNG лонгрида встречается повторяющаяся подпись «Прочитать обработчик» из-за недоступности Segoe UI при экспорте. Фактическое описание строки берётся из события вызова.
 
 В секции [«Вложения · файлы и изображения»](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=502-142947) у пользователя и агента показаны документ и изображение. Обе миниатюры открывают свой просмотр. [Спецификация и снимки](specs/desktop-aurora-attachments.md).
 
