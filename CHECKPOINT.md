@@ -4,6 +4,8 @@
 
 ## С чего продолжить
 
+В каждой из семи секций под пояснением слева есть полноразмерный Desktop-кадр с вложениями обеих сторон. [Журнал пользователя и два файла агента](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=502-132409) · [Все семь вариантов и снимки](specs/desktop-aurora-agent-workspace.md#файлы-пользователя-и-агента).
+
 Отдельная секция [«Раскрытие инструментов»](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=502-132403) расположена справа внизу под сценариями связи. [Расположение секций](previews/desktop-agent-turns/workspace-sections.png).
 
 Правила реализации и сценарии приёмки собраны в [иллюстрированной спецификации рабочей области агента](specs/desktop-aurora-agent-workspace.md).
