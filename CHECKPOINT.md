@@ -6,6 +6,12 @@
 
 Открыть [лист раскрытых инструментов](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=478-102742) и [выделение «Ход работы»](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=478-103107). На листе десять примеров по шести присланным изображениям, включая пустой поиск и два состояния PowerShell. Текст пояснения предназначен для пользователя. Данные демонстрационные.
 
+### Последняя сверка с Heartbeat Desktop
+
+В работающем приложении проверены бейдж нижнего угла и ПКМ у обеих ролей. У пользователя шеврон слева, у агента справа. У завершённого ответа открывается «Копировать», у отправленной реплики — также «Редактировать». В Figma есть [подсказка ошибки доставки](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-109545), [причина прерывания](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-121828) и [меню продолжения](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-114635).
+
+Для одного шага сверить [статус, публичный ход и вызов на общей линии](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-122774). Этап с одним вызовом остаётся видимым. Подробности инструмента доступны отдельно. В открытой истории [выделение заголовка](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-119687) сохраняет раскрытие и фон наведения.
+
 ### Проверка прототипа
 
 | Действие в Present | Наблюдение |
