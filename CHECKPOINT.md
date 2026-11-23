@@ -10,6 +10,8 @@
 
 ### Последняя сверка с Heartbeat Desktop
 
+В секции «От запроса до итога» рядом стоят два полноразмерных кадра. После одиночного чтения новый итог без вызовов становится вторым абзацем. После группы два таких итога подряд продолжают первый итог третьего этапа. Счётчики и маркеры относятся к прежним вызовам. [После чтения](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-129669) · [После группы](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-130599).
+
 В раскрытом завершённом ответе пять этапов. Между группами на той же оси стоят два одиночных вызова: поиск обработчика TextDelta и чтение StreamAdapter.kt. У каждого закрашенная точка и собственное раскрытие результата. [История ответа](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=466-151317) · [Выделение заголовка](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-119687).
 
 В работающем приложении проверены бейдж нижнего угла и ПКМ у обеих ролей. У пользователя шеврон слева, у агента справа. У завершённого ответа открывается «Копировать», у отправленной реплики — также «Редактировать». В Figma есть [подсказка ошибки доставки](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-109545), [причина прерывания](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-121828) и [меню продолжения](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-114635).
