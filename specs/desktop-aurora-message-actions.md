@@ -4,6 +4,8 @@
 
 ## Ответ агента
 
+В завершённом текстовом ответе от верхнего края облачка до блока текста — 8 dp, от последней строки до нижнего края — 6 dp. Время помещается справа на последней строке. [Снимок ответа](../previews/desktop-agent-turns/completed-reply.png) · [Кадр в Figma](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=477-178533)
+
 Бейдж расположен у правого нижнего угла. При раскрытии левый край поверхности остаётся у сообщения, меню растёт вправо и вниз. У завершённого ответа доступно «Копировать». [До раскрытия](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-125169) · [После раскрытия](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-117220)
 
 | Наведение | Нажатие на бейдж |
