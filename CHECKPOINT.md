@@ -18,7 +18,7 @@
 
 ### Последняя сверка с Heartbeat Desktop
 
-В прототипе бейдж сообщения раскрывается в одну поверхность с пунктами меню. [Бейдж при наведении](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-125169) · [Открытое меню](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-117220).
+На Desktop наведение на сообщение показывает бейдж. Вход указателя в область бейджа сразу раскрывает его в меню. [Бейдж при наведении](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-125169) · [Открытое меню](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-117220).
 
 В секции «От запроса до итога» рядом стоят два полноразмерных кадра. После одиночного чтения новый итог без вызовов становится вторым абзацем. После группы два таких итога подряд продолжают первый итог третьего этапа. Счётчики и маркеры относятся к прежним вызовам. [После чтения](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-129669) · [После группы](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-130599).
 
