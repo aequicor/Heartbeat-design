@@ -270,3 +270,4 @@
 | Неотправленная реплика, причина и повтор из меню | [Ошибка доставки и повтор](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-129034) |
 | Остановка потока, сохранение текста и продолжение | [Остановка и продолжение](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-129048) |
 | Потеря соединения, HTTP 429 и восстановление | [Связь и лимит запросов](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-129119) |
+| Чтение, поиск, патчи, команды, контекст и пояснения | [Раскрытие инструментов](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=502-132403) |
