@@ -4,6 +4,8 @@
 
 ## С чего продолжить
 
+Начать с [обзора рабочей области агента](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-128871). На одном холсте рядом стоят лонгрид, параллельные вызовы, раскрытая история, прерывание и продолжение ответа. В [общей секции Desktop Aurora](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-128870) у каждого сценария есть краткое пояснение с экземпляром компонента.
+
 Открыть [лист раскрытых инструментов](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=478-102742) и [выделение «Ход работы»](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=478-103107). На листе десять примеров по шести присланным изображениям, включая пустой поиск и два состояния PowerShell. Текст пояснения предназначен для пользователя. Данные демонстрационные.
 
 ### Последняя сверка с Heartbeat Desktop
