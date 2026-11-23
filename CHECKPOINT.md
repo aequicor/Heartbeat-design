@@ -16,6 +16,8 @@
 
 ### Последняя сверка с Heartbeat Desktop
 
+В прототипе бейдж сообщения раскрывается в одну поверхность с пунктами меню. [Бейдж при наведении](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-125169) · [Открытое меню](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-117220).
+
 В секции «От запроса до итога» рядом стоят два полноразмерных кадра. После одиночного чтения новый итог без вызовов становится вторым абзацем. После группы два таких итога подряд продолжают первый итог третьего этапа. Счётчики и маркеры относятся к прежним вызовам. [После чтения](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-129669) · [После группы](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=496-130599).
 
 В раскрытом завершённом ответе пять этапов. Между группами на той же оси стоят два одиночных вызова: поиск обработчика TextDelta и чтение StreamAdapter.kt. У каждого закрашенная точка и собственное раскрытие результата. [История ответа](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=466-151317) · [Выделение заголовка](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-119687).
