@@ -10,6 +10,8 @@
 
 ### Последняя сверка с Heartbeat Desktop
 
+В раскрытом завершённом ответе пять этапов. Между группами на той же оси стоят два одиночных вызова: поиск обработчика TextDelta и чтение StreamAdapter.kt. У каждого закрашенная точка и собственное раскрытие результата. [История ответа](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=466-151317) · [Выделение заголовка](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-119687).
+
 В работающем приложении проверены бейдж нижнего угла и ПКМ у обеих ролей. У пользователя шеврон слева, у агента справа. У завершённого ответа открывается «Копировать», у отправленной реплики — также «Редактировать». В Figma есть [подсказка ошибки доставки](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-109545), [причина прерывания](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-121828) и [меню продолжения](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=493-114635).
 
 На листе показаны текущая цель без вызовов, единственный инструмент на линии, следующий итог без вызовов и прямой финальный ответ. У активной цели нет шеврона и переключения по клику. [Текущий этап в длинной истории](https://www.figma.com/design/ivLmgulIBIkMzOw8sgvKxj/Aurora-DS?node-id=466-151046).
